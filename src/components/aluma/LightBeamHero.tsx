@@ -31,30 +31,18 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
   // is what makes the light feel physical rather than glued to the cursor.
   useEffect(() => {
     if (reduced) {
-      const el = wrapRef.current;
-      if (el) {
-        const min = Math.min(el.clientWidth, el.clientHeight);
-        el.style.setProperty("--beam-r", `${OPEN_RADIUS * min}px`);
-        el.style.setProperty("--beam-x", "50%");
-        el.style.setProperty("--beam-y", "50%");
-      }
+      paint(50, 50, OPEN_RADIUS);
       return;
     }
 
     let frame = 0;
     const tick = () => {
-      const el = wrapRef.current;
-      if (el) {
-        const c = current.current;
-        const tg = target.current;
-        c.x += (tg.x - c.x) * 0.07;
-        c.y += (tg.y - c.y) * 0.07;
-        c.r += (tg.r - c.r) * 0.045;
-        el.style.setProperty("--beam-x", `${c.x.toFixed(2)}%`);
-        el.style.setProperty("--beam-y", `${c.y.toFixed(2)}%`);
-        const min = Math.min(el.clientWidth, el.clientHeight);
-        el.style.setProperty("--beam-r", `${(c.r * min).toFixed(1)}px`);
-      }
+      const c = current.current;
+      const tg = target.current;
+      c.x += (tg.x - c.x) * 0.07;
+      c.y += (tg.y - c.y) * 0.07;
+      c.r += (tg.r - c.r) * 0.045;
+      paint(c.x, c.y, c.r);
       frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);
@@ -106,11 +94,27 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
     target.current.y = ((e.clientY - rect.top) / rect.height) * 100;
   }
 
-  const maskStyle: React.CSSProperties = {
-    maskImage:
-      "radial-gradient(circle var(--beam-r, 140px) at var(--beam-x, 50%) var(--beam-y, 50%), #000 0%, #000 42%, rgba(0,0,0,0.4) 72%, transparent 100%)",
-    maskRepeat: "no-repeat",
-  };
+  // The mask is written imperatively each frame: a CSS variable inside a
+  // radial-gradient position is unreliable across engines, a resolved string is not.
+  function paint(x: number, y: number, rFraction: number) {
+    const el = wrapRef.current;
+    if (!el) return;
+    const r = rFraction * Math.min(el.clientWidth, el.clientHeight);
+    const mask = `radial-gradient(circle ${r.toFixed(1)}px at ${x.toFixed(2)}% ${y.toFixed(
+      2,
+    )}%, #000 0%, #000 42%, rgba(0,0,0,0.35) 74%, transparent 100%)`;
+    for (const layer of maskedRefs.current) {
+      if (!layer) continue;
+      layer.style.maskImage = mask;
+      layer.style.setProperty("-webkit-mask-image", mask);
+    }
+    const glow = glowRef.current;
+    if (glow) {
+      glow.style.backgroundImage = `radial-gradient(circle ${(r * 0.9).toFixed(1)}px at ${x.toFixed(
+        2,
+      )}% ${y.toFixed(2)}%, color-mix(in oklab, var(--color-ouro) 26%, transparent) 0%, transparent 100%)`;
+    }
+  }
 
   return (
     <section
@@ -120,9 +124,9 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
       className="relative isolate h-[86vh] min-h-[520px] w-full overflow-hidden bg-tinta"
       style={
         {
-          "--beam-x": "50%",
-          "--beam-y": "50%",
-          "--beam-r": `${(reduced ? OPEN_RADIUS : CLOSED_RADIUS) * 520}px`,
+          maskImage: `radial-gradient(circle ${
+            (reduced ? OPEN_RADIUS : CLOSED_RADIUS) * 520
+          }px at 50% 50%, #000 0%, #000 42%, transparent 100%)`,
         } as React.CSSProperties
       }
     >
@@ -139,7 +143,12 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
       </div>
 
       {/* Revealed: only where the light falls. */}
-      <div className="absolute inset-0" style={maskStyle}>
+      <div
+        className="absolute inset-0"
+        ref={(node) => {
+          maskedRefs.current[0] = node;
+        }}
+      >
         <PendingVideo
           videoUrl={piece?.videoUrl ?? null}
           posterUrl={piece?.posterUrl ?? null}
@@ -151,9 +160,14 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
       </div>
 
       {/* Title lives inside the beam. */}
+      {/* A warm pool of light on top of the reveal, so the beam reads as light. */}
+      <div ref={glowRef} className="pointer-events-none absolute inset-0" aria-hidden="true" />
+
       <div
         className="gutter pointer-events-none absolute inset-0 flex flex-col justify-end pb-[10vh]"
-        style={maskStyle}
+        ref={(node) => {
+          maskedRefs.current[1] = node;
+        }}
       >
         <h1 className="hero-title text-oso">{t.hero.title}</h1>
         <p className="mt-6 max-w-md text-bruma">{t.hero.subtitle}</p>
