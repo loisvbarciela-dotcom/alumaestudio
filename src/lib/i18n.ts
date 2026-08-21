@@ -1,0 +1,131 @@
+import gl from "@/content/i18n/gl.json";
+import es from "@/content/i18n/es.json";
+import en from "@/content/i18n/en.json";
+import piecesData from "@/content/pieces.json";
+
+export const LANGS = ["gl", "es", "en"] as const;
+export type Lang = (typeof LANGS)[number];
+export const DEFAULT_LANG: Lang = "gl";
+
+export type Dict = typeof gl;
+
+const DICTS: Record<Lang, Dict> = {
+  gl,
+  es: es as unknown as Dict,
+  en: en as unknown as Dict,
+};
+
+export function isLang(value: string | undefined): value is Lang {
+  return !!value && (LANGS as readonly string[]).includes(value);
+}
+
+export function dict(lang: Lang): Dict {
+  return DICTS[lang];
+}
+
+/** Canonical page keys and their localised URL slugs. */
+export type PageKey = "work" | "method" | "ethics" | "studio" | "contact";
+
+export const SLUGS: Record<PageKey, Record<Lang, string>> = {
+  work: { gl: "traballo", es: "trabajo", en: "work" },
+  method: { gl: "metodo", es: "metodo", en: "method" },
+  ethics: { gl: "etica", es: "etica", en: "ethics" },
+  studio: { gl: "estudio", es: "estudio", en: "studio" },
+  contact: { gl: "contacto", es: "contacto", en: "contact" },
+};
+
+export const PAGE_KEYS = Object.keys(SLUGS) as PageKey[];
+
+export function slugFor(page: PageKey, lang: Lang): string {
+  return SLUGS[page][lang];
+}
+
+export function pageFromSlug(slug: string, lang: Lang): PageKey | null {
+  return PAGE_KEYS.find((key) => SLUGS[key][lang] === slug) ?? null;
+}
+
+export function pathFor(page: PageKey, lang: Lang): string {
+  return `/${lang}/${slugFor(page, lang)}`;
+}
+
+export function homePath(lang: Lang): string {
+  return `/${lang}`;
+}
+
+export const SITE_URL = "https://aluma.gal";
+
+export const ROOMS = ["deporte", "documental", "publicidade"] as const;
+export type Room = (typeof ROOMS)[number];
+
+export type BreakdownBlock = {
+  tipo: "rodado" | "xerado";
+  imagen: string | null;
+  texto: Record<Lang, string>;
+};
+
+export type Piece = {
+  slug: string;
+  titulo: Record<Lang, string>;
+  sala: Room;
+  ano: string;
+  cliente: string | null;
+  duracion: string;
+  videoUrl: string | null;
+  posterUrl: string | null;
+  destacada?: boolean;
+  desglose: BreakdownBlock[];
+  ferramentas: string[];
+};
+
+export const pieces = piecesData as Piece[];
+
+export function pieceBySlug(slug: string): Piece | undefined {
+  return pieces.find((p) => p.slug === slug);
+}
+
+export function nextPiece(slug: string): Piece | undefined {
+  const i = pieces.findIndex((p) => p.slug === slug);
+  if (i < 0 || pieces.length === 0) return undefined;
+  return pieces[(i + 1) % pieces.length];
+}
+
+export function detectLang(): Lang {
+  if (typeof window === "undefined") return DEFAULT_LANG;
+  try {
+    const stored = window.localStorage.getItem("aluma:lang");
+    if (isLang(stored ?? undefined)) return stored as Lang;
+  } catch {
+    /* storage unavailable */
+  }
+  const nav = window.navigator.languages ?? [window.navigator.language];
+  for (const tag of nav) {
+    const base = tag.toLowerCase().split("-")[0];
+    if (isLang(base)) return base;
+  }
+  return DEFAULT_LANG;
+}
+
+export function rememberLang(lang: Lang) {
+  try {
+    window.localStorage.setItem("aluma:lang", lang);
+  } catch {
+    /* storage unavailable */
+  }
+}
+
+/* Typed router link props — routes are /$lang, /$lang/$section, /$lang/$section/$slug. */
+
+export function homeLink(lang: Lang) {
+  return { to: "/$lang" as const, params: { lang } };
+}
+
+export function pageLink(page: PageKey, lang: Lang) {
+  return { to: "/$lang/$section" as const, params: { lang, section: slugFor(page, lang) } };
+}
+
+export function pieceLink(lang: Lang, slug: string) {
+  return {
+    to: "/$lang/$section/$slug" as const,
+    params: { lang, section: slugFor("work", lang), slug },
+  };
+}
