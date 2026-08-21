@@ -153,9 +153,10 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
         />
       </div>
 
-      {/* Title lives inside the beam. */}
       {/* A warm pool of light on top of the reveal, so the beam reads as light. */}
       <div ref={glowRef} className="pointer-events-none absolute inset-0" aria-hidden="true" />
+
+      {/* Title lives inside the beam. */}
 
       <div
         className="gutter pointer-events-none absolute inset-0 flex flex-col justify-end pb-[10vh]"
