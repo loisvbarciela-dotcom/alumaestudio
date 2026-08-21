@@ -1,0 +1,141 @@
+{
+  "locale": "gl",
+  "localeTag": "gl-ES",
+  "nav": {
+    "work": "Traballo",
+    "method": "Método",
+    "ethics": "Ética",
+    "studio": "Estudio",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "close": "Pechar",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "A luz decídese",
+    "subtitle": "Estudio audiovisual híbrido. Galicia.",
+    "videoAlt": "Peza destacada de Aluma en bucle silencioso",
+    "reveal": "Move o cursor para abrir a luz"
+  },
+  "manifesto": [
+    "Somos cineastas primeiro, enxeñeiros despois.",
+    "Filmamos o que ten alma. Xeramos o imposible.",
+    "A IA non asina o noso traballo: execútao baixo a nosa dirección."
+  ],
+  "home": {
+    "selectedWork": "Traballo seleccionado",
+    "methodLabel": "O método",
+    "allWork": "Ver todo o traballo"
+  },
+  "method": {
+    "label": "O método",
+    "title": "Filmamos · Xeramos · Integramos",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Filmamos",
+        "text": "O que ten alma: a mirada, a pel, o produto."
+      },
+      {
+        "n": "02",
+        "title": "Xeramos",
+        "text": "O que sería faraónico, imposible ou inalcanzable."
+      },
+      {
+        "n": "03",
+        "title": "Integramos",
+        "text": "Sen costura. E amosamos como se fixo."
+      }
+    ]
+  },
+  "work": {
+    "label": "Traballo",
+    "title": "Tres salas",
+    "all": "Todas",
+    "rooms": {
+      "deporte": "Deporte",
+      "documental": "Documental",
+      "publicidade": "Publicidade"
+    },
+    "empty": "Sen pezas nesta sala."
+  },
+  "case": {
+    "client": "Cliente",
+    "ownPiece": "Peza propia",
+    "room": "Sala",
+    "year": "Ano",
+    "duration": "Duración",
+    "breakdown": "O desmontaxe",
+    "filmed": "Rodado",
+    "generated": "Xerado",
+    "tools": "Ferramentas",
+    "next": "Peza seguinte",
+    "pendingVideo": "[PENDENTE: vídeo]",
+    "pendingImage": "[PENDENTE: fotograma]"
+  },
+  "ethics": {
+    "label": "Ética",
+    "title": "A transparencia é parte do oficio",
+    "lead": "Cumprimos o Regulamento Europeo de IA. Todo o xerado queda trazado. Ningunha persoa real aparece nas nosas pezas sen o seu consentimento expreso. A transparencia non é un aviso legal: é parte do oficio.",
+    "points": [
+      "Regulamento Europeo de IA: cumprimento en cada entrega.",
+      "Trazabilidade: rexistro do que se xerou e con que ferramenta.",
+      "Marcado de contido sintético cando corresponde.",
+      "Uso de imaxe de persoas reais só con consentimento expreso e por escrito."
+    ]
+  },
+  "studio": {
+    "label": "Estudio",
+    "title": "Alumar: dar luz",
+    "lead": "Alumar é verbo galego. Non facer luz: decidir onde cae.",
+    "body": [
+      "Aluma é un estudio audiovisual con sede en Galicia. Producimos pezas de calidade cinematográfica combinando rodaxe real e xeración por IA.",
+      "A máquina executa, compón e renderiza. Só o ser humano sente, dirixe e asume o risco artístico.",
+      "Filmamos o que ten alma e xeramos o que sería inalcanzable. Cada peza publícase co seu desglose: que se filmou, que se xerou, como se integrou."
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Falemos da túa próxima campaña.",
+    "name": "Nome",
+    "email": "Correo",
+    "projectType": "Tipo de proxecto",
+    "message": "Mensaxe",
+    "submit": "Enviar",
+    "sending": "Enviando",
+    "success": "Recibido. Respondemos en breve.",
+    "error": "Non se puido enviar. Escribe a ola@aluma.gal."
+  },
+  "footer": {
+    "line": "ALUMA · Estudio audiovisual · Galicia · aluma.gal",
+    "legal": "Aviso legal",
+    "privacy": "Privacidade",
+    "cookies": "Cookies"
+  },
+  "meta": {
+    "home": {
+      "title": "Aluma — Estudio audiovisual híbrido en Galicia",
+      "description": "Estudio audiovisual híbrido en Galicia: rodaxe real e xeración por IA baixo dirección humana. A luz decídese."
+    },
+    "work": {
+      "title": "Traballo — Aluma",
+      "description": "Pezas de Aluma en tres salas: deporte, documental e publicidade. Cada peza co seu desmontaxe híbrido."
+    },
+    "method": {
+      "title": "O método — Aluma",
+      "description": "Filmamos o que ten alma, xeramos o imposible e integramos sen costura. O fluxo híbrido de Aluma en tres pasos."
+    },
+    "ethics": {
+      "title": "Ética — Aluma",
+      "description": "Cumprimento do Regulamento Europeo de IA, trazabilidade do xerado e consentimento expreso para o uso de imaxe."
+    },
+    "studio": {
+      "title": "Estudio — Aluma",
+      "description": "Cineastas primeiro, enxeñeiros despois. Estudio audiovisual con sede en Galicia."
+    },
+    "contact": {
+      "title": "Contacto — Aluma",
+      "description": "Falemos da túa próxima campaña. Estudio audiovisual híbrido en Galicia."
+    }
+  }
+}

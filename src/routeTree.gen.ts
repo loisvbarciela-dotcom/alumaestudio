@@ -10,33 +10,64 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as LangIndexRouteImport } from './routes/$lang.index'
+import { Route as LangSectionIndexRouteImport } from './routes/$lang.$section.index'
+import { Route as LangSectionSlugRouteImport } from './routes/$lang.$section.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LangIndexRoute = LangIndexRouteImport.update({
+  id: '/$lang/',
+  path: '/$lang/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangSectionIndexRoute = LangSectionIndexRouteImport.update({
+  id: '/$lang/$section/',
+  path: '/$lang/$section/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangSectionSlugRoute = LangSectionSlugRouteImport.update({
+  id: '/$lang/$section/$slug',
+  path: '/$lang/$section/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$lang/': typeof LangIndexRoute
+  '/$lang/$section/$slug': typeof LangSectionSlugRoute
+  '/$lang/$section/': typeof LangSectionIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$lang': typeof LangIndexRoute
+  '/$lang/$section/$slug': typeof LangSectionSlugRoute
+  '/$lang/$section': typeof LangSectionIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$lang/': typeof LangIndexRoute
+  '/$lang/$section/$slug': typeof LangSectionSlugRoute
+  '/$lang/$section/': typeof LangSectionIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/$lang/' | '/$lang/$section/$slug' | '/$lang/$section/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/$lang' | '/$lang/$section/$slug' | '/$lang/$section'
+  id:
+    '__root__' | '/' | '/$lang/' | '/$lang/$section/$slug' | '/$lang/$section/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  LangIndexRoute: typeof LangIndexRoute
+  LangSectionSlugRoute: typeof LangSectionSlugRoute
+  LangSectionIndexRoute: typeof LangSectionIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +79,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/': {
+      id: '/$lang/'
+      path: '/$lang'
+      fullPath: '/$lang/'
+      preLoaderRoute: typeof LangIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/$section/': {
+      id: '/$lang/$section/'
+      path: '/$lang/$section'
+      fullPath: '/$lang/$section/'
+      preLoaderRoute: typeof LangSectionIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$lang/$section/$slug': {
+      id: '/$lang/$section/$slug'
+      path: '/$lang/$section/$slug'
+      fullPath: '/$lang/$section/$slug'
+      preLoaderRoute: typeof LangSectionSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  LangIndexRoute: LangIndexRoute,
+  LangSectionSlugRoute: LangSectionSlugRoute,
+  LangSectionIndexRoute: LangSectionIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,0 +1,141 @@
+{
+  "locale": "en",
+  "localeTag": "en",
+  "nav": {
+    "work": "Work",
+    "method": "Method",
+    "ethics": "Ethics",
+    "studio": "Studio",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Light is a decision",
+    "subtitle": "Hybrid film studio. Galicia, Spain.",
+    "videoAlt": "Featured Aluma piece looping silently",
+    "reveal": "Move the cursor to open the light"
+  },
+  "manifesto": [
+    "We are filmmakers first, engineers second.",
+    "We film what has soul. We generate the impossible.",
+    "AI doesn't sign our work — it executes under our direction."
+  ],
+  "home": {
+    "selectedWork": "Selected work",
+    "methodLabel": "The method",
+    "allWork": "See all work"
+  },
+  "method": {
+    "label": "The method",
+    "title": "We film · We generate · We integrate",
+    "steps": [
+      {
+        "n": "01",
+        "title": "We film",
+        "text": "What has soul: the gaze, the skin, the product."
+      },
+      {
+        "n": "02",
+        "title": "We generate",
+        "text": "What would be impossible or out of reach."
+      },
+      {
+        "n": "03",
+        "title": "We integrate",
+        "text": "Seamlessly. And we show the seams anyway."
+      }
+    ]
+  },
+  "work": {
+    "label": "Work",
+    "title": "Three rooms",
+    "all": "All",
+    "rooms": {
+      "deporte": "Sport",
+      "documental": "Documentary",
+      "publicidade": "Advertising"
+    },
+    "empty": "No pieces in this room."
+  },
+  "case": {
+    "client": "Client",
+    "ownPiece": "Own piece",
+    "room": "Room",
+    "year": "Year",
+    "duration": "Duration",
+    "breakdown": "The breakdown",
+    "filmed": "Filmed",
+    "generated": "Generated",
+    "tools": "Tools",
+    "next": "Next piece",
+    "pendingVideo": "[PENDING: video]",
+    "pendingImage": "[PENDING: still]"
+  },
+  "ethics": {
+    "label": "Ethics",
+    "title": "Transparency is part of the craft",
+    "lead": "We comply with the EU AI Act. Everything generated is traceable. No real person appears in our work without explicit consent. Transparency isn't a disclaimer — it's part of the craft.",
+    "points": [
+      "EU AI Act: compliance on every delivery.",
+      "Traceability: a record of what was generated and with which tool.",
+      "Synthetic content marked where required.",
+      "Real people appear only with explicit, written consent."
+    ]
+  },
+  "studio": {
+    "label": "Studio",
+    "title": "Alumar: to give light",
+    "lead": "Alumar is a Galician verb. Not making light: deciding where it falls.",
+    "body": [
+      "Aluma is a film studio based in Galicia, Spain. We produce cinema-grade work by combining live action and AI generation.",
+      "The machine executes, composes and renders. Only a human feels, directs and carries the artistic risk.",
+      "We film what has soul and generate what would be out of reach. Every piece ships with its breakdown: what was filmed, what was generated, how it was integrated."
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk about your next campaign.",
+    "name": "Name",
+    "email": "Email",
+    "projectType": "Project type",
+    "message": "Message",
+    "submit": "Send",
+    "sending": "Sending",
+    "success": "Received. We'll be in touch shortly.",
+    "error": "Couldn't send. Write to hola@aluma.gal."
+  },
+  "footer": {
+    "line": "ALUMA · Film studio · Galicia · aluma.gal",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "meta": {
+    "home": {
+      "title": "Aluma — Hybrid film studio in Galicia, Spain",
+      "description": "Hybrid film studio in Galicia: live action and AI generation under human direction. Light is a decision."
+    },
+    "work": {
+      "title": "Work — Aluma",
+      "description": "Aluma's work across three rooms: sport, documentary and advertising. Every piece with its hybrid breakdown."
+    },
+    "method": {
+      "title": "The method — Aluma",
+      "description": "We film what has soul, generate the impossible and integrate seamlessly. Aluma's hybrid flow in three steps."
+    },
+    "ethics": {
+      "title": "Ethics — Aluma",
+      "description": "EU AI Act compliance, traceability of generated material and explicit consent for the use of a person's likeness."
+    },
+    "studio": {
+      "title": "Studio — Aluma",
+      "description": "Filmmakers first, engineers second. A film studio based in Galicia, Spain."
+    },
+    "contact": {
+      "title": "Contact — Aluma",
+      "description": "Let's talk about your next campaign. Hybrid film studio in Galicia, Spain."
+    }
+  }
+}
