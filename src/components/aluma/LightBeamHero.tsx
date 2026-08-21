@@ -133,6 +133,7 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
           alt={t.hero.videoAlt}
           className="size-full border-0"
           autoPlay
+          hideLabel
         />
       </div>
 
@@ -150,6 +151,7 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
           alt={t.hero.videoAlt}
           className="size-full border-0"
           autoPlay
+          hideLabel
         />
       </div>
 

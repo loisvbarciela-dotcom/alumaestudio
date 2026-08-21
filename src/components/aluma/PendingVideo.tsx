@@ -8,6 +8,8 @@ type Props = {
   className?: string;
   playOnHover?: boolean;
   autoPlay?: boolean;
+  /** Hide the "pending video" caption when the frame is purely decorative. */
+  hideLabel?: boolean;
 };
 
 /**
@@ -22,6 +24,7 @@ export function PendingVideo({
   className = "",
   playOnHover = false,
   autoPlay = false,
+  hideLabel = false,
 }: Props) {
   const ref = useRef<HTMLVideoElement>(null);
   const [inView, setInView] = useState(!autoPlay ? false : true);
@@ -52,7 +55,9 @@ export function PendingVideo({
         {posterUrl ? (
           <>
             <img src={posterUrl} alt={alt} className="size-full object-cover" loading="lazy" />
-            <span className="label-xs absolute bottom-3 left-3 text-bruma/70">{label}</span>
+            {!hideLabel ? (
+              <span className="label-xs absolute bottom-3 left-3 text-bruma/70">{label}</span>
+            ) : null}
           </>
         ) : (
           <span className="label-xs text-bruma">{label}</span>
