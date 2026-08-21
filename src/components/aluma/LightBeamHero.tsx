@@ -122,14 +122,8 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
       onPointerMove={onPointerMove}
       onClick={() => reveal()}
       className="relative isolate h-[86vh] min-h-[520px] w-full overflow-hidden bg-tinta"
-      style={
-        {
-          maskImage: `radial-gradient(circle ${
-            (reduced ? OPEN_RADIUS : CLOSED_RADIUS) * 520
-          }px at 50% 50%, #000 0%, #000 42%, transparent 100%)`,
-        } as React.CSSProperties
-      }
     >
+
       {/* Base: the piece, almost extinguished. */}
       <div className="absolute inset-0" style={{ filter: "brightness(0.15)" }} aria-hidden="true">
         <PendingVideo
