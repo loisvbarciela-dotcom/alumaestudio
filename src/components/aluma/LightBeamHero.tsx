@@ -9,9 +9,12 @@ const OPEN_RADIUS = 2.2;
 export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
   const t = dict(lang);
   const wrapRef = useRef<HTMLDivElement>(null);
+  const maskedRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const glowRef = useRef<HTMLDivElement>(null);
   const target = useRef({ x: 50, y: 50, r: CLOSED_RADIUS });
   const current = useRef({ x: 50, y: 50, r: CLOSED_RADIUS });
   const [open, setOpen] = useState(false);
+
   const [reduced, setReduced] = useState(false);
 
   useEffect(() => {
