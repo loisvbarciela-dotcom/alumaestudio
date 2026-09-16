@@ -66,11 +66,14 @@ export function ManifestoCarousel({ lang }: { lang: Lang }) {
           setApi={setApi}
           opts={{ align: "center", loop: true }}
           aria-label={t.label}
-          className="mx-auto w-full max-w-[920px]"
+          className="mx-auto w-full"
         >
-          <CarouselContent className="-ml-0">
+          <CarouselContent className="-ml-4">
             {slides.map((src, index) => (
-              <CarouselItem key={src} className="pl-0">
+              <CarouselItem
+                key={src}
+                className="basis-full pl-4 sm:basis-1/2 lg:basis-1/3"
+              >
                 <img
                   src={src}
                   alt={`${t.imageAlt} ${index + 1}`}
