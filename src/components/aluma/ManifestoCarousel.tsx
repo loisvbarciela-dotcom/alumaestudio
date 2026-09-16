@@ -64,7 +64,7 @@ export function ManifestoCarousel({ lang }: { lang: Lang }) {
 
         <Carousel
           setApi={setApi}
-          opts={{ align: "center", loop: true }}
+          opts={{ align: "start", loop: true, startIndex: 0 }}
           aria-label={t.label}
           className="mx-auto w-full"
         >
