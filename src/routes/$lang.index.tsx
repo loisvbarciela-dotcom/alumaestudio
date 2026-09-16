@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { LightBeamHero } from "@/components/aluma/LightBeamHero";
+import { ManifestoCarousel } from "@/components/aluma/ManifestoCarousel";
 import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { SiteShell } from "@/components/aluma/SiteShell";
 import {
@@ -51,16 +52,7 @@ function Home() {
     <SiteShell lang={lang}>
       <LightBeamHero lang={lang} {...(featured ? { piece: featured } : {})} />
 
-      {/* Manifesto */}
-      <section className="gutter py-[16vh]">
-        <div className="max-w-4xl space-y-10">
-          {t.manifesto.map((line) => (
-            <p key={line} className="display text-3xl text-oso sm:text-5xl">
-              {line}
-            </p>
-          ))}
-        </div>
-      </section>
+      <ManifestoCarousel lang={lang} />
 
       {/* Selected work */}
       <section className="gutter border-t py-[14vh]">
