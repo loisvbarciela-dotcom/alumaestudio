@@ -54,7 +54,7 @@ export function homePath(lang: Lang): string {
 
 export const SITE_URL = "https://aluma.gal";
 
-export const ROOMS = ["deporte", "documental", "publicidade"] as const;
+export const ROOMS = ["ficcion", "futbol", "documental", "publicidade"] as const;
 export type Room = (typeof ROOMS)[number];
 
 export type BreakdownBlock = {
@@ -67,10 +67,11 @@ export type Piece = {
   slug: string;
   titulo: Record<Lang, string>;
   sala: Room;
-  ano: string;
+  ano: string | null;
   cliente: string | null;
-  duracion: string;
+  duracion: string | null;
   videoUrl: string | null;
+  youtubeUrl: string | null;
   posterUrl: string | null;
   destacada?: boolean;
   desglose: BreakdownBlock[];
@@ -78,6 +79,12 @@ export type Piece = {
 };
 
 export const pieces = piecesData as Piece[];
+
+/** Extracts the 11-char video id from common YouTube URL shapes. */
+export function youtubeId(url: string): string | null {
+  const m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
 
 export function pieceBySlug(slug: string): Piece | undefined {
   return pieces.find((p) => p.slug === slug);
