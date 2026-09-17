@@ -6,8 +6,17 @@ import { dict, type Lang, type Piece } from "@/lib/i18n";
 const CLOSED_RADIUS = 0.26;
 const OPEN_RADIUS = 2.2;
 
-export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
+export function LightBeamHero({
+  lang,
+  piece,
+  posterOverride,
+}: {
+  lang: Lang;
+  piece?: Piece;
+  posterOverride?: string;
+}) {
   const t = dict(lang);
+  const posterUrl = posterOverride ?? piece?.posterUrl ?? null;
   const wrapRef = useRef<HTMLDivElement>(null);
   const maskedRefs = useRef<(HTMLDivElement | null)[]>([]);
   const glowRef = useRef<HTMLDivElement>(null);
@@ -128,7 +137,7 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
       <div className="absolute inset-0" style={{ filter: "brightness(0.15)" }} aria-hidden="true">
         <PendingVideo
           videoUrl={piece?.videoUrl ?? null}
-          posterUrl={piece?.posterUrl ?? null}
+          posterUrl={posterUrl}
           label={t.case.pendingVideo}
           alt={t.hero.videoAlt}
           className="size-full border-0"
@@ -146,7 +155,7 @@ export function LightBeamHero({ lang, piece }: { lang: Lang; piece?: Piece }) {
       >
         <PendingVideo
           videoUrl={piece?.videoUrl ?? null}
-          posterUrl={piece?.posterUrl ?? null}
+          posterUrl={posterUrl}
           label={t.case.pendingVideo}
           alt={t.hero.videoAlt}
           className="size-full border-0"
