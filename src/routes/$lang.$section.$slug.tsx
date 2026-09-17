@@ -3,6 +3,7 @@ import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { InstagramFacade } from "@/components/aluma/InstagramFacade";
 import { SiteShell } from "@/components/aluma/SiteShell";
 import { YouTubeFacade } from "@/components/aluma/YouTubeFacade";
+import abellaPosterAsset from "@/assets/work/a-ultima-abella.png.asset.json";
 import {
   LANGS,
   SITE_URL,
@@ -18,6 +19,11 @@ import {
 } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
 
+/** Page-only poster override — the home hero keeps its own image. */
+const posterOverrides: Record<string, string> = {
+  "a-ultima-abella": abellaPosterAsset.url,
+};
+
 export const Route = createFileRoute("/$lang/$section/$slug")({
   beforeLoad: ({ params }) => {
     if (!isLang(params.lang)) throw notFound();
@@ -32,6 +38,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
       return { meta: [{ title: "Aluma" }, { name: "robots", content: "noindex" }] };
     }
     const title = `${piece.titulo[lang]} — Aluma`;
+    const poster = posterOverrides[piece.slug] ?? piece.posterUrl;
     const description = [
       t.work.rooms[piece.sala],
       piece.ano,
@@ -48,7 +55,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
       description,
       path: `/${lang}/${slugFor("work", lang)}/${piece.slug}`,
       alternates,
-      ...(piece.posterUrl ? { image: piece.posterUrl } : {}),
+      ...(poster ? { image: poster } : {}),
     });
     return {
       ...head,
@@ -64,7 +71,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
             ...(piece.ano && /^\d{4}$/.test(piece.ano)
               ? { uploadDate: `${piece.ano}-01-01` }
               : {}),
-            ...(piece.posterUrl ? { thumbnailUrl: piece.posterUrl } : {}),
+            ...(poster ? { thumbnailUrl: poster } : {}),
             ...(piece.videoUrl ? { contentUrl: piece.videoUrl } : {}),
             ...(piece.youtubeUrl
               ? { embedUrl: piece.youtubeUrl }
@@ -87,6 +94,7 @@ function CaseRoute() {
   const piece = pieceBySlug(params.slug);
   if (!piece) throw notFound();
   const next = nextPiece(piece.slug);
+  const poster = posterOverrides[piece.slug] ?? piece.posterUrl;
   const currentYoutubeId = piece.youtubeUrl ? youtubeId(piece.youtubeUrl) : null;
   const currentInstagramEmbed = piece.instagramUrl
     ? instagramEmbedUrl(piece.instagramUrl)
@@ -117,7 +125,7 @@ function CaseRoute() {
           ) : (
             <PendingVideo
               videoUrl={piece.videoUrl}
-              posterUrl={piece.posterUrl}
+              posterUrl={poster}
               label={t.case.pendingVideo}
               alt={piece.titulo[lang]}
               className="size-full border-0"
