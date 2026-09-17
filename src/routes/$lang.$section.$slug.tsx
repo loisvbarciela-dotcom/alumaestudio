@@ -1,5 +1,6 @@
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { PendingVideo } from "@/components/aluma/PendingVideo";
+import { InstagramFacade } from "@/components/aluma/InstagramFacade";
 import { SiteShell } from "@/components/aluma/SiteShell";
 import { YouTubeFacade } from "@/components/aluma/YouTubeFacade";
 import {
@@ -7,6 +8,7 @@ import {
   SITE_URL,
   dict,
   isLang,
+  instagramEmbedUrl,
   nextPiece,
   pieceBySlug,
   pieceLink,
@@ -64,7 +66,11 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
               : {}),
             ...(piece.posterUrl ? { thumbnailUrl: piece.posterUrl } : {}),
             ...(piece.videoUrl ? { contentUrl: piece.videoUrl } : {}),
-            ...(piece.youtubeUrl ? { embedUrl: piece.youtubeUrl } : {}),
+            ...(piece.youtubeUrl
+              ? { embedUrl: piece.youtubeUrl }
+              : piece.instagramUrl
+                ? { embedUrl: piece.instagramUrl }
+                : {}),
             productionCompany: { "@type": "Organization", name: "Aluma", url: SITE_URL },
           }),
         },
@@ -82,6 +88,9 @@ function CaseRoute() {
   if (!piece) throw notFound();
   const next = nextPiece(piece.slug);
   const currentYoutubeId = piece.youtubeUrl ? youtubeId(piece.youtubeUrl) : null;
+  const currentInstagramEmbed = piece.instagramUrl
+    ? instagramEmbedUrl(piece.instagramUrl)
+    : null;
 
   return (
     <SiteShell lang={lang}>
@@ -96,6 +105,12 @@ function CaseRoute() {
           {currentYoutubeId ? (
             <YouTubeFacade
               videoId={currentYoutubeId}
+              posterUrl={piece.posterUrl}
+              title={piece.titulo[lang]}
+            />
+          ) : currentInstagramEmbed ? (
+            <InstagramFacade
+              embedUrl={currentInstagramEmbed}
               posterUrl={piece.posterUrl}
               title={piece.titulo[lang]}
             />

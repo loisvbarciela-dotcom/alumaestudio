@@ -98,6 +98,14 @@ export function youtubeId(url: string): string | null {
   return m?.[1] ?? null;
 }
 
+/** Converts a public Instagram post or reel URL into its embeddable form. */
+export function instagramEmbedUrl(url: string): string | null {
+  const match = url.match(/instagram\.com\/(p|reel|tv)\/([\w-]+)/i);
+  const kind = match?.[1];
+  const id = match?.[2];
+  return kind && id ? `https://www.instagram.com/${kind}/${id}/embed/captioned/` : null;
+}
+
 export function pieceBySlug(slug: string): Piece | undefined {
   return pieces.find((p) => p.slug === slug);
 }
