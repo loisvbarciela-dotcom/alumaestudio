@@ -59,9 +59,12 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
             name: piece.titulo[lang],
             description,
             inLanguage: lang,
-            uploadDate: `${piece.ano}-01-01`,
+            ...(piece.ano && /^\d{4}$/.test(piece.ano)
+              ? { uploadDate: `${piece.ano}-01-01` }
+              : {}),
             ...(piece.posterUrl ? { thumbnailUrl: piece.posterUrl } : {}),
             ...(piece.videoUrl ? { contentUrl: piece.videoUrl } : {}),
+            ...(piece.youtubeUrl ? { embedUrl: piece.youtubeUrl } : {}),
             productionCompany: { "@type": "Organization", name: "Aluma", url: SITE_URL },
           }),
         },
