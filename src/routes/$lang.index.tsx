@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { LightBeamHero } from "@/components/aluma/LightBeamHero";
-import heroPosterAsset from "@/assets/hero/abella-no-text.png.asset.json";
+import heroPosterAsset from "@/assets/hero/abella-no-text-2.png.asset.json";
 import { ManifestoCarousel } from "@/components/aluma/ManifestoCarousel";
 import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { SiteShell } from "@/components/aluma/SiteShell";
