@@ -136,6 +136,40 @@
     "ferramentas": []
   },
   {
+    "slug": "a-ultima-fornada",
+    "titulo": {
+      "gl": "A última fornada",
+      "es": "La última hornada",
+      "en": "The Last Batch"
+    },
+    "sala": "ficcion",
+    "ano": null,
+    "cliente": null,
+    "duracion": null,
+    "videoUrl": null,
+    "youtubeUrl": null,
+    "posterUrl": "/posters/a-ultima-fornada.jpg",
+    "desglose": [],
+    "ferramentas": []
+  },
+  {
+    "slug": "mayday",
+    "titulo": {
+      "gl": "Mayday",
+      "es": "Mayday",
+      "en": "Mayday"
+    },
+    "sala": "ficcion",
+    "ano": null,
+    "cliente": null,
+    "duracion": null,
+    "videoUrl": null,
+    "youtubeUrl": null,
+    "posterUrl": "/posters/mayday.jpg",
+    "desglose": [],
+    "ferramentas": []
+  },
+  {
     "slug": "marea-alta",
     "titulo": {
       "gl": "Marea alta",
