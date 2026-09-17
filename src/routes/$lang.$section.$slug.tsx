@@ -95,6 +95,7 @@ function CaseRoute() {
   if (!piece) throw notFound();
   const next = nextPiece(piece.slug);
   const poster = posterOverrides[piece.slug] ?? piece.posterUrl;
+  const currentYoutubeId = piece.youtubeUrl ? youtubeId(piece.youtubeUrl) : null;
   const currentInstagramEmbed = piece.instagramUrl
     ? instagramEmbedUrl(piece.instagramUrl)
     : null;
