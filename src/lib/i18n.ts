@@ -2,6 +2,8 @@ import gl from "@/content/i18n/gl.json";
 import es from "@/content/i18n/es.json";
 import en from "@/content/i18n/en.json";
 import piecesData from "@/content/pieces.json";
+import camisetaReconquistaAsset from "@/assets/work/camiseta-reconquista.png.asset.json";
+import viaxeNoTempoAsset from "@/assets/work/viaxe-no-tempo.png.asset.json";
 
 export const LANGS = ["gl", "es", "en"] as const;
 export type Lang = (typeof LANGS)[number];
@@ -72,18 +74,36 @@ export type Piece = {
   duracion: string | null;
   videoUrl: string | null;
   youtubeUrl: string | null;
+  instagramUrl: string | null;
   posterUrl: string | null;
+  aspectRatio?: "video" | "portrait";
   destacada?: boolean;
   desglose: BreakdownBlock[];
   ferramentas: string[];
 };
 
-export const pieces = piecesData as Piece[];
+const pieceAssets: Record<string, string> = {
+  "camiseta-reconquista": camisetaReconquistaAsset.url,
+  "viaxe-no-tempo": viaxeNoTempoAsset.url,
+};
+
+export const pieces = (piecesData as Piece[]).map((piece) => ({
+  ...piece,
+  posterUrl: pieceAssets[piece.slug] ?? piece.posterUrl,
+}));
 
 /** Extracts the 11-char video id from common YouTube URL shapes. */
 export function youtubeId(url: string): string | null {
   const m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{11})/);
   return m?.[1] ?? null;
+}
+
+/** Converts a public Instagram post or reel URL into its embeddable form. */
+export function instagramEmbedUrl(url: string): string | null {
+  const match = url.match(/instagram\.com\/(p|reel|tv)\/([\w-]+)/i);
+  const kind = match?.[1];
+  const id = match?.[2];
+  return kind && id ? `https://www.instagram.com/${kind}/${id}/embed/captioned/` : null;
 }
 
 export function pieceBySlug(slug: string): Piece | undefined {
