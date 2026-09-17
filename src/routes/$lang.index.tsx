@@ -123,7 +123,7 @@ function PieceTile({ lang, piece, large }: { lang: Lang; piece: Piece; large?: b
       className="group mt-8 block"
       aria-label={piece.titulo[lang]}
     >
-      <div className={piece.aspectRatio === "3:4" ? "aspect-[3/4]" : "aspect-video"}>
+      <div className={piece.aspectRatio === "portrait" ? "aspect-[3/4]" : "aspect-video"}>
         <PendingVideo
           videoUrl={piece.videoUrl}
           posterUrl={piece.posterUrl}
