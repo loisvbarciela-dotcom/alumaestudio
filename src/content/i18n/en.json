@@ -57,10 +57,11 @@
   },
   "work": {
     "label": "Work",
-    "title": "Three rooms",
+    "title": "Four rooms",
     "all": "All",
     "rooms": {
-      "deporte": "Sport",
+      "ficcion": "Fiction",
+      "futbol": "Football",
       "documental": "Documentary",
       "publicidade": "Advertising"
     },
@@ -126,7 +127,7 @@
     },
     "work": {
       "title": "Work — Aluma",
-      "description": "Aluma's work across three rooms: sport, documentary and advertising. Every piece with its hybrid breakdown."
+      "description": "Aluma's work across four rooms: fiction, football, documentary and advertising. Every piece with its hybrid breakdown."
     },
     "method": {
       "title": "The method — Aluma",

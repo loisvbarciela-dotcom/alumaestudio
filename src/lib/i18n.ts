@@ -83,7 +83,7 @@ export const pieces = piecesData as Piece[];
 /** Extracts the 11-char video id from common YouTube URL shapes. */
 export function youtubeId(url: string): string | null {
   const m = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{11})/);
-  return m ? m[1] : null;
+  return m?.[1] ?? null;
 }
 
 export function pieceBySlug(slug: string): Piece | undefined {
