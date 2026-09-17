@@ -54,7 +54,7 @@ export function homePath(lang: Lang): string {
 
 export const SITE_URL = "https://aluma.gal";
 
-export const ROOMS = ["ficcion", "futbol", "documental", "publicidade"] as const;
+export const ROOMS = ["ficcion", "deporte", "documental", "publicidade"] as const;
 export type Room = (typeof ROOMS)[number];
 
 export type BreakdownBlock = {
