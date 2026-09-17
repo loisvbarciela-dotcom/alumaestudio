@@ -121,6 +121,7 @@ function CaseRoute() {
           </dl>
         </header>
 
+        {piece.desglose.length > 0 && (
         <section className="gutter pb-[12vh]">
           <h2 className="label-xs text-ouro">{t.case.breakdown}</h2>
           <div className="mt-16 space-y-24">
@@ -171,11 +172,14 @@ function CaseRoute() {
             })}
           </div>
         </section>
+        )}
 
+        {piece.ferramentas.length > 0 && (
         <section className="gutter border-t py-12">
           <p className="label-xs text-bruma">{t.case.tools}</p>
           <p className="mt-4 text-[13px] text-bruma/80">{piece.ferramentas.join(" · ")}</p>
         </section>
+        )}
 
         {next && (
           <nav className="gutter border-t py-[10vh]">
