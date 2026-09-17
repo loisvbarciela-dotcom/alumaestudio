@@ -3,6 +3,7 @@ import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { InstagramFacade } from "@/components/aluma/InstagramFacade";
 import { SiteShell } from "@/components/aluma/SiteShell";
 import { YouTubeFacade } from "@/components/aluma/YouTubeFacade";
+import abellaPosterAsset from "@/assets/work/a-ultima-abella.png.asset.json";
 import {
   LANGS,
   SITE_URL,
@@ -17,6 +18,11 @@ import {
   type Lang,
 } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
+
+/** Page-only poster override — the home hero keeps its own image. */
+const posterOverrides: Record<string, string> = {
+  "a-ultima-abella": abellaPosterAsset.url,
+};
 
 export const Route = createFileRoute("/$lang/$section/$slug")({
   beforeLoad: ({ params }) => {
