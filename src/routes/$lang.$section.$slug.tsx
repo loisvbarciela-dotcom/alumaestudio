@@ -83,14 +83,22 @@ function CaseRoute() {
     <SiteShell lang={lang}>
       <article>
         <div className="aspect-video w-full">
-          <PendingVideo
-            videoUrl={piece.videoUrl}
-            posterUrl={piece.posterUrl}
-            label={t.case.pendingVideo}
-            alt={piece.titulo[lang]}
-            className="size-full border-0"
-            autoPlay
-          />
+          {piece.youtubeUrl && youtubeId(piece.youtubeUrl) ? (
+            <YouTubeFacade
+              videoId={youtubeId(piece.youtubeUrl)!}
+              posterUrl={piece.posterUrl}
+              title={piece.titulo[lang]}
+            />
+          ) : (
+            <PendingVideo
+              videoUrl={piece.videoUrl}
+              posterUrl={piece.posterUrl}
+              label={t.case.pendingVideo}
+              alt={piece.titulo[lang]}
+              className="size-full border-0"
+              autoPlay
+            />
+          )}
         </div>
 
         <header className="gutter py-[10vh]">
@@ -99,8 +107,8 @@ function CaseRoute() {
             {[
               [t.case.client, piece.cliente ?? t.case.ownPiece],
               [t.case.room, t.work.rooms[piece.sala]],
-              [t.case.year, piece.ano],
-              [t.case.duration, piece.duracion],
+              [t.case.year, piece.ano ?? "—"],
+              [t.case.duration, piece.duracion ?? "—"],
             ].map(([label, value]) => (
               <div key={label}>
                 <dt className="label-xs text-bruma">{label}</dt>
