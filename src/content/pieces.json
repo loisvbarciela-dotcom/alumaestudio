@@ -180,57 +180,6 @@
     "ferramentas": []
   },
   {
-    "slug": "marea-alta",
-    "titulo": {
-      "gl": "Marea alta",
-      "es": "Marea alta",
-      "en": "High Tide"
-    },
-    "sala": "deporte",
-    "ano": "2025",
-    "cliente": null,
-    "duracion": "1:20",
-    "videoUrl": null,
-    "youtubeUrl": null,
-    "instagramUrl": null,
-    "posterUrl": "/placeholders/marea-alta.jpg",
-    "destacada": true,
-    "desglose": [
-      {
-        "tipo": "rodado",
-        "imagen": null,
-        "texto": {
-          "gl": "A remada real, filmada ao amencer na ría. A pel mollada e o esforzo non se poden xerar.",
-          "es": "La remada real, filmada al amanecer en la ría. La piel mojada y el esfuerzo no se pueden generar.",
-          "en": "The real rowing, filmed at dawn on the estuary. Wet skin and effort cannot be generated."
-        }
-      },
-      {
-        "tipo": "xerado",
-        "imagen": null,
-        "texto": {
-          "gl": "O mar aberto a trinta millas da costa, imposible de rodar coa embarcación e a luz que a peza pedía.",
-          "es": "El mar abierto a treinta millas de la costa, imposible de rodar con la embarcación y la luz que la pieza pedía.",
-          "en": "Open sea thirty miles offshore, impossible to shoot with the boat and the light the piece required."
-        }
-      },
-      {
-        "tipo": "rodado",
-        "imagen": null,
-        "texto": {
-          "gl": "O plano final da mirada. Un só take, sen corrección de cor agresiva.",
-          "es": "El plano final de la mirada. Una sola toma, sin corrección de color agresiva.",
-          "en": "The closing gaze. A single take, with no aggressive grade."
-        }
-      }
-    ],
-    "ferramentas": [
-      "ARRI Alexa 35",
-      "DaVinci Resolve",
-      "Runway Gen-3",
-      "Nuke"
-    ]
-  },
   {
     "slug": "camiseta-reconquista",
     "titulo": {
