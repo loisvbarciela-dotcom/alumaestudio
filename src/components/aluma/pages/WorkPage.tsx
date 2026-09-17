@@ -8,10 +8,6 @@ export function WorkPage({ lang }: { lang: Lang }) {
   const [room, setRoom] = useState<Room | "all">("all");
   const list = room === "all" ? pieces : pieces.filter((p) => p.sala === room);
 
-  // Asymmetric grid: first piece wide, then alternating spans.
-  const spanFor = (i: number) =>
-    i % 5 === 0 ? "md:col-span-7" : i % 5 === 1 ? "md:col-span-5" : i % 5 === 2 ? "md:col-span-5" : "md:col-span-7";
-  const aspectFor = (i: number) => (i % 5 === 0 ? "aspect-[16/9]" : i % 3 === 0 ? "aspect-[4/5]" : "aspect-[4/3]");
 
   return (
     <>
