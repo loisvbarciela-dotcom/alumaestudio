@@ -38,6 +38,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
       return { meta: [{ title: "Aluma" }, { name: "robots", content: "noindex" }] };
     }
     const title = `${piece.titulo[lang]} — Aluma`;
+    const poster = posterOverrides[piece.slug] ?? piece.posterUrl;
     const description = [
       t.work.rooms[piece.sala],
       piece.ano,
@@ -54,7 +55,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
       description,
       path: `/${lang}/${slugFor("work", lang)}/${piece.slug}`,
       alternates,
-      ...(piece.posterUrl ? { image: piece.posterUrl } : {}),
+      ...(poster ? { image: poster } : {}),
     });
     return {
       ...head,
@@ -70,7 +71,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
             ...(piece.ano && /^\d{4}$/.test(piece.ano)
               ? { uploadDate: `${piece.ano}-01-01` }
               : {}),
-            ...(piece.posterUrl ? { thumbnailUrl: piece.posterUrl } : {}),
+            ...(poster ? { thumbnailUrl: poster } : {}),
             ...(piece.videoUrl ? { contentUrl: piece.videoUrl } : {}),
             ...(piece.youtubeUrl
               ? { embedUrl: piece.youtubeUrl }
@@ -93,7 +94,7 @@ function CaseRoute() {
   const piece = pieceBySlug(params.slug);
   if (!piece) throw notFound();
   const next = nextPiece(piece.slug);
-  const currentYoutubeId = piece.youtubeUrl ? youtubeId(piece.youtubeUrl) : null;
+  const poster = posterOverrides[piece.slug] ?? piece.posterUrl;
   const currentInstagramEmbed = piece.instagramUrl
     ? instagramEmbedUrl(piece.instagramUrl)
     : null;
