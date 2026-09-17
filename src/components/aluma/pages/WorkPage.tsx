@@ -50,7 +50,7 @@ export function WorkPage({ lang }: { lang: Lang }) {
                   className="group block"
                   aria-label={piece.titulo[lang]}
                 >
-                  <div className={aspectFor(i)}>
+                  <div className={`relative ${aspectFor(i)}`}>
                     <PendingVideo
                       videoUrl={piece.videoUrl}
                       posterUrl={piece.posterUrl}
@@ -59,6 +59,16 @@ export function WorkPage({ lang }: { lang: Lang }) {
                       className="size-full"
                       playOnHover
                     />
+                    <span
+                      aria-hidden="true"
+                      className="pointer-events-none absolute inset-0 flex items-center justify-center bg-tinta/25 opacity-80 transition-all group-hover:bg-tinta/10 group-hover:opacity-100"
+                    >
+                      <span className="flex size-14 items-center justify-center rounded-full border border-ouro bg-tinta/80 transition-transform group-hover:scale-105">
+                        <svg viewBox="0 0 24 24" className="ml-0.5 size-5 fill-ouro">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </span>
+                    </span>
                   </div>
                   <div className="mt-4 flex items-baseline justify-between border-t pt-3">
                     <span className="text-[15px] text-oso group-hover:text-ouro">

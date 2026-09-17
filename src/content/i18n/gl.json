@@ -57,10 +57,11 @@
   },
   "work": {
     "label": "Traballo",
-    "title": "Tres salas",
+    "title": "Catro salas",
     "all": "Todas",
     "rooms": {
-      "deporte": "Deporte",
+      "ficcion": "Ficción",
+      "futbol": "Fútbol",
       "documental": "Documental",
       "publicidade": "Publicidade"
     },
@@ -126,7 +127,7 @@
     },
     "work": {
       "title": "Traballo — Aluma",
-      "description": "Pezas de Aluma en tres salas: deporte, documental e publicidade. Cada peza co seu desmontaxe híbrido."
+      "description": "Pezas de Aluma en catro salas: ficción, fútbol, documental e publicidade. Cada peza co seu desmontaxe híbrido."
     },
     "method": {
       "title": "O método — Aluma",

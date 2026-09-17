@@ -1,6 +1,7 @@
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { SiteShell } from "@/components/aluma/SiteShell";
+import { YouTubeFacade } from "@/components/aluma/YouTubeFacade";
 import {
   LANGS,
   SITE_URL,
@@ -10,6 +11,7 @@ import {
   pieceBySlug,
   pieceLink,
   slugFor,
+  youtubeId,
   type Lang,
 } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
@@ -28,7 +30,13 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
       return { meta: [{ title: "Aluma" }, { name: "robots", content: "noindex" }] };
     }
     const title = `${piece.titulo[lang]} — Aluma`;
-    const description = `${t.work.rooms[piece.sala]} · ${piece.ano} · ${piece.desglose[0]?.texto[lang] ?? ""}`;
+    const description = [
+      t.work.rooms[piece.sala],
+      piece.ano,
+      piece.desglose[0]?.texto[lang],
+    ]
+      .filter(Boolean)
+      .join(" · ");
     const alternates = Object.fromEntries(
       LANGS.map((code) => [code, `/${code}/${slugFor("work", code)}/${piece.slug}`]),
     ) as Record<Lang, string>;
@@ -51,9 +59,12 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
             name: piece.titulo[lang],
             description,
             inLanguage: lang,
-            uploadDate: `${piece.ano}-01-01`,
+            ...(piece.ano && /^\d{4}$/.test(piece.ano)
+              ? { uploadDate: `${piece.ano}-01-01` }
+              : {}),
             ...(piece.posterUrl ? { thumbnailUrl: piece.posterUrl } : {}),
             ...(piece.videoUrl ? { contentUrl: piece.videoUrl } : {}),
+            ...(piece.youtubeUrl ? { embedUrl: piece.youtubeUrl } : {}),
             productionCompany: { "@type": "Organization", name: "Aluma", url: SITE_URL },
           }),
         },
@@ -75,14 +86,22 @@ function CaseRoute() {
     <SiteShell lang={lang}>
       <article>
         <div className="aspect-video w-full">
-          <PendingVideo
-            videoUrl={piece.videoUrl}
-            posterUrl={piece.posterUrl}
-            label={t.case.pendingVideo}
-            alt={piece.titulo[lang]}
-            className="size-full border-0"
-            autoPlay
-          />
+          {piece.youtubeUrl && youtubeId(piece.youtubeUrl) ? (
+            <YouTubeFacade
+              videoId={youtubeId(piece.youtubeUrl)!}
+              posterUrl={piece.posterUrl}
+              title={piece.titulo[lang]}
+            />
+          ) : (
+            <PendingVideo
+              videoUrl={piece.videoUrl}
+              posterUrl={piece.posterUrl}
+              label={t.case.pendingVideo}
+              alt={piece.titulo[lang]}
+              className="size-full border-0"
+              autoPlay
+            />
+          )}
         </div>
 
         <header className="gutter py-[10vh]">
@@ -91,8 +110,8 @@ function CaseRoute() {
             {[
               [t.case.client, piece.cliente ?? t.case.ownPiece],
               [t.case.room, t.work.rooms[piece.sala]],
-              [t.case.year, piece.ano],
-              [t.case.duration, piece.duracion],
+              [t.case.year, piece.ano ?? "—"],
+              [t.case.duration, piece.duracion ?? "—"],
             ].map(([label, value]) => (
               <div key={label}>
                 <dt className="label-xs text-bruma">{label}</dt>
@@ -102,6 +121,7 @@ function CaseRoute() {
           </dl>
         </header>
 
+        {piece.desglose.length > 0 && (
         <section className="gutter pb-[12vh]">
           <h2 className="label-xs text-ouro">{t.case.breakdown}</h2>
           <div className="mt-16 space-y-24">
@@ -152,11 +172,14 @@ function CaseRoute() {
             })}
           </div>
         </section>
+        )}
 
+        {piece.ferramentas.length > 0 && (
         <section className="gutter border-t py-12">
           <p className="label-xs text-bruma">{t.case.tools}</p>
           <p className="mt-4 text-[13px] text-bruma/80">{piece.ferramentas.join(" · ")}</p>
         </section>
+        )}
 
         {next && (
           <nav className="gutter border-t py-[10vh]">
