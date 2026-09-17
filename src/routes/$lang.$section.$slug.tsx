@@ -1,6 +1,7 @@
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { SiteShell } from "@/components/aluma/SiteShell";
+import { YouTubeFacade } from "@/components/aluma/YouTubeFacade";
 import {
   LANGS,
   SITE_URL,
@@ -10,6 +11,7 @@ import {
   pieceBySlug,
   pieceLink,
   slugFor,
+  youtubeId,
   type Lang,
 } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
@@ -28,7 +30,13 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
       return { meta: [{ title: "Aluma" }, { name: "robots", content: "noindex" }] };
     }
     const title = `${piece.titulo[lang]} — Aluma`;
-    const description = `${t.work.rooms[piece.sala]} · ${piece.ano} · ${piece.desglose[0]?.texto[lang] ?? ""}`;
+    const description = [
+      t.work.rooms[piece.sala],
+      piece.ano,
+      piece.desglose[0]?.texto[lang],
+    ]
+      .filter(Boolean)
+      .join(" · ");
     const alternates = Object.fromEntries(
       LANGS.map((code) => [code, `/${code}/${slugFor("work", code)}/${piece.slug}`]),
     ) as Record<Lang, string>;
