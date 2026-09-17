@@ -81,14 +81,21 @@ function CaseRoute() {
   const piece = pieceBySlug(params.slug);
   if (!piece) throw notFound();
   const next = nextPiece(piece.slug);
+  const currentYoutubeId = piece.youtubeUrl ? youtubeId(piece.youtubeUrl) : null;
 
   return (
     <SiteShell lang={lang}>
       <article>
-        <div className="aspect-video w-full">
-          {piece.youtubeUrl && youtubeId(piece.youtubeUrl) ? (
+        <div
+          className={
+            piece.aspectRatio === "portrait"
+              ? "mx-auto aspect-[3/4] w-full max-w-2xl"
+              : "aspect-video w-full"
+          }
+        >
+          {currentYoutubeId ? (
             <YouTubeFacade
-              videoId={youtubeId(piece.youtubeUrl)!}
+              videoId={currentYoutubeId}
               posterUrl={piece.posterUrl}
               title={piece.titulo[lang]}
             />
@@ -100,6 +107,7 @@ function CaseRoute() {
               alt={piece.titulo[lang]}
               className="size-full border-0"
               autoPlay
+              hideLabel
             />
           )}
         </div>

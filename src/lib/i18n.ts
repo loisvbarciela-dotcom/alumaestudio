@@ -2,6 +2,8 @@ import gl from "@/content/i18n/gl.json";
 import es from "@/content/i18n/es.json";
 import en from "@/content/i18n/en.json";
 import piecesData from "@/content/pieces.json";
+import camisetaReconquistaAsset from "@/assets/work/camiseta-reconquista.png.asset.json";
+import viaxeNoTempoAsset from "@/assets/work/viaxe-no-tempo.png.asset.json";
 
 export const LANGS = ["gl", "es", "en"] as const;
 export type Lang = (typeof LANGS)[number];
@@ -72,13 +74,23 @@ export type Piece = {
   duracion: string | null;
   videoUrl: string | null;
   youtubeUrl: string | null;
+  instagramUrl: string | null;
   posterUrl: string | null;
+  aspectRatio?: "video" | "portrait";
   destacada?: boolean;
   desglose: BreakdownBlock[];
   ferramentas: string[];
 };
 
-export const pieces = piecesData as Piece[];
+const pieceAssets: Record<string, string> = {
+  "camiseta-reconquista": camisetaReconquistaAsset.url,
+  "viaxe-no-tempo": viaxeNoTempoAsset.url,
+};
+
+export const pieces = (piecesData as Piece[]).map((piece) => ({
+  ...piece,
+  posterUrl: pieceAssets[piece.slug] ?? piece.posterUrl,
+}));
 
 /** Extracts the 11-char video id from common YouTube URL shapes. */
 export function youtubeId(url: string): string | null {

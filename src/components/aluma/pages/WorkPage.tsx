@@ -46,7 +46,11 @@ export function WorkPage({ lang }: { lang: Lang }) {
                   className="group block"
                   aria-label={piece.titulo[lang]}
                 >
-                  <div className="relative aspect-video overflow-hidden">
+                  <div
+                    className={`relative overflow-hidden ${
+                      piece.aspectRatio === "portrait" ? "aspect-[3/4]" : "aspect-video"
+                    }`}
+                  >
 
                     <PendingVideo
                       videoUrl={piece.videoUrl}
@@ -55,6 +59,7 @@ export function WorkPage({ lang }: { lang: Lang }) {
                       alt={piece.titulo[lang]}
                       className="size-full"
                       playOnHover
+                      hideLabel
                     />
                     <span
                       aria-hidden="true"
