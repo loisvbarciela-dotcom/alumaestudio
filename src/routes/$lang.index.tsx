@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { LightBeamHero } from "@/components/aluma/LightBeamHero";
+import heroPosterAsset from "@/assets/hero/abella-no-text.png.asset.json";
 import { ManifestoCarousel } from "@/components/aluma/ManifestoCarousel";
 import { PendingVideo } from "@/components/aluma/PendingVideo";
 import { SiteShell } from "@/components/aluma/SiteShell";
@@ -50,7 +51,11 @@ function Home() {
 
   return (
     <SiteShell lang={lang}>
-      <LightBeamHero lang={lang} {...(featured ? { piece: featured } : {})} />
+      <LightBeamHero
+        lang={lang}
+        posterOverride={heroPosterAsset.url}
+        {...(featured ? { piece: featured } : {})}
+      />
 
       <ManifestoCarousel lang={lang} />
 
