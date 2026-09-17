@@ -125,7 +125,7 @@ function CaseRoute() {
           ) : (
             <PendingVideo
               videoUrl={piece.videoUrl}
-              posterUrl={piece.posterUrl}
+              posterUrl={poster}
               label={t.case.pendingVideo}
               alt={piece.titulo[lang]}
               className="size-full border-0"
