@@ -38,15 +38,16 @@ export function WorkPage({ lang }: { lang: Lang }) {
         {list.length === 0 ? (
           <p className="text-bruma">{t.work.empty}</p>
         ) : (
-          <ul className="grid gap-x-8 gap-y-16 md:grid-cols-12">
-            {list.map((piece, i) => (
-              <li key={piece.slug} className={spanFor(i)}>
+          <ul className="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+            {list.map((piece) => (
+              <li key={piece.slug}>
                 <Link
                   {...pieceLink(lang, piece.slug)}
                   className="group block"
                   aria-label={piece.titulo[lang]}
                 >
-                  <div className={`relative ${aspectFor(i)}`}>
+                  <div className="relative aspect-video overflow-hidden">
+
                     <PendingVideo
                       videoUrl={piece.videoUrl}
                       posterUrl={piece.posterUrl}
