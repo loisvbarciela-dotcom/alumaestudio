@@ -3,28 +3,23 @@ import { useEffect, useRef, useState } from "react";
 type Props = {
   videoUrl: string | null;
   posterUrl: string | null;
-  label: string;
   alt: string;
   className?: string;
   playOnHover?: boolean;
   autoPlay?: boolean;
-  /** Hide the "pending video" caption when the frame is purely decorative. */
-  hideLabel?: boolean;
 };
 
 /**
- * Renders a lazy, muted looping <video> when a source exists, and a clearly
- * marked placeholder frame when the client has not supplied the file yet.
+ * Renders a lazy, muted looping <video> when a source exists, and a poster
+ * frame when the client has not supplied the file yet.
  */
 export function PendingVideo({
   videoUrl,
   posterUrl,
-  label,
   alt,
   className = "",
   playOnHover = false,
   autoPlay = false,
-  hideLabel = false,
 }: Props) {
   const ref = useRef<HTMLVideoElement>(null);
   const [inView, setInView] = useState(!autoPlay ? false : true);
@@ -50,24 +45,17 @@ export function PendingVideo({
       <div
         className={`relative flex items-center justify-center border bg-tinta ${className}`}
         role="img"
-        aria-label={`${alt} — ${label}`}
+        aria-label={alt}
       >
         {posterUrl ? (
-          <>
-            <img
-              src={posterUrl}
-              alt={alt}
-              className="size-full object-cover"
-              loading={autoPlay ? "eager" : "lazy"}
-              fetchPriority={autoPlay ? "high" : "auto"}
-            />
-            {!hideLabel ? (
-              <span className="label-xs absolute bottom-3 left-3 text-bruma/70">{label}</span>
-            ) : null}
-          </>
-        ) : (
-          <span className="label-xs text-bruma">{label}</span>
-        )}
+          <img
+            src={posterUrl}
+            alt={alt}
+            className="size-full object-cover"
+            loading={autoPlay ? "eager" : "lazy"}
+            fetchPriority={autoPlay ? "high" : "auto"}
+          />
+        ) : null}
       </div>
     );
   }

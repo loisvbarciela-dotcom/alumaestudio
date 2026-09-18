@@ -55,11 +55,9 @@ export function WorkPage({ lang }: { lang: Lang }) {
                     <PendingVideo
                       videoUrl={piece.videoUrl}
                       posterUrl={piece.posterUrl}
-                      label={t.case.pendingVideo}
                       alt={piece.titulo[lang]}
                       className="size-full"
                       playOnHover
-                      hideLabel
                     />
                     <span
                       aria-hidden="true"

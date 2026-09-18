@@ -127,7 +127,6 @@ function PieceTile({ lang, piece, large }: { lang: Lang; piece: Piece; large?: b
         <PendingVideo
           videoUrl={piece.videoUrl}
           posterUrl={piece.posterUrl}
-          label={t.case.pendingVideo}
           alt={piece.titulo[lang]}
           className="size-full"
           playOnHover

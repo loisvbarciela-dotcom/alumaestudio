@@ -145,11 +145,9 @@ export function LightBeamHero({
         <PendingVideo
           videoUrl={piece?.videoUrl ?? null}
           posterUrl={posterUrl}
-          label={t.case.pendingVideo}
           alt={t.hero.videoAlt}
           className="size-full border-0"
           autoPlay
-          hideLabel
         />
       </div>
 
@@ -164,11 +162,9 @@ export function LightBeamHero({
         <PendingVideo
           videoUrl={piece?.videoUrl ?? null}
           posterUrl={posterUrl}
-          label={t.case.pendingVideo}
           alt={t.hero.videoAlt}
           className="size-full border-0"
           autoPlay
-          hideLabel
         />
       </div>
 
