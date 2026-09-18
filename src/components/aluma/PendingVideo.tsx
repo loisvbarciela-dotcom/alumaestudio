@@ -54,7 +54,13 @@ export function PendingVideo({
       >
         {posterUrl ? (
           <>
-            <img src={posterUrl} alt={alt} className="size-full object-cover" loading="lazy" />
+            <img
+              src={posterUrl}
+              alt={alt}
+              className="size-full object-cover"
+              loading={autoPlay ? "eager" : "lazy"}
+              fetchPriority={autoPlay ? "high" : "auto"}
+            />
             {!hideLabel ? (
               <span className="label-xs absolute bottom-3 left-3 text-bruma/70">{label}</span>
             ) : null}
