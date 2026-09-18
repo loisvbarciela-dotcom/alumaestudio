@@ -6,6 +6,7 @@ import { YouTubeFacade } from "@/components/aluma/YouTubeFacade";
 import abellaPosterAsset from "@/assets/work/a-ultima-abella.png.asset.json";
 import {
   LANGS,
+  LANGUAGE_NAMES,
   SITE_URL,
   dict,
   isLang,
@@ -42,7 +43,7 @@ export const Route = createFileRoute("/$lang/$section/$slug")({
     const description = [
       t.work.rooms[piece.sala],
       piece.ano,
-      piece.desglose[0]?.texto[lang],
+      piece.sinopse?.[lang] ?? piece.desglose[0]?.texto[lang],
     ]
       .filter(Boolean)
       .join(" · ");
@@ -137,12 +138,22 @@ function CaseRoute() {
 
         <header className="gutter py-[10vh]">
           <h1 className="display max-w-3xl text-5xl sm:text-7xl">{piece.titulo[lang]}</h1>
-          <dl className="mt-16 grid gap-8 border-t pt-8 sm:grid-cols-4">
+          {piece.sinopse?.[lang] && (
+            <p className="mt-8 max-w-2xl text-[15px] text-bruma">{piece.sinopse[lang]}</p>
+          )}
+          <dl
+            className={`mt-16 grid gap-8 border-t pt-8 ${
+              piece.idioma ? "sm:grid-cols-5" : "sm:grid-cols-4"
+            }`}
+          >
             {[
               [t.case.client, piece.cliente ?? t.case.ownPiece],
               [t.case.room, t.work.rooms[piece.sala]],
               [t.case.year, piece.ano ?? "—"],
               [t.case.duration, piece.duracion ?? "—"],
+              ...(piece.idioma
+                ? [[t.case.language, LANGUAGE_NAMES[lang][piece.idioma]]]
+                : []),
             ].map(([label, value]) => (
               <div key={label}>
                 <dt className="label-xs text-bruma">{label}</dt>

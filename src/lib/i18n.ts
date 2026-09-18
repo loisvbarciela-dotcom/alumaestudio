@@ -78,8 +78,18 @@ export type Piece = {
   posterUrl: string | null;
   aspectRatio?: "video" | "portrait";
   destacada?: boolean;
+  /** Original spoken language of the piece, if known. */
+  idioma?: Lang | null;
+  sinopse?: Record<Lang, string> | null;
   desglose: BreakdownBlock[];
   ferramentas: string[];
+};
+
+/** Piece language names as shown in each UI language. */
+export const LANGUAGE_NAMES: Record<Lang, Record<Lang, string>> = {
+  gl: { gl: "Galego", es: "Castelán", en: "Inglés" },
+  es: { gl: "Gallego", es: "Español", en: "Inglés" },
+  en: { gl: "Galician", es: "Spanish", en: "English" },
 };
 
 const pieceAssets: Record<string, string> = {

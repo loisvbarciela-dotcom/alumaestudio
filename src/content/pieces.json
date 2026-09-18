@@ -9,11 +9,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/fYnmob3ieSY",
     "instagramUrl": null,
     "posterUrl": "/posters/ultima-abella.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Natureza e crise ecolóxica: a desaparición das abellas.",
+      "es": "Naturaleza y crisis ecológica: la desaparición de las abejas.",
+      "en": "Nature and ecological crisis: the disappearance of the bees."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -27,11 +33,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/I7tRBYuUTe0",
     "instagramUrl": null,
     "posterUrl": "/posters/viaxe-40-anos.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Mar e memoria: unha mensaxe nunha botella que chega 40 anos despois.",
+      "es": "Mar y memoria: un mensaje en una botella que llega 40 años después.",
+      "en": "Sea and memory: a message in a bottle arriving 40 years later."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -45,11 +57,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/JGo1n0Yrlhg",
     "instagramUrl": null,
     "posterUrl": "/posters/cita-teixido.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Lenda galega: San Andrés de Teixido e a promesa pendente.",
+      "es": "Leyenda gallega: San Andrés de Teixido y la promesa pendiente.",
+      "en": "A Galician legend: Santo André de Teixido and an unfulfilled promise."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -63,11 +81,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/DvK3KZe7pTk",
     "instagramUrl": null,
     "posterUrl": "/posters/o-inocente.jpg",
+    "idioma": "es",
+    "sinopse": {
+      "gl": "Xustiza e culpa: un home defende a súa versión dos feitos.",
+      "es": "Justicia y culpa: un hombre defiende su versión de los hechos.",
+      "en": "Justice and guilt: a man defends his version of events."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -81,11 +105,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/mEZa5qSnaaA",
     "instagramUrl": null,
     "posterUrl": "/posters/tellarizar.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Faro e soidade: a rutina da fareira fronte ao mar.",
+      "es": "Faro y soledad: la rutina del farero frente al mar.",
+      "en": "Lighthouse and solitude: the keeper's routine facing the sea."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -99,11 +129,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/I1GmkUQuT6s",
     "instagramUrl": null,
     "posterUrl": "/posters/meu-fillo.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Familia e ausencia: unha nai fala do seu fillo.",
+      "es": "Familia y ausencia: una madre habla de su hijo.",
+      "en": "Family and absence: a mother speaks of her son."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -117,11 +153,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/pmqH7ZhKO6A",
     "instagramUrl": null,
     "posterUrl": "/posters/tempo.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "O paso do tempo e a memoria: un reloxo de peto.",
+      "es": "El paso del tiempo y la memoria: un reloj de bolsillo.",
+      "en": "The passing of time and memory: a pocket watch."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -140,6 +182,8 @@
     "youtubeUrl": null,
     "instagramUrl": null,
     "posterUrl": "/posters/o-falsificador.jpg",
+    "idioma": null,
+    "sinopse": null,
     "desglose": [],
     "ferramentas": []
   },
@@ -153,11 +197,17 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/qJhzSIGoIRQ",
     "instagramUrl": null,
     "posterUrl": "/posters/a-ultima-fornada.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Oficios e memoria: a última fornada dun panadeiro.",
+      "es": "Oficios y memoria: la última hornada de un panadero.",
+      "en": "Trades and memory: a baker's last batch."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -171,11 +221,89 @@
     "sala": "ficcion",
     "ano": null,
     "cliente": null,
-    "duracion": null,
+    "duracion": "0:31",
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/hIM1wL2VGnU",
     "instagramUrl": null,
     "posterUrl": "/posters/mayday.jpg",
+    "idioma": "es",
+    "sinopse": {
+      "gl": "Emerxencia no mar: unha chamada de socorro durante un temporal.",
+      "es": "Emergencia en el mar: una llamada de socorro durante un temporal.",
+      "en": "Emergency at sea: a distress call during a storm."
+    },
+    "desglose": [],
+    "ferramentas": []
+  },
+  {
+    "slug": "invasion-aline",
+    "titulo": {
+      "gl": "Invasión Aline",
+      "es": "Invasión Aline",
+      "en": "Invasion Aline"
+    },
+    "sala": "ficcion",
+    "ano": null,
+    "cliente": null,
+    "duracion": "0:16",
+    "videoUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/xLEAk5nbSrw",
+    "instagramUrl": null,
+    "posterUrl": null,
+    "idioma": "es",
+    "sinopse": {
+      "gl": "Invasión extraterrestre sobre unha aldea, vista dende o cotidiano.",
+      "es": "Invasión extraterrestre sobre una aldea, vista desde lo cotidiano.",
+      "en": "An alien invasion over a village, seen from the everyday."
+    },
+    "desglose": [],
+    "ferramentas": []
+  },
+  {
+    "slug": "os-cans",
+    "titulo": {
+      "gl": "Os cans",
+      "es": "Los perros",
+      "en": "The Dogs"
+    },
+    "sala": "ficcion",
+    "ano": null,
+    "cliente": null,
+    "duracion": "0:31",
+    "videoUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/P52r6OrGezQ",
+    "instagramUrl": null,
+    "posterUrl": null,
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Tensión rural: os cans ladran antes de que algo ocorra.",
+      "es": "Tensión rural: los perros ladran antes de que algo ocurra.",
+      "en": "Rural tension: the dogs bark before something happens."
+    },
+    "desglose": [],
+    "ferramentas": []
+  },
+  {
+    "slug": "pintor",
+    "titulo": {
+      "gl": "Pintor",
+      "es": "Pintor",
+      "en": "The Painter"
+    },
+    "sala": "ficcion",
+    "ano": null,
+    "cliente": null,
+    "duracion": "0:31",
+    "videoUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/cnXtjINwgX4",
+    "instagramUrl": null,
+    "posterUrl": null,
+    "idioma": "es",
+    "sinopse": {
+      "gl": "Arte e verdade: o retrato que non se deixa pintar.",
+      "es": "Arte y verdad: el retrato que no se deja pintar.",
+      "en": "Art and truth: the portrait that refuses to be painted."
+    },
     "desglose": [],
     "ferramentas": []
   },
@@ -195,6 +323,8 @@
     "instagramUrl": "https://www.instagram.com/reel/DW_-gyEjVn8/",
     "posterUrl": null,
     "aspectRatio": "portrait",
+    "idioma": null,
+    "sinopse": null,
     "desglose": [],
     "ferramentas": []
   },
@@ -214,6 +344,8 @@
     "instagramUrl": "https://www.instagram.com/reel/DXBheeMDZHd/",
     "posterUrl": null,
     "aspectRatio": "portrait",
+    "idioma": null,
+    "sinopse": null,
     "desglose": [],
     "ferramentas": []
   },
@@ -233,6 +365,8 @@
     "instagramUrl": null,
     "posterUrl": "/placeholders/o-oficio.jpg",
     "destacada": false,
+    "idioma": null,
+    "sinopse": null,
     "desglose": [
       {
         "tipo": "rodado",
@@ -275,6 +409,8 @@
     "instagramUrl": null,
     "posterUrl": "/placeholders/cinza-e-ouro.jpg",
     "destacada": false,
+    "idioma": null,
+    "sinopse": null,
     "desglose": [
       {
         "tipo": "rodado",
