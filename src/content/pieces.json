@@ -168,26 +168,6 @@
     "ferramentas": []
   },
   {
-    "slug": "o-falsificador",
-    "titulo": {
-      "gl": "O falsificador",
-      "es": "El falsificador",
-      "en": "The Forger"
-    },
-    "sala": "ficcion",
-    "ano": null,
-    "cliente": null,
-    "duracion": null,
-    "videoUrl": null,
-    "youtubeUrl": null,
-    "instagramUrl": null,
-    "posterUrl": "/posters/o-falsificador.jpg",
-    "idioma": null,
-    "sinopse": null,
-    "desglose": [],
-    "ferramentas": []
-  },
-  {
     "slug": "a-ultima-fornada",
     "titulo": {
       "gl": "A última fornada",
@@ -238,9 +218,9 @@
   {
     "slug": "invasion-aline",
     "titulo": {
-      "gl": "Invasión Aline",
-      "es": "Invasión Aline",
-      "en": "Invasion Aline"
+      "gl": "Invasión alienígena",
+      "es": "Invasión alienígena",
+      "en": "Alien Invasion"
     },
     "sala": "ficcion",
     "ano": null,
@@ -262,9 +242,9 @@
   {
     "slug": "os-cans",
     "titulo": {
-      "gl": "Os cans",
-      "es": "Los perros",
-      "en": "The Dogs"
+      "gl": "Santa Compaña",
+      "es": "Santa Compaña",
+      "en": "Santa Compaña"
     },
     "sala": "ficcion",
     "ano": null,
@@ -284,11 +264,11 @@
     "ferramentas": []
   },
   {
-    "slug": "pintor",
+    "slug": "o-falsificador",
     "titulo": {
-      "gl": "Pintor",
-      "es": "Pintor",
-      "en": "The Painter"
+      "gl": "O falsificador",
+      "es": "El falsificador",
+      "en": "The Forger"
     },
     "sala": "ficcion",
     "ano": null,
@@ -297,7 +277,7 @@
     "videoUrl": null,
     "youtubeUrl": "https://www.youtube.com/embed/cnXtjINwgX4",
     "instagramUrl": null,
-    "posterUrl": null,
+    "posterUrl": "/posters/o-falsificador.jpg",
     "idioma": "es",
     "sinopse": {
       "gl": "Arte e verdade: o retrato que non se deixa pintar.",
