@@ -45,24 +45,17 @@ export function PendingVideo({
       <div
         className={`relative flex items-center justify-center border bg-tinta ${className}`}
         role="img"
-        aria-label={`${alt} — ${label}`}
+        aria-label={alt}
       >
         {posterUrl ? (
-          <>
-            <img
-              src={posterUrl}
-              alt={alt}
-              className="size-full object-cover"
-              loading={autoPlay ? "eager" : "lazy"}
-              fetchPriority={autoPlay ? "high" : "auto"}
-            />
-            {!hideLabel ? (
-              <span className="label-xs absolute bottom-3 left-3 text-bruma/70">{label}</span>
-            ) : null}
-          </>
-        ) : (
-          <span className="label-xs text-bruma">{label}</span>
-        )}
+          <img
+            src={posterUrl}
+            alt={alt}
+            className="size-full object-cover"
+            loading={autoPlay ? "eager" : "lazy"}
+            fetchPriority={autoPlay ? "high" : "auto"}
+          />
+        ) : null}
       </div>
     );
   }

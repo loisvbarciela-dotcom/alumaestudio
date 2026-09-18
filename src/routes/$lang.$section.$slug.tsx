@@ -127,11 +127,9 @@ function CaseRoute() {
             <PendingVideo
               videoUrl={piece.videoUrl}
               posterUrl={poster}
-              label={t.case.pendingVideo}
               alt={piece.titulo[lang]}
               className="size-full border-0"
               autoPlay
-              hideLabel
             />
           )}
         </div>
