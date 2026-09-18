@@ -5,6 +5,8 @@ import { dict, type Lang, type Piece } from "@/lib/i18n";
 // Beam radius as a fraction of the hero's shorter side.
 const CLOSED_RADIUS = 0.26;
 const OPEN_RADIUS = 2.2;
+const INITIAL_MASK =
+  "radial-gradient(circle 26vmin at 50% 50%, #000 0%, #000 42%, rgba(0,0,0,0.35) 74%, transparent 100%)";
 
 export function LightBeamHero({
   lang,
@@ -154,6 +156,7 @@ export function LightBeamHero({
       {/* Revealed: only where the light falls. */}
       <div
         className="absolute inset-0"
+        style={{ maskImage: INITIAL_MASK, WebkitMaskImage: INITIAL_MASK }}
         ref={(node) => {
           maskedRefs.current[0] = node;
         }}
@@ -176,6 +179,7 @@ export function LightBeamHero({
 
       <div
         className="gutter pointer-events-none absolute inset-0 flex flex-col justify-end pb-[10vh]"
+        style={{ maskImage: INITIAL_MASK, WebkitMaskImage: INITIAL_MASK }}
         ref={(node) => {
           maskedRefs.current[1] = node;
         }}
