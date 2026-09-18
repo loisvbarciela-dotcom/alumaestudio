@@ -330,50 +330,6 @@
     "ferramentas": []
   },
   {
-    "slug": "o-oficio",
-    "titulo": {
-      "gl": "O oficio",
-      "es": "El oficio",
-      "en": "The Craft"
-    },
-    "sala": "documental",
-    "ano": "2025",
-    "cliente": null,
-    "duracion": "4:05",
-    "videoUrl": null,
-    "youtubeUrl": null,
-    "instagramUrl": null,
-    "posterUrl": "/placeholders/o-oficio.jpg",
-    "destacada": false,
-    "idioma": null,
-    "sinopse": null,
-    "desglose": [
-      {
-        "tipo": "rodado",
-        "imagen": null,
-        "texto": {
-          "gl": "As mans do artesán, en primeiro plano e luz natural. Cada marca da madeira é real.",
-          "es": "Las manos del artesano, en primer plano y luz natural. Cada marca de la madera es real.",
-          "en": "The craftsman's hands, close and lit naturally. Every mark in the wood is real."
-        }
-      },
-      {
-        "tipo": "xerado",
-        "imagen": null,
-        "texto": {
-          "gl": "O taller de 1954, reconstruído a partir de dous arquivos fotográficos. Ningún actor sintético.",
-          "es": "El taller de 1954, reconstruido a partir de dos archivos fotográficos. Ningún actor sintético.",
-          "en": "The 1954 workshop, rebuilt from two photographic archives. No synthetic actors."
-        }
-      }
-    ],
-    "ferramentas": [
-      "Sony Venice 2",
-      "Kling 1.6",
-      "After Effects"
-    ]
-  },
-  {
     "slug": "cinza-e-ouro",
     "titulo": {
       "gl": "Cinza e ouro",
