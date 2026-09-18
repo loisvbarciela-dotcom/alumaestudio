@@ -168,26 +168,6 @@
     "ferramentas": []
   },
   {
-    "slug": "o-falsificador",
-    "titulo": {
-      "gl": "O falsificador",
-      "es": "El falsificador",
-      "en": "The Forger"
-    },
-    "sala": "ficcion",
-    "ano": null,
-    "cliente": null,
-    "duracion": null,
-    "videoUrl": null,
-    "youtubeUrl": null,
-    "instagramUrl": null,
-    "posterUrl": "/posters/o-falsificador.jpg",
-    "idioma": null,
-    "sinopse": null,
-    "desglose": [],
-    "ferramentas": []
-  },
-  {
     "slug": "a-ultima-fornada",
     "titulo": {
       "gl": "A última fornada",
