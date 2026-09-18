@@ -20,6 +20,7 @@ export function LightBeamHero({
   const wrapRef = useRef<HTMLDivElement>(null);
   const maskedRefs = useRef<(HTMLDivElement | null)[]>([]);
   const glowRef = useRef<HTMLDivElement>(null);
+  const coarsePointer = useRef(false);
   const target = useRef({ x: 50, y: 50, r: CLOSED_RADIUS });
   const current = useRef({ x: 50, y: 50, r: CLOSED_RADIUS });
   const [open, setOpen] = useState(false);
@@ -50,7 +51,7 @@ export function LightBeamHero({
       const tg = target.current;
       c.x += (tg.x - c.x) * 0.07;
       c.y += (tg.y - c.y) * 0.07;
-      c.r += (tg.r - c.r) * 0.045;
+      c.r += (tg.r - c.r) * (coarsePointer.current ? 0.14 : 0.045);
       paint(c.x, c.y, c.r);
       frame = requestAnimationFrame(tick);
     };
@@ -58,22 +59,26 @@ export function LightBeamHero({
     return () => cancelAnimationFrame(frame);
   }, [reduced]);
 
-  // Idle drift on touch devices plus the 3s auto-open.
+  // Touch screens start over the subject and reveal sooner, avoiding an
+  // apparently empty hero while there is no pointer to guide the beam.
   useEffect(() => {
     if (reduced) return;
     let drift = 0;
     const coarse = window.matchMedia("(pointer: coarse)").matches;
+    coarsePointer.current = coarse;
     if (coarse) {
+      current.current = { x: 70, y: 46, r: 0.55 };
+      target.current = { x: 70, y: 46, r: 0.55 };
       const start = performance.now();
       const loop = () => {
         const s = (performance.now() - start) / 2600;
-        target.current.x = 50 + Math.cos(s) * 16;
-        target.current.y = 50 + Math.sin(s * 0.8) * 10;
+        target.current.x = 66 + Math.cos(s) * 6;
+        target.current.y = 46 + Math.sin(s * 0.8) * 6;
         drift = requestAnimationFrame(loop);
       };
       drift = requestAnimationFrame(loop);
     }
-    const timer = window.setTimeout(() => reveal(), 3000);
+    const timer = window.setTimeout(() => reveal(), coarse ? 900 : 3000);
     return () => {
       window.clearTimeout(timer);
       if (drift) cancelAnimationFrame(drift);
