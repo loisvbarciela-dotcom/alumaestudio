@@ -330,6 +330,30 @@
     "ferramentas": []
   },
   {
+    "slug": "ronsel",
+    "titulo": {
+      "gl": "Ronsel",
+      "es": "Ronsel",
+      "en": "Ronsel"
+    },
+    "sala": "documental",
+    "ano": "2026",
+    "cliente": "RC Celta",
+    "duracion": "31:42",
+    "videoUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/ngDsA0Ya6RE",
+    "instagramUrl": null,
+    "posterUrl": "/posters/ronsel.jpg",
+    "idioma": "gl",
+    "sinopse": {
+      "gl": "Documental en homenaxe ao mar de Vigo no que contribuímos ás animacións, respectando ao máximo a identidade e a naturalidade do relato documental.",
+      "es": "Documental en homenaje al mar de Vigo en el que contribuimos a las animaciones, respetando al máximo la identidad y la naturalidad del relato documental.",
+      "en": "A documentary tribute to the sea of Vigo, for which we contributed animation while preserving the identity and natural quality of the documentary storytelling."
+    },
+    "desglose": [],
+    "ferramentas": []
+  },
+  {
     "slug": "cinza-e-ouro",
     "titulo": {
       "gl": "Cinza e ouro",
