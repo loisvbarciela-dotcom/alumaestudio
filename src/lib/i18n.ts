@@ -190,13 +190,17 @@ export function readingMinutes(post: Post, lang: Lang): number {
   return Math.max(1, Math.round(words / 200));
 }
 
+const MONTHS: Record<Lang, string[]> = {
+  gl: ["xaneiro", "febreiro", "marzo", "abril", "maio", "xuño", "xullo", "agosto", "setembro", "outubro", "novembro", "decembro"],
+  es: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+  en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+};
+
+/** Deterministic date formatting (same on server and browser). */
 export function formatDate(iso: string, lang: Lang): string {
-  return new Date(`${iso}T12:00:00Z`).toLocaleDateString(lang === "en" ? "en-GB" : `${lang}-ES`, {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC",
-  });
+  const [y, m, d] = iso.split("-").map(Number);
+  const month = MONTHS[lang][(m ?? 1) - 1];
+  return lang === "en" ? `${d} ${month} ${y}` : `${d} de ${month} de ${y}`;
 }
 
 export function postLink(lang: Lang, slug: string) {
