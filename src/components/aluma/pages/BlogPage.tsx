@@ -82,7 +82,7 @@ export function BlogArticle({ lang, slug }: { lang: Lang; slug: string }) {
         {post.corpo[lang].map((para, i) => {
           if (para.startsWith("# ")) {
             return (
-              <h2 key={i} className="label-xs display pt-10 text-ouro">
+              <h2 key={i} className="pt-10 text-xl uppercase tracking-[0.18em] text-ouro">
                 {para.slice(2)}
               </h2>
             );
