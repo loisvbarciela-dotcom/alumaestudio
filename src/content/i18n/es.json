@@ -9,7 +9,8 @@
     "contact": "Contacto",
     "menu": "Menú",
     "close": "Cerrar",
-    "language": "Idioma"
+    "language": "Idioma",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Ideas que merecen luz",
@@ -144,6 +145,18 @@
     "contact": {
       "title": "Contacto — Aluma",
       "description": "Hablemos de tu próxima campaña. Estudio audiovisual híbrido en Galicia."
+    },
+    "blog": {
+      "title": "Blog — Aluma",
+      "description": "Notas del estudio: proceso, luz y oficio en la producción audiovisual híbrida."
     }
+  },
+  "blog": {
+    "label": "Diario del estudio",
+    "title": "Notas sobre luz y oficio.",
+    "empty": "Todavía no hay artículos.",
+    "read": "Leer",
+    "minutes": "min de lectura",
+    "back": "Volver al blog"
   }
 }

@@ -2,6 +2,7 @@ import gl from "@/content/i18n/gl.json";
 import es from "@/content/i18n/es.json";
 import en from "@/content/i18n/en.json";
 import piecesData from "@/content/pieces.json";
+import postsData from "@/content/posts.json";
 import camisetaReconquistaAsset from "@/assets/work/camiseta-reconquista.png.asset.json";
 import viaxeNoTempoAsset from "@/assets/work/viaxe-no-tempo.png.asset.json";
 
@@ -26,13 +27,14 @@ export function dict(lang: Lang): Dict {
 }
 
 /** Canonical page keys and their localised URL slugs. */
-export type PageKey = "work" | "method" | "ethics" | "studio" | "contact";
+export type PageKey = "work" | "method" | "ethics" | "studio" | "blog" | "contact";
 
 export const SLUGS: Record<PageKey, Record<Lang, string>> = {
   work: { gl: "traballo", es: "trabajo", en: "work" },
   method: { gl: "metodo", es: "metodo", en: "method" },
   ethics: { gl: "etica", es: "etica", en: "ethics" },
   studio: { gl: "estudio", es: "estudio", en: "studio" },
+  blog: { gl: "blog", es: "blog", en: "blog" },
   contact: { gl: "contacto", es: "contacto", en: "contact" },
 };
 
@@ -164,5 +166,46 @@ export function pieceLink(lang: Lang, slug: string) {
   return {
     to: "/$lang/$section/$slug" as const,
     params: { lang, section: slugFor("work", lang), slug },
+  };
+}
+
+export type Post = {
+  slug: string;
+  data: string;
+  imaxe: string | null;
+  titulo: Record<Lang, string>;
+  extracto: Record<Lang, string>;
+  corpo: Record<Lang, string[]>;
+};
+
+/** Blog posts, newest first. */
+export const posts = (postsData as Post[]).slice().sort((a, b) => b.data.localeCompare(a.data));
+
+export function postBySlug(slug: string): Post | undefined {
+  return posts.find((p) => p.slug === slug);
+}
+
+export function readingMinutes(post: Post, lang: Lang): number {
+  const words = post.corpo[lang].join(" ").split(/\s+/).length;
+  return Math.max(1, Math.round(words / 200));
+}
+
+const MONTHS: Record<Lang, string[]> = {
+  gl: ["xaneiro", "febreiro", "marzo", "abril", "maio", "xuño", "xullo", "agosto", "setembro", "outubro", "novembro", "decembro"],
+  es: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+  en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+};
+
+/** Deterministic date formatting (same on server and browser). */
+export function formatDate(iso: string, lang: Lang): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const month = MONTHS[lang][(m ?? 1) - 1];
+  return lang === "en" ? `${d} ${month} ${y}` : `${d} de ${month} de ${y}`;
+}
+
+export function postLink(lang: Lang, slug: string) {
+  return {
+    to: "/$lang/$section/$slug" as const,
+    params: { lang, section: slugFor("blog", lang), slug },
   };
 }

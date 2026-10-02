@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "ideas-que-merecen-luz",
+    "data": "2026-10-02",
+    "imaxe": "/posters/tempo.jpg",
+    "titulo": {
+      "gl": "Ideas que merecen luz",
+      "es": "Ideas que merecen luz",
+      "en": "Ideas that deserve light"
+    },
+    "extracto": {
+      "gl": "Por que en Aluma a luz decide que se ve e que queda na sombra.",
+      "es": "Por qué en Aluma la luz decide qué se ve y qué queda en sombra.",
+      "en": "Why at Aluma light decides what is seen and what stays in shadow."
+    },
+    "corpo": {
+      "gl": [
+        "Cada peza comeza cunha pregunta sinxela: que merece ser visto?",
+        "Rodamos o que existe e xeramos só o que sería imposible rodar. A luz é o fío que une as dúas cousas.",
+        "Este blog será o noso caderno: proceso, probas e aprendizaxes do estudio."
+      ],
+      "es": [
+        "Cada pieza empieza con una pregunta sencilla: ¿qué merece ser visto?",
+        "Rodamos lo que existe y generamos solo lo que sería imposible rodar. La luz es el hilo que une ambas cosas.",
+        "Este blog será nuestro cuaderno: proceso, pruebas y aprendizajes del estudio."
+      ],
+      "en": [
+        "Every piece starts with a simple question: what deserves to be seen?",
+        "We shoot what exists and generate only what would be impossible to film. Light is the thread that joins both.",
+        "This blog will be our notebook: process, tests and lessons from the studio."
+      ]
+    }
+  }
+]

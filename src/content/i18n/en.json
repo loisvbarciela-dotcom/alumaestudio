@@ -9,7 +9,8 @@
     "contact": "Contact",
     "menu": "Menu",
     "close": "Close",
-    "language": "Language"
+    "language": "Language",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Ideas that deserve light",
@@ -144,6 +145,18 @@
     "contact": {
       "title": "Contact — Aluma",
       "description": "Let's talk about your next campaign. Hybrid film studio in Galicia, Spain."
+    },
+    "blog": {
+      "title": "Blog — Aluma",
+      "description": "Studio notes: process, light and craft in hybrid film production."
     }
+  },
+  "blog": {
+    "label": "Studio journal",
+    "title": "Notes on light and craft.",
+    "empty": "No articles yet.",
+    "read": "Read",
+    "minutes": "min read",
+    "back": "Back to blog"
   }
 }

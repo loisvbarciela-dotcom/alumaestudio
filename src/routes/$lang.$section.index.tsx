@@ -4,6 +4,7 @@ import { WorkPage } from "@/components/aluma/pages/WorkPage";
 import { MethodPage } from "@/components/aluma/pages/MethodPage";
 import { EthicsPage } from "@/components/aluma/pages/EthicsPage";
 import { StudioPage } from "@/components/aluma/pages/StudioPage";
+import { BlogPage } from "@/components/aluma/pages/BlogPage";
 import { ContactPage } from "@/components/aluma/pages/ContactPage";
 import { LANGS, dict, isLang, pageFromSlug, slugFor, type Lang, type PageKey } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
@@ -39,6 +40,7 @@ const PAGES: Record<PageKey, (props: { lang: Lang }) => React.ReactElement> = {
   method: MethodPage,
   ethics: EthicsPage,
   studio: StudioPage,
+  blog: BlogPage,
   contact: ContactPage,
 };
 
