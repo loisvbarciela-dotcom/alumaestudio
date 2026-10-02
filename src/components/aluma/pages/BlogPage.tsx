@@ -79,9 +79,24 @@ export function BlogArticle({ lang, slug }: { lang: Lang; slug: string }) {
         />
       )}
       <div className="gutter mt-16 max-w-2xl space-y-6 text-lg leading-relaxed text-oso/90">
-        {post.corpo[lang].map((para, i) => (
-          <p key={i}>{para}</p>
-        ))}
+        {post.corpo[lang].map((para, i) => {
+          if (para.startsWith("# ")) {
+            return (
+              <h2 key={i} className="pt-10 text-xl uppercase tracking-[0.18em] text-ouro">
+                {para.slice(2)}
+              </h2>
+            );
+          }
+          if (para.startsWith("· ")) {
+            return (
+              <p key={i} className="flex gap-4">
+                <span aria-hidden className="text-ouro">·</span>
+                <span>{para.slice(2)}</span>
+              </p>
+            );
+          }
+          return <p key={i}>{para}</p>;
+        })}
       </div>
       <div className="gutter mt-16">
         <Link
