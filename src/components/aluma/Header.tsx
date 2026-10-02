@@ -8,6 +8,7 @@ import {
   pageLink,
   pageFromSlug,
   pieceLink,
+  postLink,
   rememberLang,
   type Lang,
   type PageKey,
@@ -33,6 +34,7 @@ export function Header({ lang }: { lang: Lang }) {
   const targetFor = (to: Lang) => {
     if (!page) return homeLink(to);
     if (page === "work" && pieceSlug) return pieceLink(to, pieceSlug);
+    if (page === "blog" && pieceSlug) return postLink(to, pieceSlug);
     return pageLink(page, to);
   };
 
