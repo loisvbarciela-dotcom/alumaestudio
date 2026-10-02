@@ -14,11 +14,13 @@ import {
   nextPiece,
   pieceBySlug,
   pieceLink,
+  postBySlug,
   slugFor,
   youtubeId,
   type Lang,
 } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
+import { BlogArticle } from "@/components/aluma/pages/BlogPage";
 
 /** Page-only poster override — the home hero keeps its own image. */
 const posterOverrides: Record<string, string> = {
