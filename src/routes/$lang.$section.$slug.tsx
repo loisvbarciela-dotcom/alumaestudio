@@ -28,11 +28,45 @@ const posterOverrides: Record<string, string> = {
 export const Route = createFileRoute("/$lang/$section/$slug")({
   beforeLoad: ({ params }) => {
     if (!isLang(params.lang)) throw notFound();
+    if (params.section === slugFor("blog", params.lang)) {
+      if (!postBySlug(params.slug)) throw notFound();
+      return;
+    }
     if (params.section !== slugFor("work", params.lang)) throw notFound();
     if (!pieceBySlug(params.slug)) throw notFound();
   },
   head: ({ params }) => {
     const lang = (isLang(params.lang) ? params.lang : "gl") as Lang;
+    const post = params.section === "blog" ? postBySlug(params.slug) : undefined;
+    if (post) {
+      const head = buildHead({
+        lang,
+        title: `${post.titulo[lang]} — Aluma`,
+        description: post.extracto[lang],
+        path: `/${lang}/blog/${post.slug}`,
+        alternates: Object.fromEntries(
+          LANGS.map((code) => [code, `/${code}/blog/${post.slug}`]),
+        ) as Record<Lang, string>,
+        ...(post.imaxe ? { image: post.imaxe } : {}),
+      });
+      return {
+        ...head,
+        scripts: [
+          {
+            type: "application/ld+json",
+            children: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              headline: post.titulo[lang],
+              description: post.extracto[lang],
+              datePublished: post.data,
+              inLanguage: lang,
+              author: { "@type": "Organization", name: "Aluma", url: SITE_URL },
+            }),
+          },
+        ],
+      };
+    }
     const piece = pieceBySlug(params.slug);
     const t = dict(lang);
     if (!piece) {
