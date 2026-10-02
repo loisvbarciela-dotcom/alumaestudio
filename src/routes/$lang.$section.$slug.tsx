@@ -128,6 +128,13 @@ function CaseRoute() {
   const params = Route.useParams();
   const lang = (isLang(params.lang) ? params.lang : "gl") as Lang;
   const t = dict(lang);
+  if (params.section === "blog") {
+    return (
+      <SiteShell lang={lang}>
+        <BlogArticle lang={lang} slug={params.slug} />
+      </SiteShell>
+    );
+  }
   const piece = pieceBySlug(params.slug);
   if (!piece) throw notFound();
   const next = nextPiece(piece.slug);
