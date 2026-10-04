@@ -1,5 +1,76 @@
 [
   {
+    "slug": "seis-parques-unha-aventura-fora-da-pantalla",
+    "data": "2026-10-04",
+    "imaxe": "/posters/app-store.jpg",
+    "titulo": {
+      "gl": "Seis parques, unha aventura fóra da pantalla",
+      "es": "Seis parques, una aventura fuera de la pantalla",
+      "en": "Six parks, one adventure beyond the screen"
+    },
+    "extracto": {
+      "gl": "O anuncio «Non dispoñible na App Store» convídanos a descubrir seis lugares de Galicia nos que a mellor experiencia non cabe nunha pantalla.",
+      "es": "El anuncio «No disponible en la App Store» nos invita a descubrir seis lugares de Galicia donde la mejor experiencia no cabe en una pantalla.",
+      "en": "The advert “Not Available on the App Store” invites us to discover six places in Galicia where the best experience cannot fit on a screen."
+    },
+    "corpo": {
+      "gl": [
+        "Hai experiencias que non se poden descargar. «Non dispoñible na App Store» nace desa idea: lembrar que a sorpresa, o xogo e a curiosidade seguen agardando fóra da pantalla.",
+        "A peza percorre seis parques e espazos naturais de Galicia para transformar unha recomendación familiar nunha pequena aventura cinematográfica. Cada lugar ten unha identidade propia e, xuntos, compoñen un mapa de sensacións: tocar, escoitar, explorar, perderse, mirar e compartir.",
+        "# PARQUE DOS SENTIDOS · MARÍN",
+        "Na antiga Granxa de Briz, moi preto do centro de Marín, o percorrido está pensado para activar os cinco sentidos. Figuras talladas nas árbores, a auga de fervenzas e estanques, froiteiras, xogos de habilidade, grandes tobogáns e redes de escalada converten a visita nunha experiencia para observar e participar.",
+        "# PARQUE DO PASATEMPO · BETANZOS",
+        "Inaugurado en 1914 por Juan García Naveira, o Pasatempo trasladou a Betanzos lembranzas de viaxes e curiosidades do mundo. Os seus xardíns, esculturas, estanques, covas artificiais e niveis conectados fan del un lugar no que historia e imaxinación avanzan da man.",
+        "# PARQUE DE EIRÍS · A CORUÑA",
+        "Tobogáns longos, unha dobre tirolina, redes de escalada e amplas zonas para pasear rodean o estanque do parque. Dende as ruínas do Castelo de Eirís, a visita complétase cunha panorámica privilexiada sobre o peirao da Coruña.",
+        "# PASARELA DO RÍO MAO · RIBEIRA SACRA",
+        "Este curto itinerario de 1,8 quilómetros parte da antiga central hidroeléctrica da Fábrica da Luz e avanza entre as árbores, paralelo ao río Mao, ata a súa desembocadura no Sil. A madeira, a auga e a vista sobre os canóns converten o paseo nunha aventura accesible para toda a familia.",
+        "# LABIRINTO COSTA MARIÑA · RINLO",
+        "O gran labirinto, cun percorrido de case 4.000 metros, é o corazón deste parque da Mariña lucense. A recompensa ao chegar ao miradoiro central é contemplar a forma completa do labirinto e, máis alá, a costa e as montañas.",
+        "# PARQUE DA CANUDA · SALVATERRA DE MIÑO",
+        "Á beira do Miño, A Canuda reúne un longo paseo para camiñar ou pedalear, un gran parque infantil, un circuíto de educación viaria, un pequeno zoo e mesmo un lago con barcas. Un lugar pensado para pasar o día e deixar que cada persoa escolla a súa propia aventura.",
+        "O anuncio reúne estes seis destinos baixo unha mesma mirada: Galicia como territorio para descubrir en familia, sen filtros e sen botón de descarga. Porque algunhas das mellores historias só comezan cando levantamos a vista da pantalla.",
+        "Referencia: «6 parques para visitar en familia este verano», blog de Turismo de Galicia."
+      ],
+      "es": [
+        "Hay experiencias que no se pueden descargar. «No disponible en la App Store» nace de esa idea: recordar que la sorpresa, el juego y la curiosidad siguen esperando fuera de la pantalla.",
+        "La pieza recorre seis parques y espacios naturales de Galicia para transformar una recomendación familiar en una pequeña aventura cinematográfica. Cada lugar tiene una identidad propia y, juntos, componen un mapa de sensaciones: tocar, escuchar, explorar, perderse, mirar y compartir.",
+        "# PARQUE DE LOS SENTIDOS · MARÍN",
+        "En la antigua Granja de Briz, muy cerca del centro de Marín, el recorrido está pensado para activar los cinco sentidos. Figuras talladas en los árboles, el agua de cascadas y estanques, frutales, juegos de habilidad, grandes toboganes y redes de escalada convierten la visita en una experiencia para observar y participar.",
+        "# PARQUE DO PASATEMPO · BETANZOS",
+        "Inaugurado en 1914 por Juan García Naveira, el Pasatempo trasladó a Betanzos recuerdos de viajes y curiosidades del mundo. Sus jardines, esculturas, estanques, cuevas artificiales y niveles conectados hacen de él un lugar donde historia e imaginación avanzan de la mano.",
+        "# PARQUE EIRÍS · A CORUÑA",
+        "Largos toboganes, una doble tirolina, redes de escalada y amplias zonas para pasear rodean el estanque del parque. Desde las ruinas del Castillo de Eirís, la visita se completa con una panorámica privilegiada sobre el muelle de A Coruña.",
+        "# PASARELA DEL RÍO MAO · RIBEIRA SACRA",
+        "Este corto itinerario de 1,8 kilómetros parte de la antigua central hidroeléctrica de la Fábrica de la Luz y avanza entre los árboles, paralelo al río Mao, hasta su desembocadura en el Sil. La madera, el agua y la vista sobre los cañones convierten el paseo en una aventura accesible para toda la familia.",
+        "# LABERINTO COSTA MARIÑA · RINLO",
+        "El gran laberinto, con un recorrido de casi 4.000 metros, es el corazón de este parque de A Mariña lucense. La recompensa al llegar al mirador central es contemplar la forma completa del laberinto y, más allá, la costa y las montañas.",
+        "# PARQUE A CANUDA · SALVATERRA DE MIÑO",
+        "A orillas del Miño, A Canuda reúne un largo paseo para caminar o pedalear, un gran parque infantil, un circuito de educación vial, un pequeño zoo e incluso un lago con barcas. Un lugar pensado para pasar el día y dejar que cada persona elija su propia aventura.",
+        "El anuncio reúne estos seis destinos bajo una misma mirada: Galicia como territorio para descubrir en familia, sin filtros y sin botón de descarga. Porque algunas de las mejores historias solo comienzan cuando levantamos la vista de la pantalla.",
+        "Referencia: «6 parques para visitar en familia este verano», blog de Turismo de Galicia."
+      ],
+      "en": [
+        "Some experiences cannot be downloaded. “Not Available on the App Store” was born from that idea: a reminder that surprise, play and curiosity are still waiting beyond the screen.",
+        "The film travels through six parks and natural spaces in Galicia, turning a family recommendation into a small cinematic adventure. Each place has its own identity and together they form a map of sensations: touching, listening, exploring, getting lost, looking and sharing.",
+        "# PARQUE DOS SENTIDOS · MARÍN",
+        "At the former Granja de Briz, close to the centre of Marín, the route is designed to awaken all five senses. Figures carved into trees, cascading water and ponds, fruit trees, skill games, large slides and climbing nets make this a place to observe and take part.",
+        "# PARQUE DO PASATEMPO · BETANZOS",
+        "Opened in 1914 by Juan García Naveira, Pasatempo brought memories of travels and curiosities from around the world to Betanzos. Its gardens, sculptures, ponds, artificial caves and connected levels make it a place where history and imagination move together.",
+        "# PARQUE EIRÍS · A CORUÑA",
+        "Long slides, a double zip line, climbing nets and generous walking areas surround the park's pond. From the ruins of Eirís Castle, the visit ends with a privileged panoramic view over A Coruña's harbour.",
+        "# RIVER MAO WALKWAY · RIBEIRA SACRA",
+        "This short 1.8-kilometre route begins at the former Fábrica da Luz hydroelectric plant and runs through the trees beside the River Mao until it meets the Sil. Timber, water and views over the canyons turn the walk into an adventure for the whole family.",
+        "# LABERINTO COSTA MARIÑA · RINLO",
+        "A maze stretching for almost 4,000 metres is the centrepiece of this park in A Mariña, Lugo. Reaching the central viewpoint reveals the full shape of the maze, with the coast and mountains beyond it.",
+        "# PARQUE A CANUDA · SALVATERRA DE MIÑO",
+        "On the banks of the Miño, A Canuda brings together a long riverside path for walking or cycling, a large playground, a road-safety circuit, a small zoo and even a boating lake. It is a place made for spending the day and choosing your own adventure.",
+        "The advert brings these six destinations together through one idea: Galicia as a place for families to discover, without filters and without a download button. Because some of the best stories only begin when we look up from the screen.",
+        "Reference: “6 parques para visitar en familia este verano”, Turismo de Galicia blog."
+      ]
+    }
+  },
+  {
     "slug": "ideas-que-merecen-luz",
     "data": "2026-10-02",
     "imaxe": "/posters/tempo.jpg",
