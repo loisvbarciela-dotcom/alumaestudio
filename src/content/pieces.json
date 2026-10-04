@@ -354,56 +354,23 @@
     "ferramentas": []
   },
   {
-    "slug": "cinza-e-ouro",
+    "slug": "app-store",
     "titulo": {
-      "gl": "Cinza e ouro",
-      "es": "Ceniza y oro",
-      "en": "Ash and Gold"
+      "gl": "Non dispoñible na App Store",
+      "es": "No disponible en App Store",
+      "en": "Not Available on the App Store"
     },
     "sala": "publicidade",
-    "ano": "2026",
+    "ano": null,
     "cliente": null,
-    "duracion": "0:30",
+    "duracion": null,
     "videoUrl": null,
-    "youtubeUrl": null,
+    "youtubeUrl": "https://www.youtube.com/embed/g0QzeoHYYT4",
     "instagramUrl": null,
-    "posterUrl": "/placeholders/cinza-e-ouro.jpg",
-    "destacada": false,
-    "idioma": null,
+    "posterUrl": "/posters/app-store.jpg",
+    "idioma": "gl",
     "sinopse": null,
-    "desglose": [
-      {
-        "tipo": "rodado",
-        "imagen": null,
-        "texto": {
-          "gl": "O produto, en mesa de rodaxe con óptica macro. O cliente ten que recoñecelo sen dúbida.",
-          "es": "El producto, en mesa de rodaje con óptica macro. El cliente tiene que reconocerlo sin duda.",
-          "en": "The product, on a table-top rig with macro glass. The client has to recognise it instantly."
-        }
-      },
-      {
-        "tipo": "xerado",
-        "imagen": null,
-        "texto": {
-          "gl": "A cidade de cinza que rodea o produto. Un decorado deste tamaño non entraba no orzamento de ninguén.",
-          "es": "La ciudad de ceniza que rodea el producto. Un decorado de este tamaño no entraba en el presupuesto de nadie.",
-          "en": "The ash city around the product. A set this size never fit anyone's budget."
-        }
-      },
-      {
-        "tipo": "xerado",
-        "imagen": null,
-        "texto": {
-          "gl": "As partículas en suspensión, xeradas e integradas para casar coa profundidade de campo do rodado.",
-          "es": "Las partículas en suspensión, generadas e integradas para casar con la profundidad de campo del rodaje.",
-          "en": "Airborne particles, generated and integrated to match the live-action depth of field."
-        }
-      }
-    ],
-    "ferramentas": [
-      "RED Komodo",
-      "Veo 3",
-      "Flame"
-    ]
+    "desglose": [],
+    "ferramentas": []
   }
 ]
