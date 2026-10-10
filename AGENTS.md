@@ -13,3 +13,4 @@
 - Product sales copy lives in localized content files for every supported language; enquiries use the existing contact page, not a simulated submission or automatic film-generation flow.
 - Keep supported languages in the shared LANGS registry and validate contact language with it; this prevents page and submission support from drifting apart.
 - Cyrillic display typography uses the global locale-specific font token; the original Latin display font lacks Cyrillic glyphs.
+- Regenerate the static sitemap with scripts/generate-sitemap.ts after locale or content changes; the shared registry keeps alternates aligned with real pages.
