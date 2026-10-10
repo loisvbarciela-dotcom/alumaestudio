@@ -10,7 +10,8 @@
     "menu": "Menú",
     "close": "Pechar",
     "language": "Idioma",
-    "blog": "Blog"
+    "blog": "Blog",
+    "love": "A túa película"
   },
   "hero": {
     "title": "Ideas que merecen luz",
@@ -149,6 +150,10 @@
     "blog": {
       "title": "Blog — Aluma",
       "description": "Notas do estudio: proceso, luz e oficio na produción audiovisual híbrida."
+    },
+    "love": {
+      "title": "A túa película personalizada — ALUMA",
+      "description": "Dúas fotografías. Unha historia de amor de película. Cine personalizado para vodas, parellas e wedding planners."
     }
   },
   "blog": {

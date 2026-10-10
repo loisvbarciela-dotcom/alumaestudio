@@ -10,7 +10,8 @@
     "menu": "Menu",
     "close": "Close",
     "language": "Language",
-    "blog": "Blog"
+    "blog": "Blog",
+    "love": "Your film"
   },
   "hero": {
     "title": "Ideas that deserve light",
@@ -149,6 +150,10 @@
     "blog": {
       "title": "Blog — Aluma",
       "description": "Studio notes: process, light and craft in hybrid film production."
+    },
+    "love": {
+      "title": "Your personalised film — ALUMA",
+      "description": "Two photographs. A cinematic love story. Bespoke films for weddings, couples and wedding planners."
     }
   },
   "blog": {

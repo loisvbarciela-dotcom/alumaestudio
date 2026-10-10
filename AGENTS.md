@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Standalone product pages use the existing localized section registry and shared SiteShell so language switching and navigation stay consistent.
+- Product sales copy lives in trilingual content files; enquiries use the existing contact page, not a simulated submission or automatic film-generation flow.
