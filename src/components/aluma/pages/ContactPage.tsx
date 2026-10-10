@@ -62,6 +62,12 @@ export function ContactPage({ lang }: { lang: Lang }) {
                 autoComplete="email"
               />
             </div>
+            <div>
+              <label htmlFor="phone" className="label-xs text-bruma">
+                {t.contact.phone}
+              </label>
+              <input id="phone" name="phone" type="tel" className={field} autoComplete="tel" />
+            </div>
           </div>
 
           <div className="mt-8">

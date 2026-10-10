@@ -14,16 +14,17 @@ import type { TemplateEntry } from './registry'
 export interface ContactNotificationProps {
   name?: string
   email?: string
+  phone?: string
   projectType?: string
   message?: string
   lang?: string
 }
 
-const labels: Record<string, { from: string; type: string; message: string }> = {
-  gl: { from: 'De', type: 'Tipo de proxecto', message: 'Mensaxe' },
-  es: { from: 'De', type: 'Tipo de proyecto', message: 'Mensaje' },
-  en: { from: 'From', type: 'Project type', message: 'Message' },
-  ru: { from: 'От', type: 'Тип проекта', message: 'Сообщение' },
+const labels: Record<string, { from: string; phone: string; type: string; message: string }> = {
+  gl: { from: 'De', phone: 'Teléfono', type: 'Tipo de proxecto', message: 'Mensaxe' },
+  es: { from: 'De', phone: 'Teléfono', type: 'Tipo de proyecto', message: 'Mensaje' },
+  en: { from: 'From', phone: 'Phone', type: 'Project type', message: 'Message' },
+  ru: { from: 'От', phone: 'Телефон', type: 'Тип проекта', message: 'Сообщение' },
 }
 
 function ContactNotification({
