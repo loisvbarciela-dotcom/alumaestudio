@@ -113,8 +113,9 @@
     "message": "Mensaje",
     "submit": "Enviar",
     "sending": "Enviando",
-    "success": "Recibido. Respondemos en breve.",
-    "error": "No se pudo enviar. Escribe a hola@aluma.gal."
+    "success": "Abrimos tu aplicación de correo con el mensaje ya escrito. Comprueba que se ha abierto; si no, escríbenos directamente.",
+    "error": "No se pudo abrir tu aplicación de correo. Escríbenos directamente.",
+    "direct": "O escríbenos directamente a"
   },
   "footer": {
     "line": "ALUMA · Estudio audiovisual · Galicia · aluma.gal",

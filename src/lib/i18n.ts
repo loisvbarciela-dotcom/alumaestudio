@@ -58,6 +58,8 @@ export function homePath(lang: Lang): string {
 }
 
 export const SITE_URL = "https://aluma.gal";
+/** Where enquiries land for now: the form opens the visitor's mail app addressed here. */
+export const CONTACT_EMAIL = "alumagalicia@gmail.com";
 
 export const ROOMS = ["ficcion", "deporte", "documental", "publicidade"] as const;
 export type Room = (typeof ROOMS)[number];

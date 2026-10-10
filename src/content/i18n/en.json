@@ -113,8 +113,9 @@
     "message": "Message",
     "submit": "Send",
     "sending": "Sending",
-    "success": "Received. We'll be in touch shortly.",
-    "error": "Couldn't send. Write to hola@aluma.gal."
+    "success": "We open your mail app with the message already written. Check that it opened; if not, write to us directly.",
+    "error": "Couldn't open your mail app. Write to us directly.",
+    "direct": "Or write to us directly at"
   },
   "footer": {
     "line": "ALUMA · Film studio · Galicia · aluma.gal",
