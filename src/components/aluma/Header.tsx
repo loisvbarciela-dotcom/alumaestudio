@@ -49,7 +49,7 @@ export function Header({ lang }: { lang: Lang }) {
           Aluma
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label={t.nav.menu}>
+        <nav className="hidden items-center gap-5 xl:flex" aria-label={t.nav.menu}>
           {PAGE_KEYS.map((key) => (
             <Link
               key={key}
@@ -83,7 +83,7 @@ export function Header({ lang }: { lang: Lang }) {
             type="button"
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
-            className="label-xs text-bruma hover:text-oso md:hidden"
+            className="label-xs text-bruma hover:text-oso xl:hidden"
           >
             {open ? t.nav.close : t.nav.menu}
           </button>
@@ -91,7 +91,7 @@ export function Header({ lang }: { lang: Lang }) {
       </div>
 
       {open && (
-        <nav className="flex flex-col gap-5 border-t py-8 md:hidden" aria-label={t.nav.menu}>
+        <nav className="flex max-h-[calc(100dvh-4rem)] flex-col gap-5 overflow-y-auto border-t py-8 xl:hidden" aria-label={t.nav.menu}>
           {PAGE_KEYS.map((key) => (
             <Link
               key={key}

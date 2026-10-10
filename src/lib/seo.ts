@@ -16,12 +16,14 @@ export function buildHead({ lang, title, description, path, alternates, image }:
     { name: "description", content: description },
     { property: "og:title", content: title },
     { property: "og:description", content: description },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
     { property: "og:url", content: url },
     { property: "og:locale", content: lang === "gl" ? "gl_ES" : lang === "es" ? "es_ES" : "en_GB" },
     { name: "twitter:title", content: title },
     { name: "twitter:description", content: description },
   ];
-  if (image) {
+  if (image?.startsWith("https://")) {
     meta.push({ property: "og:image", content: image });
     meta.push({ name: "twitter:image", content: image });
   }

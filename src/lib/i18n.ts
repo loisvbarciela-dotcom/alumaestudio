@@ -27,10 +27,11 @@ export function dict(lang: Lang): Dict {
 }
 
 /** Canonical page keys and their localised URL slugs. */
-export type PageKey = "work" | "method" | "ethics" | "studio" | "blog" | "contact";
+export type PageKey = "work" | "love" | "method" | "ethics" | "studio" | "blog" | "contact";
 
 export const SLUGS: Record<PageKey, Record<Lang, string>> = {
   work: { gl: "traballo", es: "trabajo", en: "work" },
+  love: { gl: "a-tua-pelicula", es: "tu-pelicula", en: "your-film" },
   method: { gl: "metodo", es: "metodo", en: "method" },
   ethics: { gl: "etica", es: "etica", en: "ethics" },
   studio: { gl: "estudio", es: "estudio", en: "studio" },
