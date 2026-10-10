@@ -24,5 +24,22 @@ export const submitContact = createServerFn({ method: "POST" })
       console.error("contact insert failed", error);
       throw new Error("save_failed");
     }
+    try {
+      const { sendTemplateEmail } = await import("@/lib/email-templates/send-email");
+      await sendTemplateEmail("contact-notification", "alumagalicia@gmail.com", {
+        templateData: {
+          name: data.name,
+          email: data.email,
+          projectType: data.projectType,
+          message: data.message,
+          lang: data.lang,
+        },
+        idempotencyKey: `contact-${data.email}-${data.message.slice(0, 64)}`,
+        replyTo: data.email,
+      });
+    } catch (emailError) {
+      // The message is safely stored; a failed notification must not fail the submission.
+      console.error("contact notification email failed", emailError);
+    }
     return { ok: true };
   });
