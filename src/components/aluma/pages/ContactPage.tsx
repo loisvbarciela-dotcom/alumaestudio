@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ROOMS, dict, type Lang } from "@/lib/i18n";
+import { CONTACT_EMAIL, ROOMS, dict, type Lang, type Room } from "@/lib/i18n";
 
 const ENDPOINT = import.meta.env["VITE_CONTACT_ENDPOINT"] as string | undefined;
 
@@ -10,23 +10,45 @@ export function ContactPage({ lang }: { lang: Lang }) {
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
-    const payload = Object.fromEntries(new FormData(form).entries());
-    if (!ENDPOINT) {
-      // No endpoint configured yet: the form stays functional for the client to wire up.
-      setStatus("sent");
-      form.reset();
+    const data = new FormData(form);
+    const name = String(data.get("name") ?? "");
+    const email = String(data.get("email") ?? "");
+    const room = String(data.get("projectType") ?? "");
+    const message = String(data.get("message") ?? "");
+    const roomName = (ROOMS as readonly string[]).includes(room)
+      ? t.work.rooms[room as Room]
+      : room;
+
+    if (ENDPOINT) {
+      setStatus("sending");
+      try {
+        const res = await fetch(ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, projectType: room, message, lang }),
+        });
+        if (!res.ok) throw new Error(String(res.status));
+        setStatus("sent");
+        form.reset();
+      } catch {
+        setStatus("error");
+      }
       return;
     }
-    setStatus("sending");
+
+    // No endpoint configured yet: hand the message to the visitor's mail app, addressed to ALUMA.
+    const subject = [t.contact.label, roomName, name].filter(Boolean).join(" · ");
+    const body = [
+      `${t.contact.name}: ${name}`,
+      `${t.contact.email}: ${email}`,
+      `${t.contact.projectType}: ${roomName}`,
+      "",
+      message,
+    ].join("\n");
+    const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     try {
-      const res = await fetch(ENDPOINT, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...payload, lang }),
-      });
-      if (!res.ok) throw new Error(String(res.status));
+      window.location.href = href;
       setStatus("sent");
-      form.reset();
     } catch {
       setStatus("error");
     }
@@ -95,6 +117,16 @@ export function ContactPage({ lang }: { lang: Lang }) {
 
           <p aria-live="polite" className="mt-8 text-[15px] text-bruma">
             {status === "sent" ? t.contact.success : status === "error" ? t.contact.error : ""}
+          </p>
+
+          <p className="mt-4 text-[15px] text-bruma">
+            {t.contact.direct}{" "}
+            <a
+              className="border-b border-ouro/60 text-oso hover:border-ouro"
+              href={`mailto:${CONTACT_EMAIL}`}
+            >
+              {CONTACT_EMAIL}
+            </a>
           </p>
         </form>
       </section>
