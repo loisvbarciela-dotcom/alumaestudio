@@ -22,6 +22,7 @@ export type Database = {
           lang: string
           message: string
           name: string
+          phone: string | null
           project_type: string
         }
         Insert: {
@@ -31,6 +32,7 @@ export type Database = {
           lang: string
           message: string
           name: string
+          phone?: string | null
           project_type: string
         }
         Update: {
@@ -40,6 +42,7 @@ export type Database = {
           lang?: string
           message?: string
           name?: string
+          phone?: string | null
           project_type?: string
         }
         Relationships: []
