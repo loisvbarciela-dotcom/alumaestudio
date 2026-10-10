@@ -72,6 +72,14 @@ function ContactNotification({
             <Text style={{ color: '#F4F0E8', fontSize: '16px', margin: '0 0 20px' }}>
               {name} · {email}
             </Text>
+            {phone ? (
+              <>
+                <Text style={{ color: '#8A8378', fontSize: '12px', margin: '0 0 4px', textTransform: 'uppercase' }}>
+                  {l.phone}
+                </Text>
+                <Text style={{ color: '#F4F0E8', fontSize: '16px', margin: '0 0 20px' }}>{phone}</Text>
+              </>
+            ) : null}
             <Text style={{ color: '#8A8378', fontSize: '12px', margin: '0 0 4px', textTransform: 'uppercase' }}>
               {l.type}
             </Text>
