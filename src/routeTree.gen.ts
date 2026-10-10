@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as LangIndexRouteImport } from './routes/$lang.index'
 import { Route as LangSectionIndexRouteImport } from './routes/$lang.$section.index'
 import { Route as LangSectionSlugRouteImport } from './routes/$lang.$section.$slug'
+import { Route as LovableEmailTransactionalPreviewRouteImport } from './routes/lovable/email/transactional/preview'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -34,18 +35,26 @@ const LangSectionSlugRoute = LangSectionSlugRouteImport.update({
   path: '/$lang/$section/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LovableEmailTransactionalPreviewRoute =
+  LovableEmailTransactionalPreviewRouteImport.update({
+    id: '/lovable/email/transactional/preview',
+    path: '/lovable/email/transactional/preview',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$lang/': typeof LangIndexRoute
   '/$lang/$section/$slug': typeof LangSectionSlugRoute
   '/$lang/$section/': typeof LangSectionIndexRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$lang': typeof LangIndexRoute
   '/$lang/$section/$slug': typeof LangSectionSlugRoute
   '/$lang/$section': typeof LangSectionIndexRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -53,14 +62,30 @@ export interface FileRoutesById {
   '/$lang/': typeof LangIndexRoute
   '/$lang/$section/$slug': typeof LangSectionSlugRoute
   '/$lang/$section/': typeof LangSectionIndexRoute
+  '/lovable/email/transactional/preview': typeof LovableEmailTransactionalPreviewRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/$lang/' | '/$lang/$section/$slug' | '/$lang/$section/'
+  fullPaths:
+    | '/'
+    | '/$lang/'
+    | '/$lang/$section/$slug'
+    | '/$lang/$section/'
+    | '/lovable/email/transactional/preview'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/$lang' | '/$lang/$section/$slug' | '/$lang/$section'
+  to:
+    | '/'
+    | '/$lang'
+    | '/$lang/$section/$slug'
+    | '/$lang/$section'
+    | '/lovable/email/transactional/preview'
   id:
-    '__root__' | '/' | '/$lang/' | '/$lang/$section/$slug' | '/$lang/$section/'
+    | '__root__'
+    | '/'
+    | '/$lang/'
+    | '/$lang/$section/$slug'
+    | '/$lang/$section/'
+    | '/lovable/email/transactional/preview'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -68,6 +93,7 @@ export interface RootRouteChildren {
   LangIndexRoute: typeof LangIndexRoute
   LangSectionSlugRoute: typeof LangSectionSlugRoute
   LangSectionIndexRoute: typeof LangSectionIndexRoute
+  LovableEmailTransactionalPreviewRoute: typeof LovableEmailTransactionalPreviewRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -100,6 +126,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LangSectionSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/lovable/email/transactional/preview': {
+      id: '/lovable/email/transactional/preview'
+      path: '/lovable/email/transactional/preview'
+      fullPath: '/lovable/email/transactional/preview'
+      preLoaderRoute: typeof LovableEmailTransactionalPreviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -108,6 +141,7 @@ const rootRouteChildren: RootRouteChildren = {
   LangIndexRoute: LangIndexRoute,
   LangSectionSlugRoute: LangSectionSlugRoute,
   LangSectionIndexRoute: LangSectionIndexRoute,
+  LovableEmailTransactionalPreviewRoute: LovableEmailTransactionalPreviewRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
