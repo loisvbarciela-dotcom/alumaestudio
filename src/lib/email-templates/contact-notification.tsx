@@ -32,7 +32,7 @@ function ContactNotification({
   message = '…',
   lang = 'gl',
 }: ContactNotificationProps) {
-  const l = labels[lang] ?? labels.gl
+  const l = labels[lang] ?? labels.gl!
   return (
     <Html>
       <Head />
@@ -94,7 +94,7 @@ function ContactNotification({
 
 export const template = {
   component: ContactNotification,
-  subject: (data: Record<string, any>) => `Nova consulta web: ${data.name ?? 'Visitante'}`,
+  subject: (data: Record<string, any>) => `Nova consulta web: ${data['name'] ?? 'Visitante'}`,
   displayName: 'Aviso de consulta do formulario de contacto',
   to: 'alumagalicia@gmail.com',
   previewData: {
