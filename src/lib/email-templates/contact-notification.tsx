@@ -14,26 +14,28 @@ import type { TemplateEntry } from './registry'
 export interface ContactNotificationProps {
   name?: string
   email?: string
+  phone?: string
   projectType?: string
   message?: string
   lang?: string
 }
 
-const labels: Record<string, { from: string; type: string; message: string }> = {
-  gl: { from: 'De', type: 'Tipo de proxecto', message: 'Mensaxe' },
-  es: { from: 'De', type: 'Tipo de proyecto', message: 'Mensaje' },
-  en: { from: 'From', type: 'Project type', message: 'Message' },
-  ru: { from: 'От', type: 'Тип проекта', message: 'Сообщение' },
+const labels: Record<string, { from: string; phone: string; type: string; message: string }> = {
+  gl: { from: 'De', phone: 'Teléfono', type: 'Tipo de proxecto', message: 'Mensaxe' },
+  es: { from: 'De', phone: 'Teléfono', type: 'Tipo de proyecto', message: 'Mensaje' },
+  en: { from: 'From', phone: 'Phone', type: 'Project type', message: 'Message' },
+  ru: { from: 'От', phone: 'Телефон', type: 'Тип проекта', message: 'Сообщение' },
 }
 
 function ContactNotification({
   name = 'Visitante',
   email = 'sen@correo.es',
+  phone,
   projectType = 'ficcion',
   message = '…',
   lang = 'gl',
 }: ContactNotificationProps) {
-  const l = labels[lang] ?? { from: 'De', type: 'Tipo de proxecto', message: 'Mensaxe' }
+  const l = labels[lang] ?? { from: 'De', phone: 'Teléfono', type: 'Tipo de proxecto', message: 'Mensaxe' }
   return (
     <Html>
       <Head />
@@ -70,6 +72,14 @@ function ContactNotification({
             <Text style={{ color: '#F4F0E8', fontSize: '16px', margin: '0 0 20px' }}>
               {name} · {email}
             </Text>
+            {phone ? (
+              <>
+                <Text style={{ color: '#8A8378', fontSize: '12px', margin: '0 0 4px', textTransform: 'uppercase' }}>
+                  {l.phone}
+                </Text>
+                <Text style={{ color: '#F4F0E8', fontSize: '16px', margin: '0 0 20px' }}>{phone}</Text>
+              </>
+            ) : null}
             <Text style={{ color: '#8A8378', fontSize: '12px', margin: '0 0 4px', textTransform: 'uppercase' }}>
               {l.type}
             </Text>
@@ -101,6 +111,7 @@ export const template = {
   previewData: {
     name: 'María Piñeiro',
     email: 'maria@exemplo.com',
+    phone: '+34 600 123 456',
     projectType: 'Tu película personalizada',
     message: 'Ola! Casamos en xuño e gustaríanos unha película ambientada nos anos 20.',
     lang: 'gl',

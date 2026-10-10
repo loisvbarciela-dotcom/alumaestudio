@@ -8,6 +8,7 @@ export const submitContact = createServerFn({ method: "POST" })
     const { error } = await supabaseAdmin.from("contact_messages").insert({
       name: data.name,
       email: data.email,
+      phone: data.phone ?? null,
       project_type: data.projectType,
       message: data.message,
       lang: data.lang,

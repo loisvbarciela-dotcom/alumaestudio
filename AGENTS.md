@@ -14,3 +14,4 @@
 - Keep supported languages in the shared LANGS registry and validate contact language with it; this prevents page and submission support from drifting apart.
 - Cyrillic display typography uses the global locale-specific font token; the original Latin display font lacks Cyrillic glyphs.
 - Regenerate the static sitemap with scripts/generate-sitemap.ts after locale or content changes; the shared registry keeps alternates aligned with real pages.
+- Bun test files (`src/**/*.test.ts`) are excluded from tsconfig; the bun types collide with the project's fetch typings, and tests run via `bun test` at runtime.

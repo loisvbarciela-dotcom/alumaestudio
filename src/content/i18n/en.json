@@ -109,6 +109,7 @@
     "title": "Let's talk about your next campaign.",
     "name": "Name",
     "email": "Email",
+    "phone": "Phone (optional)",
     "projectType": "Project type",
     "message": "Message",
     "submit": "Send",
