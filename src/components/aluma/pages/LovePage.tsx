@@ -4,7 +4,7 @@ import { ArrowDown, ArrowUpRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { pageLink, type Lang } from "@/lib/i18n";
 import copy from "@/content/love.json";
-import hero from "@/assets/love/hero.jpg";
+import heroAsset from "@/assets/love/hero.jpg.asset.json";
 import thumbnail from "@/assets/love/thumbnail.png.asset.json";
 
 export function LovePage({ lang }: { lang: Lang }) {
@@ -15,7 +15,7 @@ export function LovePage({ lang }: { lang: Lang }) {
   return (
     <>
       <section className="relative isolate flex min-h-[620px] items-end overflow-hidden lg:min-h-[680px]">
-        <img src={hero} alt="" width={1536} height={864} fetchPriority="high" className="absolute inset-0 -z-20 size-full object-cover object-[65%_center]" />
+        <img src={heroAsset.url} alt="" width={1920} height={1072} fetchPriority="high" className="absolute inset-0 -z-20 size-full object-cover object-[65%_center]" />
         <div className="absolute inset-0 -z-10 bg-tinta/40" />
         <div className="gutter w-full pb-14 pt-28">
           <p className="label-xs text-oso">{t.eyebrow}</p>
