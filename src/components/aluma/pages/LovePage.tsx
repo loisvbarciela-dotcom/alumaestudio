@@ -15,7 +15,7 @@ export function LovePage({ lang }: { lang: Lang }) {
   return (
     <>
       <section className="relative isolate flex min-h-[620px] items-end overflow-hidden lg:min-h-[680px]">
-        <img src={heroAsset.url} alt="" width={1920} height={1072} fetchPriority="high" className="absolute inset-0 -z-20 size-full object-cover object-[65%_center]" />
+        <img src={heroAsset.url} alt="" width={1920} height={1072} fetchPriority="high" className="absolute inset-0 -z-20 size-full object-cover object-[92%_center] sm:object-[78%_center] lg:object-[65%_center]" />
         <div className="absolute inset-0 -z-10 bg-tinta/40" />
         <div className="gutter w-full pb-14 pt-28">
           <p className="label-xs text-oso">{t.eyebrow}</p>
