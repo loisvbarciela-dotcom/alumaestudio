@@ -113,8 +113,8 @@
     "message": "Mensaje",
     "submit": "Enviar",
     "sending": "Enviando",
-    "success": "Abrimos tu aplicación de correo con el mensaje ya escrito. Comprueba que se ha abierto; si no, escríbenos directamente.",
-    "error": "No se pudo abrir tu aplicación de correo. Escríbenos directamente.",
+    "success": "Recibido. Respondemos en breve.",
+    "error": "No se pudo enviar. Escríbenos directamente.",
     "direct": "O escríbenos directamente a"
   },
   "footer": {

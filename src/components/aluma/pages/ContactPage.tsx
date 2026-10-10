@@ -1,58 +1,33 @@
 import { useState } from "react";
-import { CONTACT_EMAIL, ROOMS, dict, type Lang, type Room } from "@/lib/i18n";
-
-const ENDPOINT = import.meta.env["VITE_CONTACT_ENDPOINT"] as string | undefined;
+import { useServerFn } from "@tanstack/react-start";
+import { CONTACT_EMAIL, ROOMS, dict, type Lang } from "@/lib/i18n";
+import { submitContact } from "@/lib/contact.functions";
 
 export function ContactPage({ lang }: { lang: Lang }) {
   const t = dict(lang);
+  const send = useServerFn(submitContact);
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
-    const name = String(data.get("name") ?? "");
-    const email = String(data.get("email") ?? "");
-    const room = String(data.get("projectType") ?? "");
-    const message = String(data.get("message") ?? "");
-    const roomName = (ROOMS as readonly string[]).includes(room)
-      ? t.work.rooms[room as Room]
-      : room;
-
-    if (ENDPOINT) {
-      setStatus("sending");
-      try {
-        const res = await fetch(ENDPOINT, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ name, email, projectType: room, message, lang }),
-        });
-        if (!res.ok) throw new Error(String(res.status));
-        setStatus("sent");
-        form.reset();
-      } catch {
-        setStatus("error");
-      }
-      return;
+    setStatus("sending");
+    try {
+      await send({
+        data: {
+          name: String(data.get("name") ?? ""),
+          email: String(data.get("email") ?? ""),
+          projectType: String(data.get("projectType") ?? ""),
+          message: String(data.get("message") ?? ""),
+          lang,
+        },
+      });
+      setStatus("sent");
+      form.reset();
+    } catch {
+      setStatus("error");
     }
-
-    // No endpoint configured yet: hand the message to the visitor's mail app, addressed to ALUMA.
-    const subject = [t.contact.label, roomName, name].filter(Boolean).join(" · ");
-    const body = [
-      `${t.contact.name}: ${name}`,
-      `${t.contact.email}: ${email}`,
-      `${t.contact.projectType}: ${roomName}`,
-      "",
-      message,
-    ].join("\n");
-    const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    const link = document.createElement("a");
-    link.href = href;
-    link.style.display = "none";
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    setStatus("sent");
   }
 
   const field = "mt-2 w-full border bg-transparent px-4 py-3 text-[15px] text-oso outline-none placeholder:text-bruma/60 focus:border-ouro";
