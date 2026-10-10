@@ -6,6 +6,7 @@ import { EthicsPage } from "@/components/aluma/pages/EthicsPage";
 import { StudioPage } from "@/components/aluma/pages/StudioPage";
 import { BlogPage } from "@/components/aluma/pages/BlogPage";
 import { ContactPage } from "@/components/aluma/pages/ContactPage";
+import { LovePage } from "@/components/aluma/pages/LovePage";
 import { LANGS, dict, isLang, pageFromSlug, slugFor, type Lang, type PageKey } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
 
@@ -37,6 +38,7 @@ export const Route = createFileRoute("/$lang/$section/")({
 
 const PAGES: Record<PageKey, (props: { lang: Lang }) => React.ReactElement> = {
   work: WorkPage,
+  love: LovePage,
   method: MethodPage,
   ethics: EthicsPage,
   studio: StudioPage,
