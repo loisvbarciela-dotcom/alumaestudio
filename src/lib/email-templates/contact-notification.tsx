@@ -32,7 +32,7 @@ function ContactNotification({
   message = '…',
   lang = 'gl',
 }: ContactNotificationProps) {
-  const l = labels[lang] ?? labels.gl!
+  const l = labels[lang] ?? labels['gl']!
   return (
     <Html>
       <Head />
