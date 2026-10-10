@@ -6,12 +6,14 @@
     "titulo": {
       "gl": "Seis parques, unha aventura fóra da pantalla",
       "es": "Seis parques, una aventura fuera de la pantalla",
-      "en": "Six parks, one adventure beyond the screen"
+      "en": "Six parks, one adventure beyond the screen",
+      "ru": "Шесть парков, одно приключение за пределами экрана"
     },
     "extracto": {
       "gl": "O anuncio «Non dispoñible na App Store» convídanos a descubrir seis lugares de Galicia nos que a mellor experiencia non cabe nunha pantalla.",
       "es": "El anuncio «No disponible en la App Store» nos invita a descubrir seis lugares de Galicia donde la mejor experiencia no cabe en una pantalla.",
-      "en": "The advert “Not Available on the App Store” invites us to discover six places in Galicia where the best experience cannot fit on a screen."
+      "en": "The advert “Not Available on the App Store” invites us to discover six places in Galicia where the best experience cannot fit on a screen.",
+      "ru": "Реклама «Недоступно в App Store» приглашает нас открыть шесть мест в Галисии, где лучшие впечатления не умещаются на экране."
     },
     "corpo": {
       "gl": [
@@ -67,6 +69,24 @@
         "On the banks of the Miño, A Canuda brings together a long riverside path for walking or cycling, a large playground, a road-safety circuit, a small zoo and even a boating lake. It is a place made for spending the day and choosing your own adventure.",
         "The advert brings these six destinations together through one idea: Galicia as a place for families to discover, without filters and without a download button. Because some of the best stories only begin when we look up from the screen.",
         "Reference: “6 parques para visitar en familia este verano”, Turismo de Galicia blog."
+      ],
+      "ru": [
+        "Есть впечатления, которые невозможно скачать. «Недоступно в App Store» родилась именно из этой идеи: напомнить, что удивление, игра и любопытство по-прежнему ждут нас за пределами экрана.",
+        "Ролик проводит зрителя через шесть парков и природных пространств Галисии, превращая семейную рекомендацию в маленькое кинематографическое приключение. У каждого места — своя индивидуальность, а вместе они складываются в карту ощущений: трогать, слушать, исследовать, теряться, смотреть и делиться.",
+        "# ПАРК ЧУВСТВ · МАРИН",
+        "На территории бывшей фермы Granxa de Briz, совсем рядом с центром Марина, маршрут продуман так, чтобы задействовать все пять чувств. Фигуры, вырезанные на деревьях, вода водопадов и прудов, фруктовые деревья, игры на ловкость, большие горки и сети для лазания превращают посещение в опыт наблюдения и участия.",
+        "# ПАРК ПАСАТЬЕМПО · БЕТАНСОС",
+        "Открытый в 1914 году Хуаном Гарсией Навейрой, Пасатьемпо принёс в Бетансос воспоминания о путешествиях и диковинки со всего света. Его сады, скульптуры, пруды, искусственные гроты и соединённые между собой уровни делают это место пространством, где история и воображение идут рука об руку.",
+        "# ПАРК ЭЙРИС · А-КОРУНЬЯ",
+        "Длинные горки, двойной зип-лайн, сети для лазания и просторные зоны для прогулок окружают пруд парка. От руин замка Эйрис прогулка завершается впечатляющей панорамой на порт А-Коруньи.",
+        "# НАСТИЛ ВДОЛЬ РЕКИ МАО · РИБЕЙРА-САКРА",
+        "Этот короткий маршрут длиной 1,8 километра начинается у бывшей гидроэлектростанции Фабрика-да-Лус и проходит среди деревьев вдоль реки Мао до её впадения в Силь. Дерево настила, вода и вид на каньоны превращают прогулку в приключение, доступное для всей семьи.",
+        "# ЛАБИРИНТ КОСТА-МАРИНЬЯ · РИНЛО",
+        "Огромный лабиринт протяжённостью почти 4000 метров — сердце этого парка в лусенской Марине. Наградой за путь до центральной смотровой площадки становится вид на полную форму лабиринта, а за ним — на побережье и горы.",
+        "# ПАРК А-КАНУДА · САЛЬВАТЬЕРРА-ДЕ-МИНЬО",
+        "На берегу реки Миньо А-Кануда объединяет длинную дорожку для прогулок и велопрогулок, большую детскую площадку, трассу по правилам дорожного движения, небольшой зоопарк и даже озеро с лодками. Место, созданное для того, чтобы провести здесь целый день и дать каждому выбрать своё собственное приключение.",
+        "Реклама объединяет эти шесть направлений общей идеей: Галисия как территория для семейных открытий — без фильтров и без кнопки «скачать». Потому что некоторые из лучших историй начинаются только тогда, когда мы отрываем взгляд от экрана.",
+        "Источник: «6 parques para visitar en familia este verano», блог Turismo de Galicia."
       ]
     }
   },
@@ -77,12 +97,14 @@
     "titulo": {
       "gl": "Ideas que merecen luz",
       "es": "Ideas que merecen luz",
-      "en": "Ideas that deserve light"
+      "en": "Ideas that deserve light",
+      "ru": "Идеи, достойные света"
     },
     "extracto": {
       "gl": "Rodaxe real e intelixencia artificial dirixida plano a plano. Artesanía audiovisual dende Galicia.",
       "es": "Rodaje real e inteligencia artificial dirigida plano a plano. Artesanía audiovisual desde Galicia.",
-      "en": "Live action and AI generation directed shot by shot. Audiovisual craft from Galicia."
+      "en": "Live action and AI generation directed shot by shot. Audiovisual craft from Galicia.",
+      "ru": "Реальные съёмки и искусственный интеллект, выстроенные кадр за кадром. Аудиовизуальное ремесло родом из Галисии."
     },
     "corpo": {
       "gl": [
@@ -123,6 +145,19 @@
         "We work in Galician, Spanish and English, for clients in Spain and abroad.",
         "All our productions comply with the European AI Act, with traceability and labelling of generated material.",
         "Galicia is our roots and our first film set."
+      ],
+      "ru": [
+        "Aluma — аудиовизуальная студия, базирующаяся в Галисии, специализирующаяся на гибридном производстве: реальные съёмки в сочетании с генерацией с помощью искусственного интеллекта, выстроенной кадр за кадром.",
+        "Мы не производим автоматический контент. Мы направляем машину по тем же принципам, по которым выстраивают работу камеры — кадрирование, свет, ритм, замысел, — и именно этот контроль отличает брендированный ролик от обезличенного видео. Этот метод мы называем аудиовизуальным ремеслом с использованием ИИ.",
+        "# ЧЕМ МЫ ЗАНИМАЕМСЯ",
+        "· Документалистика — анимация и иллюстрация на службе у истории, чтобы восстановить то, что уже невозможно снять. Мы восстанавливаем и возвращаем к жизни места и события ради памяти, признания и просвещения.",
+        "· Кинематографичная реклама для соцсетей — вертикальный формат, кинематографичный темп и производство за дни, а не за недели.",
+        "· Спорт — брендированные ролики, презентации и клубный контент с кинематографичным качеством исполнения.",
+        "# КАК МЫ РАБОТАЕМ",
+        "ИИ расширяет возможности бюджета: недоступные локации, ушедшие эпохи, кадры, которые потребовали бы крана и трёх съёмочных дней. То, что мы никогда не делегируем, — это творческие решения. Режиссура, сценарий и монтаж от начала до конца остаются человеческими.",
+        "Мы работаем на галисийском, испанском и английском языках, с клиентами в Испании и за рубежом.",
+        "Все наши работы соответствуют Европейскому регламенту об искусственном интеллекте, с прослеживаемостью и маркировкой сгенерированного материала.",
+        "Галисия — наши корни и наша первая съёмочная площадка."
       ]
     }
   }

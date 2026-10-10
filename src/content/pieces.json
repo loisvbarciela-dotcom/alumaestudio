@@ -4,7 +4,8 @@
     "titulo": {
       "gl": "A última abella",
       "es": "La última abeja",
-      "en": "The Last Bee"
+      "en": "The Last Bee",
+      "ru": "Последняя пчела"
     },
     "sala": "ficcion",
     "ano": null,
@@ -18,7 +19,8 @@
     "sinopse": {
       "gl": "Natureza e crise ecolóxica: a desaparición das abellas.",
       "es": "Naturaleza y crisis ecológica: la desaparición de las abejas.",
-      "en": "Nature and ecological crisis: the disappearance of the bees."
+      "en": "Nature and ecological crisis: the disappearance of the bees.",
+      "ru": "Природа и экологический кризис: исчезновение пчёл."
     },
     "desglose": [],
     "ferramentas": []
@@ -28,7 +30,8 @@
     "titulo": {
       "gl": "Unha viaxe de 40 anos",
       "es": "Un viaje de 40 años",
-      "en": "A 40-Year Journey"
+      "en": "A 40-Year Journey",
+      "ru": "Путешествие длиною в 40 лет"
     },
     "sala": "ficcion",
     "ano": null,
@@ -42,7 +45,8 @@
     "sinopse": {
       "gl": "Mar e memoria: unha mensaxe nunha botella que chega 40 anos despois.",
       "es": "Mar y memoria: un mensaje en una botella que llega 40 años después.",
-      "en": "Sea and memory: a message in a bottle arriving 40 years later."
+      "en": "Sea and memory: a message in a bottle arriving 40 years later.",
+      "ru": "Море и память: послание в бутылке, найденное спустя 40 лет."
     },
     "desglose": [],
     "ferramentas": []
@@ -52,7 +56,8 @@
     "titulo": {
       "gl": "Cita en Teixido",
       "es": "Cita en Teixido",
-      "en": "A Meeting in Teixido"
+      "en": "A Meeting in Teixido",
+      "ru": "Встреча в Тейшидо"
     },
     "sala": "ficcion",
     "ano": null,
@@ -66,7 +71,8 @@
     "sinopse": {
       "gl": "Lenda galega: San Andrés de Teixido e a promesa pendente.",
       "es": "Leyenda gallega: San Andrés de Teixido y la promesa pendiente.",
-      "en": "A Galician legend: Santo André de Teixido and an unfulfilled promise."
+      "en": "A Galician legend: Santo André de Teixido and an unfulfilled promise.",
+      "ru": "Галисийская легенда: Сан-Андрес-де-Тейшидо и неисполненное обещание."
     },
     "desglose": [],
     "ferramentas": []
@@ -76,7 +82,8 @@
     "titulo": {
       "gl": "O inocente",
       "es": "El inocente",
-      "en": "The Innocent"
+      "en": "The Innocent",
+      "ru": "Невиновный"
     },
     "sala": "ficcion",
     "ano": null,
@@ -90,7 +97,8 @@
     "sinopse": {
       "gl": "Xustiza e culpa: un home defende a súa versión dos feitos.",
       "es": "Justicia y culpa: un hombre defiende su versión de los hechos.",
-      "en": "Justice and guilt: a man defends his version of events."
+      "en": "Justice and guilt: a man defends his version of events.",
+      "ru": "Правосудие и вина: мужчина отстаивает свою версию событий."
     },
     "desglose": [],
     "ferramentas": []
@@ -100,7 +108,8 @@
     "titulo": {
       "gl": "Tellarizar",
       "es": "Tellarizar",
-      "en": "Tellarizar"
+      "en": "Tellarizar",
+      "ru": "Tellarizar"
     },
     "sala": "ficcion",
     "ano": null,
@@ -114,7 +123,8 @@
     "sinopse": {
       "gl": "Faro e soidade: a rutina da fareira fronte ao mar.",
       "es": "Faro y soledad: la rutina del farero frente al mar.",
-      "en": "Lighthouse and solitude: the keeper's routine facing the sea."
+      "en": "Lighthouse and solitude: the keeper's routine facing the sea.",
+      "ru": "Маяк и одиночество: повседневная жизнь смотрителя маяка у моря."
     },
     "desglose": [],
     "ferramentas": []
@@ -124,7 +134,8 @@
     "titulo": {
       "gl": "Meu fillo",
       "es": "Mi hijo",
-      "en": "My Son"
+      "en": "My Son",
+      "ru": "Мой сын"
     },
     "sala": "ficcion",
     "ano": null,
@@ -138,7 +149,8 @@
     "sinopse": {
       "gl": "Familia e ausencia: unha nai fala do seu fillo.",
       "es": "Familia y ausencia: una madre habla de su hijo.",
-      "en": "Family and absence: a mother speaks of her son."
+      "en": "Family and absence: a mother speaks of her son.",
+      "ru": "Семья и отсутствие: мать рассказывает о своём сыне."
     },
     "desglose": [],
     "ferramentas": []
@@ -148,7 +160,8 @@
     "titulo": {
       "gl": "Tempo",
       "es": "Tiempo",
-      "en": "Time"
+      "en": "Time",
+      "ru": "Время"
     },
     "sala": "ficcion",
     "ano": null,
@@ -162,7 +175,8 @@
     "sinopse": {
       "gl": "O paso do tempo e a memoria: un reloxo de peto.",
       "es": "El paso del tiempo y la memoria: un reloj de bolsillo.",
-      "en": "The passing of time and memory: a pocket watch."
+      "en": "The passing of time and memory: a pocket watch.",
+      "ru": "Течение времени и память: карманные часы."
     },
     "desglose": [],
     "ferramentas": []
@@ -172,7 +186,8 @@
     "titulo": {
       "gl": "A última fornada",
       "es": "La última hornada",
-      "en": "The Last Batch"
+      "en": "The Last Batch",
+      "ru": "Последняя выпечка"
     },
     "sala": "ficcion",
     "ano": null,
@@ -186,7 +201,8 @@
     "sinopse": {
       "gl": "Oficios e memoria: a última fornada dun panadeiro.",
       "es": "Oficios y memoria: la última hornada de un panadero.",
-      "en": "Trades and memory: a baker's last batch."
+      "en": "Trades and memory: a baker's last batch.",
+      "ru": "Ремёсла и память: последняя партия хлеба пекаря."
     },
     "desglose": [],
     "ferramentas": []
@@ -196,7 +212,8 @@
     "titulo": {
       "gl": "Mayday",
       "es": "Mayday",
-      "en": "Mayday"
+      "en": "Mayday",
+      "ru": "Mayday"
     },
     "sala": "ficcion",
     "ano": null,
@@ -210,7 +227,8 @@
     "sinopse": {
       "gl": "Emerxencia no mar: unha chamada de socorro durante un temporal.",
       "es": "Emergencia en el mar: una llamada de socorro durante un temporal.",
-      "en": "Emergency at sea: a distress call during a storm."
+      "en": "Emergency at sea: a distress call during a storm.",
+      "ru": "Чрезвычайная ситуация в море: сигнал бедствия во время шторма."
     },
     "desglose": [],
     "ferramentas": []
@@ -220,7 +238,8 @@
     "titulo": {
       "gl": "Invasión alienígena",
       "es": "Invasión alienígena",
-      "en": "Alien Invasion"
+      "en": "Alien Invasion",
+      "ru": "Инопланетное вторжение"
     },
     "sala": "ficcion",
     "ano": null,
@@ -234,7 +253,8 @@
     "sinopse": {
       "gl": "Invasión extraterrestre sobre unha aldea, vista dende o cotidiano.",
       "es": "Invasión extraterrestre sobre una aldea, vista desde lo cotidiano.",
-      "en": "An alien invasion over a village, seen from the everyday."
+      "en": "An alien invasion over a village, seen from the everyday.",
+      "ru": "Инопланетное вторжение в деревню глазами обычной жизни."
     },
     "desglose": [],
     "ferramentas": []
@@ -244,7 +264,8 @@
     "titulo": {
       "gl": "Santa Compaña",
       "es": "Santa Compaña",
-      "en": "Santa Compaña"
+      "en": "Santa Compaña",
+      "ru": "Santa Compaña"
     },
     "sala": "ficcion",
     "ano": null,
@@ -258,7 +279,8 @@
     "sinopse": {
       "gl": "Tensión rural: os cans ladran antes de que algo ocorra.",
       "es": "Tensión rural: los perros ladran antes de que algo ocurra.",
-      "en": "Rural tension: the dogs bark before something happens."
+      "en": "Rural tension: the dogs bark before something happens.",
+      "ru": "Деревенское напряжение: собаки лают перед тем, как что-то случится."
     },
     "desglose": [],
     "ferramentas": []
@@ -268,7 +290,8 @@
     "titulo": {
       "gl": "O falsificador",
       "es": "El falsificador",
-      "en": "The Forger"
+      "en": "The Forger",
+      "ru": "Фальсификатор"
     },
     "sala": "ficcion",
     "ano": null,
@@ -282,7 +305,8 @@
     "sinopse": {
       "gl": "Arte e verdade: o retrato que non se deixa pintar.",
       "es": "Arte y verdad: el retrato que no se deja pintar.",
-      "en": "Art and truth: the portrait that refuses to be painted."
+      "en": "Art and truth: the portrait that refuses to be painted.",
+      "ru": "Искусство и истина: портрет, который не даётся написать."
     },
     "desglose": [],
     "ferramentas": []
@@ -292,7 +316,8 @@
     "titulo": {
       "gl": "Camiseta Reconquista",
       "es": "Camiseta Reconquista",
-      "en": "Reconquista Shirt"
+      "en": "Reconquista Shirt",
+      "ru": "Футболка Reconquista"
     },
     "sala": "deporte",
     "ano": null,
@@ -313,7 +338,8 @@
     "titulo": {
       "gl": "Viaxe no tempo",
       "es": "Viaje en el tiempo",
-      "en": "Journey Through Time"
+      "en": "Journey Through Time",
+      "ru": "Путешествие во времени"
     },
     "sala": "deporte",
     "ano": null,
@@ -334,7 +360,8 @@
     "titulo": {
       "gl": "Ronsel",
       "es": "Ronsel",
-      "en": "Ronsel"
+      "en": "Ronsel",
+      "ru": "Ronsel"
     },
     "sala": "documental",
     "ano": "2026",
@@ -348,7 +375,8 @@
     "sinopse": {
       "gl": "Documental en homenaxe ao mar de Vigo no que contribuímos ás animacións, respectando ao máximo a identidade e a naturalidade do relato documental.",
       "es": "Documental en homenaje al mar de Vigo en el que contribuimos a las animaciones, respetando al máximo la identidad y la naturalidad del relato documental.",
-      "en": "A documentary tribute to the sea of Vigo, for which we contributed animation while preserving the identity and natural quality of the documentary storytelling."
+      "en": "A documentary tribute to the sea of Vigo, for which we contributed animation while preserving the identity and natural quality of the documentary storytelling.",
+      "ru": "Документальный фильм в честь моря Виго, для которого мы создали анимацию, максимально бережно сохраняя подлинность и естественность документального повествования."
     },
     "desglose": [],
     "ferramentas": []
@@ -358,7 +386,8 @@
     "titulo": {
       "gl": "Non dispoñible na App Store",
       "es": "No disponible en App Store",
-      "en": "Not Available on the App Store"
+      "en": "Not Available on the App Store",
+      "ru": "Недоступно в App Store"
     },
     "sala": "publicidade",
     "ano": null,
