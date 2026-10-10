@@ -23,6 +23,7 @@ const labels: Record<string, { from: string; type: string; message: string }> = 
   gl: { from: 'De', type: 'Tipo de proxecto', message: 'Mensaxe' },
   es: { from: 'De', type: 'Tipo de proyecto', message: 'Mensaje' },
   en: { from: 'From', type: 'Project type', message: 'Message' },
+  ru: { from: 'От', type: 'Тип проекта', message: 'Сообщение' },
 }
 
 function ContactNotification({
@@ -32,7 +33,7 @@ function ContactNotification({
   message = '…',
   lang = 'gl',
 }: ContactNotificationProps) {
-  const l = labels[lang] ?? labels['gl']!
+  const l = labels[lang] ?? { from: 'De', type: 'Tipo de proxecto', message: 'Mensaxe' }
   return (
     <Html>
       <Head />

@@ -19,7 +19,7 @@ export function LovePage({ lang }: { lang: Lang }) {
         <div className="absolute inset-0 -z-10 bg-tinta/40" />
         <div className="gutter w-full pb-14 pt-28">
           <p className="label-xs text-oso">{t.eyebrow}</p>
-          <h1 className="mt-7 max-w-[680px] text-6xl leading-[0.98] sm:text-7xl lg:text-8xl">{t.title}</h1>
+          <h1 className={`mt-7 max-w-[680px] leading-[0.98] ${lang === "ru" ? "text-4xl sm:text-6xl lg:text-7xl" : "text-6xl sm:text-7xl lg:text-8xl"}`}>{t.title}</h1>
           <p className="mt-7 max-w-md text-lg text-oso">{t.intro}</p>
           <div className="mt-9 flex flex-wrap items-center gap-6">
             <Button variant="cinema" size="lg" asChild><Link {...pageLink("contact", lang)}>{t.cta}<ArrowUpRight /></Link></Button>

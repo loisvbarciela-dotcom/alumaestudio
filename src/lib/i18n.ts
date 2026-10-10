@@ -1,12 +1,13 @@
 import gl from "@/content/i18n/gl.json";
 import es from "@/content/i18n/es.json";
 import en from "@/content/i18n/en.json";
+import ru from "@/content/i18n/ru.json";
 import piecesData from "@/content/pieces.json";
 import postsData from "@/content/posts.json";
 import camisetaReconquistaAsset from "@/assets/work/camiseta-reconquista.png.asset.json";
 import viaxeNoTempoAsset from "@/assets/work/viaxe-no-tempo.png.asset.json";
 
-export const LANGS = ["gl", "es", "en"] as const;
+export const LANGS = ["gl", "es", "en", "ru"] as const;
 export type Lang = (typeof LANGS)[number];
 export const DEFAULT_LANG: Lang = "gl";
 
@@ -16,6 +17,7 @@ const DICTS: Record<Lang, Dict> = {
   gl,
   es: es as unknown as Dict,
   en: en as unknown as Dict,
+  ru: ru as unknown as Dict,
 };
 
 export function isLang(value: string | undefined): value is Lang {
@@ -30,13 +32,13 @@ export function dict(lang: Lang): Dict {
 export type PageKey = "work" | "love" | "method" | "ethics" | "studio" | "blog" | "contact";
 
 export const SLUGS: Record<PageKey, Record<Lang, string>> = {
-  work: { gl: "traballo", es: "trabajo", en: "work" },
-  love: { gl: "a-tua-pelicula", es: "tu-pelicula", en: "your-film" },
-  method: { gl: "metodo", es: "metodo", en: "method" },
-  ethics: { gl: "etica", es: "etica", en: "ethics" },
-  studio: { gl: "estudio", es: "estudio", en: "studio" },
-  blog: { gl: "blog", es: "blog", en: "blog" },
-  contact: { gl: "contacto", es: "contacto", en: "contact" },
+  work: { gl: "traballo", es: "trabajo", en: "work", ru: "raboty" },
+  love: { gl: "a-tua-pelicula", es: "tu-pelicula", en: "your-film", ru: "vash-film" },
+  method: { gl: "metodo", es: "metodo", en: "method", ru: "metod" },
+  ethics: { gl: "etica", es: "etica", en: "ethics", ru: "etika" },
+  studio: { gl: "estudio", es: "estudio", en: "studio", ru: "studiya" },
+  blog: { gl: "blog", es: "blog", en: "blog", ru: "blog" },
+  contact: { gl: "contacto", es: "contacto", en: "contact", ru: "kontakty" },
 };
 
 export const PAGE_KEYS = Object.keys(SLUGS) as PageKey[];
@@ -92,9 +94,10 @@ export type Piece = {
 
 /** Piece language names as shown in each UI language. */
 export const LANGUAGE_NAMES: Record<Lang, Record<Lang, string>> = {
-  gl: { gl: "Galego", es: "Castelán", en: "Inglés" },
-  es: { gl: "Gallego", es: "Español", en: "Inglés" },
-  en: { gl: "Galician", es: "Spanish", en: "English" },
+  gl: { gl: "Galego", es: "Castelán", en: "Inglés", ru: "Ruso" },
+  es: { gl: "Gallego", es: "Español", en: "Inglés", ru: "Ruso" },
+  en: { gl: "Galician", es: "Spanish", en: "English", ru: "Russian" },
+  ru: { gl: "Галисийский", es: "Испанский", en: "Английский", ru: "Русский" },
 };
 
 const pieceAssets: Record<string, string> = {
@@ -197,13 +200,14 @@ const MONTHS: Record<Lang, string[]> = {
   gl: ["xaneiro", "febreiro", "marzo", "abril", "maio", "xuño", "xullo", "agosto", "setembro", "outubro", "novembro", "decembro"],
   es: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
   en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+  ru: ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
 };
 
 /** Deterministic date formatting (same on server and browser). */
 export function formatDate(iso: string, lang: Lang): string {
   const [y, m, d] = iso.split("-").map(Number);
   const month = MONTHS[lang][(m ?? 1) - 1];
-  return lang === "en" ? `${d} ${month} ${y}` : `${d} de ${month} de ${y}`;
+  return lang === "en" || lang === "ru" ? `${d} ${month} ${y}` : `${d} de ${month} de ${y}`;
 }
 
 export function postLink(lang: Lang, slug: string) {

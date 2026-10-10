@@ -5,7 +5,7 @@ import type { Lang } from "@/lib/i18n";
 
 export function SiteShell({ lang, children }: { lang: Lang; children: ReactNode }) {
   return (
-    <div className="flex min-h-screen flex-col bg-tinta text-oso">
+    <div lang={lang} className="flex min-h-screen flex-col bg-tinta text-oso">
       <Header lang={lang} />
       <main className="flex-1">{children}</main>
       <Footer lang={lang} />
