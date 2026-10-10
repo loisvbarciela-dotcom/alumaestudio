@@ -46,12 +46,13 @@ export function ContactPage({ lang }: { lang: Lang }) {
       message,
     ].join("\n");
     const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    try {
-      window.location.href = href;
-      setStatus("sent");
-    } catch {
-      setStatus("error");
-    }
+    const link = document.createElement("a");
+    link.href = href;
+    link.style.display = "none";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setStatus("sent");
   }
 
   const field = "mt-2 w-full border bg-transparent px-4 py-3 text-[15px] text-oso outline-none placeholder:text-bruma/60 focus:border-ouro";
