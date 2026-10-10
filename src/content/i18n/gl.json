@@ -109,6 +109,7 @@
     "title": "Falemos da túa próxima campaña.",
     "name": "Nome",
     "email": "Correo",
+    "phone": "Teléfono (opcional)",
     "projectType": "Tipo de proxecto",
     "message": "Mensaxe",
     "submit": "Enviar",

@@ -109,6 +109,7 @@
     "title": "Hablemos de tu próxima campaña.",
     "name": "Nombre",
     "email": "Email",
+    "phone": "Teléfono (opcional)",
     "projectType": "Tipo de proyecto",
     "message": "Mensaje",
     "submit": "Enviar",
