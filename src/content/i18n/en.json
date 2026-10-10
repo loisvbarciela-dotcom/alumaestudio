@@ -113,8 +113,8 @@
     "message": "Message",
     "submit": "Send",
     "sending": "Sending",
-    "success": "We open your mail app with the message already written. Check that it opened; if not, write to us directly.",
-    "error": "Couldn't open your mail app. Write to us directly.",
+    "success": "Received. We'll reply shortly.",
+    "error": "It couldn't be sent. Write to us directly.",
     "direct": "Or write to us directly at"
   },
   "footer": {
