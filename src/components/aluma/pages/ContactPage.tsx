@@ -18,6 +18,7 @@ export function ContactPage({ lang }: { lang: Lang }) {
         data: {
           name: String(data.get("name") ?? ""),
           email: String(data.get("email") ?? ""),
+          phone: String(data.get("phone") ?? "").trim() || undefined,
           projectType: String(data.get("projectType") ?? ""),
           message: String(data.get("message") ?? ""),
           lang,
