@@ -27,7 +27,8 @@ export const Route = createFileRoute("/$lang/")({
       title: t.meta.home.title,
       description: t.meta.home.description,
       path: `/${lang}`,
-      alternates: { gl: "/gl", es: "/es", en: "/en" },
+      alternates: { gl: "/gl", es: "/es", en: "/en", ru: "/ru" },
+      image: heroPosterAsset.url,
     });
     return {
       ...head,

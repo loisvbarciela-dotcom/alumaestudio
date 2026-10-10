@@ -9,6 +9,7 @@ import { ContactPage } from "@/components/aluma/pages/ContactPage";
 import { LovePage } from "@/components/aluma/pages/LovePage";
 import { LANGS, dict, isLang, pageFromSlug, slugFor, type Lang, type PageKey } from "@/lib/i18n";
 import { buildHead } from "@/lib/seo";
+import loveHeroAsset from "@/assets/love/hero.jpg.asset.json";
 
 export const Route = createFileRoute("/$lang/$section/")({
   beforeLoad: ({ params }) => {
@@ -31,6 +32,7 @@ export const Route = createFileRoute("/$lang/$section/")({
       description: t.meta[page].description,
       path: `/${lang}/${slugFor(page, lang)}`,
       alternates,
+      ...(page === "love" ? { image: loveHeroAsset.url } : {}),
     });
   },
   component: SectionRoute,

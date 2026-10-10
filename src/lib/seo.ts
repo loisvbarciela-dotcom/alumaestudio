@@ -19,7 +19,7 @@ export function buildHead({ lang, title, description, path, alternates, image }:
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
     { property: "og:url", content: url },
-    { property: "og:locale", content: lang === "gl" ? "gl_ES" : lang === "es" ? "es_ES" : "en_GB" },
+    { property: "og:locale", content: { gl: "gl_ES", es: "es_ES", en: "en_GB", ru: "ru_RU" }[lang] },
     { name: "twitter:title", content: title },
     { name: "twitter:description", content: description },
   ];

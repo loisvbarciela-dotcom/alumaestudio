@@ -33,6 +33,15 @@
   border-color: color-mix(in oklab, var(--color-bruma) 20%, transparent);
 }
 
+:lang(ru) {
+  --font-display: "Playfair Display", Georgia, serif;
+}
+
+:lang(ru) :is(h1, h2, h3, .display, .hero-title) {
+  overflow-wrap: anywhere;
+  letter-spacing: 0;
+}
+
 @layer base {
   * {
     border-color: color-mix(in oklab, var(--color-bruma) 20%, transparent);
