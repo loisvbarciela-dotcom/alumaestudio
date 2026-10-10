@@ -30,11 +30,12 @@ const labels: Record<string, { from: string; phone: string; type: string; messag
 function ContactNotification({
   name = 'Visitante',
   email = 'sen@correo.es',
+  phone,
   projectType = 'ficcion',
   message = '…',
   lang = 'gl',
 }: ContactNotificationProps) {
-  const l = labels[lang] ?? { from: 'De', type: 'Tipo de proxecto', message: 'Mensaxe' }
+  const l = labels[lang] ?? { from: 'De', phone: 'Teléfono', type: 'Tipo de proxecto', message: 'Mensaxe' }
   return (
     <Html>
       <Head />
