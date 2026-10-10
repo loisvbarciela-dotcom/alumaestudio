@@ -17,6 +17,12 @@ describe("Russian language support", () => {
     expect(contactSchema.parse(data)).toEqual(data);
     expect(contactSchema.safeParse({ ...data, lang: "xx" }).success).toBe(false);
   });
+  test("Phone in enquiries is optional and accepted when present", () => {
+    const withoutPhone = { name: "María", email: "maria@example.com", projectType: "ficcion", message: "Ola", lang: "gl" };
+    expect(contactSchema.parse(withoutPhone)).toEqual(withoutPhone);
+    const withPhone = { ...withoutPhone, phone: "+34 600 123 456" };
+    expect(contactSchema.parse(withPhone)).toEqual(withPhone);
+  });
   test("Russian dates use a Russian month", () => {
     expect(formatDate("2026-10-10", "ru")).toBe("10 октября 2026");
   });

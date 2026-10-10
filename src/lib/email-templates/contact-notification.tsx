@@ -111,6 +111,7 @@ export const template = {
   previewData: {
     name: 'María Piñeiro',
     email: 'maria@exemplo.com',
+    phone: '+34 600 123 456',
     projectType: 'Tu película personalizada',
     message: 'Ola! Casamos en xuño e gustaríanos unha película ambientada nos anos 20.',
     lang: 'gl',
