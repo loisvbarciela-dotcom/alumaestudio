@@ -26,7 +26,7 @@ export function Footer({ lang }: { lang: Lang }) {
           {SOCIAL_LINKS.filter(({ url }) => url).map(({ label, url }) => (
             <a
               key={label}
-              href={url}
+              href={url ?? undefined}
               rel="noreferrer noopener"
               target="_blank"
               className="label-xs border-b border-transparent pb-0.5 text-bruma hover:border-ouro hover:text-oso"
