@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { PAGE_KEYS, dict, pageLink, type Lang } from "@/lib/i18n";
+import { PAGE_KEYS, SOCIAL_LINKS, dict, pageLink, type Lang } from "@/lib/i18n";
 
 export function Footer({ lang }: { lang: Lang }) {
   const t = dict(lang);
