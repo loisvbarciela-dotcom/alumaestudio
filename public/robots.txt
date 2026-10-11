@@ -12,4 +12,4 @@ Allow: /
 
 User-agent: *
 Allow: /
-Sitemap: https://aluma.gal/sitemap.xml
+Sitemap: https://alumafilms.es/sitemap.xml

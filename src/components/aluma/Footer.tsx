@@ -23,23 +23,17 @@ export function Footer({ lang }: { lang: Lang }) {
         </div>
 
         <div className="flex flex-col gap-6 md:items-end">
-          <div className="flex gap-6">
-            {[
-              ["Instagram", "https://instagram.com/"],
-              ["LinkedIn", "https://linkedin.com/"],
-              ["Vimeo", "https://vimeo.com/"],
-            ].map(([label, href]) => (
-              <a
-                key={label}
-                href={href}
-                rel="noreferrer noopener"
-                target="_blank"
-                className="label-xs border-b border-transparent pb-0.5 text-bruma hover:border-ouro hover:text-oso"
-              >
-                {label}
-              </a>
-            ))}
-          </div>
+          {SOCIAL_LINKS.filter(({ url }) => url).map(({ label, url }) => (
+            <a
+              key={label}
+              href={url}
+              rel="noreferrer noopener"
+              target="_blank"
+              className="label-xs border-b border-transparent pb-0.5 text-bruma hover:border-ouro hover:text-oso"
+            >
+              {label}
+            </a>
+          ))}
           <div className="flex gap-6">
             <span className="label-xs text-bruma/70">{t.footer.legal}</span>
             <span className="label-xs text-bruma/70">{t.footer.privacy}</span>

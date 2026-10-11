@@ -54,6 +54,6 @@ export function organizationJsonLd() {
       addressRegion: "Galicia",
       addressCountry: "ES",
     },
-    knowsLanguage: ["gl", "es", "en"],
+    knowsLanguage: ["gl", "es", "en", "ru"],
   };
 }

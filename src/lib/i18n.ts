@@ -59,9 +59,16 @@ export function homePath(lang: Lang): string {
   return `/${lang}`;
 }
 
-export const SITE_URL = "https://aluma.gal";
-/** Where enquiries land for now: the form opens the visitor's mail app addressed here. */
-export const CONTACT_EMAIL = "alumagalicia@gmail.com";
+export const SITE_URL = "https://alumafilms.es";
+/** Public contact address shown on the site (form notifications still go elsewhere). */
+export const CONTACT_EMAIL = "info@alumafilms.es";
+
+/** Social profiles shown in the footer. A network only appears once it has a URL. */
+export const SOCIAL_LINKS: { label: string; url: string | null }[] = [
+  { label: "Instagram", url: null },
+  { label: "LinkedIn", url: null },
+  { label: "Vimeo", url: null },
+];
 
 export const ROOMS = ["ficcion", "deporte", "documental", "publicidade"] as const;
 export type Room = (typeof ROOMS)[number];
