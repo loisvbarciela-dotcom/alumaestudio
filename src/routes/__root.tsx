@@ -4,7 +4,6 @@ import {
   Link,
   redirect,
   createRootRouteWithContext,
-  createIsomorphicFn,
   useRouter,
   HeadContent,
   Scripts,
@@ -16,17 +15,9 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { dict, galicianRedirectPath, homeLink, isLang, DEFAULT_LANG } from "../lib/i18n";
+import { getRequestMethod } from "../lib/request-method.functions";
 import { SiteShell } from "@/components/aluma/SiteShell";
 import { Button } from "@/components/ui/button";
-
-/** Incoming HTTP method, or null outside a server request context. Redirects
- * of unprefixed paths must never fire for non-GET/HEAD requests. */
-const serverRequestMethod = createIsomorphicFn()
-  .server(async () => {
-    const { getRequest } = await import("@tanstack/react-start/server");
-    return getRequest().method.toUpperCase();
-  })
-  .client(() => null);
 
 function NotFoundComponent() {
   const segment = useRouterState({ select: (state) => state.location.pathname.split("/")[1] });
