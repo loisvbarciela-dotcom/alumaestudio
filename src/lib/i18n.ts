@@ -59,15 +59,21 @@ export function homePath(lang: Lang): string {
   return `/${lang}`;
 }
 
+/** Preserve unprefixed paths under the default locale without redirecting twice. */
+export function galicianRedirectPath(pathname: string): string | null {
+  if (pathname === "/" || isLang(pathname.split("/")[1])) return null;
+  return `/gl${pathname}`;
+}
+
 export const SITE_URL = "https://alumafilms.es";
 /** Public contact address shown on the site (form notifications still go elsewhere). */
 export const CONTACT_EMAIL = "info@alumafilms.es";
 
 /** Social profiles shown in the footer. A network only appears once it has a URL. */
 export const SOCIAL_LINKS: { label: string; url: string | null }[] = [
-  { label: "Instagram", url: null },
-  { label: "LinkedIn", url: null },
-  { label: "Vimeo", url: null },
+  { label: "Instagram", url: "https://www.instagram.com/alumafilms.ai/" },
+  { label: "TikTok", url: "https://www.tiktok.com/@aluma.films" },
+  { label: "YouTube", url: "https://www.youtube.com/@AlumaEstudio" },
 ];
 
 export const ROOMS = ["ficcion", "deporte", "documental", "publicidade"] as const;

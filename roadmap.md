@@ -8,3 +8,9 @@
 - [x] Traducir páginas, fichas, artículos y producto al ruso; conservar medios originales.
 - [x] Integrar ruso en navegación, URLs, metadatos y formulario.
 - [x] Verificar 11 páginas, cambio de idioma, escenarios y envío real en ruso con lectura del mensaje guardado; 5 pruebas pasan.
+
+# Redes, 404 y artículo solicitado
+- [x] Mostrar únicamente las tres redes oficiales con iconos en fila.
+- [x] Añadir 404 localizada y redirecciones permanentes de rutas sin idioma.
+- [x] Insertar el nuevo artículo exacto sin modificar los existentes.
+- [x] Verificar enlaces, redirecciones, 404 y portada del artículo; no publicar ni cambiar el sitemap.
