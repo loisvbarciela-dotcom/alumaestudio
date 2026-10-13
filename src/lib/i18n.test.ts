@@ -68,9 +68,9 @@ describe("Unprefixed URLs", () => {
 
 test("the four official social profiles are available in order", () => {
   expect(SOCIAL_LINKS).toEqual([
-    { label: "Instagram", url: "https://www.instagram.com/alumafilms.ai/" },
+    { label: "Instagram", url: "https://www.instagram.com/aluma.films/" },
     { label: "TikTok", url: "https://www.tiktok.com/@aluma.films" },
-    { label: "YouTube", url: "https://www.youtube.com/@AlumaEstudio" },
+    { label: "YouTube", url: "https://www.youtube.com/@AlumaFilmsGalicia" },
     { label: "LinkedIn", url: "https://www.linkedin.com/company/146671485/" },
   ]);
 });
