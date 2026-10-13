@@ -12,5 +12,5 @@
 # Redes, 404 y artículo solicitado
 - [x] Mostrar únicamente las tres redes oficiales con iconos en fila.
 - [x] Añadir 404 localizada y redirecciones permanentes de rutas sin idioma.
-- [ ] Insertar el nuevo artículo exacto sin modificar los existentes.
-- [ ] Verificar enlaces, redirecciones, 404 y portada del artículo; no publicar ni cambiar el sitemap.
+- [x] Insertar el nuevo artículo exacto sin modificar los existentes.
+- [x] Verificar enlaces, redirecciones, 404 y portada del artículo; no publicar ni cambiar el sitemap.
