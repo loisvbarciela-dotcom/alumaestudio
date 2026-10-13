@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Instagram, Youtube } from "lucide-react";
+import { Instagram, Linkedin, Youtube } from "lucide-react";
 import { PAGE_KEYS, SOCIAL_LINKS, dict, pageLink, type Lang } from "@/lib/i18n";
 
 export function Footer({ lang }: { lang: Lang }) {
@@ -25,23 +25,32 @@ export function Footer({ lang }: { lang: Lang }) {
 
         <div className="flex flex-col gap-6 md:items-end">
           <div className="flex flex-row items-center gap-5">
-            {SOCIAL_LINKS.filter(({ url }) => url).map(({ label, url }) => (
-              <a
-                key={label}
-                href={url ?? undefined}
-                aria-label={label}
-                rel="noopener noreferrer"
-                target="_blank"
-                className="border-b border-transparent pb-0.5 text-bruma hover:border-ouro hover:text-oso"
-              >
-                {label === "Instagram" ? <Instagram className="size-5" aria-hidden="true" /> :
-                  label === "YouTube" ? <Youtube className="size-5" aria-hidden="true" /> : (
-                    <svg className="size-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                      <path d="M16.7 1h-3.4v14.9a3.1 3.1 0 1 1-2.7-3.1V9.3a6.6 6.6 0 1 0 6.1 6.6V8.3a9 9 0 0 0 5.3 1.7V6.6A5.5 5.5 0 0 1 16.7 1Z" />
-                    </svg>
-                  )}
-              </a>
-            ))}
+            {SOCIAL_LINKS.filter(({ url }) => url).map(({ label, url }) => {
+              const icon =
+                label === "Instagram" ? (
+                  <Instagram className="size-5" aria-hidden="true" />
+                ) : label === "YouTube" ? (
+                  <Youtube className="size-5" aria-hidden="true" />
+                ) : label === "LinkedIn" ? (
+                  <Linkedin className="size-5" aria-hidden="true" />
+                ) : (
+                  <svg className="size-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M16.7 1h-3.4v14.9a3.1 3.1 0 1 1-2.7-3.1V9.3a6.6 6.6 0 1 0 6.1 6.6V8.3a9 9 0 0 0 5.3 1.7V6.6A5.5 5.5 0 0 1 16.7 1Z" />
+                  </svg>
+                );
+              return (
+                <a
+                  key={label}
+                  href={url ?? undefined}
+                  aria-label={label}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="border-b border-transparent pb-0.5 text-bruma hover:border-ouro hover:text-oso"
+                >
+                  {icon}
+                </a>
+              );
+            })}
           </div>
           <div className="flex gap-6">
             <span className="label-xs text-bruma/70">{t.footer.legal}</span>

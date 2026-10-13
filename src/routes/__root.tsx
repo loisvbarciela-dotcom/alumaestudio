@@ -15,6 +15,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { dict, galicianRedirectPath, homeLink, isLang, DEFAULT_LANG } from "../lib/i18n";
+import { getRequestMethod } from "../lib/request-method.functions";
 import { SiteShell } from "@/components/aluma/SiteShell";
 import { Button } from "@/components/ui/button";
 
@@ -76,15 +77,16 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  beforeLoad: ({ location }) => {
+  beforeLoad: async ({ location }) => {
     const target = galicianRedirectPath(location.pathname);
-    if (target) {
-      throw redirect({
-        href: `${target}${location.searchStr}${location.hash ? `#${location.hash}` : ""}`,
-        statusCode: 301,
-        replace: true,
-      });
-    }
+    if (!target) return;
+    const method = await getRequestMethod();
+    if (method !== "GET" && method !== "HEAD") return;
+    throw redirect({
+      href: `${target}${location.searchStr}${location.hash ? `#${location.hash}` : ""}`,
+      statusCode: 301,
+      replace: true,
+    });
   },
   head: ({ matches }) => ({
     meta: [

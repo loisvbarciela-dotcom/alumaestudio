@@ -46,6 +46,15 @@ describe("Unprefixed URLs", () => {
     expect(galicianRedirectPath("/blog/ideas-que-merecen-luz")).toBe("/gl/blog/ideas-que-merecen-luz");
     expect(galicianRedirectPath("/missing/deep/path/extra")).toBe("/gl/missing/deep/path/extra");
   });
+  test("infrastructure paths, file extensions and Lovable internals never redirect", () => {
+    expect(galicianRedirectPath("/lovable/email/transactional/preview")).toBeNull();
+    expect(galicianRedirectPath("/api/x")).toBeNull();
+    expect(galicianRedirectPath("/_serverFn/abc")).toBeNull();
+    expect(galicianRedirectPath("/sitemap.xml")).toBeNull();
+    expect(galicianRedirectPath("/robots.txt")).toBeNull();
+    expect(galicianRedirectPath("/favicon.ico")).toBeNull();
+    expect(galicianRedirectPath("/traballo")).toBe("/gl/traballo");
+  });
   test("root keeps its existing behavior", () => {
     expect(galicianRedirectPath("/")).toBeNull();
   });
@@ -57,10 +66,11 @@ describe("Unprefixed URLs", () => {
   });
 });
 
-test("only the three official social profiles are available in order", () => {
+test("the four official social profiles are available in order", () => {
   expect(SOCIAL_LINKS).toEqual([
     { label: "Instagram", url: "https://www.instagram.com/alumafilms.ai/" },
     { label: "TikTok", url: "https://www.tiktok.com/@aluma.films" },
     { label: "YouTube", url: "https://www.youtube.com/@AlumaEstudio" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/company/146671485/" },
   ]);
 });

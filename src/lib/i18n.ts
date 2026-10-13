@@ -59,9 +59,16 @@ export function homePath(lang: Lang): string {
   return `/${lang}`;
 }
 
-/** Preserve unprefixed paths under the default locale without redirecting twice. */
+/** Preserve unprefixed paths under the default locale without redirecting twice.
+ * Infrastructure paths (server functions, API routes, Lovable previews, static
+ * assets) and anything with a file extension never redirect. */
 export function galicianRedirectPath(pathname: string): string | null {
   if (pathname === "/" || isLang(pathname.split("/")[1])) return null;
+  const NON_PAGE_PREFIXES = ["/lovable/", "/api/", "/_serverFn/", "/_build/", "/assets/", "/__l5e/", "/_"];
+  if (NON_PAGE_PREFIXES.some((prefix) => pathname.startsWith(prefix))) return null;
+  if (pathname === "/sitemap.xml" || pathname === "/robots.txt") return null;
+  const lastSegment = pathname.split("/").pop() ?? "";
+  if (lastSegment.includes(".")) return null;
   return `/gl${pathname}`;
 }
 
@@ -74,6 +81,7 @@ export const SOCIAL_LINKS: { label: string; url: string | null }[] = [
   { label: "Instagram", url: "https://www.instagram.com/alumafilms.ai/" },
   { label: "TikTok", url: "https://www.tiktok.com/@aluma.films" },
   { label: "YouTube", url: "https://www.youtube.com/@AlumaEstudio" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/company/146671485/" },
 ];
 
 export const ROOMS = ["ficcion", "deporte", "documental", "publicidade"] as const;
