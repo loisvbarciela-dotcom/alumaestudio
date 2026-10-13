@@ -1,4 +1,10 @@
 {
+  "notFound": {
+    "label": "404",
+    "title": "Esta página no existe",
+    "text": "Quizá el enlace ha cambiado o la página ya no está.",
+    "button": "Volver al inicio"
+  },
   "locale": "es",
   "localeTag": "es-ES",
   "nav": {

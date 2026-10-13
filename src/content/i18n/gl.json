@@ -1,4 +1,10 @@
 {
+  "notFound": {
+    "label": "404",
+    "title": "Esta páxina non existe",
+    "text": "Quizais a ligazón cambiou ou a páxina xa non está.",
+    "button": "Volver ao inicio"
+  },
   "locale": "gl",
   "localeTag": "gl-ES",
   "nav": {
