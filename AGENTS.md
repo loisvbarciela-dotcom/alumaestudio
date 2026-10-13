@@ -16,3 +16,4 @@
 - Regenerate the static sitemap with scripts/generate-sitemap.ts after locale or content changes; the shared registry keeps alternates aligned with real pages.
 - Bun test files (`src/**/*.test.ts`) are excluded from tsconfig; the bun types collide with the project's fetch typings, and tests run via `bun test` at runtime.
 - AI campaign proposals run through a server function that calls Lovable AI Gateway (Responses API) server-side; the key and prompt never reach the browser.
+- The root route owns unprefixed-path redirects and the localized SiteShell 404 so unmatched deep paths and invalid resources share one fallback without redirect loops.

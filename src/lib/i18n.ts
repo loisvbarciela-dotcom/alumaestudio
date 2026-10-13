@@ -59,6 +59,12 @@ export function homePath(lang: Lang): string {
   return `/${lang}`;
 }
 
+/** Preserve unprefixed paths under the default locale without redirecting twice. */
+export function galicianRedirectPath(pathname: string): string | null {
+  if (pathname === "/" || isLang(pathname.split("/")[1])) return null;
+  return `/gl${pathname}`;
+}
+
 export const SITE_URL = "https://alumafilms.es";
 /** Public contact address shown on the site (form notifications still go elsewhere). */
 export const CONTACT_EMAIL = "info@alumafilms.es";

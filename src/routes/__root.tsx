@@ -2,6 +2,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
   Link,
+  redirect,
   createRootRouteWithContext,
   useRouter,
   HeadContent,
@@ -13,27 +14,25 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import { isLang, DEFAULT_LANG } from "../lib/i18n";
+import { dict, galicianRedirectPath, homeLink, isLang, DEFAULT_LANG } from "../lib/i18n";
+import { SiteShell } from "@/components/aluma/SiteShell";
+import { Button } from "@/components/ui/button";
 
 function NotFoundComponent() {
+  const segment = useRouterState({ select: (state) => state.location.pathname.split("/")[1] });
+  const lang = isLang(segment) ? segment : DEFAULT_LANG;
+  const t = dict(lang).notFound;
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
-      <div className="max-w-md text-center">
-        <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
-        <p className="mt-2 text-sm text-muted-foreground">
-          The page you're looking for doesn't exist or has been moved.
-        </p>
-        <div className="mt-6">
-          <Link
-            to="/"
-            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
-          >
-            Go home
-          </Link>
-        </div>
-      </div>
-    </div>
+    <SiteShell lang={lang}>
+      <header className="gutter pt-[14vh] pb-[8vh]">
+        <p className="label-xs text-ouro">{t.label}</p>
+        <h1 className="display mt-8 max-w-3xl text-5xl sm:text-7xl">{t.title}</h1>
+        <p className="mt-8 max-w-2xl text-[15px] text-bruma">{t.text}</p>
+        <Button asChild variant="cinema" className="label-xs mt-12">
+          <Link {...homeLink(lang)}>{t.button}</Link>
+        </Button>
+      </header>
+    </SiteShell>
   );
 }
 
@@ -77,8 +76,21 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  head: () => ({
+  beforeLoad: ({ location }) => {
+    const target = galicianRedirectPath(location.pathname);
+    if (target) {
+      throw redirect({
+        href: `${target}${location.searchStr}${location.hash ? `#${location.hash}` : ""}`,
+        statusCode: 301,
+        replace: true,
+      });
+    }
+  },
+  head: ({ matches }) => ({
     meta: [
+      ...(matches.some((match) => match.status === "notFound" || match._notFound)
+        ? [{ name: "robots", content: "noindex" }]
+        : []),
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "Aluma" },

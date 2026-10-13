@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { LANGS, isLang, slugFor, pageFromSlug, formatDate, pieces, posts } from "./i18n";
+import { LANGS, isLang, slugFor, pageFromSlug, formatDate, pieces, posts, SOCIAL_LINKS, galicianRedirectPath } from "./i18n";
 import { contactSchema } from "./contact-schema";
 
 describe("Russian language support", () => {
@@ -37,4 +37,30 @@ describe("Russian language support", () => {
       expect(post.corpo.ru.length).toBe(post.corpo.es.length);
     }
   });
+});
+
+describe("Unprefixed URLs", () => {
+  test("unprefixed paths retain the same route under gl", () => {
+    expect(galicianRedirectPath("/traballo")).toBe("/gl/traballo");
+    expect(galicianRedirectPath("/contacto")).toBe("/gl/contacto");
+    expect(galicianRedirectPath("/blog/ideas-que-merecen-luz")).toBe("/gl/blog/ideas-que-merecen-luz");
+    expect(galicianRedirectPath("/missing/deep/path/extra")).toBe("/gl/missing/deep/path/extra");
+  });
+  test("root keeps its existing behavior", () => {
+    expect(galicianRedirectPath("/")).toBeNull();
+  });
+  test("valid locale prefixes never redirect again", () => {
+    for (const lang of ["gl", "es", "en", "ru"]) {
+      expect(galicianRedirectPath(`/${lang}`)).toBeNull();
+      expect(galicianRedirectPath(`/${lang}/missing/deep/path/extra`)).toBeNull();
+    }
+  });
+});
+
+test("only the three official social profiles are available in order", () => {
+  expect(SOCIAL_LINKS).toEqual([
+    { label: "Instagram", url: "https://www.instagram.com/alumafilms.ai/" },
+    { label: "TikTok", url: "https://www.tiktok.com/@aluma.films" },
+    { label: "YouTube", url: "https://www.youtube.com/@AlumaEstudio" },
+  ]);
 });
