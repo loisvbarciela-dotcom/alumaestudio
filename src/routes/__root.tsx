@@ -86,15 +86,16 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  beforeLoad: ({ location }) => {
+  beforeLoad: async ({ location }) => {
     const target = galicianRedirectPath(location.pathname);
-    if (target) {
-      throw redirect({
-        href: `${target}${location.searchStr}${location.hash ? `#${location.hash}` : ""}`,
-        statusCode: 301,
-        replace: true,
-      });
-    }
+    if (!target) return;
+    const method = await serverRequestMethod();
+    if (method !== null && method !== "GET" && method !== "HEAD") return;
+    throw redirect({
+      href: `${target}${location.searchStr}${location.hash ? `#${location.hash}` : ""}`,
+      statusCode: 301,
+      replace: true,
+    });
   },
   head: ({ matches }) => ({
     meta: [
