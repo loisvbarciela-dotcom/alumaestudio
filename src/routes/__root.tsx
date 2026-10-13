@@ -80,8 +80,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   beforeLoad: async ({ location }) => {
     const target = galicianRedirectPath(location.pathname);
     if (!target) return;
-    const method = await serverRequestMethod();
-    if (method !== null && method !== "GET" && method !== "HEAD") return;
+    const method = await getRequestMethod();
+    if (method !== "GET" && method !== "HEAD") return;
     throw redirect({
       href: `${target}${location.searchStr}${location.hash ? `#${location.hash}` : ""}`,
       statusCode: 301,
