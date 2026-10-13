@@ -165,5 +165,14 @@
     "read": "Ler",
     "minutes": "min de lectura",
     "back": "Volver ao blog"
+  },
+  "brief": {
+    "label": "Propostas con IA",
+    "title": "Describe a túa campaña e recibe un primeiro enfoque.",
+    "placeholder": "Marca, obxectivo, público, ton, duración, canles, prazos...",
+    "submit": "Xerar proposta",
+    "sending": "Pensando a proposta",
+    "error": "Non se puido xerar a proposta. Téntao de novo nuns minutos.",
+    "note": "Proposta orientativa xerada con IA. O equipo de Aluma revísaa contigo antes de calquera compromiso."
   }
 }

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { CONTACT_EMAIL, ROOMS, dict, type Lang } from "@/lib/i18n";
 import { submitContact } from "@/lib/contact.functions";
+import { BriefAdvisor } from "@/components/aluma/BriefAdvisor";
 
 export function ContactPage({ lang }: { lang: Lang }) {
   const t = dict(lang);
@@ -39,6 +40,10 @@ export function ContactPage({ lang }: { lang: Lang }) {
         <p className="label-xs text-ouro">{t.contact.label}</p>
         <h1 className="display mt-8 max-w-3xl text-5xl sm:text-7xl">{t.contact.title}</h1>
       </header>
+
+      <BriefAdvisor lang={lang} />
+
+
 
       <section className="gutter pb-[16vh]">
         <form onSubmit={onSubmit} className="max-w-2xl border-t pt-12">

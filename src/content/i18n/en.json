@@ -165,5 +165,14 @@
     "read": "Read",
     "minutes": "min read",
     "back": "Back to blog"
+  },
+  "brief": {
+    "label": "AI proposals",
+    "title": "Describe your campaign and get a first approach.",
+    "placeholder": "Brand, goal, audience, tone, length, channels, timing...",
+    "submit": "Generate proposal",
+    "sending": "Thinking through the proposal",
+    "error": "The proposal couldn't be generated. Please try again in a few minutes.",
+    "note": "Indicative AI-generated proposal. The Aluma team reviews it with you before any commitment."
   }
 }
