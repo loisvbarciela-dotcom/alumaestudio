@@ -120,7 +120,7 @@
         }
         cur.x += (target.x - cur.x) * 0.07;
         cur.y += (target.y - cur.y) * 0.07;
-        cur.r += (target.r - cur.r) * (isCoarse ? 0.14 : 0.045);
+        cur.r += (target.r - cur.r) * (isCoarse ? 0.14 : 0.055);
         paint(cur.x, cur.y, cur.r);
         if (isOpen && OPEN - cur.r < 0.02) {
           finish();

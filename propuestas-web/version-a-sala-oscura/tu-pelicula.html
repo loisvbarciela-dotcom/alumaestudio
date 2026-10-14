@@ -123,8 +123,9 @@
         <span class="menu-toggle__icon" aria-hidden="true"></span>
       </button>
 
-      <nav class="site-nav" id="menu" aria-label="Principal">
-        <ul class="site-nav__links">
+      <div class="site-nav" id="menu">
+        <nav aria-label="Principal">
+          <ul class="site-nav__links">
           <li><a href="tu-pelicula.html" aria-current="page">Tu película</a></li>
           <li><a href="trabajo.html">Trabajo</a></li>
           <li><a href="index.html#metodo">Método</a></li>
@@ -132,16 +133,17 @@
           <li><a href="index.html#blog">Blog</a></li>
           <li><a href="index.html#contacto">Contacto</a></li>
         </ul>
+        </nav>
         <div class="site-nav__foot">
-          <ul class="lang" aria-label="Idioma">
+          <nav aria-label="Idioma"><ul class="lang">
             <li><a href="https://alumafilms.es/gl/a-tua-pelicula" hreflang="gl" lang="gl">GL</a></li>
             <li><a href="tu-pelicula.html" hreflang="es" lang="es" aria-current="page">ES</a></li>
             <li><a href="https://alumafilms.es/en/your-film" hreflang="en" lang="en">EN</a></li>
             <li><a href="https://alumafilms.es/ru/vash-film" hreflang="ru" lang="ru">RU</a></li>
-          </ul>
+          </ul></nav>
           <a class="btn btn--nav" href="#formulario">Crea vuestra película</a>
         </div>
-      </nav>
+      </div>
     </div>
   </header>
 
@@ -157,10 +159,10 @@
       <div class="hero__scrim" aria-hidden="true"></div>
 
       <div class="wrap hero__copy">
-        <ol class="crumbs" aria-label="Estás en">
+        <nav aria-label="Estás en"><ol class="crumbs">
           <li><a href="index.html">Inicio</a></li>
           <li aria-current="page">Tu película</li>
-        </ol>
+        </ol></nav>
         <span class="label label--ouro">ALUMA · Cine para historias de amor</span>
         <h1 id="love-title">Tu película personalizada</h1>
         <p class="lead">Dos fotografías. Vuestra historia de amor. Un universo que solo existe para vosotros.</p>
@@ -465,7 +467,7 @@
         <form class="form" method="post" action="[ENDPOINT FORMULARIO]" novalidate>
           <div class="field">
             <label for="f-nombres">Vuestros nombres</label>
-            <input id="f-nombres" name="nombres" type="text" placeholder="Ana y Xoán" required>
+            <input id="f-nombres" name="nombres" type="text" placeholder="Los dos nombres" required>
           </div>
           <div class="form__row">
             <div class="field">
@@ -579,12 +581,12 @@
       </div>
       <div class="site-footer__bottom">
         <span>ALUMA · Estudio audiovisual · Galicia · alumafilms.es</span>
-        <ul class="lang" aria-label="Idioma">
+        <nav aria-label="Idioma, pie de página"><ul class="lang">
           <li><a href="https://alumafilms.es/gl/a-tua-pelicula" hreflang="gl" lang="gl">GL</a></li>
           <li><a href="tu-pelicula.html" hreflang="es" lang="es" aria-current="page">ES</a></li>
           <li><a href="https://alumafilms.es/en/your-film" hreflang="en" lang="en">EN</a></li>
           <li><a href="https://alumafilms.es/ru/vash-film" hreflang="ru" lang="ru">RU</a></li>
-        </ul>
+        </ul></nav>
       </div>
     </div>
   </footer>

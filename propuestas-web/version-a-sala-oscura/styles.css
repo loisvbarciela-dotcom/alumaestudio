@@ -562,9 +562,10 @@ button {
   display: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1360px) {
   .wordmark small {
     display: inline;
+    white-space: nowrap;
   }
 }
 
@@ -2176,6 +2177,11 @@ body.menu-open .site-header {
   margin: 0;
   padding: 0;
   display: grid;
+  gap: 0.55rem;
+}
+
+.site-footer .lang {
+  display: flex;
   gap: 0.55rem;
 }
 

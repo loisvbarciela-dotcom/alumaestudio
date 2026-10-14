@@ -183,7 +183,7 @@ Dirección de arte coherente, mucho aire, jerarquía editorial, sin ruido. Carru
 | Idea | Evolución de la marca actual, que ahora vende | La portada es la landing del producto | Productora con catálogo de servicios y autoridad |
 | Público principal | Mixto: parejas y marcas, con dos puertas de entrada | Parejas, regalos y wedding planners | Marcas, clubes, agencias, instituciones; producto como línea propia |
 | Estética | Oscura y cinematográfica, haz de luz conservado | Clara y cálida, editorial, bandas de cine | Retícula suiza, clara con bloques de tinta, fichas técnicas |
-| Páginas | Portada + Tu película (+ Trabajo) | Landing del producto + Wedding planners | Portada + Tu película + Caso Ronsel |
+| Páginas | Portada + Tu película + Trabajo | Landing del producto + Wedding planners | Portada + Tu película + Caso Ronsel |
 | Cuándo elegirla | Si se quiere mantener la marca tal cual y corregir la venta | Si el objetivo inmediato es vender «Tu película» | Si se quiere crecer en B2B sin perder el producto |
 
 Las tres resuelven los puntos 1, 2, 4, 6, 7 y 8 del resumen, usan los recursos existentes del repositorio y marcan con placeholders todo lo que falta (precio, plazo, testimonios, WhatsApp, logo SVG, vídeos MP4, textos legales).
