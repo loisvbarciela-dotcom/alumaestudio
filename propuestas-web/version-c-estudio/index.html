@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Producción audiovisual con IA en Galicia — ALUMA</title>
+  <meta name="description" content="Estudio audiovisual híbrido en Galicia: rodaje real y generación por IA dirigida por cineastas. Publicidad, deporte, documental, ficción y «Tu película».">
+  <link rel="canonical" href="https://alumafilms.es/es">
+  <link rel="alternate" hreflang="gl" href="https://alumafilms.es/gl">
+  <link rel="alternate" hreflang="es" href="https://alumafilms.es/es">
+  <link rel="alternate" hreflang="en" href="https://alumafilms.es/en">
+  <link rel="alternate" hreflang="ru" href="https://alumafilms.es/ru">
+  <link rel="alternate" hreflang="x-default" href="https://alumafilms.es/es">
+  <meta name="theme-color" content="#FBF9F4">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ALUMA">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:url" content="https://alumafilms.es/es">
+  <meta property="og:title" content="Producción audiovisual con IA en Galicia — ALUMA">
+  <meta property="og:description" content="Estudio audiovisual híbrido en Galicia: rodaje real y generación por IA dirigida por cineastas. Publicidad, deporte, documental, ficción y «Tu película».">
+  <meta property="og:image" content="https://alumafilms.es/posters/ronsel.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:image:alt" content="Cartel de Ronsel, documental para el RC Celta">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Producción audiovisual con IA en Galicia — ALUMA">
+  <meta name="twitter:description" content="Rodaje real y generación por IA dirigida por cineastas. Publicidad, deporte, documental, ficción y «Tu película».">
+  <meta name="twitter:image" content="https://alumafilms.es/posters/ronsel.jpg">
+  <link rel="icon" href="../assets/img/favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=Inter+Tight:wght@500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "ProfessionalService"],
+        "@id": "https://alumafilms.es/#organization",
+        "name": "ALUMA",
+        "alternateName": "Aluma Films",
+        "url": "https://alumafilms.es/es",
+        "email": "info@alumafilms.es",
+        "description": "Estudio audiovisual híbrido con sede en Galicia: rodaje real y generación por inteligencia artificial dirigida plano a plano por cineastas.",
+        "image": "https://alumafilms.es/posters/ronsel.jpg",
+        "address": { "@type": "PostalAddress", "addressRegion": "Galicia", "addressCountry": "ES" },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Galicia" },
+          { "@type": "Country", "name": "España" }
+        ],
+        "knowsLanguage": ["gl", "es", "en", "ru"],
+        "knowsAbout": ["Producción audiovisual", "Inteligencia artificial generativa", "Documental", "Publicidad", "Deporte", "Ficción"],
+        "sameAs": [
+          "https://www.instagram.com/aluma.films/",
+          "https://www.tiktok.com/@aluma.films",
+          "https://www.youtube.com/@AlumaFilmsGalicia",
+          "https://www.linkedin.com/company/146671485/"
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://alumafilms.es/es#servicios",
+        "name": "Servicios de ALUMA",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 5,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "item": { "@type": "Service", "name": "Tu película", "description": "Película cinematográfica de 3–4 minutos, exclusiva, protagonizada por la pareja a partir de dos fotografías.", "url": "https://alumafilms.es/es/tu-pelicula", "provider": { "@id": "https://alumafilms.es/#organization" }, "audience": { "@type": "Audience", "audienceType": "Personas y parejas" } } },
+          { "@type": "ListItem", "position": 2, "item": { "@type": "Service", "name": "Publicidad cinematográfica para redes", "description": "Anuncios en formato vertical, tiempos de cine y producción en días, no en semanas.", "url": "https://alumafilms.es/es#servicios", "provider": { "@id": "https://alumafilms.es/#organization" }, "audience": { "@type": "Audience", "audienceType": "Marcas y agencias" } } },
+          { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Deporte y clubes", "description": "Piezas de marca, presentaciones y contenido de club con factura cinematográfica.", "url": "https://alumafilms.es/es#servicios", "provider": { "@id": "https://alumafilms.es/#organization" }, "audience": { "@type": "Audience", "audienceType": "Clubes, federaciones y patrocinadores" } } },
+          { "@type": "ListItem", "position": 4, "item": { "@type": "Service", "name": "Documental y memoria", "description": "Animación e ilustración al servicio del relato, para reconstruir lo que ya no se puede rodar.", "url": "https://alumafilms.es/es/trabajo/ronsel", "provider": { "@id": "https://alumafilms.es/#organization" }, "audience": { "@type": "Audience", "audienceType": "Instituciones, fundaciones y medios" } } },
+          { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Ficción y cortos", "description": "Cortometrajes y piezas de ficción breve con rodaje real e IA dirigida plano a plano.", "url": "https://alumafilms.es/es/trabajo", "provider": { "@id": "https://alumafilms.es/#organization" }, "audience": { "@type": "Audience", "audienceType": "Productoras, festivales y marcas" } } }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://alumafilms.es/es" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="header">
+    <div class="wrap header__bar">
+      <!-- PLACEHOLDER: logo SVG — sustituir la marca tipográfica por el logotipo vectorial definitivo -->
+      <a class="brand" href="index.html" aria-label="ALUMA, inicio">
+        <span class="brand__mark" aria-hidden="true"></span>
+        ALUMA
+        <small>Estudio</small>
+      </a>
+
+      <nav class="nav" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajo">Trabajo</a>
+        <a href="tu-pelicula.html">Tu película</a>
+        <a href="#metodo">Método</a>
+        <a href="#estudio">Estudio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header__tools">
+        <nav class="lang" aria-label="Idioma">
+          <a href="https://alumafilms.es/gl" lang="gl" hreflang="gl">GL</a><span class="lang__sep" aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/es" lang="es" hreflang="es" aria-current="page">ES</a><span class="lang__sep" aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/en" lang="en" hreflang="en">EN</a><span class="lang__sep" aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/ru" lang="ru" hreflang="ru">RU</a>
+        </nav>
+        <a class="btn" href="#contacto">Pedir propuesta</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-panel">
+          <span class="menu-btn__icon" aria-hidden="true"></span>
+          <span>Menú</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="panel" id="menu-panel" hidden>
+      <nav class="panel__nav" aria-label="Principal (móvil)">
+        <a href="#servicios">Servicios <span>01</span></a>
+        <a href="#trabajo">Trabajo <span>03</span></a>
+        <a href="tu-pelicula.html">Tu película <span>07</span></a>
+        <a href="#metodo">Método <span>04</span></a>
+        <a href="#estudio">Estudio <span>05</span></a>
+        <a href="#contacto">Contacto <span>09</span></a>
+      </nav>
+      <div class="panel__meta">
+        <nav class="lang" aria-label="Idioma (móvil)">
+          <a href="https://alumafilms.es/gl" lang="gl" hreflang="gl">GL</a><span class="lang__sep" aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/es" lang="es" hreflang="es" aria-current="page">ES</a><span class="lang__sep" aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/en" lang="en" hreflang="en">EN</a><span class="lang__sep" aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/ru" lang="ru" hreflang="ru">RU</a>
+        </nav>
+        <a class="btn" href="#contacto">Pedir propuesta</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="h1">
+      <div class="wrap">
+        <div class="grid hero__grid">
+          <div class="hero__copy">
+            <p class="hero__eyebrow label">Estudio audiovisual híbrido · Galicia</p>
+            <h1 id="h1">Producción audiovisual con IA, <em>dirigida por cineastas</em>, en Galicia.</h1>
+            <p class="lead">Rodaje real y generación por inteligencia artificial, plano a plano. Para marcas, clubes, instituciones y agencias. Y para parejas que quieren una película propia.</p>
+            <div class="hero__cta">
+              <a class="btn" href="#contacto">Pedir propuesta <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn btn--line" href="tu-pelicula.html">Tu película <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
+          <figure class="hero__media">
+            <div class="facade" data-yt="ngDsA0Ya6RE" data-title="Ronsel, documental para el RC Celta">
+              <img src="../assets/img/ronsel.jpg" alt="Cartel de Ronsel: «Celta, Vigo e mar», con el escudo del RC Celta sobre fondo azul" width="1280" height="720" fetchpriority="high" decoding="async">
+              <button class="facade__play" type="button" aria-label="Reproducir Ronsel en YouTube">
+                <span class="facade__btn"><span class="facade__tri" aria-hidden="true"></span>Ver el documental</span>
+              </button>
+              <a class="facade__ext" href="https://youtu.be/ngDsA0Ya6RE" target="_blank" rel="noopener">YouTube</a>
+            </div>
+            <figcaption class="hero__caption">
+              <span><strong>Ronsel</strong> · Documental para el RC Celta</span>
+              <span>2026 · 31:42 · Aportación: animaciones</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <ul class="proof" aria-label="Datos verificables del estudio">
+          <li class="proof__item">
+            <span class="proof__val">RC Celta</span>
+            <span class="proof__lab label">Documental <span lang="gl">Ronsel</span>, 2026 · 31:42</span>
+          </li>
+          <li class="proof__item">
+            <span class="proof__val">16 piezas</span>
+            <span class="proof__lab label">Publicadas en cuatro salas</span>
+          </li>
+          <li class="proof__item">
+            <span class="proof__val">4 idiomas</span>
+            <span class="proof__lab label">Gallego · español · inglés · ruso</span>
+          </li>
+          <li class="proof__item">
+            <span class="proof__val">Reg. (UE) 2024/1689</span>
+            <span class="proof__lab label">Cumplimiento del Reglamento Europeo de IA</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== 01 SERVICIOS ===================== -->
+    <section class="section" id="servicios" aria-labelledby="h-servicios">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">01</span>
+            <span class="label">Servicios</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-servicios">Cinco líneas de producción. Una misma forma de trabajar.</h2>
+            <p class="lead">Dirigimos la máquina con los mismos criterios con los que se dirige una cámara: encuadre, luz, ritmo, intención. Cada línea tiene un público, un entregable y un ejemplo publicado.</p>
+          </div>
+        </div>
+
+        <div class="catalog">
+
+          <article class="service">
+            <div class="service__id">
+              <span class="service__num" aria-hidden="true">01</span>
+              <div>
+                <h3>Tu película</h3>
+                <p class="service__tag label">Personas y parejas</p>
+              </div>
+              <div class="service__cta"><a class="link" href="tu-pelicula.html">Ver la ficha del producto <span class="arrow" aria-hidden="true">→</span></a></div>
+            </div>
+            <dl class="service__col">
+              <dt class="label">Para quién</dt>
+              <dd>Parejas y personas que quieren una película propia para una boda, un aniversario, una pedida o un regalo. También wedding planners.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Qué entregamos</dt>
+              <dd>Una película de 3–4 minutos, exclusiva, protagonizada por vosotros a partir de dos fotografías y una conversación. Guion, época y tono decididos juntos.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Ejemplo real</dt>
+              <dd class="service__ex"><a class="link" href="tu-pelicula.html#pelicula">Película de ejemplo</a></dd>
+            </dl>
+          </article>
+
+          <article class="service">
+            <div class="service__id">
+              <span class="service__num" aria-hidden="true">02</span>
+              <div>
+                <h3>Publicidad cinematográfica para redes</h3>
+                <p class="service__tag label">Marcas · agencias · comercio</p>
+              </div>
+              <div class="service__cta"><a class="link" href="#contacto">Pedir propuesta <span class="arrow" aria-hidden="true">→</span></a></div>
+            </div>
+            <dl class="service__col">
+              <dt class="label">Para quién</dt>
+              <dd>Marcas, agencias y comercios que necesitan piezas con factura de cine para Instagram, TikTok y YouTube, sin el coste de un rodaje convencional.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Qué entregamos</dt>
+              <dd>Anuncios en formato vertical, tiempos de cine y producción en días, no en semanas. Entrega con el desglose de lo rodado y lo generado.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Ejemplo real</dt>
+              <dd class="service__ex"><a class="link" href="https://alumafilms.es/es/trabajo/app-store">«No disponible en App Store»</a><span class="muted">Seis parques de Galicia</span></dd>
+            </dl>
+          </article>
+
+          <article class="service">
+            <div class="service__id">
+              <span class="service__num" aria-hidden="true">03</span>
+              <div>
+                <h3>Deporte y clubes</h3>
+                <p class="service__tag label">Clubes · federaciones · patrocinadores</p>
+              </div>
+              <div class="service__cta"><a class="link" href="#contacto">Pedir propuesta <span class="arrow" aria-hidden="true">→</span></a></div>
+            </div>
+            <dl class="service__col">
+              <dt class="label">Para quién</dt>
+              <dd>Clubes, federaciones, patrocinadores y marcas deportivas que quieren contar su historia con el peso de una película.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Qué entregamos</dt>
+              <dd>Piezas de marca, presentaciones y contenido de club con factura cinematográfica. En horizontal para la gran pantalla y en vertical para redes.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Ejemplo real</dt>
+              <dd class="service__ex"><a class="link" href="caso-ronsel.html"><span lang="gl">Ronsel</span>, RC Celta</a><a class="link" href="https://www.instagram.com/reel/DW_-gyEjVn8/" rel="noopener">«Camiseta Reconquista»</a></dd>
+            </dl>
+          </article>
+
+          <article class="service">
+            <div class="service__id">
+              <span class="service__num" aria-hidden="true">04</span>
+              <div>
+                <h3>Documental y memoria</h3>
+                <p class="service__tag label">Instituciones · fundaciones · medios</p>
+              </div>
+              <div class="service__cta"><a class="link" href="#contacto">Pedir propuesta <span class="arrow" aria-hidden="true">→</span></a></div>
+            </div>
+            <dl class="service__col">
+              <dt class="label">Para quién</dt>
+              <dd>Instituciones, fundaciones, ayuntamientos, medios y empresas con una historia que ya no se puede rodar y que merece verse.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Qué entregamos</dt>
+              <dd>Animación e ilustración al servicio del relato, para reconstruir lo que ya no existe. Restauramos y recuperamos lugares y eventos para la memoria, el reconocimiento y la divulgación.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Ejemplo real</dt>
+              <dd class="service__ex"><a class="link" href="caso-ronsel.html"><span lang="gl">Ronsel</span> · 2026 · 31:42</a><span class="muted">Documental para el RC Celta</span></dd>
+            </dl>
+          </article>
+
+          <article class="service">
+            <div class="service__id">
+              <span class="service__num" aria-hidden="true">05</span>
+              <div>
+                <h3>Ficción y cortos</h3>
+                <p class="service__tag label">Productoras · festivales · marcas con relato</p>
+              </div>
+              <div class="service__cta"><a class="link" href="#contacto">Pedir propuesta <span class="arrow" aria-hidden="true">→</span></a></div>
+            </div>
+            <dl class="service__col">
+              <dt class="label">Para quién</dt>
+              <dd>Productoras, festivales, medios y marcas que quieren un relato propio: un corto, un piloto, una pieza de ficción breve.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Qué entregamos</dt>
+              <dd>Ficción breve con rodaje real e IA dirigida plano a plano. Dirección, guion y montaje humanos de principio a fin; el desglose se publica con la pieza.</dd>
+            </dl>
+            <dl class="service__col">
+              <dt class="label">Ejemplo real</dt>
+              <dd class="service__ex"><a class="link" href="#trabajo">Doce piezas de ficción</a><span class="muted"><span lang="gl">Tellarizar</span>, Cita en Teixido, Mayday…</span></dd>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 02 CASO DESTACADO ===================== -->
+    <section class="section section--ink" id="caso" aria-labelledby="h-caso">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">02</span>
+            <span class="label">Caso destacado</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-caso">Un documental para el RC Celta. Animación al servicio del relato.</h2>
+          </div>
+        </div>
+
+        <div class="grid">
+          <figure class="case__media">
+            <a href="caso-ronsel.html" aria-label="Abrir el caso Ronsel">
+              <img src="../assets/img/ronsel.jpg" alt="Cartel de Ronsel: «Celta, Vigo e mar», con el escudo del RC Celta sobre fondo azul" width="1280" height="720" loading="lazy" decoding="async">
+            </a>
+            <figcaption>
+              <span><strong lang="gl">Ronsel</strong> · «<span lang="gl">Celta, Vigo e mar</span>»</span>
+              <span>Documental · 2026 · 31:42</span>
+            </figcaption>
+          </figure>
+
+          <div class="case__body">
+            <h3 class="case__title"><span lang="gl">Ronsel</span><small>Documental en homenaje al mar de Vigo</small></h3>
+            <dl class="ficha">
+              <div><dt class="label">Cliente</dt><dd>RC Celta</dd></div>
+              <div><dt class="label">Año</dt><dd>2026</dd></div>
+              <div><dt class="label">Duración</dt><dd>31:42</dd></div>
+              <div><dt class="label">Sala</dt><dd>Documental</dd></div>
+              <div><dt class="label">Idioma</dt><dd>Gallego</dd></div>
+              <div><dt class="label">Aportación</dt><dd>Animaciones</dd></div>
+            </dl>
+            <p class="case__synopsis">Documental en homenaje al mar de Vigo en el que contribuimos a las animaciones, respetando al máximo la identidad y la naturalidad del relato documental.</p>
+            <div><a class="btn" href="caso-ronsel.html">Leer el caso completo <span class="arrow" aria-hidden="true">→</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 03 FILMOGRAFÍA ===================== -->
+    <section class="section" id="trabajo" aria-labelledby="h-trabajo">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">03</span>
+            <span class="label">Trabajo</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-trabajo">Filmografía</h2>
+            <p class="lead">Dieciséis piezas publicadas en cuatro salas: documental, publicidad, deporte y ficción. Cada ficha en la web abre la pieza y su desglose.</p>
+          </div>
+          <div class="head__aside"><a class="link" href="https://alumafilms.es/es/trabajo">Ver todo el trabajo en alumafilms.es <span class="arrow" aria-hidden="true">→</span></a></div>
+        </div>
+
+        <div class="grid filmo" data-filmo>
+          <div class="filmo__table">
+            <table class="table">
+              <caption class="visually-hidden">Piezas publicadas por ALUMA: título, sala, año, duración e idioma</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Nº</th>
+                  <th scope="col">Título</th>
+                  <th scope="col">Sala</th>
+                  <th scope="col">Año</th>
+                  <th scope="col">Duración</th>
+                  <th scope="col" class="t-right">Idioma</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr data-poster="../assets/img/ronsel.jpg" data-title="Ronsel" data-meta="Documental · RC Celta · 2026 · 31:42">
+                  <td class="t-num tnum">01</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/ronsel" lang="gl">Ronsel</a><span class="t-orig" lang="gl">Celta, Vigo e mar · RC Celta</span></td>
+                  <td class="t-meta" data-l="Sala">Documental</td>
+                  <td class="t-meta tnum" data-l="Año">2026</td>
+                  <td class="t-meta tnum" data-l="Duración">31:42</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/app-store.jpg" data-title="No disponible en App Store" data-meta="Publicidad · Seis parques de Galicia">
+                  <td class="t-num tnum">02</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/app-store">No disponible en App Store</a><span class="t-orig" lang="gl">Non dispoñible na App Store</span></td>
+                  <td class="t-meta" data-l="Sala">Publicidad</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">—</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-ph="[PLACEHOLDER: fotograma vertical del reel «Camiseta Reconquista»]" data-title="Camiseta Reconquista" data-meta="Deporte · Vertical · Instagram">
+                  <td class="t-num tnum">03</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/camiseta-reconquista">Camiseta Reconquista</a><span class="t-orig">Vertical · Instagram</span></td>
+                  <td class="t-meta" data-l="Sala">Deporte</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">—</td>
+                  <td class="t-meta t-right" data-l="Idioma">—</td>
+                </tr>
+                <tr data-ph="[PLACEHOLDER: fotograma vertical del reel «Viaje en el tiempo»]" data-title="Viaje en el tiempo" data-meta="Deporte · Vertical · Instagram">
+                  <td class="t-num tnum">04</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/viaxe-no-tempo">Viaje en el tiempo</a><span class="t-orig" lang="gl">Viaxe no tempo · Vertical · Instagram</span></td>
+                  <td class="t-meta" data-l="Sala">Deporte</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">—</td>
+                  <td class="t-meta t-right" data-l="Idioma">—</td>
+                </tr>
+                <tr data-poster="../assets/img/ultima-abella.jpg" data-title="La última abeja" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">05</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/a-ultima-abella">La última abeja</a><span class="t-orig" lang="gl">A última abella</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/viaxe-40-anos.jpg" data-title="Un viaje de 40 años" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">06</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/unha-viaxe-de-40-anos">Un viaje de 40 años</a><span class="t-orig" lang="gl">Unha viaxe de 40 anos</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/cita-teixido.jpg" data-title="Cita en Teixido" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">07</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/cita-en-teixido">Cita en Teixido</a><span class="t-orig">Leyenda gallega</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/o-inocente.jpg" data-title="El inocente" data-meta="Ficción · 0:31 · ES">
+                  <td class="t-num tnum">08</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/o-inocente">El inocente</a><span class="t-orig" lang="gl">O inocente</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">ES</td>
+                </tr>
+                <tr data-poster="../assets/img/tellarizar.jpg" data-title="Tellarizar" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">09</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/tellarizar" lang="gl">Tellarizar</a><span class="t-orig">Faro y soledad</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/meu-fillo.jpg" data-title="Mi hijo" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">10</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/meu-fillo">Mi hijo</a><span class="t-orig" lang="gl">Meu fillo</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/tempo.jpg" data-title="Tiempo" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">11</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/tempo">Tiempo</a><span class="t-orig" lang="gl">Tempo</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/a-ultima-fornada.jpg" data-title="La última hornada" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">12</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/a-ultima-fornada">La última hornada</a><span class="t-orig" lang="gl">A última fornada</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/mayday.jpg" data-title="Mayday" data-meta="Ficción · 0:31 · ES">
+                  <td class="t-num tnum">13</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/mayday">Mayday</a><span class="t-orig">Emergencia en el mar</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">ES</td>
+                </tr>
+                <tr data-poster="https://i.ytimg.com/vi/xLEAk5nbSrw/maxresdefault.jpg" data-title="Invasión alienígena" data-meta="Ficción · 0:16 · ES">
+                  <td class="t-num tnum">14</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/invasion-aline">Invasión alienígena</a><span class="t-orig">Una aldea, vista desde lo cotidiano</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:16</td>
+                  <td class="t-meta t-right" data-l="Idioma">ES</td>
+                </tr>
+                <tr data-poster="../assets/img/os-cans.jpg" data-title="Santa Compaña" data-meta="Ficción · 0:31 · GL">
+                  <td class="t-num tnum">15</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/os-cans">Santa Compaña</a><span class="t-orig">Tensión rural</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">GL</td>
+                </tr>
+                <tr data-poster="../assets/img/o-falsificador.jpg" data-title="El falsificador" data-meta="Ficción · 0:31 · ES">
+                  <td class="t-num tnum">16</td>
+                  <td class="t-title"><a href="https://alumafilms.es/es/trabajo/o-falsificador">El falsificador</a><span class="t-orig" lang="gl">O falsificador</span></td>
+                  <td class="t-meta" data-l="Sala">Ficción</td>
+                  <td class="t-meta tnum" data-l="Año">—</td>
+                  <td class="t-meta tnum" data-l="Duración">0:31</td>
+                  <td class="t-meta t-right" data-l="Idioma">ES</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="filmo__note">Año y duración «—»: dato no publicado en la ficha de la pieza. Las piezas verticales se publican en Instagram.</p>
+          </div>
+
+          <aside class="filmo__preview" aria-hidden="true">
+            <figure>
+              <div class="filmo__frame">
+                <img src="../assets/img/ronsel.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+              </div>
+              <figcaption>
+                <strong data-preview-title>Ronsel</strong>
+                <span class="label" data-preview-meta>Documental · RC Celta · 2026 · 31:42</span>
+              </figcaption>
+            </figure>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 04 MÉTODO ===================== -->
+    <section class="section section--oso" id="metodo" aria-labelledby="h-metodo">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">04</span>
+            <span class="label">El método</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-metodo">Filmamos&nbsp;· Generamos&nbsp;· Integramos</h2>
+            <p class="lead">La IA amplía lo que un presupuesto puede permitirse: localizaciones inaccesibles, épocas pasadas, planos que exigirían grúa y tres jornadas de rodaje. Lo que no delegamos es el criterio.</p>
+          </div>
+        </div>
+
+        <ol class="method" aria-label="Tres fases del método">
+          <li class="step">
+            <span class="step__num" aria-hidden="true">01</span>
+            <h3>Filmamos</h3>
+            <p>Lo que tiene alma: la mirada, la piel, el producto.</p>
+            <span class="step__flow" aria-hidden="true">→</span>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">02</span>
+            <h3>Generamos</h3>
+            <p>Lo que sería faraónico, imposible o inalcanzable.</p>
+            <span class="step__flow" aria-hidden="true">→</span>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">03</span>
+            <h3>Integramos</h3>
+            <p>Sin costura. Y enseñamos cómo se hizo.</p>
+          </li>
+        </ol>
+
+        <div class="breakdown">
+          <div class="breakdown__text">
+            <p class="label">El desglose</p>
+            <p class="serif" style="font-size: var(--fs-h3); line-height: 1.15; margin-top: .75rem;">Cada pieza se publica con su desglose: qué se filmó, qué se generó, cómo se integró.</p>
+            <p class="muted" style="margin-top: 1rem;">Dirección, guion y montaje son humanos de principio a fin. La leyenda de la derecha es la que acompaña a cada ficha.</p>
+          </div>
+          <div class="breakdown__bar">
+            <div class="legend" role="img" aria-label="Leyenda del desglose: rodado, generado e integrado">
+              <div><span class="legend__swatch swatch--filmed" aria-hidden="true"></span><span class="label">Rodado</span></div>
+              <div><span class="legend__swatch swatch--generated" aria-hidden="true"></span><span class="label">Generado</span></div>
+              <div><span class="legend__swatch swatch--integrated" aria-hidden="true"></span><span class="label">Integrado</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 05 ESTUDIO ===================== -->
+    <section class="section" id="estudio" aria-labelledby="h-estudio">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">05</span>
+            <span class="label">Estudio</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-estudio">Alumar: dar luz</h2>
+            <p class="lead"><em>Alumar</em> es verbo gallego. No hacer luz: decidir dónde cae.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <ol class="manifesto" aria-label="Manifiesto">
+            <li><span>01</span>Somos cineastas primero, ingenieros después.</li>
+            <li><span>02</span>Filmamos lo que tiene alma. Generamos lo imposible.</li>
+            <li><span>03</span>La IA no firma nuestro trabajo: lo ejecuta bajo nuestra dirección.</li>
+          </ol>
+          <div class="studio__text">
+            <p>Aluma es un estudio audiovisual con sede en Galicia. Producimos piezas de calidad cinematográfica combinando rodaje real y generación por IA.</p>
+            <p>La máquina ejecuta, compone y renderiza. Solo el ser humano siente, dirige y asume el riesgo artístico.</p>
+            <p>Filmamos lo que tiene alma y generamos lo que sería inalcanzable. Cada pieza se publica con su desglose: qué se filmó, qué se generó, cómo se integró.</p>
+            <p class="muted">Trabajamos en gallego, español e inglés, para clientes en España y en el exterior. Galicia es nuestra raíz y nuestro primer plató.</p>
+            <div><a class="link" href="https://alumafilms.es/es/estudio">Más sobre el estudio <span class="arrow" aria-hidden="true">→</span></a></div>
+          </div>
+          <figure class="studio__media">
+            <img src="../assets/img/o-oficio.jpg" alt="Manos tallando madera con luz cálida" width="1920" height="1088" loading="lazy" decoding="async">
+            <figcaption class="label">Oficio · Fotograma del estudio</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 06 ÉTICA ===================== -->
+    <section class="section section--oso" id="etica" aria-labelledby="h-etica">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">06</span>
+            <span class="label">Ética</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-etica">La transparencia es parte del oficio</h2>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="ethics__text">
+            <p class="lead">Cumplimos el Reglamento Europeo de IA. Todo lo generado queda trazado. Ninguna persona real aparece en nuestras piezas sin su consentimiento expreso. La transparencia no es un aviso legal: es parte del oficio.</p>
+            <p>Para quien contrata, esto es una garantía práctica: piezas que se pueden publicar, archivar y auditar sin sorpresas, con el registro de lo generado y la cesión de imagen resuelta antes de rodar.</p>
+            <div><a class="link" href="https://alumafilms.es/es/etica">Leer la política completa <span class="arrow" aria-hidden="true">→</span></a></div>
+          </div>
+          <ul class="ethics__list check" aria-label="Compromisos del estudio">
+            <li><span class="tick" aria-hidden="true"></span><div><strong>Reglamento Europeo de IA</strong><p>Cumplimiento en cada entrega. Reglamento (UE) 2024/1689.</p></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong>Trazabilidad</strong><p>Registro de lo generado y con qué herramienta.</p></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong>Marcado de contenido sintético</strong><p>Cuando corresponde, la pieza lo declara.</p></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong>Consentimiento</strong><p>Uso de imagen de personas reales solo con consentimiento expreso y por escrito.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 07 TU PELÍCULA ===================== -->
+    <section class="section section--ink" id="tu-pelicula" aria-labelledby="h-producto">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">07</span>
+            <span class="label">Tu película</span>
+          </div>
+          <div class="head__body">
+            <p class="label" style="margin-bottom: 1rem;">ALUMA · Cine para historias de amor</p>
+            <h2 id="h-producto">Dos fotografías. Vuestra historia de amor. Un universo que solo existe para vosotros.</h2>
+          </div>
+        </div>
+
+        <div class="grid band">
+          <!-- PLACEHOLDER: imagen remota del CDN (no carga en el sandbox); en producción se ve love-hero.jpg -->
+          <figure class="band__media remote">
+            <img src="https://alumafilms.es/__l5e/assets-v1/366846b8-e9ab-4737-af7a-298781b66aa1/love-hero.jpg" alt="Fotograma de la película de ejemplo de «Tu película»: una pareja en un universo cinematográfico" width="1920" height="1072" loading="lazy" decoding="async">
+          </figure>
+          <div class="band__copy">
+            <p class="lead">No es un vídeo de fotos con efectos. Las fotografías son la referencia para crear a los protagonistas; a partir de ellas construimos una historia con escenas, dirección y montaje de cine. Una película de tres o cuatro minutos, exclusiva, para una boda, un aniversario, una pedida o un regalo.</p>
+            <div class="band__cta">
+              <a class="btn" href="tu-pelicula.html">Crea ya tu película <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn btn--line" href="tu-pelicula.html#pelicula">Ver la película de ejemplo</a>
+            </div>
+          </div>
+          <dl class="ficha band__ficha">
+            <div><dt class="label">Entrada</dt><dd>Dos fotografías, una de cada persona, y una conversación</dd></div>
+            <div><dt class="label">Duración</dt><dd>3–4 minutos de cine</dd></div>
+            <div><dt class="label">Protagonistas</dt><dd>Vosotros</dd></div>
+            <div><dt class="label">Universos</dt><dd>Antigua Roma · Años veinte · El espacio · Vuestro universo</dd></div>
+            <!-- PLACEHOLDER: precio y plazo del producto (no publicados hoy) -->
+            <div><dt class="label">Precio</dt><dd><span class="ph-text">[PRECIO: desde ___ €]</span></dd></div>
+            <div><dt class="label">Plazo</dt><dd><span class="ph-text">[PLAZO: ___ días]</span></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 08 BRIEF CON IA ===================== -->
+    <section class="section section--tight" id="brief" aria-labelledby="h-brief">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">08</span>
+            <span class="label">Propuestas con IA</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-brief">Describe tu campaña y recibe un primer enfoque.</h2>
+          </div>
+        </div>
+
+        <!-- PLACEHOLDER: en producción este teaser se conecta a la función de servidor existente
+             `proposeApproach` (src/lib/brief.functions.ts → Lovable AI Gateway). En la maqueta no
+             genera nada: el botón lleva al formulario de contacto y copia el texto al mensaje. -->
+        <div class="brief grid">
+          <div class="brief__text">
+            <p class="label">Cómo funciona</p>
+            <p>Marca, objetivo, público, tono, duración, canales, plazos. Con ese brief, el sistema devuelve un primer enfoque orientativo que el equipo de Aluma revisa contigo antes de cualquier compromiso.</p>
+            <p class="brief__note">Propuesta orientativa generada con IA. Ningún dato del brief se usa para otra cosa que preparar la respuesta.</p>
+          </div>
+          <div class="brief__form">
+            <div class="field">
+              <label for="brief-text">Describe tu campaña</label>
+              <textarea id="brief-text" name="brief" rows="5" placeholder="Marca, objetivo, público, tono, duración, canales, plazos..."></textarea>
+            </div>
+            <div class="form__actions">
+              <a class="btn" href="#contacto" data-brief-go>Pedir propuesta con este brief <span class="arrow" aria-hidden="true">→</span></a>
+              <small>El texto pasa al formulario de contacto.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 09 CONTACTO ===================== -->
+    <section class="section" id="contacto" aria-labelledby="h-contacto">
+      <div class="wrap">
+        <div class="head">
+          <div class="head__meta">
+            <span class="head__num" aria-hidden="true">09</span>
+            <span class="label">Contacto</span>
+          </div>
+          <div class="head__body">
+            <h2 id="h-contacto">Contadnos el proyecto. Respondemos con un enfoque y un presupuesto.</h2>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="contact__aside">
+            <ul class="channels" aria-label="Canales directos">
+              <li><span class="label">Email</span><a href="mailto:info@alumafilms.es">info@alumafilms.es</a></li>
+              <!-- PLACEHOLDER: WhatsApp y teléfono del estudio -->
+              <li><span class="label">WhatsApp</span><span class="ph-text">[WHATSAPP: +34 ___]</span></li>
+              <li><span class="label">Teléfono</span><span class="ph-text">[TELÉFONO]</span></li>
+              <li><span class="label">Sede</span><span>Galicia · <span class="ph-text">[ZONA DE SERVICIO]</span></span></li>
+            </ul>
+            <div class="callout">
+              <p><strong>¿Sois una pareja?</strong> Vuestro formulario es otro, más corto, en la ficha del producto.</p>
+              <a class="link" href="tu-pelicula.html#formulario">Ir al formulario de «Tu película» <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
+          <!-- PLACEHOLDER: action del formulario -->
+          <form class="contact__form form" method="post" action="[ENDPOINT FORMULARIO]" novalidate>
+            <div class="field">
+              <label for="c-nombre">Nombre <span class="req" aria-hidden="true">*</span></label>
+              <input id="c-nombre" name="nombre" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="c-empresa">Empresa u organización</label>
+              <input id="c-empresa" name="empresa" type="text" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="c-rol">Rol</label>
+              <input id="c-rol" name="rol" type="text" autocomplete="organization-title" placeholder="Marketing, comunicación, dirección…">
+            </div>
+            <div class="field">
+              <label for="c-email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="c-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="c-telefono">Teléfono</label>
+              <input id="c-telefono" name="telefono" type="tel" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="c-tipo">Tipo de proyecto <span class="req" aria-hidden="true">*</span></label>
+              <select id="c-tipo" name="tipo" required>
+                <option value="">Elegir…</option>
+                <option value="publicidad">Publicidad cinematográfica para redes</option>
+                <option value="deporte">Deporte y clubes</option>
+                <option value="documental">Documental y memoria</option>
+                <option value="ficcion">Ficción y cortos</option>
+                <option value="tu-pelicula">Tu película (personas y parejas)</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="field">
+              <!-- PLACEHOLDER: rangos de presupuesto — [validar rangos] con el estudio -->
+              <label for="c-presupuesto">Presupuesto orientativo</label>
+              <select id="c-presupuesto" name="presupuesto">
+                <option value="">Elegir…</option>
+                <option value="r1">[validar rangos] Menos de ___ €</option>
+                <option value="r2">[validar rangos] Entre ___ y ___ €</option>
+                <option value="r3">[validar rangos] Más de ___ €</option>
+                <option value="nd">Por definir</option>
+              </select>
+              <span class="field__hint">Orientativo. Sirve para proponer el formato adecuado.</span>
+            </div>
+            <div class="field">
+              <label for="c-fecha">Fecha o plazo deseado</label>
+              <input id="c-fecha" name="plazo" type="text" placeholder="Mes, fecha de estreno o campaña…">
+            </div>
+            <div class="field field--full">
+              <label for="c-mensaje">Mensaje <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="c-mensaje" name="mensaje" rows="6" required placeholder="Qué queréis contar, para qué canal y con qué referencia."></textarea>
+            </div>
+            <div class="field field--full">
+              <label class="checkbox" for="c-privacidad">
+                <input id="c-privacidad" name="privacidad" type="checkbox" required>
+                <!-- PLACEHOLDER: URL de la política de privacidad -->
+                <span>He leído y acepto la <a href="[URL POLÍTICA DE PRIVACIDAD]">política de privacidad</a>. <span class="req" aria-hidden="true">*</span></span>
+              </label>
+            </div>
+            <div class="form__actions">
+              <button class="btn" type="submit">Pedir propuesta <span class="arrow" aria-hidden="true">→</span></button>
+              <small>Campos marcados con * obligatorios. O escríbenos directamente a <a href="mailto:info@alumafilms.es">info@alumafilms.es</a>.</small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <!-- PLACEHOLDER: logo SVG -->
+          <a class="brand" href="index.html" aria-label="ALUMA, inicio"><span class="brand__mark" aria-hidden="true"></span>ALUMA <small>Estudio</small></a>
+          <p>Estudio audiovisual híbrido. Rodaje real y generación por IA dirigida por cineastas, en Galicia.</p>
+          <!-- PLACEHOLDER: datos de empresa -->
+          <address>
+            <span class="ph-text">[NIF/RAZÓN SOCIAL]</span><br>
+            <span class="ph-text">[DIRECCIÓN POSTAL]</span> · Galicia<br>
+            <a href="mailto:info@alumafilms.es">info@alumafilms.es</a> · <span class="ph-text">[TELÉFONO]</span>
+          </address>
+        </div>
+        <div class="footer__col">
+          <span class="label">Servicios</span>
+          <ul>
+            <li><a href="tu-pelicula.html">Tu película</a></li>
+            <li><a href="#servicios">Publicidad para redes</a></li>
+            <li><a href="#servicios">Deporte y clubes</a></li>
+            <li><a href="#servicios">Documental y memoria</a></li>
+            <li><a href="#servicios">Ficción y cortos</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <span class="label">Estudio</span>
+          <ul>
+            <li><a href="#trabajo">Trabajo</a></li>
+            <li><a href="caso-ronsel.html">Caso: Ronsel</a></li>
+            <li><a href="#metodo">Método</a></li>
+            <li><a href="#etica">Ética</a></li>
+            <li><a href="https://alumafilms.es/es/blog">Blog</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <span class="label">Redes e idiomas</span>
+          <ul>
+            <li><a href="https://www.instagram.com/aluma.films/" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@aluma.films" rel="noopener">TikTok</a></li>
+            <li><a href="https://www.youtube.com/@AlumaFilmsGalicia" rel="noopener">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/146671485/" rel="noopener">LinkedIn</a></li>
+          </ul>
+          <nav class="lang" aria-label="Idioma (pie)">
+            <a href="https://alumafilms.es/gl" lang="gl" hreflang="gl">GL</a><span class="lang__sep" aria-hidden="true">·</span>
+            <a href="https://alumafilms.es/es" lang="es" hreflang="es" aria-current="page">ES</a><span class="lang__sep" aria-hidden="true">·</span>
+            <a href="https://alumafilms.es/en" lang="en" hreflang="en">EN</a><span class="lang__sep" aria-hidden="true">·</span>
+            <a href="https://alumafilms.es/ru" lang="ru" hreflang="ru">RU</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>ALUMA · Estudio audiovisual · Galicia · alumafilms.es</span>
+        <!-- PLACEHOLDER: enlaces legales -->
+        <ul>
+          <li><a href="[URL AVISO LEGAL]">Aviso legal</a></li>
+          <li><a href="[URL POLÍTICA DE PRIVACIDAD]">Privacidad</a></li>
+          <li><a href="[URL COOKIES]">Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

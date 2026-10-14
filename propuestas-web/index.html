@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Propuestas web ALUMA</title>
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500&display=swap">
+  <style>
+    :root { --tinta:#16130F; --oso:#F4F0E8; --papel:#FBF9F4; --ouro:#B08D4C; --bruma:#7E8B92; }
+    * { box-sizing: border-box; margin: 0; }
+    body { background: var(--tinta); color: var(--oso); font: 16px/1.6 Inter, system-ui, sans-serif; padding: 8vh 6vw 10vh; }
+    .label { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ouro); }
+    h1 { font: 400 clamp(2.6rem, 7vw, 5.5rem)/.95 "Instrument Serif", Georgia, serif; margin-top: 1.5rem; max-width: 16ch; }
+    .lead { color: var(--bruma); max-width: 60ch; margin-top: 1.5rem; }
+    ul { list-style: none; padding: 0; margin-top: 4rem; display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    li { border-top: 1px solid rgba(126,139,146,.3); padding-top: 1.5rem; }
+    h2 { font: 400 2rem/1.05 "Instrument Serif", Georgia, serif; }
+    p { color: var(--bruma); margin-top: .75rem; font-size: 15px; }
+    a { color: var(--oso); text-decoration: none; border-bottom: 1px solid var(--ouro); }
+    a:hover, a:focus-visible { color: var(--ouro); }
+    :focus-visible { outline: 2px solid var(--ouro); outline-offset: 3px; }
+    .links { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-size: 14px; }
+    .docs { margin-top: 5rem; }
+  </style>
+</head>
+<body>
+  <p class="label">ALUMA · Propuestas de rediseño · Octubre 2026</p>
+  <h1>Tres versiones de alumafilms.es</h1>
+  <p class="lead">Maquetas HTML estáticas que usan los recursos existentes del repositorio. Lo que falta está marcado como placeholder. Las imágenes alojadas en el CDN de Lovable y los vídeos de YouTube necesitan conexión a internet.</p>
+
+  <ul>
+    <li>
+      <p class="label">Versión A</p>
+      <h2>Sala oscura</h2>
+      <p>Evolución de la marca actual: galería de cine oscura con el haz de luz, ahora con titular legible, dos caminos (parejas y marcas) y «Tu película» en portada.</p>
+      <div class="links">
+        <a href="version-a-sala-oscura/index.html">Portada</a>
+        <a href="version-a-sala-oscura/tu-pelicula.html">Tu película</a>
+        <a href="version-a-sala-oscura/NOTAS.md">Notas</a>
+      </div>
+    </li>
+    <li>
+      <p class="label">Versión B</p>
+      <h2>Tu película primero</h2>
+      <p>La portada es la landing de venta del producto «dos fotos → una película»: clara, cálida, mobile-first, con precio, proceso, FAQ y formulario propio.</p>
+      <div class="links">
+        <a href="version-b-tu-pelicula/index.html">Landing</a>
+        <a href="version-b-tu-pelicula/wedding-planners.html">Wedding planners</a>
+        <a href="version-b-tu-pelicula/NOTAS.md">Notas</a>
+      </div>
+    </li>
+    <li>
+      <p class="label">Versión C</p>
+      <h2>Estudio</h2>
+      <p>Productora con catálogo de servicios, filmografía y caso real (RC Celta), con «Tu película» como línea de producto propia.</p>
+      <div class="links">
+        <a href="version-c-estudio/index.html">Portada</a>
+        <a href="version-c-estudio/tu-pelicula.html">Tu película</a>
+        <a href="version-c-estudio/caso-ronsel.html">Caso Ronsel</a>
+        <a href="version-c-estudio/NOTAS.md">Notas</a>
+      </div>
+    </li>
+  </ul>
+
+  <div class="docs">
+    <p class="label">Documentación</p>
+    <div class="links">
+      <a href="auditoria/AUDITORIA.md">Auditoría SEO, diseño y comercial</a>
+      <a href="BRIEF-DISENO.md">Briefing de diseño</a>
+      <a href="blog-tu-pelicula/README.md">30 artículos SEO y calendario</a>
+    </div>
+  </div>
+</body>
+</html>

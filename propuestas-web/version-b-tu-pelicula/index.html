@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vuestra película de amor a partir de dos fotos — ALUMA</title>
+  <meta name="description" content="Una película de 3–4 minutos protagonizada por vosotros, creada a partir de dos fotos. Para bodas, aniversarios, pedidas y regalos. Cine hecho en Galicia.">
+  <link rel="canonical" href="https://alumafilms.es/es/tu-pelicula">
+  <link rel="alternate" hreflang="gl" href="https://alumafilms.es/gl/a-tua-pelicula">
+  <link rel="alternate" hreflang="es" href="https://alumafilms.es/es/tu-pelicula">
+  <link rel="alternate" hreflang="en" href="https://alumafilms.es/en/your-film">
+  <link rel="alternate" hreflang="ru" href="https://alumafilms.es/ru/vash-film">
+  <link rel="alternate" hreflang="x-default" href="https://alumafilms.es/es/tu-pelicula">
+  <meta name="theme-color" content="#FBF9F4">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="ALUMA">
+  <meta property="og:title" content="Vuestra película de amor, a partir de dos fotos — ALUMA">
+  <meta property="og:description" content="Una película de 3–4 minutos protagonizada por vosotros, creada a partir de dos fotos. Para bodas, aniversarios, pedidas y regalos.">
+  <meta property="og:url" content="https://alumafilms.es/es/tu-pelicula">
+  <meta property="og:image" content="https://alumafilms.es/placeholders/o-oficio.jpg">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="1088">
+  <meta property="og:image:alt" content="Manos tallando madera a la luz de una ventana: oficio y dirección humana en ALUMA">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vuestra película de amor, a partir de dos fotos — ALUMA">
+  <meta name="twitter:description" content="Una película de 3–4 minutos protagonizada por vosotros, creada a partir de dos fotos. Para bodas, aniversarios, pedidas y regalos.">
+  <meta name="twitter:image" content="https://alumafilms.es/placeholders/o-oficio.jpg">
+
+  <link rel="icon" href="../assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://alumafilms.es/#org",
+        "name": "ALUMA",
+        "alternateName": "Aluma Films",
+        "url": "https://alumafilms.es",
+        "email": "info@alumafilms.es",
+        "logo": "https://alumafilms.es/favicon.ico",
+        "description": "Estudio audiovisual híbrido con sede en Galicia: rodaje real y generación con IA dirigida plano a plano por personas.",
+        "areaServed": [{ "@type": "AdministrativeArea", "name": "Galicia" }, { "@type": "Country", "name": "España" }],
+        "address": { "@type": "PostalAddress", "addressRegion": "Galicia", "addressCountry": "ES" },
+        "sameAs": [
+          "https://www.instagram.com/aluma.films/",
+          "https://www.tiktok.com/@aluma.films",
+          "https://www.youtube.com/@AlumaFilmsGalicia",
+          "https://www.linkedin.com/company/146671485/"
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://alumafilms.es/es/tu-pelicula#service",
+        "name": "Tu película: una película de amor a partir de dos fotos",
+        "serviceType": "Película personalizada para parejas",
+        "description": "Película cinematográfica de 3–4 minutos, exclusiva, protagonizada por la pareja y creada a partir de dos fotografías. Para bodas, aniversarios, pedidas de mano y regalos.",
+        "provider": { "@id": "https://alumafilms.es/#org" },
+        "areaServed": { "@type": "Country", "name": "España" },
+        "audience": { "@type": "PeopleAudience", "audienceType": "Parejas, novios, familias y wedding planners" },
+        "url": "https://alumafilms.es/es/tu-pelicula",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": "[PRECIO: desde ___ €]",
+          "availability": "https://schema.org/InStock",
+          "url": "https://alumafilms.es/es/tu-pelicula#precio"
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://alumafilms.es/es/tu-pelicula#video",
+        "name": "Película de ejemplo — Tu película, por ALUMA",
+        "description": "Una muestra del universo cinematográfico que podemos crear a partir de dos fotografías. Cada nueva película parte de una historia distinta.",
+        "thumbnailUrl": "https://alumafilms.es/__l5e/assets-v1/a4fd8c17-f218-4d3b-a8f3-51efadc3b126/love-film-thumbnail.png",
+        "uploadDate": "2026-01-01",
+        "contentUrl": "https://youtu.be/GvkblfoP1J8",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/GvkblfoP1J8",
+        "publisher": { "@id": "https://alumafilms.es/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "¿Es un vídeo de fotos con efectos?", "acceptedAnswer": { "@type": "Answer", "text": "No. Las fotografías son la referencia para crear a los protagonistas. A partir de ellas construimos una historia con escenas, dirección y montaje cinematográficos." } },
+          { "@type": "Question", "name": "¿Podemos decidir lo que ocurre?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Desde el inicio acordamos con vosotros la historia, el universo, el estilo y los acontecimientos. La película se crea alrededor de vuestra visión, con nuestro criterio cinematográfico." } },
+          { "@type": "Question", "name": "¿Necesitamos hacer una sesión de rodaje?", "acceptedAnswer": { "@type": "Answer", "text": "El punto de partida son dos fotografías, una de cada persona. Antes de empezar revisamos juntos que sean adecuadas para representar fielmente a los protagonistas." } },
+          { "@type": "Question", "name": "¿Qué fotos sirven?", "acceptedAnswer": { "@type": "Answer", "text": "Una fotografía de cada persona en la que se vea bien el rostro. Antes de producir nada las revisamos juntos y, si hace falta, os pedimos otra. Los criterios concretos de calidad se detallan en la conversación inicial." } },
+          { "@type": "Question", "name": "¿Solo es para bodas?", "acceptedAnswer": { "@type": "Answer", "text": "Una boda es un estreno perfecto, pero también puede ser un aniversario, una pedida o un regalo especial. La ocasión cambia; la historia sigue siendo vuestra." } },
+          { "@type": "Question", "name": "¿Se puede proyectar en la boda?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Una boda es el estreno perfecto: en el banquete, ante los invitados, o en privado la víspera. Los requisitos técnicos de proyección se concretan con vosotros o con vuestro wedding planner." } },
+          { "@type": "Question", "name": "¿Cómo se entrega la película?", "acceptedAnswer": { "@type": "Answer", "text": "Recibís la película en formato digital. El formato y la resolución de entrega se concretan en la propuesta." } },
+          { "@type": "Question", "name": "¿Cuánto cuesta y cuándo estará lista?", "acceptedAnswer": { "@type": "Answer", "text": "La propuesta y el calendario se concretan según la historia y la fecha del evento. Contadnos vuestra idea para valorar el proyecto, sin tarifas ni plazos genéricos." } },
+          { "@type": "Question", "name": "¿Cómo se utiliza nuestra imagen?", "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos con el consentimiento expreso de las dos personas. Acordamos el uso de sus fotografías y de la película antes de iniciar la producción." } }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ALUMA", "item": "https://alumafilms.es/es" },
+          { "@type": "ListItem", "position": 2, "name": "Tu película", "item": "https://alumafilms.es/es/tu-pelicula" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="header" id="cabecera">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="ALUMA, inicio">
+        <!-- PLACEHOLDER: logo SVG (sustituir el wordmark de texto por el logotipo vectorial) -->
+        <span class="logo__mark" aria-hidden="true"></span>ALUMA
+      </a>
+
+      <nav class="nav" aria-label="Secciones">
+        <ul class="nav__list">
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#universos">Universos</a></li>
+          <li><a href="#precio">Precio</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#wedding-planners">Wedding planners</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__right">
+        <nav class="lang" aria-label="Idioma">
+          <a href="https://alumafilms.es/gl/a-tua-pelicula" hreflang="gl" lang="gl">GL</a><span aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/es/tu-pelicula" hreflang="es" aria-current="true">ES</a><span aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/en/your-film" hreflang="en" lang="en">EN</a><span aria-hidden="true">·</span>
+          <a href="https://alumafilms.es/ru/vash-film" hreflang="ru" lang="ru">RU</a>
+        </nav>
+        <a class="btn btn--ghost btn--nav" href="#empezar">Reservar fecha</a>
+      </div>
+
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-movil">
+        <span class="menu-btn__icon" aria-hidden="true"></span>
+        <span>Menú</span>
+      </button>
+    </div>
+
+    <div class="menu" id="menu-movil">
+      <nav class="wrap" aria-label="Menú móvil">
+        <ul class="menu__list">
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#universos">Universos</a></li>
+          <li><a href="#precio">Precio</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#wedding-planners">Wedding planners</a></li>
+        </ul>
+        <div class="menu__foot">
+          <div class="lang" aria-label="Idioma">
+            <a href="https://alumafilms.es/gl/a-tua-pelicula" hreflang="gl" lang="gl">GL</a><span aria-hidden="true">·</span>
+            <a href="https://alumafilms.es/es/tu-pelicula" hreflang="es" aria-current="true">ES</a><span aria-hidden="true">·</span>
+            <a href="https://alumafilms.es/en/your-film" hreflang="en" lang="en">EN</a><span aria-hidden="true">·</span>
+            <a href="https://alumafilms.es/ru/vash-film" hreflang="ru" lang="ru">RU</a>
+          </div>
+          <a class="btn btn--primary btn--nav" href="#empezar">Reservar fecha</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="titulo">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="label">ALUMA · Cine para historias de amor</p>
+          <h1 id="titulo">Vuestra película de amor, a partir de dos fotos.</h1>
+          <p class="lead">Una película de tres o cuatro minutos, exclusiva, protagonizada por vosotros dos. Para bodas, aniversarios, pedidas de mano y regalos.</p>
+          <div class="btn-row hero__ctas">
+            <a class="btn btn--primary btn--ticket" href="#empezar">Crea vuestra película</a>
+            <a class="btn btn--ghost" href="#pelicula">Ver una película de ejemplo</a>
+          </div>
+          <ul class="trust" aria-label="Garantías">
+            <li>Consentimiento expreso de las dos personas</li>
+            <li>Reglamento Europeo de IA</li>
+            <li>Hecho en Galicia</li>
+          </ul>
+        </div>
+
+        <!-- Dispositivo: dos fotos convergen en un fotograma panorámico -->
+        <div class="device" role="group" aria-label="Dos fotografías se convierten en una película">
+          <div class="device__photos">
+            <!-- PLACEHOLDER: foto 1 (retrato de una de las dos personas) -->
+            <div class="photo">
+              <div class="photo__inner">[FOTO 1]</div>
+              <div class="photo__cap">Una persona</div>
+            </div>
+            <!-- PLACEHOLDER: foto 2 (retrato de la otra persona) -->
+            <div class="photo">
+              <div class="photo__inner">[FOTO 2]</div>
+              <div class="photo__cap">La otra</div>
+            </div>
+          </div>
+          <svg class="device__join" viewBox="0 0 560 64" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <path d="M150 0 C 150 40, 280 24, 280 60" vector-effect="non-scaling-stroke"></path>
+            <path d="M410 0 C 410 40, 280 24, 280 60" vector-effect="non-scaling-stroke"></path>
+            <circle cx="280" cy="60" r="3" vector-effect="non-scaling-stroke"></circle>
+          </svg>
+          <figure class="frame" data-remote>
+            <span class="frame__corner frame__corner--tl" aria-hidden="true"></span>
+            <span class="frame__corner frame__corner--tr" aria-hidden="true"></span>
+            <span class="frame__corner frame__corner--bl" aria-hidden="true"></span>
+            <span class="frame__corner frame__corner--br" aria-hidden="true"></span>
+            <div class="frame__pic">
+              <!-- Imagen remota del CDN (no carga en el sandbox); el fotograma conserva fondo, proporción y créditos -->
+              <img src="https://alumafilms.es/__l5e/assets-v1/a4fd8c17-f218-4d3b-a8f3-51efadc3b126/love-film-thumbnail.png" width="1365" height="768" alt="Fotograma de la película de ejemplo: una pareja en un universo cinematográfico" fetchpriority="high" decoding="async">
+              <!-- PLACEHOLDER: fotograma de la película (se muestra solo si la imagen remota no carga) -->
+              <div class="ph-box frame__ph">[PLACEHOLDER: fotograma de la película]</div>
+              <figcaption class="credits frame__credits">
+                Una película de ALUMA
+                <span class="credits__name">Protagonizada por ___ y ___</span>
+              </figcaption>
+            </div>
+          </figure>
+          <p class="device__caption">Una fotografía de cada persona. Tres o cuatro minutos de cine.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="facts" role="region" aria-label="En tres datos">
+      <ul class="wrap facts__list">
+        <li>Dos fotografías <small>El punto de partida</small></li>
+        <li>3–4 minutos de cine <small>La duración</small></li>
+        <li>Una pieza exclusiva <small>Se hace una sola vez</small></li>
+      </ul>
+    </div>
+
+    <!-- ============ PELÍCULA DE EJEMPLO ============ -->
+    <section class="section band--ink" id="pelicula" aria-labelledby="t-pelicula">
+      <div class="wrap wrap--mid film">
+        <div class="sec-head sec-head--center">
+          <p class="label">Una historia posible</p>
+          <h2 id="t-pelicula">El amor cambia de época. Los protagonistas sois vosotros.</h2>
+        </div>
+
+        <div class="facade" data-remote data-video="GvkblfoP1J8" data-title="Película de ejemplo de ALUMA">
+          <div class="facade__bar facade__bar--top" aria-hidden="true"></div>
+          <div class="facade__bar facade__bar--bottom" aria-hidden="true"></div>
+          <img src="https://alumafilms.es/__l5e/assets-v1/a4fd8c17-f218-4d3b-a8f3-51efadc3b126/love-film-thumbnail.png" width="1365" height="768" alt="Miniatura de la película de ejemplo" loading="lazy" decoding="async">
+          <!-- PLACEHOLDER: miniatura de la película de ejemplo (si la imagen remota no carga) -->
+          <div class="ph-box facade__ph">[PLACEHOLDER: miniatura de la película de ejemplo]</div>
+          <p class="credits facade__text">Una película de ALUMA <span class="credits__name">Película de ejemplo</span></p>
+          <button class="facade__play" type="button" aria-label="Reproducir película de ejemplo">
+            <span class="facade__ring" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 3.5v17l14-8.5z"/></svg>
+            </span>
+          </button>
+        </div>
+
+        <div class="film__caption">
+          <p>Una muestra del universo cinematográfico que podemos crear. Cada nueva película parte de una historia distinta.</p>
+          <a href="https://youtu.be/GvkblfoP1J8" rel="noopener" target="_blank">Ver en YouTube</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NO OTRO VÍDEO DE BODA ============ -->
+    <section class="section" id="no-otro-video" aria-labelledby="t-pain">
+      <div class="wrap">
+        <div class="sec-head sec-head--split">
+          <p class="label">No otro vídeo de boda</p>
+          <h2 id="t-pain">Hay momentos que merecen algo que nadie haya visto antes.</h2>
+          <p class="lead">Las mismas fotos, la misma música, el mismo montaje. Vuestra historia no es como las demás. ¿Por qué contarla igual? Creamos una alegoría cinematográfica de vuestro amor: reconocible en sus protagonistas, extraordinaria en todo lo demás.</p>
+        </div>
+
+        <div class="compare">
+          <article class="compare__col">
+            <h3 class="compare__title">Un montaje de fotos</h3>
+            <dl>
+              <dt>Punto de partida</dt>
+              <dd>Decenas de fotos que ya tenéis.</dd>
+              <dt>Lo que se ve</dt>
+              <dd>Las mismas fotos, con transiciones y música.</dd>
+              <dt>La historia</dt>
+              <dd>La que ya habéis vivido, en el orden en que ocurrió.</dd>
+              <dt>Quién lo hace</dt>
+              <dd>Una aplicación o una plantilla, en minutos.</dd>
+              <dt>El resultado</dt>
+              <dd>Un recuerdo correcto. Parecido a todos los demás.</dd>
+              <dt>Para qué sirve</dt>
+              <dd>Para compartir ese día. Y está bien que así sea.</dd>
+            </dl>
+          </article>
+          <article class="compare__col compare__col--film">
+            <h3 class="compare__title">Vuestra película</h3>
+            <dl>
+              <dt>Punto de partida</dt>
+              <dd>Dos fotografías, una de cada persona, y una conversación.</dd>
+              <dt>Lo que se ve</dt>
+              <dd>Escenas nuevas, creadas para vosotros, en las que os reconocéis.</dd>
+              <dt>La historia</dt>
+              <dd>Una alegoría de vuestro amor: Roma, los años veinte, el espacio o un mundo propio.</dd>
+              <dt>Quién lo hace</dt>
+              <dd>Un equipo de cine que dirige la IA plano a plano.</dd>
+              <dt>El resultado</dt>
+              <dd>Una pieza exclusiva de tres o cuatro minutos que no existe para nadie más.</dd>
+              <dt>Para qué sirve</dt>
+              <dd>Para un estreno: en la boda, en un aniversario, en una pedida.</dd>
+            </dl>
+          </article>
+        </div>
+        <p class="compare__note">Si lo que necesitáis es un montaje rápido, hay aplicaciones gratuitas que lo hacen bien. Lo contamos sin rodeos en el blog: <a href="https://alumafilms.es/es/blog/convertir-fotos-en-video-con-ia">Convertir fotos en vídeo con IA: apps gratuitas o una película dirigida</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO FUNCIONA ============ -->
+    <section class="section band--papel2" id="como-funciona" aria-labelledby="t-como">
+      <div class="wrap">
+        <div class="sec-head sec-head--split">
+          <p class="label">Artesanía, no automatismo</p>
+          <h2 id="t-como">Vosotros imagináis. Nosotros dirigimos.</h2>
+          <p class="lead">Tres pasos. En ninguno de ellos la máquina decide sola.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__n">01</span>
+            <h3>Dos fotos y una conversación</h3>
+            <p>Partimos de una fotografía de cada persona y de vuestra historia: cómo os conocisteis, qué os une y qué queréis hacer sentir.</p>
+          </li>
+          <li class="step">
+            <span class="step__n">02</span>
+            <h3>La película se decide juntos</h3>
+            <p>Definimos el guion, la época, el tono y los momentos clave con vosotros. La fidelidad de los rostros es un criterio central de la creación.</p>
+          </li>
+          <li class="step">
+            <span class="step__n">03</span>
+            <h3>Un estreno que solo es vuestro</h3>
+            <p>Dirigimos la IA plano a plano y construimos el ritmo, la imagen y el montaje de una película de tres o cuatro minutos, de alta calidad y exclusiva para vuestra ocasión.</p>
+          </li>
+        </ol>
+
+        <div class="timeline-wrap">
+          <p class="label">Del primer mensaje al estreno</p>
+          <ol class="timeline">
+            <li><span class="timeline__t">Nos escribís</span><span class="timeline__d">Formulario o WhatsApp. Nos contáis la ocasión y la fecha.</span></li>
+            <li><span class="timeline__t">Conversación</span><span class="timeline__d">Hablamos de vosotros y revisamos juntos las dos fotos.</span></li>
+            <li><span class="timeline__t">Guion acordado</span><span class="timeline__d">Época, tono y momentos clave. Nada se produce sin vuestro sí.</span></li>
+            <li><span class="timeline__t">Producción</span><span class="timeline__d">Dirección plano a plano, imagen, ritmo y montaje.</span></li>
+            <li><span class="timeline__t">Estreno</span><span class="timeline__d">Recibís vuestra película, lista para la ocasión.</span></li>
+          </ol>
+          <!-- PLACEHOLDER: plazo total de producción -->
+          <p class="timeline__total"><strong>Plazo orientativo:</strong> <span class="ph">[PLAZO: ___ días]</span> <span class="muted">Se concreta según la historia y la fecha del evento. Si la fecha está cerca, decídnoslo al escribir.</span></p>
+        </div>
+
+        <div class="craft">
+          <figure>
+            <img src="../assets/img/o-oficio.jpg" width="1920" height="1088" alt="Manos de un artesano tallando madera a la luz de una ventana" loading="lazy" decoding="async">
+          </figure>
+          <figcaption>
+            <blockquote>La máquina ejecuta, compone y renderiza. Solo el ser humano siente, dirige y asume el riesgo artístico.</blockquote>
+            <cite>Del método de ALUMA</cite>
+          </figcaption>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UNIVERSOS ============ -->
+    <section class="section" id="universos" aria-labelledby="t-universos">
+      <div class="wrap">
+        <div class="sec-head sec-head--split">
+          <p class="label">El límite no es el lugar</p>
+          <h2 id="t-universos">¿Dónde comienza vuestra película?</h2>
+          <p class="lead">Elegís la época, los escenarios, el tono y los acontecimientos desde el principio. Estos son solo puntos de partida, no un catálogo cerrado.</p>
+        </div>
+
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist" aria-label="Universos de partida">
+            <button class="tab" role="tab" type="button" id="tab-roma" aria-controls="panel-roma" aria-selected="true"><span class="tab__n">I</span>Antigua Roma</button>
+            <button class="tab" role="tab" type="button" id="tab-veinte" aria-controls="panel-veinte" aria-selected="false" tabindex="-1"><span class="tab__n">II</span>Años veinte</button>
+            <button class="tab" role="tab" type="button" id="tab-espacio" aria-controls="panel-espacio" aria-selected="false" tabindex="-1"><span class="tab__n">III</span>El espacio</button>
+            <button class="tab" role="tab" type="button" id="tab-vuestro" aria-controls="panel-vuestro" aria-selected="false" tabindex="-1"><span class="tab__n">IV</span>Vuestro universo</button>
+          </div>
+
+          <div class="tabpanel" role="tabpanel" id="panel-roma" aria-labelledby="tab-roma" tabindex="0">
+            <figure class="frame">
+              <div class="frame__pic">
+                <!-- PLACEHOLDER: fotograma de ejemplo — Antigua Roma -->
+                <div class="ph-box frame__ph frame__ph--on">[PLACEHOLDER: fotograma de ejemplo · Antigua Roma]</div>
+                <figcaption class="credits frame__credits">Una película de ALUMA <span class="credits__name">Antigua Roma</span></figcaption>
+              </div>
+            </figure>
+            <div class="tabpanel__copy">
+              <h3>Antigua Roma</h3>
+              <p>Un encuentro entre mármol y grandes imperios. Vuestra historia convertida en una leyenda que atraviesa los siglos.</p>
+              <a class="btn btn--link" href="#empezar" data-universo="Antigua Roma">Empezar en este universo <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+            </div>
+          </div>
+
+          <div class="tabpanel" role="tabpanel" id="panel-veinte" aria-labelledby="tab-veinte" tabindex="0" hidden>
+            <figure class="frame">
+              <div class="frame__pic">
+                <!-- PLACEHOLDER: fotograma de ejemplo — Años veinte -->
+                <div class="ph-box frame__ph frame__ph--on">[PLACEHOLDER: fotograma de ejemplo · Años veinte]</div>
+                <figcaption class="credits frame__credits">Una película de ALUMA <span class="credits__name">Años veinte</span></figcaption>
+              </div>
+            </figure>
+            <div class="tabpanel__copy">
+              <h3>Años veinte</h3>
+              <p>Una mirada entre trenes, salones y ciudades que despiertan. Elegancia, aventura y el comienzo de algo irrepetible.</p>
+              <a class="btn btn--link" href="#empezar" data-universo="Años veinte">Empezar en este universo <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+            </div>
+          </div>
+
+          <div class="tabpanel" role="tabpanel" id="panel-espacio" aria-labelledby="tab-espacio" tabindex="0" hidden>
+            <figure class="frame">
+              <div class="frame__pic">
+                <!-- PLACEHOLDER: fotograma de ejemplo — El espacio -->
+                <div class="ph-box frame__ph frame__ph--on">[PLACEHOLDER: fotograma de ejemplo · El espacio]</div>
+                <figcaption class="credits frame__credits">Una película de ALUMA <span class="credits__name">El espacio</span></figcaption>
+              </div>
+            </figure>
+            <div class="tabpanel__copy">
+              <h3>El espacio</h3>
+              <p>Dos personas que se encuentran entre mundos. Una travesía donde ni la distancia ni el tiempo pueden separarles.</p>
+              <a class="btn btn--link" href="#empezar" data-universo="El espacio">Empezar en este universo <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+            </div>
+          </div>
+
+          <div class="tabpanel" role="tabpanel" id="panel-vuestro" aria-labelledby="tab-vuestro" tabindex="0" hidden>
+            <figure class="frame">
+              <div class="frame__pic">
+                <!-- PLACEHOLDER: fotograma de ejemplo — Vuestro universo -->
+                <div class="ph-box frame__ph frame__ph--on">[PLACEHOLDER: fotograma de ejemplo · Vuestro universo]</div>
+                <figcaption class="credits frame__credits">Una película de ALUMA <span class="credits__name">Vuestro universo</span></figcaption>
+              </div>
+            </figure>
+            <div class="tabpanel__copy">
+              <h3>Vuestro universo</h3>
+              <p>El futuro, un recuerdo, una fantasía o una mezcla imposible. El mundo se escribe a partir de lo que os une.</p>
+              <a class="btn btn--link" href="#empezar" data-universo="Vuestro universo">Contadnos vuestro universo <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OCASIONES ============ -->
+    <section class="section band--papel2" id="ocasiones" aria-labelledby="t-ocasiones">
+      <div class="wrap">
+        <div class="sec-head sec-head--split">
+          <p class="label">Ocasiones</p>
+          <h2 id="t-ocasiones">Una boda es un estreno perfecto. No es la única ocasión.</h2>
+          <p class="lead">La ocasión cambia; la historia sigue siendo vuestra. Y la película puede ser para vosotros o para otra pareja a la que queréis regalársela.</p>
+        </div>
+
+        <div class="occasions">
+          <article class="occasion">
+            <h3>Boda</h3>
+            <p>El estreno en el banquete, ante todos los invitados. O en privado, la víspera, solo para vosotros dos.</p>
+            <a href="https://alumafilms.es/es/blog/como-se-hace-una-pelicula-con-dos-fotos">Así se hace, paso a paso</a>
+          </article>
+          <article class="occasion">
+            <h3>Aniversario</h3>
+            <p>Un año o cuarenta. La historia que ya tenéis, contada como todavía no la habéis visto.</p>
+            <a href="https://alumafilms.es/es/blog/regalo-aniversario-original">Un regalo de aniversario distinto</a>
+          </article>
+          <article class="occasion">
+            <h3>Pedida de mano</h3>
+            <p>La película puede terminar con la pregunta. O empezar con ella. Vosotros decidís el guion.</p>
+          </article>
+          <article class="occasion">
+            <h3>San Valentín, Navidad, un regalo</h3>
+            <p>Para vuestra pareja o para otra pareja: los novios, unos amigos, alguien a quien queréis sorprender.</p>
+            <a href="https://alumafilms.es/es/blog/regalo-original-para-los-novios">Un regalo original para los novios</a>
+          </article>
+          <article class="occasion">
+            <h3>Bodas de oro y de plata</h3>
+            <p>Para los padres o los abuelos: su historia, vista por quienes la han visto crecer.</p>
+          </article>
+          <article class="occasion">
+            <h3>Otra ocasión</h3>
+            <p>Si vuestra historia tiene una fecha que no está en esta lista, contádnosla. El primer plano empieza ahí.</p>
+            <a href="#empezar">Contadnos vuestra idea</a>
+          </article>
+        </div>
+        <p class="occasions__note">Si la película es un regalo, necesitamos el consentimiento expreso de las dos personas que la protagonizan. Os ayudamos a plantearlo sin estropear la sorpresa.</p>
+      </div>
+    </section>
+
+    <!-- ============ QUÉ RECIBÍS + PRECIO ============ -->
+    <section class="section" id="precio" aria-labelledby="t-precio">
+      <div class="wrap">
+        <div class="sec-head sec-head--split">
+          <p class="label">Qué recibís y cuánto cuesta</p>
+          <h2 id="t-precio">Una película. Una sola vez. Solo para vosotros.</h2>
+          <p class="lead">Lo que entra en el precio, dicho con claridad. Lo que aún no está cerrado, marcado como tal.</p>
+        </div>
+
+        <div class="deliver">
+          <ul class="checklist" aria-label="Qué recibís">
+            <li><div><strong>Una película de tres o cuatro minutos</strong><span>Exclusiva: se produce una sola vez y no se repite para nadie más.</span></div></li>
+            <li><div><strong>Un guion propio, acordado con vosotros</strong><span>Época, tono, universo y momentos clave. Nada se produce sin vuestro sí.</span></div></li>
+            <li><div><strong>Dirección plano a plano por personas</strong><span>Imagen, ritmo y montaje de cine. La fidelidad de los rostros es el criterio central.</span></div></li>
+            <li><div><strong>Un acuerdo por escrito sobre vuestra imagen</strong><span>Uso de las fotografías y de la película acordado antes de producir.</span></div></li>
+            <!-- PLACEHOLDER: validar formato de entrega -->
+            <li class="is-ph"><div><strong>Entrega en formato digital</strong><span class="ph">[validar: resolución, formatos y vía de entrega]</span></div></li>
+            <!-- PLACEHOLDER: validar versión para proyección -->
+            <li class="is-ph"><div><strong>Versión preparada para proyectar en el evento</strong><span class="ph">[validar: si se incluye y en qué condiciones]</span></div></li>
+            <!-- PLACEHOLDER: validar revisiones -->
+            <li class="is-ph"><div><strong>Revisiones</strong><span class="ph">[validar: número de revisiones incluidas sobre guion y montaje]</span></div></li>
+          </ul>
+
+          <aside class="price" aria-labelledby="t-precio-caja">
+            <p class="label" id="t-precio-caja">Precio</p>
+            <!-- PLACEHOLDER: precio de partida -->
+            <p class="price__big"><span class="ph">[PRECIO: desde ___ €]</span></p>
+            <dl>
+              <dt>Qué incluye</dt>
+              <!-- PLACEHOLDER: validar qué incluye el precio base -->
+              <dd><span class="ph">[validar: qué incluye el precio base y qué se presupuesta aparte]</span></dd>
+              <dt>Cómo se reserva</dt>
+              <!-- PLACEHOLDER: validar forma de reserva -->
+              <dd><span class="ph">[validar: señal, forma de pago y confirmación de fecha]</span></dd>
+            </dl>
+            <p class="price__note">Hoy no publicamos tarifas cerradas: la propuesta y el calendario se concretan según la historia y la fecha del evento. Contadnos vuestra idea y os respondemos con una propuesta, sin compromiso.</p>
+            <a class="btn btn--primary btn--ticket" href="#empezar">Pedir propuesta</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section class="section band--papel2" id="testimonios" aria-labelledby="t-testimonios">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="label">Lo que cuentan las parejas</p>
+          <h2 id="t-testimonios">Después del estreno.</h2>
+        </div>
+        <div class="quotes">
+          <!-- PLACEHOLDER: testimonio real 1 -->
+          <blockquote class="quote">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <p><span class="ph">[TESTIMONIO REAL: cita de la pareja, en sus palabras]</span></p>
+            <footer><span class="ph">[TESTIMONIO REAL: nombres · ocasión · año]</span></footer>
+          </blockquote>
+          <!-- PLACEHOLDER: testimonio real 2 -->
+          <blockquote class="quote">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <p><span class="ph">[TESTIMONIO REAL: cita de la pareja, en sus palabras]</span></p>
+            <footer><span class="ph">[TESTIMONIO REAL: nombres · ocasión · año]</span></footer>
+          </blockquote>
+          <!-- PLACEHOLDER: testimonio real 3 (puede ser de un wedding planner) -->
+          <blockquote class="quote">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <p><span class="ph">[TESTIMONIO REAL: cita de un wedding planner o de la familia que lo regaló]</span></p>
+            <footer><span class="ph">[TESTIMONIO REAL: nombre · empresa u ocasión · año]</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONFIANZA ============ -->
+    <section class="section" id="confianza" aria-labelledby="t-confianza">
+      <div class="wrap">
+        <div class="sec-head sec-head--split">
+          <p class="label">Con vuestro consentimiento, siempre</p>
+          <h2 id="t-confianza">Vuestra imagen es vuestra.</h2>
+          <p class="lead">Hacemos cine con inteligencia artificial y lo decimos. La transparencia no es un aviso legal: es parte del oficio.</p>
+        </div>
+
+        <div class="trustgrid">
+          <article>
+            <h3>Consentimiento expreso</h3>
+            <p>Trabajamos con el consentimiento expreso y por escrito de las dos personas que aparecen. También cuando la película es un regalo.</p>
+          </article>
+          <article>
+            <h3>Vuestras fotos, solo para esto</h3>
+            <p>Las dos fotografías sirven para crear a los protagonistas. Acordamos su uso antes de producir nada. <span class="ph">[validar: plazo de conservación y borrado de las fotos]</span></p>
+          </article>
+          <article>
+            <h3>Guion acordado</h3>
+            <p>No se produce ninguna escena que no hayáis aprobado. La historia, el universo y el tono se deciden con vosotros.</p>
+          </article>
+          <article>
+            <h3>Reglamento Europeo de IA</h3>
+            <p>Lo generado queda trazado y el contenido sintético se marca cuando corresponde. Cumplimiento en cada entrega.</p>
+          </article>
+        </div>
+
+        <div class="studio">
+          <div class="studio__copy">
+            <p class="label">Quién hay detrás</p>
+            <h3>ALUMA es un estudio audiovisual híbrido con sede en Galicia.</h3>
+            <p>Rodaje real y generación con IA dirigida plano a plano por personas. Cineastas primero, ingenieros después. Además de «Tu película», trabajamos para marcas, clubes y productoras.</p>
+            <div class="btn-row">
+              <a class="btn btn--link" href="https://alumafilms.es/es/trabajo">Ver el trabajo para marcas</a>
+              <a class="btn btn--link" href="https://alumafilms.es/es/etica">Nuestra ética</a>
+            </div>
+          </div>
+          <div class="studio__proof">
+            <figure>
+              <img src="../assets/img/ronsel.jpg" width="1280" height="720" alt="Cartel del documental Ronsel: Celta, Vigo e mar, con el escudo del RC Celta sobre un fondo azul" loading="lazy" decoding="async">
+            </figure>
+            <figcaption><a href="https://alumafilms.es/es/trabajo/ronsel">«Ronsel»</a>, documental para el RC Celta (2026, 31:42). ALUMA contribuyó con las animaciones.</figcaption>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section band--papel2" id="preguntas" aria-labelledby="t-faq">
+      <div class="wrap wrap--mid">
+        <div class="sec-head">
+          <p class="label">Antes del primer plano</p>
+          <h2 id="t-faq">Preguntas que nos hacen las parejas.</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>¿Es un vídeo de fotos con efectos?</summary>
+            <div class="faq__a"><p>No. Las fotografías son la referencia para crear a los protagonistas. A partir de ellas construimos una historia con escenas, dirección y montaje cinematográficos.</p></div>
+          </details>
+          <details>
+            <summary>¿Podemos decidir lo que ocurre?</summary>
+            <div class="faq__a"><p>Sí. Desde el inicio acordamos con vosotros la historia, el universo, el estilo y los acontecimientos. La película se crea alrededor de vuestra visión, con nuestro criterio cinematográfico.</p></div>
+          </details>
+          <details>
+            <summary>¿Necesitamos hacer una sesión de rodaje?</summary>
+            <div class="faq__a"><p>El punto de partida son dos fotografías, una de cada persona. Antes de empezar revisamos juntos que sean adecuadas para representar fielmente a los protagonistas.</p></div>
+          </details>
+          <details>
+            <summary>¿Qué fotos sirven?</summary>
+            <div class="faq__a">
+              <p>Una fotografía de cada persona en la que se vea bien el rostro. Antes de producir nada las revisamos juntos y, si hace falta, os pedimos otra.</p>
+              <!-- PLACEHOLDER: validar criterios de las fotos -->
+              <p><span class="ph">[validar: criterios concretos — luz, encuadre, resolución mínima, gafas, etc.]</span></p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Solo es para bodas?</summary>
+            <div class="faq__a"><p>Una boda es un estreno perfecto, pero también puede ser un aniversario, una pedida o un regalo especial. La ocasión cambia; la historia sigue siendo vuestra.</p></div>
+          </details>
+          <details>
+            <summary>¿Se puede proyectar en la boda?</summary>
+            <div class="faq__a">
+              <p>Sí. Una boda es el estreno perfecto: en el banquete, ante los invitados, o en privado la víspera. Los requisitos técnicos de proyección se concretan con vosotros o con vuestro wedding planner.</p>
+              <!-- PLACEHOLDER: validar requisitos técnicos de proyección -->
+              <p><span class="ph">[validar: formato de proyección, sonido, si se entrega una versión específica para el evento]</span></p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cómo se entrega la película?</summary>
+            <div class="faq__a">
+              <p>Recibís la película en formato digital.</p>
+              <!-- PLACEHOLDER: validar entrega -->
+              <p><span class="ph">[validar: resolución, formatos, vía de entrega y si se incluye una versión vertical para redes]</span></p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cuánto cuesta y cuándo estará lista?</summary>
+            <div class="faq__a">
+              <p>La propuesta y el calendario se concretan según la historia y la fecha del evento. Contadnos vuestra idea para valorar el proyecto, sin tarifas ni plazos genéricos.</p>
+              <!-- PLACEHOLDER: precio y plazo -->
+              <p>Como orientación: <span class="ph">[PRECIO: desde ___ €]</span> y <span class="ph">[PLAZO: ___ días]</span> desde que aprobáis el guion.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cómo se utiliza nuestra imagen?</summary>
+            <div class="faq__a"><p>Trabajamos con el consentimiento expreso de las dos personas. Acordamos el uso de sus fotografías y de la película antes de iniciar la producción.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WEDDING PLANNERS (teaser) ============ -->
+    <section class="section section--rule" id="wedding-planners" aria-labelledby="t-planners">
+      <div class="wrap b2b">
+        <div class="sec-head" style="margin-bottom:0">
+          <p class="label">Para wedding planners y profesionales de bodas</p>
+          <h2 id="t-planners">Una propuesta diferente. Un momento que se recuerda.</h2>
+          <p class="lead">Cuando una pareja pide algo que no haya visto en otra boda, no necesita otra lista de extras. Necesita una idea propia. Una película personalizada convierte su historia en una experiencia compartida con todos sus invitados.</p>
+          <div class="btn-row">
+            <a class="btn btn--ghost" href="wedding-planners.html">Información para profesionales</a>
+          </div>
+        </div>
+        <ul class="b2b__points">
+          <li>Una experiencia que distingue vuestra propuesta de boda.</li>
+          <li>Una historia construida junto a la pareja, no una plantilla.</li>
+          <li>Una pieza que emociona ese día y permanece después.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EMPEZAR (formulario) ============ -->
+    <section class="section band--ink" id="empezar" aria-labelledby="t-empezar">
+      <div class="wrap start">
+        <div class="start__intro">
+          <p class="label">Estreno</p>
+          <h2 id="t-empezar">Vuestra historia todavía no se ha rodado.</h2>
+          <p class="lead">Contadnos qué os une, dónde os gustaría vivir vuestra aventura y cuándo queréis estrenarla. El primer plano empieza ahí.</p>
+          <div class="contact-alt">
+            <p>Si preferís hablar antes de escribir:</p>
+            <!-- PLACEHOLDER: número de WhatsApp -->
+            <a class="btn btn--ghost" href="[WHATSAPP: https://wa.me/34___]" data-whatsapp>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              WhatsApp <span class="ph">[WHATSAPP: +34 ___]</span>
+            </a>
+            <a class="btn btn--link" href="mailto:info@alumafilms.es">info@alumafilms.es</a>
+          </div>
+        </div>
+
+        <div class="ticket">
+          <span class="ticket__stub" aria-hidden="true">Entrada · Estreno · ALUMA</span>
+          <div class="ticket__body">
+            <div class="ticket__head">
+              <p class="label label--bare">Crea vuestra película</p>
+              <small>Admite dos</small>
+            </div>
+            <!-- PLACEHOLDER: endpoint del formulario -->
+            <form class="form" method="post" action="[ENDPOINT FORMULARIO]">
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-nombres">Vuestros nombres</label>
+                  <input id="f-nombres" name="nombres" type="text" autocomplete="off" required placeholder="Nombre y nombre">
+                </div>
+                <div class="field">
+                  <label for="f-email">Email</label>
+                  <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="vosotros@email.es">
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-telefono">Teléfono o WhatsApp</label>
+                  <input id="f-telefono" name="telefono" type="tel" autocomplete="tel" placeholder="+34 …">
+                </div>
+                <div class="field">
+                  <label for="f-ocasion">Ocasión</label>
+                  <select id="f-ocasion" name="ocasion" required>
+                    <option value="" selected>Elegid una</option>
+                    <option>Boda</option>
+                    <option>Aniversario</option>
+                    <option>Pedida de mano</option>
+                    <option>Regalo (San Valentín, Navidad, cumpleaños…)</option>
+                    <option>Bodas de oro o de plata</option>
+                    <option>Otra</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="f-fecha">Fecha del evento</label>
+                  <input id="f-fecha" name="fecha" type="date">
+                  <small>Aproximada, si todavía no está cerrada.</small>
+                </div>
+                <div class="field">
+                  <label for="f-universo">Universo preferido</label>
+                  <select id="f-universo" name="universo">
+                    <option value="Aún no lo sabemos" selected>Aún no lo sabemos</option>
+                    <option>Antigua Roma</option>
+                    <option>Años veinte</option>
+                    <option>El espacio</option>
+                    <option>Vuestro universo</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-historia">Contadnos cómo os conocisteis</label>
+                <textarea id="f-historia" name="historia" rows="5" placeholder="Dónde, cuándo, qué os une. Lo que queráis contar."></textarea>
+              </div>
+              <div class="field">
+                <label for="f-origen">¿Cómo nos habéis conocido?</label>
+                <select id="f-origen" name="origen">
+                  <option value="" selected>Opcional</option>
+                  <option>Instagram</option>
+                  <option>TikTok</option>
+                  <option>YouTube</option>
+                  <option>Google</option>
+                  <option>Wedding planner o proveedor de la boda</option>
+                  <option>Recomendación de alguien</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+              <div class="field field--check">
+                <input id="f-privacidad" name="privacidad" type="checkbox" required>
+                <!-- PLACEHOLDER: URL de la política de privacidad -->
+                <label for="f-privacidad">He leído y acepto la <a href="[URL POLÍTICA DE PRIVACIDAD]">política de privacidad</a>. Usaremos estos datos solo para responderos.</label>
+              </div>
+              <div class="form__foot">
+                <button class="btn btn--primary btn--ticket" type="submit">Enviar y empezar</button>
+                <p>Sin compromiso. Os respondemos con una propuesta pensada para vuestra historia y vuestra fecha.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE ============ -->
+  <footer class="footer band--ink2">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="logo" href="index.html" aria-label="ALUMA, inicio"><span class="logo__mark" aria-hidden="true"></span>ALUMA</a>
+          <p>ALUMA es un estudio audiovisual de Galicia. Rodaje real y generación con IA dirigida por personas. «Tu película» es nuestra pieza para parejas; para marcas, clubes y productoras, el resto del estudio.</p>
+          <a class="btn btn--link" href="mailto:info@alumafilms.es">info@alumafilms.es</a>
+        </div>
+        <div>
+          <h2>Tu película</h2>
+          <ul class="footer__links">
+            <li><a href="#como-funciona">Cómo funciona</a></li>
+            <li><a href="#universos">Universos</a></li>
+            <li><a href="#precio">Precio</a></li>
+            <li><a href="#preguntas">Preguntas</a></li>
+            <li><a href="wedding-planners.html">Wedding planners</a></li>
+            <li><a href="#empezar">Reservar fecha</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Para marcas</h2>
+          <ul class="footer__links">
+            <li><a href="https://alumafilms.es/es/trabajo">Trabajo</a></li>
+            <li><a href="https://alumafilms.es/es/metodo">Método</a></li>
+            <li><a href="https://alumafilms.es/es/etica">Ética</a></li>
+            <li><a href="https://alumafilms.es/es/estudio">Estudio</a></li>
+            <li><a href="https://alumafilms.es/es/blog">Blog</a></li>
+            <li><a href="https://alumafilms.es/es/contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Seguirnos</h2>
+          <ul class="footer__links">
+            <li><a href="https://www.instagram.com/aluma.films/" rel="noopener" target="_blank">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@aluma.films" rel="noopener" target="_blank">TikTok</a></li>
+            <li><a href="https://www.youtube.com/@AlumaFilmsGalicia" rel="noopener" target="_blank">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/146671485/" rel="noopener" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <!-- PLACEHOLDER: razón social y enlaces legales -->
+        <p>© 2026 ALUMA · <span class="ph">[NIF/RAZÓN SOCIAL]</span> · Galicia</p>
+        <p><a href="[URL AVISO LEGAL]">Aviso legal</a> · <a href="[URL POLÍTICA DE PRIVACIDAD]">Privacidad</a> · <a href="[URL COOKIES]">Cookies</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Barra CTA fija (solo móvil) -->
+  <div class="stickybar" id="stickybar" data-stickybar aria-hidden="true">
+    <a class="btn btn--primary" href="#empezar" tabindex="-1">Crea vuestra película</a>
+    <!-- PLACEHOLDER: número de WhatsApp -->
+    <a class="btn btn--ghost btn--wa" href="[WHATSAPP: https://wa.me/34___]" data-whatsapp aria-label="Escribir por WhatsApp" tabindex="-1">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    </a>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
