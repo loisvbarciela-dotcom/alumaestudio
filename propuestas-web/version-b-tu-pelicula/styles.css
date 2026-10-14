@@ -69,7 +69,7 @@ body {
 }
 img, svg, video { display: block; max-width: 100%; }
 img { height: auto; }
-h1, h2, h3, h4, p, figure, ul, ol, dl, dd { margin: 0; }
+h1, h2, h3, h4, p, figure, blockquote, ul, ol, dl, dd { margin: 0; }
 ul, ol { padding: 0; list-style: none; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
 button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
@@ -516,7 +516,7 @@ p { text-wrap: pretty; }
 @media (min-width: 900px) {
   .deliver { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); gap: 64px; align-items: start; }
   .price { padding: 40px 36px; position: sticky; top: calc(var(--header-h) + 24px); }
-  .price--static { position: relative; }
+  .price--static { position: relative; top: auto; }
 }
 
 /* ---------- Testimonios ---------- */
@@ -586,7 +586,7 @@ p { text-wrap: pretty; }
 
 .ticket {
   position: relative; background: var(--papel); color: var(--tinta);
-  --fg: var(--tinta); --fg-muted: var(--bruma-2); --line: rgba(126, 139, 146, 0.26); --line-strong: rgba(22, 19, 15, 0.55);
+  --bg: var(--papel); --fg: var(--tinta); --fg-muted: var(--bruma-2); --line: rgba(126, 139, 146, 0.26); --line-strong: rgba(22, 19, 15, 0.55);
   padding: 32px 22px 28px;
 }
 .ticket::before {
@@ -680,3 +680,22 @@ p { text-wrap: pretty; }
 
 /* Placeholder de fotograma siempre visible (universos sin ejemplo todavía) */
 .frame__ph--on { display: grid; }
+
+/* ---------- Pulido responsive ---------- */
+@media (max-width: 719px) {
+  .facts__list li { padding: 14px 6px; font-size: 1rem; }
+  .facts__list small { font-size: 9px; letter-spacing: 0.1em; margin-top: 3px; }
+  .facade__ph { inset: 10px 10px auto 10px; padding: 6px 8px; font-size: 10px; letter-spacing: 0.08em; }
+  .facade__ring { width: 64px; height: 64px; }
+  .facade__ring svg { width: 20px; height: 20px; }
+}
+@media (max-width: 899px) {
+  .tabs__list {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .footer__grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .footer__brand { grid-column: 1 / -1; }
+}
