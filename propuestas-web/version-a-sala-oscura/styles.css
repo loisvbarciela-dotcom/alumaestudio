@@ -315,6 +315,13 @@ button {
   align-items: start;
 }
 
+.split > *,
+.grid > *,
+.sec-head > *,
+.tabs__panel > * {
+  min-width: 0;
+}
+
 @media (min-width: 900px) {
   .split {
     grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
@@ -356,8 +363,8 @@ button {
   text-transform: uppercase;
   line-height: 1.2;
   text-decoration: none;
+  text-align: center;
   transition: background-color 0.35s var(--ease), color 0.35s var(--ease), border-color 0.35s var(--ease);
-  white-space: nowrap;
 }
 
 .btn:hover {
@@ -632,6 +639,7 @@ button {
   min-height: 40px;
   padding: 0.6rem 1.1rem;
   font-size: 11px;
+  white-space: nowrap;
 }
 
 .menu-toggle {
@@ -1682,6 +1690,14 @@ body.menu-open .site-header {
 
 .tabs__list::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 640px) {
+  .tabs__list {
+    flex-wrap: wrap;
+    gap: 0 1.5rem;
+    overflow: visible;
+  }
 }
 
 .tab {

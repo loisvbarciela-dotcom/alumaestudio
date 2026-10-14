@@ -114,7 +114,7 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
 .ph--16x9 { aspect-ratio: 16 / 9; }
 .ph--9x16 { aspect-ratio: 9 / 16; }
 .ph--4x3 { aspect-ratio: 4 / 3; }
-.ph-text { border-bottom: 1px dashed var(--ouro); padding: 0 .1em; white-space: nowrap; }
+.ph-text { border-bottom: 1px dashed var(--ouro); padding: 0 .1em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 
 /* Imagen remota (CDN): caja con proporción y color de marca */
 .remote { background: var(--oso); overflow: hidden; }
@@ -248,7 +248,7 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
 .section--ink .head { border-top-color: var(--oso); }
 .head__meta { grid-column: 1 / span 3; display: flex; flex-direction: column; gap: .75rem; }
 .head__num { font: 400 var(--fs-num)/.82 var(--font-serif); letter-spacing: -.02em; }
-.head__meta .label { padding-top: .75rem; border-top: 1px solid var(--ouro); width: max-content; min-width: 7rem; }
+.head__meta .label { padding-top: .75rem; border-top: 1px solid var(--ouro); width: fit-content; min-width: 7rem; max-width: 100%; }
 .head__body { grid-column: 4 / span 9; }
 .head h2 {
   font: 400 var(--fs-h2)/1.02 var(--font-serif); letter-spacing: -.01em;
@@ -258,6 +258,7 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
 .head .lead { margin-top: 1.25rem; }
 .head__aside { grid-column: 10 / span 3; align-self: end; }
 .head--split .head__body { grid-column: 4 / span 6; }
+.head--only { margin-bottom: 0; }
 
 @media (max-width: 1023px) {
   .head__meta { grid-column: 1 / -1; flex-direction: row; align-items: flex-end; gap: 1.25rem; }
@@ -560,15 +561,19 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
   background-size: .3rem .3rem; background-repeat: no-repeat;
 }
 .field__hint { font-size: .8125rem; color: var(--gris); }
-.checkbox { display: grid; grid-template-columns: 1.125rem 1fr; gap: .8rem; align-items: start; font-size: .9375rem; }
-.checkbox input { width: 1.125rem; height: 1.125rem; margin: .2rem 0 0; accent-color: var(--tinta); border-radius: 0; }
+.field .checkbox {
+  display: grid; grid-template-columns: 1.125rem 1fr; gap: .8rem; align-items: start;
+  font: 400 .9375rem/1.5 var(--font-sans); letter-spacing: 0; text-transform: none; color: var(--tinta);
+}
+.section--ink .field .checkbox { color: var(--oso); }
+.field .checkbox input { width: 1.125rem; height: 1.125rem; min-height: 0; margin: .2rem 0 0; padding: 0; accent-color: var(--tinta); border-radius: 0; }
 .form__actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; margin-top: .5rem; }
 .form__actions small { font-size: .8125rem; color: var(--gris); }
 .section--ink .field label, .section--ink .field__hint, .section--ink .form__actions small { color: var(--oso-70); }
 .section--ink .field input, .section--ink .field select, .section--ink .field textarea { border-color: rgba(244, 240, 232, .4); }
 .section--ink .field input:hover, .section--ink .field select:hover, .section--ink .field textarea:hover { border-color: var(--oso); }
 .section--ink .field select { background-image: linear-gradient(45deg, transparent 50%, var(--oso) 50%), linear-gradient(135deg, var(--oso) 50%, transparent 50%); }
-.section--ink .checkbox input { accent-color: var(--oso); }
+.section--ink .field .checkbox input { accent-color: var(--oso); }
 .section--ink .field select option { color: var(--tinta); background: var(--papel); }
 @media (max-width: 599px) { .form { grid-template-columns: 1fr; } }
 
@@ -577,7 +582,7 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
 .contact__form { grid-column: 6 / span 7; }
 .channels { list-style: none; border-top: 1px solid var(--tinta); }
 .channels li { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; padding: .8rem 0; border-bottom: 1px solid var(--linea); font-size: .9375rem; }
-.channels a { text-decoration: none; background-image: linear-gradient(currentColor, currentColor); background-size: 100% 1px; background-repeat: no-repeat; background-position: 0 100%; }
+.channels a { justify-self: start; text-decoration: none; background-image: linear-gradient(currentColor, currentColor); background-size: 100% 1px; background-repeat: no-repeat; background-position: 0 100%; }
 .callout { border-left: 2px solid var(--ouro); padding: .25rem 0 .25rem 1rem; font-size: .9375rem; }
 .callout .link { margin-top: .3rem; }
 @media (max-width: 1023px) {
@@ -600,6 +605,8 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
 .footer__col a { text-decoration: none; font-size: .9375rem; color: var(--oso); }
 .footer__col a:hover { text-decoration: underline; }
 .footer__col .ph-text { color: var(--oso-70); font-size: .875rem; }
+.footer .lang a { color: var(--oso-70); }
+.footer .lang a[aria-current="page"] { color: var(--oso); }
 .footer address { font-style: normal; font-size: .9375rem; color: var(--oso-70); line-height: 1.6; }
 .footer__bottom {
   margin-top: clamp(2.5rem, 5vw, 4rem); padding-top: 1.25rem; border-top: 1px solid var(--linea-ink);
@@ -616,7 +623,9 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
   .footer__col:nth-of-type(4) { grid-column: 9 / span 4; }
 }
 @media (max-width: 599px) {
-  .footer__col:nth-of-type(2), .footer__col:nth-of-type(3), .footer__col:nth-of-type(4) { grid-column: 1 / -1; }
+  .footer__col:nth-of-type(2) { grid-column: 1 / span 6; }
+  .footer__col:nth-of-type(3) { grid-column: 7 / span 6; }
+  .footer__col:nth-of-type(4) { grid-column: 1 / -1; }
 }
 
 /* ---------- Página de producto: «Tu película» --------------------------- */
@@ -773,5 +782,5 @@ hr { border: 0; border-top: 1px solid var(--linea); margin: 0; }
 .next { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--gutter); align-items: center; }
 .next__media { grid-column: 1 / span 5; }
 .next__body { grid-column: 7 / span 6; display: flex; flex-direction: column; gap: 1rem; }
-.next__body h2 { font: 400 clamp(2rem, 1.5rem + 2.5vw, 3.75rem)/1 var(--font-serif); letter-spacing: -.01em; }
+.next__body h3 { font: 400 clamp(2rem, 1.5rem + 2.5vw, 3.75rem)/1 var(--font-serif); letter-spacing: -.01em; }
 @media (max-width: 1023px) { .next__media, .next__body { grid-column: 1 / -1; } }
