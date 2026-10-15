@@ -12,7 +12,7 @@ cluster: Regalos
 publicacion_sugerida: 2026-11-19
 imagen_destacada: "tempo.jpg — alt: «Старинные карманные часы: персональный подарок, хранящий время»"
 enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalo-de-navidad-original-para-tu-pareja", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "Две фотографии — один фильм — /es/tu-pelicula"
+cta: "Две фотографии, один фильм — /es/tu-pelicula"
 ---
 
 # Персональные подарки с фотографиями: от кружки до фильма с вашими лицами

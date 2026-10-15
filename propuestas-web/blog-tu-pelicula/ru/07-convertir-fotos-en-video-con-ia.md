@@ -12,7 +12,7 @@ cluster: IA y proceso
 publicacion_sugerida: 2026-11-10
 imagen_destacada: "cinza-e-ouro.jpg — alt: «Сцена, созданная ИИ под режиссурой ALUMA: миниатюрный город из пепла»"
 enlaces_internos: ["/es/tu-pelicula", "/es/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/es/blog/pelicula-personalizada-con-ia", "/es/blog/imagen-e-ia-consentimiento-y-derechos", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "Для важного случая — фильм с режиссурой — /es/tu-pelicula"
+cta: "Для важного случая: фильм с режиссурой — /es/tu-pelicula"
 ---
 
 # Как превратить фото в видео с помощью ИИ: бесплатные приложения или фильм с режиссурой
