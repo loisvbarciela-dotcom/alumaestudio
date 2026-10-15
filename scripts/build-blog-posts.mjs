@@ -171,7 +171,7 @@ const problems = [];
 
 for (const file of files) {
   const post = { slug: "", data: "", imaxe: null, titulo: {}, extracto: {}, corpo: {}, meta: {}, cta: {}, faq: {}, enlaces: {} };
-  for (const lang of LANGS) {
+  for (const lang of ["es", ...LANGS.filter((l) => l !== "es")]) {
     const path = lang === "es" ? join(SRC, file) : join(SRC, lang, file);
     if (!existsSync(path)) { problems.push(`missing ${lang}/${file}`); continue; }
     const original = readFileSync(path, "utf8");
@@ -204,6 +204,9 @@ for (const file of files) {
     if (post.corpo[lang] && post.corpo.es && post.corpo[lang].length !== post.corpo.es.length)
       problems.push(`${lang}/${file}: ${post.corpo[lang].length} paragraphs vs ${post.corpo.es.length} in es`);
   }
+  // Keep the language order used in posts.json (gl, es, en, ru).
+  for (const key of ["titulo", "extracto", "corpo", "meta", "cta", "faq", "enlaces"])
+    post[key] = Object.fromEntries(LANGS.filter((l) => l in post[key]).map((l) => [l, post[key][l]]));
   posts.push(post);
 }
 
