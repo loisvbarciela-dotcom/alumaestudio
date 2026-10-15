@@ -58,7 +58,7 @@ Combinadas con medida, as tradicións dan identidade sen converter a voda nun es
 - Conservas galegas cunha etiqueta personalizada.
 - Unha pequena peza de cerámica dun taller local.
 - Unha botella de licor de herbas ou de café.
-- Unha planta autóctona para levar para a casa.
+- Unha planta autóctona para levar para casa.
 
 ## Lendas que inspiran
 
