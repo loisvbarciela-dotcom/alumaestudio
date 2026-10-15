@@ -173,13 +173,7 @@ export function LightBeamHero({
 
       {/* Title lives inside the beam. */}
 
-      <div
-        className="gutter pointer-events-none absolute inset-0 flex flex-col justify-end pb-[10vh]"
-        style={{ maskImage: INITIAL_MASK, WebkitMaskImage: INITIAL_MASK }}
-        ref={(node) => {
-          maskedRefs.current[1] = node;
-        }}
-      >
+      <div className="gutter pointer-events-none absolute inset-0 z-10 flex flex-col justify-end pb-[10vh]">
         <h1 className="hero-title text-oso">{t.hero.title}</h1>
         <p className="mt-6 max-w-md text-bruma">{t.hero.subtitle}</p>
       </div>
