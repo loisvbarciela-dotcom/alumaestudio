@@ -205,8 +205,10 @@ export type Post = {
   corpo: Record<Lang, string[]>;
 };
 
-/** Blog posts, newest first. */
-export const posts = (postsData as Post[]).slice().sort((a, b) => b.data.localeCompare(a.data));
+/** Blog posts, newest first. Posts dated in the future stay hidden until their date. */
+export const posts = (postsData as Post[])
+  .filter((p) => p.data <= new Date().toISOString().slice(0, 10))
+  .sort((a, b) => b.data.localeCompare(a.data));
 
 export function postBySlug(slug: string): Post | undefined {
   return posts.find((p) => p.slug === slug);
