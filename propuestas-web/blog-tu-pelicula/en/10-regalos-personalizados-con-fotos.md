@@ -2,7 +2,7 @@
 n: 10
 titulo: "Personalised photo gifts: from the mug to a film with your faces"
 slug: regalos-personalizados-con-fotos
-url: https://alumafilms.es/es/blog/regalos-personalizados-con-fotos
+url: https://alumafilms.es/en/blog/regalos-personalizados-con-fotos
 meta_title: "Personalised Photo Gifts: Original Ideas"
 meta_description: "Personalised photo gift ideas, from the classics to the most original, and how two photographs can become an exclusive film."
 keyword_principal: "personalised photo gifts"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-11-19
 imagen_destacada: "tempo.jpg — alt: “Antique pocket watch: a personalised gift that keeps time”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalo-de-navidad-original-para-tu-pareja", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "Two photos, one film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-aniversario-original", "/en/blog/regalo-de-navidad-original-para-tu-pareja", "/en/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
+cta: "Two photos, one film — /en/your-film"
 ---
 
 # Personalised photo gifts: from the mug to a film with your faces
@@ -61,7 +61,7 @@ With two photographs, one of each person, we create a film of three or four minu
 
 ## Who each one suits
 
-- **For a couple:** a film or an album with a story. Ideas for specific dates in [unique anniversary gift](/es/blog/regalo-aniversario-original) and [original Christmas gift for your partner](/es/blog/regalo-de-navidad-original-para-tu-pareja).
+- **For a couple:** a film or an album with a story. Ideas for specific dates in [unique anniversary gift](/en/blog/regalo-aniversario-original) and [original Christmas gift for your partner](/en/blog/regalo-de-navidad-original-para-tu-pareja).
 - **For parents or grandparents:** the missing photo, an album or a film for their golden wedding anniversary.
 - **For friends who are getting married:** a film as a group gift.
 
@@ -76,7 +76,7 @@ A personalised object costs little; a personalised film is a piece of direction 
 ## Frequently asked questions
 
 ### Which photos do I need for a personalised film?
-One recent, sharp photograph of each person. We explain it in [how to choose the photos](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+One recent, sharp photograph of each person. We explain it in [how to choose the photos](/en/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ### How long is the film?
 Between three and four minutes.
@@ -86,4 +86,4 @@ Between three and four minutes.
 
 ---
 
-**Two photos can be much more than a keepsake.** → [Discover Your film](/es/tu-pelicula)
+**Two photos can be much more than a keepsake.** → [Discover Your film](/en/your-film)

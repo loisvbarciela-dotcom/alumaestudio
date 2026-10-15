@@ -2,7 +2,7 @@
 n: 6
 titulo: "Wedding trends 2027: personalised experiences, cinema and artificial intelligence"
 slug: tendencias-bodas-2027
-url: https://alumafilms.es/es/blog/tendencias-bodas-2027
+url: https://alumafilms.es/en/blog/tendencias-bodas-2027
 meta_title: "Wedding Trends 2027: Personal Beats Spectacular"
 meta_description: "Wedding trends for 2027: more personal celebrations, guest experiences, a cinematic look and a thoughtful use of AI."
 keyword_principal: "wedding trends 2027"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-11-05
 imagen_destacada: "o-oficio.jpg — alt: “Craftsman's hands working wood: made-to-measure as a trend in 2027 weddings”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/boda-intima-ideas", "/es/blog/entretenimiento-para-bodas", "/es/blog/save-the-date-en-video"]
-cta: "A film for your 2027 wedding — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/ideas-originales-para-sorprender-en-una-boda", "/en/blog/boda-intima-ideas", "/en/blog/entretenimiento-para-bodas", "/en/blog/save-the-date-en-video"]
+cta: "A film for your 2027 wedding — /en/your-film"
 ---
 
 # Wedding trends 2027: personalised experiences, cinema and artificial intelligence
@@ -29,15 +29,15 @@ Couples want their wedding to say something about them. You can see it in handwr
 
 ## 2. The guest experience at the centre
 
-More and more weddings are planned from the point of view of the person attending: downtime handled well, shared moments, surprises that involve everyone. The photo booth falls short, and couples look for moments that are lived together. Specific ideas in [wedding entertainment](/es/blog/entretenimiento-para-bodas).
+More and more weddings are planned from the point of view of the person attending: downtime handled well, shared moments, surprises that involve everyone. The photo booth falls short, and couples look for moments that are lived together. Specific ideas in [wedding entertainment](/en/blog/entretenimiento-para-bodas).
 
 ## 3. Smaller, more carefully made weddings
 
-The intimate wedding has stopped being a plan B. Fewer guests allow a bigger budget per person, better venues and more personal details. We develop this in [ideas for an intimate wedding](/es/blog/boda-intima-ideas).
+The intimate wedding has stopped being a plan B. Fewer guests allow a bigger budget per person, better venues and more personal details. We develop this in [ideas for an intimate wedding](/en/blog/boda-intima-ideas).
 
 ## 4. A cinematic look
 
-Wedding photography and video have been looking to cinema for years: slower shots, careful colour, story rather than compilation. In 2027 that look reaches other parts of the wedding: invitations that look like posters, *save the date* in the form of a trailer, closing credits on the menu. Examples in [save the date videos](/es/blog/save-the-date-en-video).
+Wedding photography and video have been looking to cinema for years: slower shots, careful colour, story rather than compilation. In 2027 that look reaches other parts of the wedding: invitations that look like posters, *save the date* in the form of a trailer, closing credits on the menu. Examples in [save the date videos](/en/blog/save-the-date-en-video).
 
 ## 5. Handmade and local
 
@@ -53,7 +53,7 @@ With AI also comes a new demand: **transparency and consent**. Couples ask, quit
 
 ## 7. Moments that premiere
 
-Related to all of the above: couples want their wedding to have a moment nobody expects. A video on the big screen, a performance, a surprise from friends. More ideas in [how to surprise the guests at your wedding](/es/blog/ideas-originales-para-sorprender-en-una-boda).
+Related to all of the above: couples want their wedding to have a moment nobody expects. A video on the big screen, a performance, a surprise from friends. More ideas in [how to surprise the guests at your wedding](/en/blog/ideas-originales-para-sorprender-en-una-boda).
 
 ## 8. Longer celebrations
 
@@ -80,4 +80,4 @@ It depends on the area and the season. For high-demand dates, it is wise to star
 
 ---
 
-**If your wedding is going to tell a story, give it its own film.** → [Discover Your film](/es/tu-pelicula)
+**If your wedding is going to tell a story, give it its own film.** → [Discover Your film](/en/your-film)

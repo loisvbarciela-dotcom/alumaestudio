@@ -2,7 +2,7 @@
 n: 11
 titulo: "Agasallo de Nadal orixinal para a túa parella: unha película que só existe para vós"
 slug: regalo-de-navidad-original-para-tu-pareja
-url: https://alumafilms.es/es/blog/regalo-de-navidad-original-para-tu-pareja
+url: https://alumafilms.es/gl/blog/regalo-de-navidad-original-para-tu-pareja
 meta_title: "Agasallo de Nadal orixinal para a túa parella"
 meta_description: "Ideas de agasallo de Nadal orixinal para a túa parella que non se mercan no último minuto, e como agasallar unha película protagonizada polos dous."
 keyword_principal: "agasallo de Nadal orixinal para parella"
@@ -11,8 +11,8 @@ intencion: comercial (estacional)
 cluster: Regalos
 publicacion_sugerida: 2026-11-24
 imagen_destacada: "a-ultima-fornada.jpg — alt: «Cidade iluminada de noite xunto ao mar, ambiente de inverno»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/pedida-de-mano-original"]
-cta: "Reservade a vosa película antes do Nadal — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/regalo-original-para-tu-novia-o-novio", "/gl/blog/regalos-personalizados-con-fotos", "/gl/blog/pedida-de-mano-original"]
+cta: "Reservade a vosa película antes do Nadal — /gl/a-tua-pelicula"
 ---
 
 # Agasallo de Nadal orixinal para a túa parella: unha película que só existe para vós
@@ -85,4 +85,4 @@ Si. O 6 de xaneiro é unha boa data para unha estrea ou para entregar a tarxeta 
 
 ---
 
-**Este ano, un agasallo que non se merca o día 23.** → [Creade a vosa película](/es/tu-pelicula)
+**Este ano, un agasallo que non se merca o día 23.** → [Creade a vosa película](/gl/a-tua-pelicula)

@@ -2,7 +2,7 @@
 n: 29
 titulo: "Despedida de solteira ou solteiro orixinal: ideas e o agasallo que se estrea na voda"
 slug: despedida-de-soltera-original
-url: https://alumafilms.es/es/blog/despedida-de-soltera-original
+url: https://alumafilms.es/gl/blog/despedida-de-soltera-original
 meta_title: "Despedida de solteira orixinal: ideas con encanto"
 meta_description: "Ideas para unha despedida de solteira ou solteiro orixinal que non avergoñe a ninguén, e un agasallo do grupo que se estrea na voda."
 keyword_principal: "despedida de solteira orixinal"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-02-02
 imagen_destacada: "marea-alta.jpg — alt: «Grupo remando nunha traiñeira ao solpor: plans de grupo para unha despedida»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-los-novios", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/bodas-en-galicia-ideas"]
-cta: "O agasallo do grupo: a súa película — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/regalo-original-para-los-novios", "/gl/blog/que-video-proyectar-en-una-boda", "/gl/blog/bodas-en-galicia-ideas"]
+cta: "O agasallo do grupo: a súa película — /gl/a-tua-pelicula"
 ---
 
 # Despedida de solteira ou solteiro orixinal: ideas e o agasallo que se estrea na voda
@@ -62,14 +62,14 @@ Unha despedida é tamén o momento no que o grupo de amigos adoita facer un agas
 1. **Durante a despedida**, entregades unha tarxeta co título da película `[validar: formato de vale agasallo]`.
 2. **A parella dá o seu consentimento** para usar a súa imaxe (traballamos sempre co consentimento expreso das dúas persoas).
 3. **O grupo participa no guión** con anécdotas e acenos que só coñecedes vós.
-4. **A película estréase na voda.** Consellos para ese momento en [que vídeo proxectar nunha voda](/es/blog/que-video-proyectar-en-una-boda).
+4. **A película estréase na voda.** Consellos para ese momento en [que vídeo proxectar nunha voda](/gl/blog/que-video-proyectar-en-una-boda).
 
 ### Por que é un bo agasallo de grupo
 - Entre varias persoas, o custo repártese. Punto de partida: `[PREZO: desde ___ €]`.
 - É un agasallo para os dous, non só para quen se despide.
 - Xera un momento na voda que o grupo vive como propio.
 
-Máis ideas en [agasallo orixinal para os noivos](/es/blog/regalo-original-para-los-novios).
+Máis ideas en [agasallo orixinal para os noivos](/gl/blog/regalo-original-para-los-novios).
 
 ## Prazos
 
@@ -88,4 +88,4 @@ A historia pode selo. O uso da súa imaxe require o seu consentimento expreso.
 
 ---
 
-**Que o agasallo da despedida se vexa en pantalla grande o día da voda.** → [Descubride A túa película](/es/tu-pelicula)
+**Que o agasallo da despedida se vexa en pantalla grande o día da voda.** → [Descubride A túa película](/gl/a-tua-pelicula)

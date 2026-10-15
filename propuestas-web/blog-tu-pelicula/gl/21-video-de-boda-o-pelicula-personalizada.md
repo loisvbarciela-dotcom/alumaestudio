@@ -2,7 +2,7 @@
 n: 21
 titulo: "Vídeo de voda ou película personalizada: diferenzas e como combinalos"
 slug: video-de-boda-o-pelicula-personalizada
-url: https://alumafilms.es/es/blog/video-de-boda-o-pelicula-personalizada
+url: https://alumafilms.es/gl/blog/video-de-boda-o-pelicula-personalizada
 meta_title: "Vídeo de voda ou película personalizada: diferenzas"
 meta_description: "En que se diferencian o vídeo de voda tradicional e unha película personalizada con IA, para que serve cada un e como combinalos sen duplicar."
 keyword_principal: "vídeo de voda orixinal"
@@ -11,8 +11,8 @@ intencion: comercial (comparativa)
 cluster: Bodas
 publicacion_sugerida: 2027-01-05
 imagen_destacada: "marea-alta.jpg — alt: «Remeiros nunha traiñeira ao solpor: imaxe de cine rodada con luz natural»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/alternativas-al-montaje-de-fotos-de-boda", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/wedding-planners-experiencias-personalizadas"]
-cta: "A película que se estrea na vosa voda — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/alternativas-al-montaje-de-fotos-de-boda", "/gl/blog/que-video-proyectar-en-una-boda", "/gl/blog/wedding-planners-experiencias-personalizadas"]
+cta: "A película que se estrea na vosa voda — /gl/a-tua-pelicula"
 ---
 
 # Vídeo de voda ou película personalizada: diferenzas e como combinalos
@@ -54,16 +54,16 @@ Unha película personalizada é unha peza de tres ou catro minutos na que a pare
 ## Como combinalos
 
 - **A película abre, o vídeo pecha.** A película estréase no banquete; o videógrafo grava a reacción dos convidados, que acaba formando parte do vídeo de voda. É unha das escenas máis emotivas que se poden rexistrar.
-- **Coordinación de provedores.** Se traballades con wedding planner, encaixará a proxección no timing do día. Se non, falade coa finca e co DJ. Ideas técnicas en [que vídeo proxectar nunha voda](/es/blog/que-video-proyectar-en-una-boda).
+- **Coordinación de provedores.** Se traballades con wedding planner, encaixará a proxección no timing do día. Se non, falade coa finca e co DJ. Ideas técnicas en [que vídeo proxectar nunha voda](/gl/blog/que-video-proyectar-en-una-boda).
 - **Coherencia estética.** Podedes pedir que a película e o vídeo compartan referencias: unha canción, unha paleta de cor, un título.
 
 ## E a montaxe de fotos?
 
-É a terceira peza clásica, e moitas parellas substitúenna pola película. Se queredes as dúas cousas, repartídeas en momentos distintos. Máis ideas en [alternativas á montaxe de fotos de voda](/es/blog/alternativas-al-montaje-de-fotos-de-boda).
+É a terceira peza clásica, e moitas parellas substitúenna pola película. Se queredes as dúas cousas, repartídeas en momentos distintos. Máis ideas en [alternativas á montaxe de fotos de voda](/gl/blog/alternativas-al-montaje-de-fotos-de-boda).
 
 ## Se sodes profesionais de vodas
 
-Para videógrafos e wedding planners, a película personalizada non é competencia: é un complemento que se pode ofrecer ás parellas. Falamos diso en [wedding planners e experiencias personalizadas](/es/blog/wedding-planners-experiencias-personalizadas).
+Para videógrafos e wedding planners, a película personalizada non é competencia: é un complemento que se pode ofrecer ás parellas. Falamos diso en [wedding planners e experiencias personalizadas](/gl/blog/wedding-planners-experiencias-personalizadas).
 
 ## Preguntas frecuentes
 
@@ -81,4 +81,4 @@ Con marxe suficiente para conversa, guión, produción e montaxe: `[PRAZO: ___ d
 
 ---
 
-**A vosa voda terá o seu vídeo. Que teña tamén a súa película.** → [Descubride A túa película](/es/tu-pelicula)
+**A vosa voda terá o seu vídeo. Que teña tamén a súa película.** → [Descubride A túa película](/gl/a-tua-pelicula)

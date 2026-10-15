@@ -2,7 +2,7 @@
 n: 20
 titulo: "Save the date video: the most original way to announce your wedding"
 slug: save-the-date-en-video
-url: https://alumafilms.es/es/blog/save-the-date-en-video
+url: https://alumafilms.es/en/blog/save-the-date-en-video
 meta_title: "Save the date video: ideas to announce your wedding"
 meta_description: "Ideas for an original save the date video: formats, length, when to send it and how to turn your wedding announcement into a film trailer."
 keyword_principal: "save the date video"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-12-29
 imagen_destacada: "mayday.jpg — alt: «A film still: the tone of a trailer to announce a wedding»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/pedida-de-mano-original", "/es/blog/tendencias-bodas-2027", "/es/blog/que-video-proyectar-en-una-boda"]
-cta: "The trailer for your wedding — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/pedida-de-mano-original", "/en/blog/tendencias-bodas-2027", "/en/blog/que-video-proyectar-en-una-boda"]
+cta: "The trailer for your wedding — /en/your-film"
 ---
 
 # Save the date video: the most original way to announce your wedding
@@ -56,7 +56,7 @@ Objects moving across a table until they spell out the date. Simple, handcrafted
 Shots of the place where you are marrying, with the date superimposed. It works very well for destination weddings.
 
 ### You in another era
-From one photograph of each of you, a short film showing you in the twenties, in Ancient Rome or in outer space, ending with the date. It is the idea behind our [personalised film](/es/tu-pelicula), applied to the announcement.
+From one photograph of each of you, a short film showing you in the twenties, in Ancient Rome or in outer space, ending with the date. It is the idea behind our [personalised film](/en/your-film), applied to the announcement.
 
 ## The trailer and the film: two pieces, one story
 
@@ -92,4 +92,4 @@ Yes, with a short fragment as a trailer. The rest is kept for the premiere at th
 
 ---
 
-**Let your announcement be the trailer for your own film.** → [Discover Your film](/es/tu-pelicula)
+**Let your announcement be the trailer for your own film.** → [Discover Your film](/en/your-film)

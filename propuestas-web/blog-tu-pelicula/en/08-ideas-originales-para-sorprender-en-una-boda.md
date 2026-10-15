@@ -2,7 +2,7 @@
 n: 8
 titulo: "Original ideas to surprise the guests at your wedding"
 slug: ideas-originales-para-sorprender-en-una-boda
-url: https://alumafilms.es/es/blog/ideas-originales-para-sorprender-en-una-boda
+url: https://alumafilms.es/en/blog/ideas-originales-para-sorprender-en-una-boda
 meta_title: "Original Wedding Ideas to Surprise Your Guests"
 meta_description: "Original ways to surprise your wedding guests, from arrival to the party, with details that speak about you and a cinematic premiere."
 keyword_principal: "original wedding ideas"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-11-12
 imagen_destacada: "app-store.jpg — alt: “Paper boat on a lake: handmade details for an original wedding”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/entretenimiento-para-bodas", "/es/blog/sorpresa-para-la-novia-o-el-novio", "/es/blog/bodas-en-galicia-ideas"]
-cta: "The surprise nobody expects: your own film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/entretenimiento-para-bodas", "/en/blog/sorpresa-para-la-novia-o-el-novio", "/en/blog/bodas-en-galicia-ideas"]
+cta: "The surprise nobody expects: your own film — /en/your-film"
 ---
 
 # Original ideas to surprise the guests at your wedding
@@ -30,7 +30,7 @@ Instead of the generic sign, a short text telling why you chose that place. If y
 A dish that recalls a trip, a grandmother, the kitchen of a house. With a card that explains it.
 
 ### Unexpected live music
-A quartet that plays your song in a version nobody recognises until the chorus. If the wedding is in Galicia, bagpipers (gaiteiros) who walk in unannounced still work. More local ideas in [weddings in Galicia](/es/blog/bodas-en-galicia-ideas).
+A quartet that plays your song in a version nobody recognises until the chorus. If the wedding is in Galicia, bagpipers (gaiteiros) who walk in unannounced still work. More local ideas in [weddings in Galicia](/en/blog/bodas-en-galicia-ideas).
 
 ## At the ceremony
 
@@ -49,7 +49,7 @@ Planting a tree, mixing sand from two beaches, signing a book you will read on y
 Each table named after a place that matters to you, with a line explaining why.
 
 ### A cinematic premiere
-Dim the lights and screen a film of three or four minutes in which you are the protagonists, living your story in Ancient Rome, in the twenties or in outer space. It is one of the surprises with the most impact because nobody has seen anything like it before. Ideas on when and how to do it in [what video to show at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+Dim the lights and screen a film of three or four minutes in which you are the protagonists, living your story in Ancient Rome, in the twenties or in outer space. It is one of the surprises with the most impact because nobody has seen anything like it before. Ideas on when and how to do it in [what video to show at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 
 ### Speeches, with a script
 Limit their number and length, and ask those speaking to tell one specific story. A good two-minute speech is worth more than an improvised ten-minute one.
@@ -63,7 +63,7 @@ All the guests raise their glasses at once with an agreed phrase. Simple and ver
 You start alone and, halfway through the song, the music changes and the whole floor joins in.
 
 ### A surprise from friends
-A choreography, a video, a song with adapted lyrics. If you want it to be a surprise for the couple, leave it to the group of friends. More ideas for the couple in [surprises for the bride or groom](/es/blog/sorpresa-para-la-novia-o-el-novio).
+A choreography, a video, a song with adapted lyrics. If you want it to be a surprise for the couple, leave it to the group of friends. More ideas for the couple in [surprises for the bride or groom](/en/blog/sorpresa-para-la-novia-o-el-novio).
 
 ### A moment's pause
 Halfway through the party, slip away for a few minutes on your own. It doesn't surprise the guests, but you will thank yourselves.
@@ -97,4 +97,4 @@ With time in hand: it needs conversation, script, production and editing. Indica
 
 ---
 
-**Let your guests see something they haven't seen at any other wedding.** → [Create your film](/es/tu-pelicula)
+**Let your guests see something they haven't seen at any other wedding.** → [Create your film](/en/your-film)

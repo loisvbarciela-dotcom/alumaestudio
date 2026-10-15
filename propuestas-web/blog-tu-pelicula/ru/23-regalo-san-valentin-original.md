@@ -2,7 +2,7 @@
 n: 23
 titulo: "Оригинальный подарок на День святого Валентина: когда открытки недостаточно"
 slug: regalo-san-valentin-original
-url: https://alumafilms.es/es/blog/regalo-san-valentin-original
+url: https://alumafilms.es/ru/blog/regalo-san-valentin-original
 meta_title: "Оригинальный подарок на День святого Валентина"
 meta_description: "Идеи оригинального подарка на День святого Валентина без банальностей: планы, подарки со смыслом и фильм, где вы с любимым человеком — герои."
 keyword_principal: "оригинальный подарок на День святого Валентина"
@@ -11,8 +11,8 @@ intencion: comercial (estacional)
 cluster: Regalos
 publicacion_sugerida: 2027-01-12
 imagen_destacada: "love-hero.jpg — alt: «Пара — главные герои персонального фильма ко Дню святого Валентина»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalo-aniversario-original", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "Закажите свой фильм к 14 февраля — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-original-para-tu-novia-o-novio", "/ru/blog/regalo-aniversario-original", "/ru/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "Закажите свой фильм к 14 февраля — /ru/vash-film"
 ---
 
 # Оригинальный подарок на День святого Валентина: когда открытки недостаточно
@@ -64,7 +64,7 @@ cta: "Закажите свой фильм к 14 февраля — /es/tu-pelic
 - **Древний Рим:** любовь, ставшая легендой.
 - **Ваша вселенная:** место, где вы познакомились, превращённое в декорации для кино.
 
-Больше идей — в статье [вселенные для вашего фильма о любви](/es/blog/universos-para-vuestra-pelicula-de-amor).
+Больше идей — в статье [вселенные для вашего фильма о любви](/ru/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Цена
 
@@ -83,4 +83,4 @@ cta: "Закажите свой фильм к 14 февраля — /es/tu-pelic
 
 ---
 
-**В этот День святого Валентина — история, которой нет ни на одной витрине.** → [Создайте свой фильм](/es/tu-pelicula)
+**В этот День святого Валентина — история, которой нет ни на одной витрине.** → [Создайте свой фильм](/ru/vash-film)

@@ -2,7 +2,7 @@
 n: 24
 titulo: "Wedding planners: how to set your offer apart with personalised experiences"
 slug: wedding-planners-experiencias-personalizadas
-url: https://alumafilms.es/es/blog/wedding-planners-experiencias-personalizadas
+url: https://alumafilms.es/en/blog/wedding-planners-experiencias-personalizadas
 meta_title: "Wedding planners: how to set your offer apart"
 meta_description: "Ideas for wedding planners to stand out: personalised experiences, memorable moments and a film in which the couple are the protagonists."
 keyword_principal: "wedding planner ideas to stand out"
@@ -11,8 +11,8 @@ intencion: comercial (B2B)
 cluster: Profesionales
 publicacion_sugerida: 2027-01-14
 imagen_destacada: "o-oficio.jpg — alt: «A craftsman's hands: the value of the made-to-measure at a wedding»"
-enlaces_internos: ["/es/tu-pelicula", "/es/contacto", "/es/blog/video-de-boda-o-pelicula-personalizada", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Let's talk about working together — /es/contacto"
+enlaces_internos: ["/en/your-film", "/en/contact", "/en/blog/video-de-boda-o-pelicula-personalizada", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Let's talk about working together — /en/contact"
 ---
 
 # Wedding planners: how to set your offer apart with personalised experiences
@@ -45,7 +45,7 @@ A personalised film is a three- or four-minute piece in which the couple star in
 
 - **It is exclusive:** no other couple will have the same one.
 - **It is easy to integrate:** it needs no crew on the wedding day, only a screen and a slot in the running order.
-- **It does not compete with other suppliers:** it does not replace the photographer or the videographer; it complements them. We explain this in [wedding video or personalised film](/es/blog/video-de-boda-o-pelicula-personalizada).
+- **It does not compete with other suppliers:** it does not replace the photographer or the videographer; it complements them. We explain this in [wedding video or personalised film](/en/blog/video-de-boda-o-pelicula-personalizada).
 - **It creates a shared moment** that every guest remembers.
 - **It sets you apart** from offers that only provide the usual.
 
@@ -58,12 +58,12 @@ A proposed way of working:
 1. **You present the idea to the couple** with our dossier and the example film. `[PLACEHOLDER: PDF dossier for planners]`
 2. **We coordinate with you** the conversation with the couple, the photos and the calendar.
 3. **The couple approves the script** before we produce.
-4. **We deliver the film** in the format the venue needs, with time for a technical test. Advice in [which video to screen at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+4. **We deliver the film** in the format the venue needs, with time for a technical test. Advice in [which video to screen at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 5. **You fit the premiere** into the running order of the day.
 
 ### Consent and peace of mind
 
-The film uses the couple's image, and we always work with the explicit consent of both people, in line with the EU AI Act. For a planner, that is a guarantee: the supplier handles the legal side and the couple know exactly what is done with their photos. More in [your image and AI](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+The film uses the couple's image, and we always work with the explicit consent of both people, in line with the EU AI Act. For a planner, that is a guarantee: the supplier handles the legal side and the couple know exactly what is done with their photos. More in [your image and AI](/en/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## How to present it to couples
 
@@ -87,4 +87,4 @@ Yes. The film is created from two photos and delivered for its premiere, whereve
 
 ---
 
-**If your couples ask for something nobody has seen, let's talk.** → [Write to us about collaborating](/es/contacto) · [See Your film](/es/tu-pelicula)
+**If your couples ask for something nobody has seen, let's talk.** → [Write to us about collaborating](/en/contact) · [See Your film](/en/your-film)

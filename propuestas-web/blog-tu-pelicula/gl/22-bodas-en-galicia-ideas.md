@@ -2,7 +2,7 @@
 n: 22
 titulo: "Vodas en Galicia: ideas para unha celebración con alma (e unha película propia)"
 slug: bodas-en-galicia-ideas
-url: https://alumafilms.es/es/blog/bodas-en-galicia-ideas
+url: https://alumafilms.es/gl/blog/bodas-en-galicia-ideas
 meta_title: "Vodas en Galicia: ideas para unha voda con alma"
 meta_description: "Ideas para unha voda en Galicia con identidade propia: espazos, gastronomía, música, tradicións e unha estrea de cine feita en Galicia."
 keyword_principal: "vodas en Galicia"
@@ -11,8 +11,8 @@ intencion: informacional (local)
 cluster: Bodas · Local
 publicacion_sugerida: 2027-01-07
 imagen_destacada: "os-cans.jpg — alt: «Corredoira galega de noite, escena de “Santa Compaña”, curtametraxe de ALUMA»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/universos-para-vuestra-pelicula-de-amor", "/es/trabajo", "/es/estudio"]
-cta: "Unha película feita en Galicia para a vosa voda — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/ideas-originales-para-sorprender-en-una-boda", "/gl/blog/universos-para-vuestra-pelicula-de-amor", "/gl/traballo", "/gl/estudio"]
+cta: "Unha película feita en Galicia para a vosa voda — /gl/a-tua-pelicula"
 ---
 
 # Vodas en Galicia: ideas para unha celebración con alma (e unha película propia)
@@ -64,13 +64,13 @@ Combinadas con medida, as tradicións dan identidade sen converter a voda nun es
 
 Galicia é terra de lendas, e algunhas son perfectas para contar unha historia de amor. San Andrés de Teixido, onde «vai de morto quen non foi de vivo». Os faros da Costa da Morte. A Santa Compaña percorrendo as corredoiras. As illas, as meigas, os castros.
 
-Nos nosos curtametraxes traballamos moitas destas historias, como *Cita en Teixido* ou *Santa Compaña*. Podedes velos en [o noso traballo](/es/trabajo).
+Nos nosos curtametraxes traballamos moitas destas historias, como *Cita en Teixido* ou *Santa Compaña*. Podedes velos en [o noso traballo](/gl/traballo).
 
 ## A idea que nos toca de preto: unha película feita en Galicia
 
 Unha forma de levar todo isto á gran pantalla é unha película personalizada protagonizada polos noivos. A partir dunha fotografía de cada un creamos unha película de tres ou catro minutos que se estrea no banquete. Pode transcorrer na Antiga Roma ou no espazo… ou nunha Galicia lendaria: un faro en mitad dunha treboada, unha romaría, unha corredoira con néboa.
 
-Facémola desde Galicia, en galego, castelán ou inglés, e dirixímola plano a plano co mesmo criterio que os nosos curtametraxes. Máis ideas de escenarios en [universos para a vosa película de amor](/es/blog/universos-para-vuestra-pelicula-de-amor).
+Facémola desde Galicia, en galego, castelán ou inglés, e dirixímola plano a plano co mesmo criterio que os nosos curtametraxes. Máis ideas de escenarios en [universos para a vosa película de amor](/gl/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Preguntas frecuentes
 
@@ -88,4 +88,4 @@ Si. A película créase a partir de dúas fotos e entrégase para a súa estrea,
 
 ---
 
-**Unha voda con alma merece unha película propia.** → [Descubride A túa película](/es/tu-pelicula)
+**Unha voda con alma merece unha película propia.** → [Descubride A túa película](/gl/a-tua-pelicula)

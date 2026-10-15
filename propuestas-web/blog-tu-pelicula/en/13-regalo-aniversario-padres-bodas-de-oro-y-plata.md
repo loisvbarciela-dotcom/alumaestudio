@@ -2,7 +2,7 @@
 n: 13
 titulo: "Anniversary gift for your parents: ideas for a silver or golden wedding anniversary"
 slug: regalo-aniversario-padres-bodas-de-oro-y-plata
-url: https://alumafilms.es/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata
+url: https://alumafilms.es/en/blog/regalo-aniversario-padres-bodas-de-oro-y-plata
 meta_title: "Silver and Golden Anniversary Gift for Your Parents"
 meta_description: "Gift ideas for your parents' anniversary, from silver to golden: experiences, keepsakes and a film about their story."
 keyword_principal: "golden wedding anniversary gift"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-12-01
 imagen_destacada: "viaxe-40-anos.jpg — alt: “Older woman at sunset: a love story spanning a lifetime”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Their 50 years as a film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-aniversario-original", "/en/blog/regalos-personalizados-con-fotos", "/en/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Their 50 years as a film — /en/your-film"
 ---
 
 # Anniversary gift for your parents: ideas for a silver or golden wedding anniversary
@@ -60,7 +60,7 @@ From one photograph of each, we create a film of three or four minutes that tell
 
 A personalised film uses the image of the people who appear in it, and **we always work with their explicit consent**. With parents or grandparents, the most natural approach is to tell them about it as a gift in the making and ask for their authorisation, keeping the story secret until the premiere.
 
-If they are wary of technology, we help you explain it: the film isn't published anywhere without their permission, and the use of their image is agreed before we begin. More information in [your image and AI](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+If they are wary of technology, we help you explain it: the film isn't published anywhere without their permission, and the use of their image is agreed before we begin. More information in [your image and AI](/en/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## Can they appear as they were when young?
 
@@ -92,4 +92,4 @@ Yes, if the venue has a screen or a projector is brought along. We help with the
 
 ---
 
-**Fifty years deserve a film.** → [Tell us their story](/es/tu-pelicula)
+**Fifty years deserve a film.** → [Tell us their story](/en/your-film)

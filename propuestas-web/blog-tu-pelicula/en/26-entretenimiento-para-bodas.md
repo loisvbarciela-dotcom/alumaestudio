@@ -2,7 +2,7 @@
 n: 26
 titulo: "Wedding entertainment: reception ideas beyond the photo booth"
 slug: entretenimiento-para-bodas
-url: https://alumafilms.es/es/blog/entretenimiento-para-bodas
+url: https://alumafilms.es/en/blog/entretenimiento-para-bodas
 meta_title: "Wedding entertainment: ideas for the reception"
 meta_description: "Wedding entertainment ideas that involve your guests, from drinks to the dance floor, with shared moments and a cinematic premiere at the reception."
 keyword_principal: "wedding entertainment ideas"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-01-21
 imagen_destacada: "app-store.jpg — alt: «A landscape with a paper boat: ideas for play and surprise at a wedding»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/tendencias-bodas-2027"]
-cta: "A cinematic premiere at your reception — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/ideas-originales-para-sorprender-en-una-boda", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/tendencias-bodas-2027"]
+cta: "A cinematic premiere at your reception — /en/your-film"
 ---
 
 # Wedding entertainment: reception ideas beyond the photo booth
@@ -39,7 +39,7 @@ The photo booth with props is already at almost every wedding. Alternatives that
 ## During the reception
 
 ### A cinematic premiere
-One of the moments with the greatest impact is switching off the lights and screening a film. If the couple are also the protagonists of a love story in another era — a twenties ballroom, Ancient Rome, a space station — the whole room falls silent. It is what we do in [Your film](/es/tu-pelicula): a three- or four-minute piece created from one photograph of each of you.
+One of the moments with the greatest impact is switching off the lights and screening a film. If the couple are also the protagonists of a love story in another era — a twenties ballroom, Ancient Rome, a space station — the whole room falls silent. It is what we do in [Your film](/en/your-film): a three- or four-minute piece created from one photograph of each of you.
 
 ### Games that embarrass nobody
 A quiz about the couple, with questions on each table, answered in writing and read out at the end. Better if the prizes are symbolic.
@@ -65,7 +65,7 @@ Think about your guests:
 - **If there are many older guests**, live music and seated moments (such as a screening).
 - **If there are many guests who do not know one another**, activities that mix the tables.
 
-And think about the pace: no more than one element per moment of the day. Complementary ideas in [original ideas to surprise your wedding guests](/es/blog/ideas-originales-para-sorprender-en-una-boda).
+And think about the pace: no more than one element per moment of the day. Complementary ideas in [original ideas to surprise your wedding guests](/en/blog/ideas-originales-para-sorprender-en-una-boda).
 
 ## Frequently asked questions
 
@@ -73,11 +73,11 @@ And think about the pace: no more than one element per moment of the day. Comple
 Live music and shared moments, such as a screening at the reception, usually please all ages.
 
 ### When is the best time to screen a video at a wedding?
-Before the speeches or after the main course, with the room seated and attentive. More detail in [which video to screen at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+Before the speeches or after the main course, with the room seated and attentive. More detail in [which video to screen at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 
 ### How long is the personalised film?
 Between three and four minutes, a length that can be watched in full without anyone switching off.
 
 ---
 
-**The best entertainment is the kind nobody has seen before.** → [Discover Your film](/es/tu-pelicula)
+**The best entertainment is the kind nobody has seen before.** → [Discover Your film](/en/your-film)

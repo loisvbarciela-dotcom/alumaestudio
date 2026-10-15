@@ -2,7 +2,7 @@
 n: 14
 titulo: "Сколько стоит персональный фильм с ИИ и от чего зависит цена"
 slug: cuanto-cuesta-una-pelicula-personalizada
-url: https://alumafilms.es/es/blog/cuanto-cuesta-una-pelicula-personalizada
+url: https://alumafilms.es/ru/blog/cuanto-cuesta-una-pelicula-personalizada
 meta_title: "Сколько стоит персональный фильм с ИИ"
 meta_description: "От чего зависит цена персонального фильма с ИИ: история, локации, сроки и результат работы. За что вы платите и как запросить смету."
 keyword_principal: "цена персонального фильма"
@@ -11,8 +11,8 @@ intencion: transaccional
 cluster: Producto
 publicacion_sugerida: 2026-12-03
 imagen_destacada: "o-oficio.jpg — alt: «Руки мастера: работа, которая стоит за персональным фильмом»"
-enlaces_internos: ["/es/tu-pelicula", "/es/contacto", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/convertir-fotos-en-video-con-ia"]
-cta: "Запросите смету с вашей датой — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/kontakty", "/ru/blog/como-se-hace-una-pelicula-con-dos-fotos", "/ru/blog/convertir-fotos-en-video-con-ia"]
+cta: "Запросите смету с вашей датой — /ru/vash-film"
 ---
 
 # Сколько стоит персональный фильм с ИИ и от чего зависит цена
@@ -32,7 +32,7 @@ cta: "Запросите смету с вашей датой — /es/tu-pelicula
 4. **Монтаж и звук.** Ритм, музыка, эффекты, цвет.
 5. **Передача в тех форматах, которые вам нужны** для премьеры.
 
-ИИ сильно снижает стоимость невозможного (снимать в Древнем Риме или в космосе было бы недостижимо), но не отменяет работу режиссёра. Этим мы отличаемся от автоматических приложений, которые сравниваем в статье [превратить фото в видео с помощью ИИ](/es/blog/convertir-fotos-en-video-con-ia).
+ИИ сильно снижает стоимость невозможного (снимать в Древнем Риме или в космосе было бы недостижимо), но не отменяет работу режиссёра. Этим мы отличаемся от автоматических приложений, которые сравниваем в статье [превратить фото в видео с помощью ИИ](/ru/blog/convertir-fotos-en-video-con-ia).
 
 ## От чего зависит цена
 
@@ -95,4 +95,4 @@ cta: "Запросите смету с вашей датой — /es/tu-pelicula
 
 ---
 
-**Расскажите нам свою идею и дату: мы ответим окончательным предложением.** → [Запросите смету](/es/tu-pelicula)
+**Расскажите нам свою идею и дату: мы ответим окончательным предложением.** → [Запросите смету](/ru/vash-film)

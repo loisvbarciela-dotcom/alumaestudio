@@ -2,7 +2,7 @@
 n: 9
 titulo: "Как выбрать две фотографии для вашего персонального фильма (чек-лист)"
 slug: como-elegir-las-fotos-para-vuestra-pelicula
-url: https://alumafilms.es/es/blog/como-elegir-las-fotos-para-vuestra-pelicula
+url: https://alumafilms.es/ru/blog/como-elegir-las-fotos-para-vuestra-pelicula
 meta_title: "Как выбрать фото для фильма с ИИ: чек-лист"
 meta_description: "Чек-лист для выбора двух фотографий для персонального фильма: свет, композиция, чёткость, выражение лица и ошибки, которых лучше избегать."
 keyword_principal: "какие фото подходят для видео с ИИ"
@@ -11,8 +11,8 @@ intencion: informacional (posventa / conversión)
 cluster: IA y proceso
 publicacion_sugerida: 2026-11-17
 imagen_destacada: "[PLACEHOLDER: пример удачного и неудачного портрета — собственная иллюстрация] — alt: «Пример подходящей фотографии для персонального фильма: фронтальный портрет с хорошим освещением»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/convertir-fotos-en-video-con-ia", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "У вас есть фотографии? Расскажите нам историю — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/como-se-hace-una-pelicula-con-dos-fotos", "/ru/blog/convertir-fotos-en-video-con-ia", "/ru/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "У вас есть фотографии? Расскажите нам историю — /ru/vash-film"
 ---
 
 # Как выбрать две фотографии для вашего персонального фильма (чек-лист)
@@ -74,7 +74,7 @@ cta: "У вас есть фотографии? Расскажите нам ис�
 
 ## Что мы делаем с вашими фотографиями
 
-Мы используем фотографии только для создания вашего фильма, с явным согласием обоих людей и на условиях, о которых договариваемся до начала, в соответствии с европейским Регламентом об искусственном интеллекте (AI Act). Мы рассказываем об этом в статье [ваш образ и ИИ](/es/blog/imagen-e-ia-consentimiento-y-derechos). `[уточнить: срок хранения и удаление фотографий после передачи фильма]`
+Мы используем фотографии только для создания вашего фильма, с явным согласием обоих людей и на условиях, о которых договариваемся до начала, в соответствии с европейским Регламентом об искусственном интеллекте (AI Act). Мы рассказываем об этом в статье [ваш образ и ИИ](/ru/blog/imagen-e-ia-consentimiento-y-derechos). `[уточнить: срок хранения и удаление фотографий после передачи фильма]`
 
 ## Часто задаваемые вопросы
 
@@ -92,4 +92,4 @@ cta: "У вас есть фотографии? Расскажите нам ис�
 
 ---
 
-**У вас уже есть две фотографии?** Следующий шаг — рассказать нам свою историю. → [Начните здесь](/es/tu-pelicula)
+**У вас уже есть две фотографии?** Следующий шаг — рассказать нам свою историю. → [Начните здесь](/ru/vash-film)

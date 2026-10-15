@@ -2,7 +2,7 @@
 n: 20
 titulo: "Save the date en vídeo: a forma máis orixinal de anunciar a vosa voda"
 slug: save-the-date-en-video
-url: https://alumafilms.es/es/blog/save-the-date-en-video
+url: https://alumafilms.es/gl/blog/save-the-date-en-video
 meta_title: "Save the date en vídeo: ideas para anunciar a voda"
 meta_description: "Ideas para un save the date en vídeo orixinal: formatos, duración, cando enviralo e como converter o anuncio da voda nun tráiler de cine."
 keyword_principal: "save the date vídeo"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-12-29
 imagen_destacada: "mayday.jpg — alt: «Fotograma de cine: o ton dun tráiler para anunciar unha voda»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/pedida-de-mano-original", "/es/blog/tendencias-bodas-2027", "/es/blog/que-video-proyectar-en-una-boda"]
-cta: "O tráiler da vosa voda — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/pedida-de-mano-original", "/gl/blog/tendencias-bodas-2027", "/gl/blog/que-video-proyectar-en-una-boda"]
+cta: "O tráiler da vosa voda — /gl/a-tua-pelicula"
 ---
 
 # Save the date en vídeo: a forma máis orixinal de anunciar a vosa voda
@@ -56,7 +56,7 @@ Obxectos que se moven sobre unha mesa ata formar a data. Sinxelo, artesanal, con
 Planos do lugar onde vos casades coa data sobreimpresa. Funciona moi ben para vodas de destino.
 
 ### Vós noutra época
-A partir dunha foto de cada un, unha película breve que vos mostra nos anos vinte, na Antiga Roma ou no espazo e remata coa data. É a idea da nosa [película personalizada](/es/tu-pelicula), aplicada ao anuncio.
+A partir dunha foto de cada un, unha película breve que vos mostra nos anos vinte, na Antiga Roma ou no espazo e remata coa data. É a idea da nosa [película personalizada](/gl/a-tua-pelicula), aplicada ao anuncio.
 
 ## O tráiler e a película: dúas pezas, unha historia
 
@@ -92,4 +92,4 @@ Si, cun fragmento curto a modo de tráiler. O resto resérvase para a estrea na 
 
 ---
 
-**Que o voso anuncio sexa o tráiler da vosa propia película.** → [Descubride A túa película](/es/tu-pelicula)
+**Que o voso anuncio sexa o tráiler da vosa propia película.** → [Descubride A túa película](/gl/a-tua-pelicula)

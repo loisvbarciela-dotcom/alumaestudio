@@ -2,7 +2,7 @@
 n: 8
 titulo: "Ideas orixinais para sorprender os convidados da vosa voda"
 slug: ideas-originales-para-sorprender-en-una-boda
-url: https://alumafilms.es/es/blog/ideas-originales-para-sorprender-en-una-boda
+url: https://alumafilms.es/gl/blog/ideas-originales-para-sorprender-en-una-boda
 meta_title: "Ideas orixinais para sorprender na vosa voda"
 meta_description: "Ideas orixinais para sorprender os convidados da vosa voda: da chegada á festa, con detalles que falan de vós e unha estrea de cine."
 keyword_principal: "ideas orixinais para vodas"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-11-12
 imagen_destacada: "app-store.jpg — alt: «Barco de papel nun lago: detalles feitos a man para unha voda orixinal»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/entretenimiento-para-bodas", "/es/blog/sorpresa-para-la-novia-o-el-novio", "/es/blog/bodas-en-galicia-ideas"]
-cta: "A sorpresa que ninguén espera: a vosa película — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/que-video-proyectar-en-una-boda", "/gl/blog/entretenimiento-para-bodas", "/gl/blog/sorpresa-para-la-novia-o-el-novio", "/gl/blog/bodas-en-galicia-ideas"]
+cta: "A sorpresa que ninguén espera: a vosa película — /gl/a-tua-pelicula"
 ---
 
 # Ideas orixinais para sorprender os convidados da vosa voda
@@ -30,7 +30,7 @@ En vez do cartel xenérico, un texto breve que conte por que elixistes ese lugar
 Un prato que lembre unha viaxe, unha avoa, a cociña dunha casa. Cunha tarxeta que o explique.
 
 ### Música en directo inesperada
-Un cuarteto que toca a vosa canción nunha versión que ninguén recoñece ata o estribillo. Se a voda é en Galicia, uns gaiteiros que entran por sorpresa seguen funcionando. Máis ideas locais en [vodas en Galicia](/es/blog/bodas-en-galicia-ideas).
+Un cuarteto que toca a vosa canción nunha versión que ninguén recoñece ata o estribillo. Se a voda é en Galicia, uns gaiteiros que entran por sorpresa seguen funcionando. Máis ideas locais en [vodas en Galicia](/gl/blog/bodas-en-galicia-ideas).
 
 ## Na cerimonia
 
@@ -49,7 +49,7 @@ Plantar unha árbore, mesturar areas de dúas praias, asinar un libro que leréd
 Cada mesa co nome dun lugar importante para vós e unha liña que explique por que.
 
 ### Unha estrea de cine
-Apagar as luces e proxectar unha película de tres ou catro minutos na que vós sodes os protagonistas, vivindo a vosa historia na Antiga Roma, nos anos vinte ou no espazo. É unha das sorpresas que máis impacto causa porque ninguén viu antes nada igual. Ideas sobre cando e como facelo en [que vídeo proxectar nunha voda](/es/blog/que-video-proyectar-en-una-boda).
+Apagar as luces e proxectar unha película de tres ou catro minutos na que vós sodes os protagonistas, vivindo a vosa historia na Antiga Roma, nos anos vinte ou no espazo. É unha das sorpresas que máis impacto causa porque ninguén viu antes nada igual. Ideas sobre cando e como facelo en [que vídeo proxectar nunha voda](/gl/blog/que-video-proyectar-en-una-boda).
 
 ### Os discursos, con guión
 Limitade o número e a duración, e pedide a quen fala que conte unha historia concreta. Un bo discurso de dous minutos vale máis que un improvisado de dez.
@@ -63,7 +63,7 @@ Que todos os convidados levanten a copa á vez cunha frase acordada. Sinxelo e m
 Comezades sós e, a metade da canción, a música cambia e súmase toda a pista.
 
 ### Unha sorpresa dos amigos
-Unha coreografía, un vídeo, unha canción con letra adaptada. Se queredes que sexa sorpresa para os noivos, que se encargue o grupo de amigos. Máis ideas para a parella en [sorpresas para a noiva ou o noivo](/es/blog/sorpresa-para-la-novia-o-el-novio).
+Unha coreografía, un vídeo, unha canción con letra adaptada. Se queredes que sexa sorpresa para os noivos, que se encargue o grupo de amigos. Máis ideas para a parella en [sorpresas para a noiva ou o noivo](/gl/blog/sorpresa-para-la-novia-o-el-novio).
 
 ### Un momento de pausa
 A metade da festa, saír uns minutos sós. Non sorprende os convidados, pero agradecerédesvolo.
@@ -97,4 +97,4 @@ Con marxe: necesita conversa, guión, produción e montaxe. Prazo orientativo: `
 
 ---
 
-**Que os vosos convidados vexan algo que non viron en ningunha voda.** → [Crea a vosa película](/es/tu-pelicula)
+**Que os vosos convidados vexan algo que non viron en ningunha voda.** → [Crea a vosa película](/gl/a-tua-pelicula)

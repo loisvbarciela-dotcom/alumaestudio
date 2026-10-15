@@ -2,7 +2,7 @@
 n: 7
 titulo: "Turning photos into video with AI: free apps or a directed film"
 slug: convertir-fotos-en-video-con-ia
-url: https://alumafilms.es/es/blog/convertir-fotos-en-video-con-ia
+url: https://alumafilms.es/en/blog/convertir-fotos-en-video-con-ia
 meta_title: "Turn Photos into Video with AI: Your Options"
 meta_description: "How to turn photos into video with AI: what apps do, what to expect, what to check on privacy and when a directed film is worth it."
 keyword_principal: "turn photos into video with AI"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: IA y proceso
 publicacion_sugerida: 2026-11-10
 imagen_destacada: "cinza-e-ouro.jpg — alt: “Scene generated with AI and directed by ALUMA: a miniature city made of ash”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/es/blog/pelicula-personalizada-con-ia", "/es/blog/imagen-e-ia-consentimiento-y-derechos", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "For an occasion that matters, a directed film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/en/blog/pelicula-personalizada-con-ia", "/en/blog/imagen-e-ia-consentimiento-y-derechos", "/en/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
+cta: "For an occasion that matters, a directed film — /en/your-film"
 ---
 
 # Turning photos into video with AI: free apps or a directed film
@@ -34,7 +34,7 @@ Other tools use the photo as a starting point to create a new clip of a few seco
 **What it's for:** experimenting, creating short content, testing ideas.
 
 ### 3. Creating a film from photos
-A film is something else: several scenes, characters who must stay the same from start to finish, a story with a beginning and an end, music, rhythm and editing. An app doesn't do that automatically: it takes a script, direction and many shot-by-shot decisions. It is what we do in [Your film](/es/tu-pelicula).
+A film is something else: several scenes, characters who must stay the same from start to finish, a story with a beginning and an end, music, rhythm and editing. An app doesn't do that automatically: it takes a script, direction and many shot-by-shot decisions. It is what we do in [Your film](/en/your-film).
 
 ## How to get the most out of an app
 
@@ -54,7 +54,7 @@ A face is personal data. Before uploading photos to any app, check:
 - **Where they are stored** and for how long.
 - **Whether you have permission from everyone** who appears in the photo.
 
-If you use someone else's image, ask their permission. We talk about it in [your image and AI](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+If you use someone else's image, ask their permission. We talk about it in [your image and AI](/en/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## What an app doesn't usually solve
 
@@ -78,7 +78,7 @@ It is not a defect of the tools: they are simply built for something else.
 
 ## When a directed film is worth it
 
-For a quick greeting, an app may be enough. For a wedding, an important anniversary, a proposal or a gift you want to last, the difference shows on screen and in the room. In [animating a photo with AI or making a film](/es/blog/animar-fotos-con-ia-o-crear-una-pelicula) we explain it with examples.
+For a quick greeting, an app may be enough. For a wedding, an important anniversary, a proposal or a gift you want to last, the difference shows on screen and in the room. In [animating a photo with AI or making a film](/en/blog/animar-fotos-con-ia-o-crear-una-pelicula) we explain it with examples.
 
 We start from **two photographs, one of each person**, talk about your story, agree the script, era and tone, and direct the AI shot by shot into an exclusive film of three or four minutes.
 
@@ -88,11 +88,11 @@ We start from **two photographs, one of each person**, talk about your story, ag
 Yes, but the result will be a short clip. For a film with several scenes and two protagonists we work with one photo of each person.
 
 ### Which photo gives the best result?
-A recent, sharp portrait, with the face well lit and nothing covering the features. More tips in [how to choose the photos](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+A recent, sharp portrait, with the face well lit and nothing covering the features. More tips in [how to choose the photos](/en/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ### Is it legal to turn someone else's photo into a video?
 You need their permission. A person's image is protected and, if it is used with AI, transparency matters even more.
 
 ---
 
-**For what really matters, a film with direction.** → [See what Your film is like](/es/tu-pelicula)
+**For what really matters, a film with direction.** → [See what Your film is like](/en/your-film)

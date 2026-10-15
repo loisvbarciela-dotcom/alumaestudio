@@ -2,7 +2,7 @@
 n: 19
 titulo: "От Древнего Рима до космоса: вселенные для вашего фильма о любви"
 slug: universos-para-vuestra-pelicula-de-amor
-url: https://alumafilms.es/es/blog/universos-para-vuestra-pelicula-de-amor
+url: https://alumafilms.es/ru/blog/universos-para-vuestra-pelicula-de-amor
 meta_title: "Идеи тематики для вашего фильма о любви"
 meta_description: "Древний Рим, двадцатые годы, космос или своя вселенная: идеи тематики для персонального фильма о любви и как выбрать свою."
 keyword_principal: "тематика персонального фильма о любви"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: Producto
 publicacion_sugerida: 2026-12-22
 imagen_destacada: "cinza-e-ouro.jpg — alt: «Город в миниатюре: вселенная, придуманная для фильма»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/video-historia-de-amor", "/es/blog/pedida-de-mano-original"]
-cta: "Где начинается ваш фильм? — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/como-se-hace-una-pelicula-con-dos-fotos", "/ru/blog/video-historia-de-amor", "/ru/blog/pedida-de-mano-original"]
+cta: "Где начинается ваш фильм? — /ru/vash-film"
 ---
 
 # От Древнего Рима до космоса: вселенные для вашего фильма о любви
@@ -68,7 +68,7 @@ cta: "Где начинается ваш фильм? — /es/tu-pelicula"
 
 ## Важнее, чем декорации
 
-Вселенная — это оболочка. Фильм трогает история и то, что вы узнаёте себя. Поэтому точное сходство лиц — главный критерий, а сценарий согласуется с вами до начала производства. Весь процесс мы описали в статье [как создаётся фильм о любви по двум фотографиям](/es/blog/como-se-hace-una-pelicula-con-dos-fotos).
+Вселенная — это оболочка. Фильм трогает история и то, что вы узнаёте себя. Поэтому точное сходство лиц — главный критерий, а сценарий согласуется с вами до начала производства. Весь процесс мы описали в статье [как создаётся фильм о любви по двум фотографиям](/ru/blog/como-se-hace-una-pelicula-con-dos-fotos).
 
 ## Часто задаваемые вопросы
 
@@ -86,4 +86,4 @@ cta: "Где начинается ваш фильм? — /es/tu-pelicula"
 
 ---
 
-**Где начинается ваш фильм?** → [Выберите свою вселенную](/es/tu-pelicula)
+**Где начинается ваш фильм?** → [Выберите свою вселенную](/ru/vash-film)

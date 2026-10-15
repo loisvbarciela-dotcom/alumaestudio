@@ -2,7 +2,7 @@
 n: 1
 titulo: "Así se fai unha película de amor con dúas fotos, paso a paso"
 slug: como-se-hace-una-pelicula-con-dos-fotos
-url: https://alumafilms.es/es/blog/como-se-hace-una-pelicula-con-dos-fotos
+url: https://alumafilms.es/gl/blog/como-se-hace-una-pelicula-con-dos-fotos
 meta_title: "Película de amor con dúas fotos: así se fai, paso a paso"
 meta_description: "De dúas fotografías e unha conversa a unha película de 3–4 minutos protagonizada por vós. Así traballamos en ALUMA, paso a paso."
 keyword_principal: "película con dúas fotos"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: Producto y proceso (pilar)
 publicacion_sugerida: 2026-10-20
 imagen_destacada: "Miniatura da película de exemplo (love-film-thumbnail.png) — alt: «Fotograma dunha película personalizada de ALUMA protagonizada por unha parella»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/es/blog/universos-para-vuestra-pelicula-de-amor", "/es/blog/imagen-e-ia-consentimiento-y-derechos", "/es/blog/cuanto-cuesta-una-pelicula-personalizada"]
-cta: "Contádenos a vosa historia — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/gl/blog/universos-para-vuestra-pelicula-de-amor", "/gl/blog/imagen-e-ia-consentimiento-y-derechos", "/gl/blog/cuanto-cuesta-una-pelicula-personalizada"]
+cta: "Contádenos a vosa historia — /gl/a-tua-pelicula"
 ---
 
 # Así se fai unha película de amor con dúas fotos, paso a paso
@@ -46,7 +46,7 @@ Preguntamos cousas como:
 
 Unha película personalizada sostense sobre unha idea: **que vos recoñezades**. Por iso a fidelidade dos rostros é un criterio central de todo o proceso, e por iso revisamos as fotos antes de comezar.
 
-As mellores adoitan ser retratos actuais, nítidos, coa cara ben iluminada e sen lentes de sol nin elementos que tapen os trazos. Se algunha non serve, dicímosvolo e eliximos outra xuntos. Explicámolo en detalle en [como elixir as dúas fotos para a vosa película](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+As mellores adoitan ser retratos actuais, nítidos, coa cara ben iluminada e sen lentes de sol nin elementos que tapen os trazos. Se algunha non serve, dicímosvolo e eliximos outra xuntos. Explicámolo en detalle en [como elixir as dúas fotos para a vosa película](/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ## Paso 3. Elixir o universo
 
@@ -57,7 +57,7 @@ Aquí comeza o divertido. O amor cambia de época e os protagonistas sodes vós.
 - **O espazo:** dúas persoas que se atopan entre mundos.
 - **O voso universo:** unha lembranza, unha fantasía ou unha mestura imposible.
 
-Non é un catálogo pechado. Se vos imaxinades nun farol da Costa da Morte ou nun musical dos cincuenta, pódese falar. En [universos para a vosa película de amor](/es/blog/universos-para-vuestra-pelicula-de-amor) contamos que funciona mellor en cada un.
+Non é un catálogo pechado. Se vos imaxinades nun farol da Costa da Morte ou nun musical dos cincuenta, pódese falar. En [universos para a vosa película de amor](/gl/blog/universos-para-vuestra-pelicula-de-amor) contamos que funciona mellor en cada un.
 
 ## Paso 4. O guión, acordado convosco
 
@@ -84,11 +84,11 @@ Depende da historia e da data da estrea. Unha película con dous escenarios non 
 - Prazo orientativo: `[PRAZO: ___ días desde a aprobación do guión]`
 - Prezo: `[PREZO: desde ___ €]`
 
-Se tedes data pechada, canto antes falades connosco, máis marxe teremos para afinar. Ampliamos o tema en [canto custa unha película personalizada](/es/blog/cuanto-cuesta-una-pelicula-personalizada).
+Se tedes data pechada, canto antes falades connosco, máis marxe teremos para afinar. Ampliamos o tema en [canto custa unha película personalizada](/gl/blog/cuanto-cuesta-una-pelicula-personalizada).
 
 ## O que non facemos
 
-- **Non usamos a vosa imaxe sen permiso.** Traballamos co consentimento expreso das dúas persoas e acordamos o uso das fotos e da película antes de comezar, como marca o Regulamento Europeo de IA. Máis detalles en [a vosa imaxe e a IA](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+- **Non usamos a vosa imaxe sen permiso.** Traballamos co consentimento expreso das dúas persoas e acordamos o uso das fotos e da película antes de comezar, como marca o Regulamento Europeo de IA. Máis detalles en [a vosa imaxe e a IA](/gl/blog/imagen-e-ia-consentimiento-y-derechos).
 - **Non facemos un pase de diapositivas con efectos.** As fotos son a referencia, non o contido.
 - **Non reutilizamos a vosa película** para outros fins sen a vosa autorización.
 
@@ -108,4 +108,4 @@ Non. Unha voda é unha estrea perfecta, pero tamén un aniversario, unha petici�
 
 ---
 
-**A vosa historia aínda non se rodou.** Contádenos que vos une, onde vos gustaría vivila e cando queredes estreala. → [Crea a vosa película](/es/tu-pelicula)
+**A vosa historia aínda non se rodou.** Contádenos que vos une, onde vos gustaría vivila e cando queredes estreala. → [Crea a vosa película](/gl/a-tua-pelicula)

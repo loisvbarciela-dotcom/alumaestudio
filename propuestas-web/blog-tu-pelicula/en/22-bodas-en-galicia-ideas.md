@@ -2,7 +2,7 @@
 n: 22
 titulo: "Weddings in Galicia: ideas for a celebration with soul (and a film of your own)"
 slug: bodas-en-galicia-ideas
-url: https://alumafilms.es/es/blog/bodas-en-galicia-ideas
+url: https://alumafilms.es/en/blog/bodas-en-galicia-ideas
 meta_title: "Weddings in Galicia: ideas for a wedding with soul"
 meta_description: "Ideas for a wedding in Galicia with a character of its own: venues, food, music, traditions and a cinematic premiere made in Galicia."
 keyword_principal: "weddings in Galicia"
@@ -11,8 +11,8 @@ intencion: informacional (local)
 cluster: Bodas · Local
 publicacion_sugerida: 2027-01-07
 imagen_destacada: "os-cans.jpg — alt: «A Galician sunken lane at night, a scene from “Santa Compaña”, an ALUMA short film»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/universos-para-vuestra-pelicula-de-amor", "/es/trabajo", "/es/estudio"]
-cta: "A film made in Galicia for your wedding — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/ideas-originales-para-sorprender-en-una-boda", "/en/blog/universos-para-vuestra-pelicula-de-amor", "/en/work", "/en/studio"]
+cta: "A film made in Galicia for your wedding — /en/your-film"
 ---
 
 # Weddings in Galicia: ideas for a celebration with soul (and a film of your own)
@@ -64,13 +64,13 @@ Combined with restraint, traditions give a wedding identity without turning it i
 
 Galicia is a land of legends, and some are perfect for telling a love story. San Andrés de Teixido, where, as the saying goes, ‘vai de morto quen non foi de vivo’ (those who did not go in life must go in death). The lighthouses of the Costa da Morte. The Santa Compaña, the ghostly procession of the dead, walking the sunken lanes. The islands, the *meigas* (witches), the *castros* (Iron Age hillforts).
 
-In our short films we have worked with many of these stories, such as *Cita en Teixido* or *Santa Compaña*. You can watch them in [our work](/es/trabajo).
+In our short films we have worked with many of these stories, such as *Cita en Teixido* or *Santa Compaña*. You can watch them in [our work](/en/work).
 
 ## The idea close to our hearts: a film made in Galicia
 
 One way to bring all of this to the big screen is a personalised film starring the bride and groom. From one photograph of each of you, we create a three- or four-minute film that premieres at the reception. It can be set in Ancient Rome or in outer space… or in a legendary Galicia: a lighthouse in the middle of a storm, a pilgrimage, a misty sunken lane.
 
-We make it from Galicia, in Galician, Spanish or English, and we direct it shot by shot to the same standard as our short films. More ideas for settings in [universes for your love film](/es/blog/universos-para-vuestra-pelicula-de-amor).
+We make it from Galicia, in Galician, Spanish or English, and we direct it shot by shot to the same standard as our short films. More ideas for settings in [universes for your love film](/en/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Frequently asked questions
 
@@ -88,4 +88,4 @@ Yes. The film is created from two photos and delivered for its premiere, so it d
 
 ---
 
-**A wedding with soul deserves a film of its own.** → [Discover Your film](/es/tu-pelicula)
+**A wedding with soul deserves a film of its own.** → [Discover Your film](/en/your-film)

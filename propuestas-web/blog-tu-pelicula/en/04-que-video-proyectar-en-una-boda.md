@@ -2,7 +2,7 @@
 n: 4
 titulo: "What video to show at a wedding: a guide to the most emotional moment of the reception"
 slug: que-video-proyectar-en-una-boda
-url: https://alumafilms.es/es/blog/que-video-proyectar-en-una-boda
+url: https://alumafilms.es/en/blog/que-video-proyectar-en-una-boda
 meta_title: "What Video to Show at a Wedding: Ideas and Guide"
 meta_description: "Wedding video ideas for the reception, the best moment to show them and what to check with the venue: screen, sound, length and a plan B."
 keyword_principal: "wedding video ideas"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-10-29
 imagen_destacada: "[PLACEHOLDER: screening at a reception — real image of a premiere] — alt: “Guests watching a film screened during the wedding reception”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/alternativas-al-montaje-de-fotos-de-boda", "/es/blog/regalo-original-para-los-novios", "/es/blog/entretenimiento-para-bodas"]
-cta: "A film to premiere at your reception — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/alternativas-al-montaje-de-fotos-de-boda", "/en/blog/regalo-original-para-los-novios", "/en/blog/entretenimiento-para-bodas"]
+cta: "A film to premiere at your reception — /en/your-film"
 ---
 
 # What video to show at a wedding: a guide to the most emotional moment of the reception
@@ -24,7 +24,7 @@ This guide gathers **wedding video ideas** for the reception, the best moment to
 ## Five kinds of video that work at a reception
 
 ### 1. The couple's photo montage
-The classic: childhood photos, teenage photos and photos from the relationship, with a song in the background. It moves the family, though it looks a lot like the one at other weddings. If you choose it, keep it short and be demanding about the selection. Ideas for giving it a twist in [alternatives to the wedding photo montage](/es/blog/alternativas-al-montaje-de-fotos-de-boda).
+The classic: childhood photos, teenage photos and photos from the relationship, with a song in the background. It moves the family, though it looks a lot like the one at other weddings. If you choose it, keep it short and be demanding about the selection. Ideas for giving it a twist in [alternatives to the wedding photo montage](/en/blog/alternativas-al-montaje-de-fotos-de-boda).
 
 ### 2. Messages from people who can't be there
 A grandfather who lives far away, a friend who is abroad. It works as an intimate moment and needs no more than two or three minutes.
@@ -36,7 +36,7 @@ Humour, anecdotes, perhaps a staged scene. Well judged, it gets the laughs; badl
 A short interview with the couple. It is warm and simple to produce.
 
 ### 5. A film starring the bride and groom
-The most cinematic option: a story of three or four minutes in which the couple live their love in another era or another world, created from two photos. It doesn't look back at the past: it turns it into cinema. It is what we do in [Your film](/es/tu-pelicula).
+The most cinematic option: a story of three or four minutes in which the couple live their love in another era or another world, created from two photos. It doesn't look back at the past: it turns it into cinema. It is what we do in [Your film](/en/your-film).
 
 ## When to show it
 
@@ -73,7 +73,7 @@ One sentence is enough. A friend or the master of ceremonies can introduce the v
 
 ## If you want it to be a surprise
 
-There are videos the couple shouldn't see until that moment. With a personalised film, the surprise can lie in the story, but the two people who appear must give their consent for their image to be used. We explain it in [a unique wedding gift for the couple](/es/blog/regalo-original-para-los-novios).
+There are videos the couple shouldn't see until that moment. With a personalised film, the surprise can lie in the story, but the two people who appear must give their consent for their image to be used. We explain it in [a unique wedding gift for the couple](/en/blog/regalo-original-para-los-novios).
 
 ## Frequently asked questions
 
@@ -91,4 +91,4 @@ Yes. It is designed precisely to premiere in front of the guests. We agree the d
 
 ---
 
-**Let what is screened at your wedding be something no other wedding has seen.** → [Discover Your film](/es/tu-pelicula)
+**Let what is screened at your wedding be something no other wedding has seen.** → [Discover Your film](/en/your-film)

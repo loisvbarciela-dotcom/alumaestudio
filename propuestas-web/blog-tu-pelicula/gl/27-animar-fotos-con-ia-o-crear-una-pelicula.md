@@ -2,7 +2,7 @@
 n: 27
 titulo: "Animar unha foto con IA ou crear unha película: diferenzas que se notan en pantalla"
 slug: animar-fotos-con-ia-o-crear-una-pelicula
-url: https://alumafilms.es/es/blog/animar-fotos-con-ia-o-crear-una-pelicula
+url: https://alumafilms.es/gl/blog/animar-fotos-con-ia-o-crear-una-pelicula
 meta_title: "Animar fotos con IA ou crear unha película: diferenzas"
 meta_description: "Diferenzas entre animar unha foto con IA e crear unha película personalizada: duración, historia, coherencia de personaxes, dirección e acabado."
 keyword_principal: "animar fotos con IA"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: IA y proceso
 publicacion_sugerida: 2027-01-26
 imagen_destacada: "ultima-abella.jpg — alt: «Abella sobre un xirasol, fotograma de “A última abella”, peza de ALUMA»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/convertir-fotos-en-video-con-ia", "/es/blog/pelicula-personalizada-con-ia", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/es/trabajo"]
-cta: "Vede a diferenza cunha película de exemplo — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/convertir-fotos-en-video-con-ia", "/gl/blog/pelicula-personalizada-con-ia", "/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/gl/traballo"]
+cta: "Vede a diferenza cunha película de exemplo — /gl/a-tua-pelicula"
 ---
 
 # Animar unha foto con IA ou crear unha película: diferenzas que se notan en pantalla
@@ -79,11 +79,11 @@ A animación compártese tal cal. A película móntase, sonorízase e entrégase
 - **Para unha felicitación rápida ou para dar vida a unha foto antiga da familia**, unha app de animación pode ser perfecta.
 - **Para unha ocasión importante**, onde se vai ver en pantalla grande diante dos convidados, unha película dirixida marca a diferenza.
 
-Ampliamos as opcións en [converter fotos en vídeo con IA](/es/blog/convertir-fotos-en-video-con-ia).
+Ampliamos as opcións en [converter fotos en vídeo con IA](/gl/blog/convertir-fotos-en-video-con-ia).
 
 ## Como traballamos nós
 
-Somos un estudo audiovisual que combina rodaxe real e xeración con IA baixo dirección humana. Aplicamos a cada película personalizada o mesmo criterio que aos nosos curtametraxes: a IA executa e as persoas deciden. Podedes ver o noso traballo na [galería](/es/trabajo) e unha película personalizada de exemplo en [A túa película](/es/tu-pelicula).
+Somos un estudo audiovisual que combina rodaxe real e xeración con IA baixo dirección humana. Aplicamos a cada película personalizada o mesmo criterio que aos nosos curtametraxes: a IA executa e as persoas deciden. Podedes ver o noso traballo na [galería](/gl/traballo) e unha película personalizada de exemplo en [A túa película](/gl/a-tua-pelicula).
 
 ## Preguntas frecuentes
 
@@ -94,8 +94,8 @@ Si, con aplicacións de animación. Se queredes unha película completa sobre a 
 Non. As fotos son a referencia para crear os protagonistas; as escenas créanse novas.
 
 ### Que foto dá mellor resultado?
-Un retrato actual, nítido e ben iluminado de cada persoa. Máis en [como elixir as fotos](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+Un retrato actual, nítido e ben iluminado de cada persoa. Máis en [como elixir as fotos](/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ---
 
-**Unha foto que se move é un recordo. Unha película é unha historia.** → [Vede unha película de exemplo](/es/tu-pelicula)
+**Unha foto que se move é un recordo. Unha película é unha historia.** → [Vede unha película de exemplo](/gl/a-tua-pelicula)

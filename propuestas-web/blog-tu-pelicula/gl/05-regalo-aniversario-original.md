@@ -2,7 +2,7 @@
 n: 5
 titulo: "Agasallo de aniversario orixinal: unha película sobre a vosa historia"
 slug: regalo-aniversario-original
-url: https://alumafilms.es/es/blog/regalo-aniversario-original
+url: https://alumafilms.es/gl/blog/regalo-aniversario-original
 meta_title: "Agasallo de aniversario orixinal: ideas que emocionan"
 meta_description: "Ideas de agasallo de aniversario orixinal para a túa parella, do primeiro ano ás vodas de prata, e como converter a vosa historia nunha película."
 keyword_principal: "agasallo de aniversario orixinal"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-11-03
 imagen_destacada: "love-film-thumbnail.png — alt: «Parella protagonista dunha película creada como agasallo de aniversario»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "Convertede o voso aniversario en estrea — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/regalo-aniversario-padres-bodas-de-oro-y-plata", "/gl/blog/regalo-original-para-tu-novia-o-novio", "/gl/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "Convertede o voso aniversario en estrea — /gl/a-tua-pelicula"
 ---
 
 # Agasallo de aniversario orixinal: unha película sobre a vosa historia
@@ -62,7 +62,7 @@ Outra opción é agasallar a experiencia: unha tarxeta `[validar: formato de val
 
 - **Primeiro aniversario (vodas de papel):** unha película que imagina como sería coñecervos noutra época. Lixeira, romántica, con humor.
 - **Cinco ou dez anos:** unha historia que percorra o vivido con metáforas: mudanzas, viaxes, fillos convertidos en escenas de aventura.
-- **Vinte e cinco ou cincuenta anos:** se o agasallo é para os vosos pais ou avós, mirade as nosas ideas para [vodas de prata e de ouro](/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata).
+- **Vinte e cinco ou cincuenta anos:** se o agasallo é para os vosos pais ou avós, mirade as nosas ideas para [vodas de prata e de ouro](/gl/blog/regalo-aniversario-padres-bodas-de-oro-y-plata).
 
 ## Prazos e prezo
 
@@ -84,4 +84,4 @@ Agasallade a experiencia ese día e estreade a película cando estea lista. A es
 
 ---
 
-**Celebrade o que tedes con algo que nunca vistes.** → [Crea a vosa película de aniversario](/es/tu-pelicula)
+**Celebrade o que tedes con algo que nunca vistes.** → [Crea a vosa película de aniversario](/gl/a-tua-pelicula)

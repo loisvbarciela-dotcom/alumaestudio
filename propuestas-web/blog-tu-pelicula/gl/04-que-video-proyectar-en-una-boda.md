@@ -2,7 +2,7 @@
 n: 4
 titulo: "Que vídeo proxectar nunha voda: guía para o momento máis emotivo do banquete"
 slug: que-video-proyectar-en-una-boda
-url: https://alumafilms.es/es/blog/que-video-proyectar-en-una-boda
+url: https://alumafilms.es/gl/blog/que-video-proyectar-en-una-boda
 meta_title: "Que vídeo proxectar nunha voda: ideas e guía práctica"
 meta_description: "Ideas de vídeo para proxectar nunha voda, cando facelo no banquete e que revisar coa finca: pantalla, son, duración e un plan B."
 keyword_principal: "vídeo para proxectar na voda"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-10-29
 imagen_destacada: "[PLACEHOLDER: proxección nun banquete — imaxe real dunha estrea] — alt: «Convidados vendo unha película proxectada durante o banquete de voda»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/alternativas-al-montaje-de-fotos-de-boda", "/es/blog/regalo-original-para-los-novios", "/es/blog/entretenimiento-para-bodas"]
-cta: "Unha película para estrear no voso banquete — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/alternativas-al-montaje-de-fotos-de-boda", "/gl/blog/regalo-original-para-los-novios", "/gl/blog/entretenimiento-para-bodas"]
+cta: "Unha película para estrear no voso banquete — /gl/a-tua-pelicula"
 ---
 
 # Que vídeo proxectar nunha voda: guía para o momento máis emotivo do banquete
@@ -24,7 +24,7 @@ Esta guía reúne ideas de **vídeo para proxectar na voda**, o mellor momento p
 ## Cinco tipos de vídeo que funcionan nun banquete
 
 ### 1. A montaxe de fotos da parella
-O clásico: fotos da infancia, da adolescencia e da relación, cunha canción de fondo. Emociona a familia, aínda que se parece moito ao doutras vodas. Se o elixides, que sexa breve e cunha selección esixente. Ideas para lle dar unha volta en [alternativas á montaxe de fotos de voda](/es/blog/alternativas-al-montaje-de-fotos-de-boda).
+O clásico: fotos da infancia, da adolescencia e da relación, cunha canción de fondo. Emociona a familia, aínda que se parece moito ao doutras vodas. Se o elixides, que sexa breve e cunha selección esixente. Ideas para lle dar unha volta en [alternativas á montaxe de fotos de voda](/gl/blog/alternativas-al-montaje-de-fotos-de-boda).
 
 ### 2. As mensaxes de quen non pode vir
 Un avó que vive lonxe, unha amiga que está fóra do país. Funciona como momento íntimo e non precisa máis de dous ou tres minutos.
@@ -36,7 +36,7 @@ Humor, anécdotas, algunha escena preparada. Ben medido, desata risas; mal medid
 Unha pequena entrevista á parella. É próximo e sinxelo de producir.
 
 ### 5. Unha película protagonizada polos noivos
-A opción máis cinematográfica: unha historia de tres ou catro minutos na que a parella vive o seu amor noutra época ou noutro mundo, creada a partir de dúas fotos. Non repasa o pasado: convérteo en cine. É o que facemos en [A túa película](/es/tu-pelicula).
+A opción máis cinematográfica: unha historia de tres ou catro minutos na que a parella vive o seu amor noutra época ou noutro mundo, creada a partir de dúas fotos. Non repasa o pasado: convérteo en cine. É o que facemos en [A túa película](/gl/a-tua-pelicula).
 
 ## Cando proxectalo
 
@@ -73,7 +73,7 @@ Abonda unha frase. Un amigo ou o mestre de cerimonias pode presentar o vídeo di
 
 ## Se queredes que sexa unha sorpresa
 
-Hai vídeos que os noivos non deben ver ata ese momento. No caso dunha película personalizada, a sorpresa pode estar na historia, pero as dúas persoas que aparecen deben dar o seu consentimento para usar a súa imaxe. Explicámolo en [agasallo orixinal para os noivos](/es/blog/regalo-original-para-los-novios).
+Hai vídeos que os noivos non deben ver ata ese momento. No caso dunha película personalizada, a sorpresa pode estar na historia, pero as dúas persoas que aparecen deben dar o seu consentimento para usar a súa imaxe. Explicámolo en [agasallo orixinal para os noivos](/gl/blog/regalo-original-para-los-novios).
 
 ## Preguntas frecuentes
 
@@ -91,4 +91,4 @@ Si. Está pensada precisamente para estrearse diante dos convidados. Acordamos o
 
 ---
 
-**Que o que se proxecte na vosa voda non se teña visto en ningunha outra.** → [Descubride A túa película](/es/tu-pelicula)
+**Que o que se proxecte na vosa voda non se teña visto en ningunha outra.** → [Descubride A túa película](/gl/a-tua-pelicula)

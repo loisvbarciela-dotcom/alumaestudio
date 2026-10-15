@@ -2,7 +2,7 @@
 n: 23
 titulo: "Agasallo de San Valentín orixinal: cando unha tarxeta se queda curta"
 slug: regalo-san-valentin-original
-url: https://alumafilms.es/es/blog/regalo-san-valentin-original
+url: https://alumafilms.es/gl/blog/regalo-san-valentin-original
 meta_title: "Agasallo de San Valentín orixinal para a túa parella"
 meta_description: "Ideas de agasallo de San Valentín orixinal sen tópicos: plans, detalles con significado e unha película na que a túa parella e ti sodes protagonistas."
 keyword_principal: "agasallo San Valentín orixinal"
@@ -11,8 +11,8 @@ intencion: comercial (estacional)
 cluster: Regalos
 publicacion_sugerida: 2027-01-12
 imagen_destacada: "love-hero.jpg — alt: «Parella protagonista dunha película personalizada para San Valentín»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalo-aniversario-original", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "Reservade a vosa película para o 14 de febreiro — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/regalo-original-para-tu-novia-o-novio", "/gl/blog/regalo-aniversario-original", "/gl/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "Reservade a vosa película para o 14 de febreiro — /gl/a-tua-pelicula"
 ---
 
 # Agasallo de San Valentín orixinal: cando unha tarxeta se queda curta
@@ -64,7 +64,7 @@ A película usa a imaxe dos dous, e **traballamos sempre co consentimento expres
 - **Antiga Roma:** un amor de lenda.
 - **O voso universo:** o lugar onde vos coñecestes, convertido en escenario de cine.
 
-Máis ideas en [universos para a vosa película de amor](/es/blog/universos-para-vuestra-pelicula-de-amor).
+Máis ideas en [universos para a vosa película de amor](/gl/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Prezo
 
@@ -83,4 +83,4 @@ Depende de cando a encarguedes. Escribídenos coa data e confirmámosvolo.
 
 ---
 
-**Este 14 de febreiro, unha historia que non está en ningún escaparate.** → [Creade a vosa película](/es/tu-pelicula)
+**Este 14 de febreiro, unha historia que non está en ningún escaparate.** → [Creade a vosa película](/gl/a-tua-pelicula)

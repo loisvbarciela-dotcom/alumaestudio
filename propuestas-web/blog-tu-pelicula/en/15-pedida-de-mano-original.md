@@ -2,7 +2,7 @@
 n: 15
 titulo: "Original proposal ideas: how to pop the question with a film"
 slug: pedida-de-mano-original
-url: https://alumafilms.es/es/blog/pedida-de-mano-original
+url: https://alumafilms.es/en/blog/pedida-de-mano-original
 meta_title: "Original Proposal Ideas: Pop the Question with a Film"
 meta_description: "Original, personal proposal ideas, tips on choosing the moment and how to ask the question at the end of a film starring you both."
 keyword_principal: "original proposal ideas"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: Regalos · Pedida
 publicacion_sugerida: 2026-12-08
 imagen_destacada: "tellarizar.jpg — alt: “Lighthouse keeper beside a lighthouse lens: a cinematic setting for a proposal”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/save-the-date-en-video", "/es/blog/universos-para-vuestra-pelicula-de-amor", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "A film that ends with a question — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/save-the-date-en-video", "/en/blog/universos-para-vuestra-pelicula-de-amor", "/en/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "A film that ends with a question — /en/your-film"
 ---
 
 # Original proposal ideas: how to pop the question with a film
@@ -51,7 +51,7 @@ From two photographs, one of each person, and a conversation with the person who
 ### Surprise and consent
 We must be honest here. A personalised film uses the image of both people, and **we always work with the explicit consent of both**. That doesn't prevent the surprise: the other person can know that a film about you exists — a gift, a couple's project — and authorise the use of their image without knowing the script. What they don't know is how it ends.
 
-If you would rather they knew nothing, there is another option: propose in your own way and then create **the engagement film**, to premiere in front of the family or to use as an announcement of the wedding. Ideas in [save the date videos](/es/blog/save-the-date-en-video).
+If you would rather they knew nothing, there is another option: propose in your own way and then create **the engagement film**, to premiere in front of the family or to use as an announcement of the wedding. Ideas in [save the date videos](/en/blog/save-the-date-en-video).
 
 ## Universes that work well for a proposal
 
@@ -60,7 +60,7 @@ If you would rather they knew nothing, there is another option: propose in your 
 - **Outer space:** a crossing between worlds that ends in a single question.
 - **Your universe:** the place where you met turned into a film set.
 
-More ideas in [universes for your love film](/es/blog/universos-para-vuestra-pelicula-de-amor).
+More ideas in [universes for your love film](/en/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Timeframes
 
@@ -82,4 +82,4 @@ It is yours. You can screen it again at the wedding, as a prologue to the big da
 
 ---
 
-**Let the question come at the end of your own film.** → [Tell us your idea](/es/tu-pelicula)
+**Let the question come at the end of your own film.** → [Tell us your idea](/en/your-film)

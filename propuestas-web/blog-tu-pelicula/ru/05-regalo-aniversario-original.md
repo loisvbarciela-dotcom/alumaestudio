@@ -2,7 +2,7 @@
 n: 5
 titulo: "Оригинальный подарок на годовщину: фильм о вашей истории"
 slug: regalo-aniversario-original
-url: https://alumafilms.es/es/blog/regalo-aniversario-original
+url: https://alumafilms.es/ru/blog/regalo-aniversario-original
 meta_title: "Оригинальный подарок на годовщину: идеи, что трогают"
 meta_description: "Идеи оригинального подарка на годовщину для вашей пары: от первого года до серебряной свадьбы, и как превратить вашу историю в фильм."
 keyword_principal: "оригинальный подарок на годовщину"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-11-03
 imagen_destacada: "love-film-thumbnail.png — alt: «Пара в главных ролях фильма, созданного в подарок на годовщину»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "Превратите годовщину в премьеру — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-aniversario-padres-bodas-de-oro-y-plata", "/ru/blog/regalo-original-para-tu-novia-o-novio", "/ru/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "Превратите годовщину в премьеру — /ru/vash-film"
 ---
 
 # Оригинальный подарок на годовщину: фильм о вашей истории
@@ -62,7 +62,7 @@ cta: "Превратите годовщину в премьеру — /es/tu-pel
 
 - **Первая годовщина свадьбы («бумажная» в испанской традиции):** фильм, который воображает, как вы могли бы встретиться в другую эпоху. Лёгкий, романтичный, с юмором.
 - **Пять или десять лет:** история, которая метафорами проходит через прожитое: переезды, путешествия, дети, превращённые в сцены приключения.
-- **Двадцать пять или пятьдесят лет:** если подарок для ваших родителей или бабушки и дедушки, посмотрите наши идеи для [серебряной и золотой свадьбы](/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata).
+- **Двадцать пять или пятьдесят лет:** если подарок для ваших родителей или бабушки и дедушки, посмотрите наши идеи для [серебряной и золотой свадьбы](/ru/blog/regalo-aniversario-padres-bodas-de-oro-y-plata).
 
 ## Сроки и цена
 
@@ -84,4 +84,4 @@ cta: "Превратите годовщину в премьеру — /es/tu-pel
 
 ---
 
-**Отметьте то, что у вас есть, тем, чего вы ещё не видели.** → [Создайте фильм к вашей годовщине](/es/tu-pelicula)
+**Отметьте то, что у вас есть, тем, чего вы ещё не видели.** → [Создайте фильм к вашей годовщине](/ru/vash-film)

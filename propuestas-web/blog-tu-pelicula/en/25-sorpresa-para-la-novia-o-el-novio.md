@@ -2,7 +2,7 @@
 n: 25
 titulo: "Wedding day surprises for the bride or groom that are remembered for years"
 slug: sorpresa-para-la-novia-o-el-novio
-url: https://alumafilms.es/es/blog/sorpresa-para-la-novia-o-el-novio
+url: https://alumafilms.es/en/blog/sorpresa-para-la-novia-o-el-novio
 meta_title: "Wedding day surprise for the bride or groom"
 meta_description: "Wedding day surprise ideas for the bride or groom: morning gestures, moments in the ceremony and a premiere at the reception that no one expects."
 keyword_principal: "wedding day surprise for the bride"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-01-19
 imagen_destacada: "meu-fillo.jpg — alt: «Portrait of a mother, a still from “Meu fillo”: emotion in her gaze»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "A film to surprise the person you love most — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/ideas-originales-para-sorprender-en-una-boda", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "A film to surprise the person you love most — /en/your-film"
 ---
 
 # Wedding day surprises for the bride or groom that are remembered for years
@@ -68,7 +68,7 @@ A personalised film is created from one photograph of each person and a conversa
 - **What they do not know is the story:** you decide the script with us.
 - **On the wedding day they see it for the first time**, at the same moment as the guests.
 
-If you want it to be a complete surprise, another option is for friends or family to give the film to the couple, so that both see it for the first time at the reception. More information in [your image and AI](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+If you want it to be a complete surprise, another option is for friends or family to give the film to the couple, so that both see it for the first time at the reception. More information in [your image and AI](/en/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## Tips for getting the surprise right
 
@@ -77,7 +77,7 @@ If you want it to be a complete surprise, another option is for friends or famil
 3. **Think about the kind of person the other is.** For someone who does not like being the centre of attention, a more private surprise is better.
 4. **Appoint someone responsible** to make sure everything is ready, so you do not have to keep an eye on it yourselves.
 
-Technical ideas for the screening in [which video to screen at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+Technical ideas for the screening in [which video to screen at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 
 ## Frequently asked questions
 
@@ -92,4 +92,4 @@ With time for the conversation, script, production and editing: `[TIMEFRAME: ___
 
 ---
 
-**The surprise nobody expects is the one on the big screen.** → [Discover Your film](/es/tu-pelicula)
+**The surprise nobody expects is the one on the big screen.** → [Discover Your film](/en/your-film)

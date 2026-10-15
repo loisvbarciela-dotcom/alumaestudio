@@ -2,7 +2,7 @@
 n: 18
 titulo: "Оригинальный подарок девушке (или парню), который не купить в магазине"
 slug: regalo-original-para-tu-novia-o-novio
-url: https://alumafilms.es/es/blog/regalo-original-para-tu-novia-o-novio
+url: https://alumafilms.es/ru/blog/regalo-original-para-tu-novia-o-novio
 meta_title: "Оригинальный подарок девушке или парню: идеи"
 meta_description: "Идеи оригинального подарка девушке или парню, которые говорят о вас двоих: впечатления, вещи своими руками и фильм, где вы — главные герои."
 keyword_principal: "оригинальный подарок девушке"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-12-17
 imagen_destacada: "love-film-thumbnail.png — alt: «Пара — главные герои персонального фильма в подарок»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalo-san-valentin-original", "/es/blog/regalo-de-cumpleanos-original-para-tu-pareja"]
-cta: "Подарок, который существует только для вас — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-aniversario-original", "/ru/blog/regalo-san-valentin-original", "/ru/blog/regalo-de-cumpleanos-original-para-tu-pareja"]
+cta: "Подарок, который существует только для вас — /ru/vash-film"
 ---
 
 # Оригинальный подарок девушке (или парню), который не купить в магазине
@@ -55,9 +55,9 @@ cta: "Подарок, который существует только для в
 
 ## Когда это уместно
 
-- **Годовщина:** идеи в статье [оригинальный подарок на годовщину](/es/blog/regalo-aniversario-original).
-- **День святого Валентина:** идеи в статье [оригинальный подарок на День святого Валентина](/es/blog/regalo-san-valentin-original).
-- **День рождения:** идеи в статье [оригинальный подарок на день рождения для вашей пары](/es/blog/regalo-de-cumpleanos-original-para-tu-pareja).
+- **Годовщина:** идеи в статье [оригинальный подарок на годовщину](/ru/blog/regalo-aniversario-original).
+- **День святого Валентина:** идеи в статье [оригинальный подарок на День святого Валентина](/ru/blog/regalo-san-valentin-original).
+- **День рождения:** идеи в статье [оригинальный подарок на день рождения для вашей пары](/ru/blog/regalo-de-cumpleanos-original-para-tu-pareja).
 - **Без повода:** иногда лучший день для подарка — самый обычный.
 
 ## Цена и сроки
@@ -77,4 +77,4 @@ cta: "Подарок, который существует только для в
 
 ---
 
-**Подарок, которого нет ни в одном магазине, потому что его ещё не существует.** → [Создайте свой фильм](/es/tu-pelicula)
+**Подарок, которого нет ни в одном магазине, потому что его ещё не существует.** → [Создайте свой фильм](/ru/vash-film)

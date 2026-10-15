@@ -2,7 +2,7 @@
 n: 28
 titulo: "A unique birthday gift for your partner: ideas that won't fit in a box"
 slug: regalo-de-cumpleanos-original-para-tu-pareja
-url: https://alumafilms.es/es/blog/regalo-de-cumpleanos-original-para-tu-pareja
+url: https://alumafilms.es/en/blog/regalo-de-cumpleanos-original-para-tu-pareja
 meta_title: "Unique birthday gift for your partner: ideas"
 meta_description: "Unique birthday gift ideas for your partner: experiences, meaningful touches and a film in which the two of you are the protagonists."
 keyword_principal: "unique birthday gift for partner"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2027-01-28
 imagen_destacada: "tempo.jpg — alt: «A pocket watch: the passing of time as a birthday gift»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "A birthday worthy of a film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-original-para-tu-novia-o-novio", "/en/blog/regalos-personalizados-con-fotos", "/en/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "A birthday worthy of a film — /en/your-film"
 ---
 
 # A unique birthday gift for your partner: ideas that won't fit in a box
@@ -56,7 +56,7 @@ Birthdays ending in zero deserve something special:
 - **Tribute:** scenes that celebrate their passions, their quirks, their favourite phrases.
 - **Romantic comedy:** two people searching for each other in another era who keep crossing paths.
 
-More ideas in [universes for your love film](/es/blog/universos-para-vuestra-pelicula-de-amor).
+More ideas in [universes for your love film](/en/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## The surprise, with consent
 
@@ -79,4 +79,4 @@ Yes. The tone is decided with you when the script is written.
 
 ---
 
-**This year, let their birthday have a premiere.** → [Create your film](/es/tu-pelicula)
+**This year, let their birthday have a premiere.** → [Create your film](/en/your-film)

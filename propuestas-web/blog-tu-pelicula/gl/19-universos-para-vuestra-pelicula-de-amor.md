@@ -2,7 +2,7 @@
 n: 19
 titulo: "Da Antiga Roma ao espazo: universos para a vosa película de amor"
 slug: universos-para-vuestra-pelicula-de-amor
-url: https://alumafilms.es/es/blog/universos-para-vuestra-pelicula-de-amor
+url: https://alumafilms.es/gl/blog/universos-para-vuestra-pelicula-de-amor
 meta_title: "Ideas de temática para a vosa película de amor"
 meta_description: "Antiga Roma, anos vinte, o espazo ou un universo propio: ideas de temática para unha película de amor personalizada e como elixir a vosa."
 keyword_principal: "temática película de amor personalizada"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: Producto
 publicacion_sugerida: 2026-12-22
 imagen_destacada: "cinza-e-ouro.jpg — alt: «Cidade en miniatura: un universo imaxinado para unha película»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/video-historia-de-amor", "/es/blog/pedida-de-mano-original"]
-cta: "Onde comeza a vosa película? — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/como-se-hace-una-pelicula-con-dos-fotos", "/gl/blog/video-historia-de-amor", "/gl/blog/pedida-de-mano-original"]
+cta: "Onde comeza a vosa película? — /gl/a-tua-pelicula"
 ---
 
 # Da Antiga Roma ao espazo: universos para a vosa película de amor
@@ -68,7 +68,7 @@ Se non o tedes claro, non pasa nada: na conversa inicial descubrímolo xuntos.
 
 ## O que importa máis que o decorado
 
-O universo é o envoltorio. O que fai que unha película emocione é a historia e que vos recoñezades nela. Por iso a fidelidade dos rostros é un criterio central e o guión acórdase convosco antes de producir. Explicamos todo o proceso en [así se fai unha película de amor con dúas fotos](/es/blog/como-se-hace-una-pelicula-con-dos-fotos).
+O universo é o envoltorio. O que fai que unha película emocione é a historia e que vos recoñezades nela. Por iso a fidelidade dos rostros é un criterio central e o guión acórdase convosco antes de producir. Explicamos todo o proceso en [así se fai unha película de amor con dúas fotos](/gl/blog/como-se-hace-una-pelicula-con-dos-fotos).
 
 ## Preguntas frecuentes
 
@@ -86,4 +86,4 @@ Deseñámolos con criterio cinematográfico para cada época. É unha alegoría,
 
 ---
 
-**Onde comeza a vosa película?** → [Elixide o voso universo](/es/tu-pelicula)
+**Onde comeza a vosa película?** → [Elixide o voso universo](/gl/a-tua-pelicula)

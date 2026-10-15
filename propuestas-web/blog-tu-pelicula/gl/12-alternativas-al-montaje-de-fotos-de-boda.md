@@ -2,7 +2,7 @@
 n: 12
 titulo: "Máis alá da montaxe de fotos: alternativas ao clásico vídeo de diapositivas na voda"
 slug: alternativas-al-montaje-de-fotos-de-boda
-url: https://alumafilms.es/es/blog/alternativas-al-montaje-de-fotos-de-boda
+url: https://alumafilms.es/gl/blog/alternativas-al-montaje-de-fotos-de-boda
 meta_title: "Alternativas á montaxe de fotos na voda"
 meta_description: "Como mellorar a clásica montaxe de fotos da voda e alternativas para sorprender, como unha película protagonizada polos noivos."
 keyword_principal: "montaxe de fotos voda"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-11-26
 imagen_destacada: "viaxe-40-anos.jpg — alt: «Muller mirando ao horizonte ao solpor: o paso do tempo contado con cine»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/video-historia-de-amor", "/es/blog/video-de-boda-o-pelicula-personalizada"]
-cta: "Non outro vídeo de voda — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/que-video-proyectar-en-una-boda", "/gl/blog/video-historia-de-amor", "/gl/blog/video-de-boda-o-pelicula-personalizada"]
+cta: "Non outro vídeo de voda — /gl/a-tua-pelicula"
 ---
 
 # Máis alá da montaxe de fotos: alternativas ao clásico vídeo de diapositivas na voda
@@ -52,7 +52,7 @@ Un dos noivos escribe unha carta ao outro e proxéctase con imaxes de fondo ou l
 Ilustracións ou animación sinxela para contar como vos coñecestes. Bonito e diferente, aínda que require tempo.
 
 ### Unha película protagonizada polos noivos
-En vez de repasar o pasado, imaxinar outra historia posible: a parella na Antiga Roma, nos anos vinte ou no espazo, coas súas caras, nunha película de tres ou catro minutos con guión, dirección e montaxe de cine. Parte de dúas fotografías, unha de cada persoa, e dunha conversa sobre o que vos une. É o que facemos en [A túa película](/es/tu-pelicula).
+En vez de repasar o pasado, imaxinar outra historia posible: a parella na Antiga Roma, nos anos vinte ou no espazo, coas súas caras, nunha película de tres ou catro minutos con guión, dirección e montaxe de cine. Parte de dúas fotografías, unha de cada persoa, e dunha conversa sobre o que vos une. É o que facemos en [A túa película](/gl/a-tua-pelicula).
 
 ## Montaxe de fotos vs. película personalizada
 
@@ -64,11 +64,11 @@ En vez de repasar o pasado, imaxinar outra historia posible: a parella na Antiga
 | Sorpresa para os convidados | Baixa: xa o viron antes | Alta: non o viron en ningunha voda |
 | Duración | Variable | 3–4 minutos |
 
-Ampliamos a comparación en [vídeo de voda ou película personalizada](/es/blog/video-de-boda-o-pelicula-personalizada).
+Ampliamos a comparación en [vídeo de voda ou película personalizada](/gl/blog/video-de-boda-o-pelicula-personalizada).
 
 ## E se non queremos renunciar ás fotos de sempre?
 
-Non fai falta elixir. Hai parellas que proxectan unha montaxe breve para a familia durante o aperitivo e reservan a película para o banquete. O importante é que cada peza teña o seu momento e non se encadeen. Ideas sobre o momento e a técnica en [que vídeo proxectar nunha voda](/es/blog/que-video-proyectar-en-una-boda).
+Non fai falta elixir. Hai parellas que proxectan unha montaxe breve para a familia durante o aperitivo e reservan a película para o banquete. O importante é que cada peza teña o seu momento e non se encadeen. Ideas sobre o momento e a técnica en [que vídeo proxectar nunha voda](/gl/blog/que-video-proyectar-en-una-boda).
 
 ## Preguntas frecuentes
 
@@ -83,4 +83,4 @@ Non. Parte dunha foto actual de cada persoa para crear os protagonistas. Se quer
 
 ---
 
-**Non outro vídeo de voda.** A vosa historia merece contarse doutra maneira. → [Descubride A túa película](/es/tu-pelicula)
+**Non outro vídeo de voda.** A vosa historia merece contarse doutra maneira. → [Descubride A túa película](/gl/a-tua-pelicula)

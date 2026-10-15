@@ -2,7 +2,7 @@
 n: 13
 titulo: "Подарок родителям на годовщину: идеи для серебряной и золотой свадьбы"
 slug: regalo-aniversario-padres-bodas-de-oro-y-plata
-url: https://alumafilms.es/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata
+url: https://alumafilms.es/ru/blog/regalo-aniversario-padres-bodas-de-oro-y-plata
 meta_title: "Подарок родителям на золотую и серебряную свадьбу"
 meta_description: "Идеи подарка родителям на годовщину, от серебряной до золотой свадьбы: впечатления, память и фильм об их истории."
 keyword_principal: "подарок на золотую свадьбу"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-12-01
 imagen_destacada: "viaxe-40-anos.jpg — alt: «Пожилая женщина на закате: история любви длиною в жизнь»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Фильм к их 50 годам — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-aniversario-original", "/ru/blog/regalos-personalizados-con-fotos", "/ru/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Фильм к их 50 годам — /ru/vash-film"
 ---
 
 # Подарок родителям на годовщину: идеи для серебряной и золотой свадьбы
@@ -60,7 +60,7 @@ cta: "Фильм к их 50 годам — /es/tu-pelicula"
 
 Персональный фильм использует изображение людей, которые в нём появляются, и **мы всегда работаем с их явным согласием**. С родителями или бабушкой и дедушкой естественнее всего рассказать им о подарке, который уже готовится, и попросить разрешения, сохранив в тайне историю до самой премьеры.
 
-Если они настороженно относятся к технологиям, мы поможем объяснить: фильм нигде не публикуется без их разрешения, а использование их изображения согласуется до начала работы. Подробнее — в статье [ваш образ и ИИ](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+Если они настороженно относятся к технологиям, мы поможем объяснить: фильм нигде не публикуется без их разрешения, а использование их изображения согласуется до начала работы. Подробнее — в статье [ваш образ и ИИ](/ru/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## Могут ли они появиться такими, какими были в молодости?
 
@@ -92,4 +92,4 @@ cta: "Фильм к их 50 годам — /es/tu-pelicula"
 
 ---
 
-**Пятьдесят лет заслуживают фильма.** → [Расскажите нам их историю](/es/tu-pelicula)
+**Пятьдесят лет заслуживают фильма.** → [Расскажите нам их историю](/ru/vash-film)

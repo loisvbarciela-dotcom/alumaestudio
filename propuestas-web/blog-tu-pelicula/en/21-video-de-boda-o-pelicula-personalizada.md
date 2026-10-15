@@ -2,7 +2,7 @@
 n: 21
 titulo: "Wedding video or personalised film: the differences and how to combine them"
 slug: video-de-boda-o-pelicula-personalizada
-url: https://alumafilms.es/es/blog/video-de-boda-o-pelicula-personalizada
+url: https://alumafilms.es/en/blog/video-de-boda-o-pelicula-personalizada
 meta_title: "Wedding video or personalised film: the differences"
 meta_description: "How a traditional wedding video differs from a personalised AI film, what each is for, and how to combine them without repeating yourselves."
 keyword_principal: "unique wedding video"
@@ -11,8 +11,8 @@ intencion: comercial (comparativa)
 cluster: Bodas
 publicacion_sugerida: 2027-01-05
 imagen_destacada: "marea-alta.jpg — alt: «Rowers in a traditional Galician trainera at sunset: a cinematic image shot in natural light»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/alternativas-al-montaje-de-fotos-de-boda", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/wedding-planners-experiencias-personalizadas"]
-cta: "The film that premieres at your wedding — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/alternativas-al-montaje-de-fotos-de-boda", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/wedding-planners-experiencias-personalizadas"]
+cta: "The film that premieres at your wedding — /en/your-film"
 ---
 
 # Wedding video or personalised film: the differences and how to combine them
@@ -54,16 +54,16 @@ A personalised film is a three- or four-minute piece in which the couple star in
 ## How to combine them
 
 - **The film opens, the video closes.** The film premieres at the reception; the videographer films the guests' reaction, which ends up as part of the wedding video. It is one of the most moving scenes you can capture.
-- **Coordinating your suppliers.** If you work with a wedding planner, they will fit the screening into the running order of the day. If not, speak to the venue and the DJ. Technical ideas in [which video to screen at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+- **Coordinating your suppliers.** If you work with a wedding planner, they will fit the screening into the running order of the day. If not, speak to the venue and the DJ. Technical ideas in [which video to screen at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 - **Visual coherence.** You can ask for the film and the video to share references: a song, a colour palette, a title.
 
 ## And the photo slideshow?
 
-It is the third classic piece, and many couples replace it with the film. If you want both, put them at different moments. More ideas in [alternatives to the wedding photo slideshow](/es/blog/alternativas-al-montaje-de-fotos-de-boda).
+It is the third classic piece, and many couples replace it with the film. If you want both, put them at different moments. More ideas in [alternatives to the wedding photo slideshow](/en/blog/alternativas-al-montaje-de-fotos-de-boda).
 
 ## If you are a wedding professional
 
-For videographers and wedding planners, the personalised film is not competition: it is a complement you can offer to couples. We talk about it in [wedding planners and personalised experiences](/es/blog/wedding-planners-experiencias-personalizadas).
+For videographers and wedding planners, the personalised film is not competition: it is a complement you can offer to couples. We talk about it in [wedding planners and personalised experiences](/en/blog/wedding-planners-experiencias-personalizadas).
 
 ## Frequently asked questions
 
@@ -81,4 +81,4 @@ With enough time for the conversation, script, production and editing: `[TIMEFRA
 
 ---
 
-**Your wedding will have its video. Let it have its film too.** → [Discover Your film](/es/tu-pelicula)
+**Your wedding will have its video. Let it have its film too.** → [Discover Your film](/en/your-film)

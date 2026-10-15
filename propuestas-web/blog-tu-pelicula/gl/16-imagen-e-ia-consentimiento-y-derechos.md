@@ -2,7 +2,7 @@
 n: 16
 titulo: "A vosa imaxe e a IA: consentimento, dereitos e o Regulamento Europeo de IA"
 slug: imagen-e-ia-consentimiento-y-derechos
-url: https://alumafilms.es/es/blog/imagen-e-ia-consentimiento-y-derechos
+url: https://alumafilms.es/gl/blog/imagen-e-ia-consentimiento-y-derechos
 meta_title: "A túa imaxe e a IA: consentimento e dereitos"
 meta_description: "Que pasa coas vosas fotos ao crear unha película con IA: consentimento, dereitos de imaxe, datos persoais e o Regulamento Europeo de IA."
 keyword_principal: "dereitos de imaxe e intelixencia artificial"
@@ -11,8 +11,8 @@ intencion: informacional (confianza)
 cluster: Confianza
 publicacion_sugerida: 2026-12-10
 imagen_destacada: "o-falsificador.jpg — alt: «Un pintor diante dun retrato: autoría, imaxe e verdade»"
-enlaces_internos: ["/es/tu-pelicula", "/es/etica", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/es/blog/pelicula-personalizada-con-ia"]
-cta: "Lede como traballamos — /es/etica"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/etica", "/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/gl/blog/pelicula-personalizada-con-ia"]
+cta: "Lede como traballamos — /gl/etica"
 ---
 
 # A vosa imaxe e a IA: consentimento, dereitos e o Regulamento Europeo de IA
@@ -52,7 +52,7 @@ Non a publicamos nin a amosamos como exemplo sen a vosa autorización expresa.
 `[validar: prazo de conservación de fotos e arquivos e procedemento de borrado]`
 
 ### Trazabilidade
-Rexistramos o que se xerou e con que ferramenta, como facemos en todos os nosos proxectos. É parte do oficio, non un aviso legal. Máis na nosa páxina de [ética](/es/etica).
+Rexistramos o que se xerou e con que ferramenta, como facemos en todos os nosos proxectos. É parte do oficio, non un aviso legal. Máis na nosa páxina de [ética](/gl/etica).
 
 ## Podo agasallar unha película sen que a outra persoa o saiba?
 
@@ -94,4 +94,4 @@ Non. `[validar coas condicións das ferramentas utilizadas]`
 
 ---
 
-**A transparencia non é un aviso legal: é parte do oficio.** → [Lede o noso compromiso ético](/es/etica) · [Descubride A túa película](/es/tu-pelicula)
+**A transparencia non é un aviso legal: é parte do oficio.** → [Lede o noso compromiso ético](/gl/etica) · [Descubride A túa película](/gl/a-tua-pelicula)

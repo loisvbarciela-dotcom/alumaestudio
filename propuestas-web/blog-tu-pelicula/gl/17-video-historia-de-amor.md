@@ -2,7 +2,7 @@
 n: 17
 titulo: "Como contar a vosa historia de amor nun vídeo (sen caer no pase de diapositivas)"
 slug: video-historia-de-amor
-url: https://alumafilms.es/es/blog/video-historia-de-amor
+url: https://alumafilms.es/gl/blog/video-historia-de-amor
 meta_title: "Vídeo da vosa historia de amor: como contala"
 meta_description: "Claves para contar a vosa historia de amor nun vídeo: estrutura, ton, música e duración. E por que ás veces o mellor é inventala."
 keyword_principal: "vídeo historia de amor"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-12-15
 imagen_destacada: "cita-teixido.jpg — alt: «Escena de “Cita en Teixido”, curtametraxe de ALUMA sobre unha promesa pendente»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/alternativas-al-montaje-de-fotos-de-boda", "/es/blog/universos-para-vuestra-pelicula-de-amor", "/es/trabajo"]
-cta: "A vosa historia, contada como cine — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/alternativas-al-montaje-de-fotos-de-boda", "/gl/blog/universos-para-vuestra-pelicula-de-amor", "/gl/traballo"]
+cta: "A vosa historia, contada como cine — /gl/a-tua-pelicula"
 ---
 
 # Como contar a vosa historia de amor nun vídeo (sen caer no pase de diapositivas)
@@ -58,14 +58,14 @@ Tres ou catro minutos abondan para contar unha historia completa sen que a sala 
 
 ## 7. Ás veces, a mellor forma de contala é inventala
 
-Esta é a idea coa que traballamos en [A túa película](/es/tu-pelicula): en lugar de repasar o que pasou, contamos a vosa historia como unha alegoría. Dúas persoas que se atopan na Antiga Roma, nun salón dos anos vinte ou entre planetas. Sodes vós —recoñecibles nos vosos rostros—, pero nunha historia de cine.
+Esta é a idea coa que traballamos en [A túa película](/gl/a-tua-pelicula): en lugar de repasar o que pasou, contamos a vosa historia como unha alegoría. Dúas persoas que se atopan na Antiga Roma, nun salón dos anos vinte ou entre planetas. Sodes vós —recoñecibles nos vosos rostros—, pero nunha historia de cine.
 
-Por que funciona? Porque o público recoñece a verdade emocional (como vos mirades, que vos une) nun envoltorio que nunca viu. É o mesmo que facemos nos nosos curtametraxes: historias pequenas e verdadeiras en mundos extraordinarios. Podedes velos en [o noso traballo](/es/trabajo).
+Por que funciona? Porque o público recoñece a verdade emocional (como vos mirades, que vos une) nun envoltorio que nunca viu. É o mesmo que facemos nos nosos curtametraxes: historias pequenas e verdadeiras en mundos extraordinarios. Podedes velos en [o noso traballo](/gl/traballo).
 
 ## Como o facemos con dúas fotos
 
 1. Unha conversa sobre a vosa historia: o momento, o conflito, o cambio.
-2. Eliximos xuntos o universo e o ton. Ideas en [universos para a vosa película de amor](/es/blog/universos-para-vuestra-pelicula-de-amor).
+2. Eliximos xuntos o universo e o ton. Ideas en [universos para a vosa película de amor](/gl/blog/universos-para-vuestra-pelicula-de-amor).
 3. Escribimos un guión de tres ou catro minutos que vos presentamos antes de producir.
 4. Diriximos a IA plano a plano a partir dunha fotografía de cada un.
 5. Montamos con música e son, e entregámola para a estrea.
@@ -92,4 +92,4 @@ Si. Lugares, frases ou obxectos da vosa historia intégranse como acenos no gui�
 
 ---
 
-**A vosa historia aínda non se rodou.** → [Contádenos que vos une](/es/tu-pelicula)
+**A vosa historia aínda non se rodou.** → [Contádenos que vos une](/gl/a-tua-pelicula)

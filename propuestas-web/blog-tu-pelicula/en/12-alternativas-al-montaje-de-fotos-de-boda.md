@@ -2,7 +2,7 @@
 n: 12
 titulo: "Beyond the photo montage: alternatives to the classic wedding slideshow"
 slug: alternativas-al-montaje-de-fotos-de-boda
-url: https://alumafilms.es/es/blog/alternativas-al-montaje-de-fotos-de-boda
+url: https://alumafilms.es/en/blog/alternativas-al-montaje-de-fotos-de-boda
 meta_title: "Wedding Photo Slideshow Alternatives and Ideas"
 meta_description: "How to improve the classic wedding photo montage, and alternatives that surprise, such as a film starring the bride and groom."
 keyword_principal: "wedding photo slideshow"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-11-26
 imagen_destacada: "viaxe-40-anos.jpg — alt: “Woman looking at the horizon at sunset: the passing of time told through cinema”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/video-historia-de-amor", "/es/blog/video-de-boda-o-pelicula-personalizada"]
-cta: "Not another wedding video — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/video-historia-de-amor", "/en/blog/video-de-boda-o-pelicula-personalizada"]
+cta: "Not another wedding video — /en/your-film"
 ---
 
 # Beyond the photo montage: alternatives to the classic wedding slideshow
@@ -52,7 +52,7 @@ One of the couple writes a letter to the other, and it is screened with images i
 Illustrations or simple animation to tell how you met. Lovely and different, though it takes time.
 
 ### A film starring the bride and groom
-Instead of going over the past, imagine another possible story: the couple in Ancient Rome, in the twenties or in outer space, with their own faces, in a film of three or four minutes with the script, direction and editing of cinema. It starts from two photographs, one of each person, and a conversation about what connects you. It is what we do in [Your film](/es/tu-pelicula).
+Instead of going over the past, imagine another possible story: the couple in Ancient Rome, in the twenties or in outer space, with their own faces, in a film of three or four minutes with the script, direction and editing of cinema. It starts from two photographs, one of each person, and a conversation about what connects you. It is what we do in [Your film](/en/your-film).
 
 ## Photo slideshow vs. personalised film
 
@@ -64,11 +64,11 @@ Instead of going over the past, imagine another possible story: the couple in An
 | Surprise for guests | Low: they have seen it before | High: they haven't seen it at any other wedding |
 | Length | Variable | 3–4 minutes |
 
-We expand the comparison in [wedding video or personalised film](/es/blog/video-de-boda-o-pelicula-personalizada).
+We expand the comparison in [wedding video or personalised film](/en/blog/video-de-boda-o-pelicula-personalizada).
 
 ## What if we don't want to give up the usual photos?
 
-You don't have to choose. Some couples screen a short slideshow for the family during the canapés and keep the film for the reception meal. What matters is that each piece has its own moment and that they aren't chained together. Ideas on timing and technique in [what video to show at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+You don't have to choose. Some couples screen a short slideshow for the family during the canapés and keep the film for the reception meal. What matters is that each piece has its own moment and that they aren't chained together. Ideas on timing and technique in [what video to show at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 
 ## Frequently asked questions
 
@@ -83,4 +83,4 @@ No. It starts from one current photo of each person to create the protagonists. 
 
 ---
 
-**Not another wedding video.** Your story deserves to be told differently. → [Discover Your film](/es/tu-pelicula)
+**Not another wedding video.** Your story deserves to be told differently. → [Discover Your film](/en/your-film)

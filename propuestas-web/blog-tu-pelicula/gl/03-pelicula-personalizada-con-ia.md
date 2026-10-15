@@ -2,7 +2,7 @@
 n: 3
 titulo: "Película personalizada con IA: que é, como se fai e que podedes esperar"
 slug: pelicula-personalizada-con-ia
-url: https://alumafilms.es/es/blog/pelicula-personalizada-con-ia
+url: https://alumafilms.es/gl/blog/pelicula-personalizada-con-ia
 meta_title: "Película personalizada con IA: que é e que esperar"
 meta_description: "Que é unha película personalizada con IA, en que se diferencia dun vídeo con efectos e que podedes esperar do resultado, sen promesas baleiras."
 keyword_principal: "película personalizada con IA"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: IA y proceso
 publicacion_sugerida: 2026-10-27
 imagen_destacada: "Fotograma da película de exemplo — alt: «Escena dunha película personalizada creada con IA e dirixida por ALUMA»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/es/blog/imagen-e-ia-consentimiento-y-derechos", "/es/etica"]
-cta: "Ver a película de exemplo — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/como-se-hace-una-pelicula-con-dos-fotos", "/gl/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/gl/blog/imagen-e-ia-consentimiento-y-derechos", "/gl/etica"]
+cta: "Ver a película de exemplo — /gl/a-tua-pelicula"
 ---
 
 # Película personalizada con IA: que é, como se fai e que podedes esperar
@@ -45,7 +45,7 @@ Dito doutro modo: a máquina compón e renderiza; as decisións artísticas e a 
 
 ## Como se fai
 
-Resumido en tres pasos (contámolo enteiro en [así se fai unha película de amor con dúas fotos](/es/blog/como-se-hace-una-pelicula-con-dos-fotos)):
+Resumido en tres pasos (contámolo enteiro en [así se fai unha película de amor con dúas fotos](/gl/blog/como-se-hace-una-pelicula-con-dos-fotos)):
 
 1. **Dúas fotos e unha conversa.** Unha fotografía de cada persoa e a vosa historia: como vos coñecestes, que vos une, que queredes facer sentir.
 2. **A película decídese xuntos.** Guión, época, ton e momentos clave, acordados antes de producir.
@@ -67,11 +67,11 @@ A IA xerativa aínda ten límites: hai xestos, interaccións físicas complexas 
 
 ## En que se diferencia de animar unha foto cunha app
 
-As aplicacións de animación de fotos producen uns segundos de movemento sobre unha imaxe fixa. Poden ser simpáticas, pero non constrúen unha historia, non manteñen os personaxes coherentes entre escenas e non teñen montaxe. Comparámolo en detalle en [animar unha foto con IA ou crear unha película](/es/blog/animar-fotos-con-ia-o-crear-una-pelicula).
+As aplicacións de animación de fotos producen uns segundos de movemento sobre unha imaxe fixa. Poden ser simpáticas, pero non constrúen unha historia, non manteñen os personaxes coherentes entre escenas e non teñen montaxe. Comparámolo en detalle en [animar unha foto con IA ou crear unha película](/gl/blog/animar-fotos-con-ia-o-crear-una-pelicula).
 
 ## A vosa imaxe, co voso permiso
 
-Unha película personalizada usa a vosa imaxe, así que a transparencia non é opcional. **Traballamos co consentimento expreso das dúas persoas**, acordamos o uso das fotografías e da película antes de comezar e cumprimos o Regulamento Europeo de IA, con trazabilidade do xerado. Máis detalles en [a vosa imaxe e a IA](/es/blog/imagen-e-ia-consentimiento-y-derechos) e na nosa páxina de [ética](/es/etica).
+Unha película personalizada usa a vosa imaxe, así que a transparencia non é opcional. **Traballamos co consentimento expreso das dúas persoas**, acordamos o uso das fotografías e da película antes de comezar e cumprimos o Regulamento Europeo de IA, con trazabilidade do xerado. Máis detalles en [a vosa imaxe e a IA](/gl/blog/imagen-e-ia-consentimiento-y-derechos) e na nosa páxina de [ética](/gl/etica).
 
 ## Para que ocasións ten sentido
 
@@ -96,4 +96,4 @@ Depende da historia e da data. Punto de partida orientativo: `[PREZO: desde ___ 
 
 ---
 
-**Vede primeiro un exemplo e despois decidide.** Na páxina de A túa película hai unha película completa de mostra. → [Ver a película de exemplo](/es/tu-pelicula)
+**Vede primeiro un exemplo e despois decidide.** Na páxina de A túa película hai unha película completa de mostra. → [Ver a película de exemplo](/gl/a-tua-pelicula)

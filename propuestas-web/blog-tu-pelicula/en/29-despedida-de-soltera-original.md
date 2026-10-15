@@ -2,7 +2,7 @@
 n: 29
 titulo: "A unique hen or stag party: ideas, and the gift that premieres at the wedding"
 slug: despedida-de-soltera-original
-url: https://alumafilms.es/es/blog/despedida-de-soltera-original
+url: https://alumafilms.es/en/blog/despedida-de-soltera-original
 meta_title: "Unique hen party ideas with charm"
 meta_description: "Ideas for a unique hen or stag party that embarrasses nobody, and a gift from the group that premieres at the wedding."
 keyword_principal: "unique hen party ideas"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-02-02
 imagen_destacada: "marea-alta.jpg — alt: «A group rowing a trainera at sunset: group plans for a hen or stag party»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-los-novios", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/bodas-en-galicia-ideas"]
-cta: "The group's gift: their film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-original-para-los-novios", "/en/blog/que-video-proyectar-en-una-boda", "/en/blog/bodas-en-galicia-ideas"]
+cta: "The group's gift: their film — /en/your-film"
 ---
 
 # A unique hen or stag party: ideas, and the gift that premieres at the wedding
@@ -62,14 +62,14 @@ It is a three- or four-minute film in which the bride and groom are the protagon
 1. **At the party**, you hand over a card with the title of the film `[to confirm: gift voucher format]`.
 2. **The couple give their consent** for their image to be used (we always work with the explicit consent of both people).
 3. **The group contributes to the script** with anecdotes and nods that only you know.
-4. **The film premieres at the wedding.** Advice for that moment in [which video to screen at a wedding](/es/blog/que-video-proyectar-en-una-boda).
+4. **The film premieres at the wedding.** Advice for that moment in [which video to screen at a wedding](/en/blog/que-video-proyectar-en-una-boda).
 
 ### Why it makes a good group gift
 - Shared between several people, the cost is split. Starting point: `[PRICE: from €___]`.
 - It is a gift for both of them, not only for the person being celebrated.
 - It creates a moment at the wedding that the group experiences as its own.
 
-More ideas in [a unique gift for the bride and groom](/es/blog/regalo-original-para-los-novios).
+More ideas in [a unique gift for the bride and groom](/en/blog/regalo-original-para-los-novios).
 
 ## Timeframe
 
@@ -88,4 +88,4 @@ The story can be. The use of their image requires their explicit consent.
 
 ---
 
-**Let the party gift be seen on the big screen on the wedding day.** → [Discover Your film](/es/tu-pelicula)
+**Let the party gift be seen on the big screen on the wedding day.** → [Discover Your film](/en/your-film)

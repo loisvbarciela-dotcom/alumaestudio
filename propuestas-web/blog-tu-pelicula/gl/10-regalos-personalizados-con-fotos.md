@@ -2,7 +2,7 @@
 n: 10
 titulo: "Agasallos personalizados con fotos: da cunca a unha película coa vosa cara"
 slug: regalos-personalizados-con-fotos
-url: https://alumafilms.es/es/blog/regalos-personalizados-con-fotos
+url: https://alumafilms.es/gl/blog/regalos-personalizados-con-fotos
 meta_title: "Agasallos personalizados con fotos: ideas orixinais"
 meta_description: "Ideas de agasallos personalizados con fotos, dos clásicos aos máis orixinais, e como dúas fotografías poden converterse nunha película exclusiva."
 keyword_principal: "agasallos personalizados con fotos"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-11-19
 imagen_destacada: "tempo.jpg — alt: «Reloxo de peto antigo: un agasallo personalizado que garda o tempo»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalo-de-navidad-original-para-tu-pareja", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "Dúas fotos, unha película — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/regalo-aniversario-original", "/gl/blog/regalo-de-navidad-original-para-tu-pareja", "/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
+cta: "Dúas fotos, unha película — /gl/a-tua-pelicula"
 ---
 
 # Agasallos personalizados con fotos: da cunca a unha película coa vosa cara
@@ -61,7 +61,7 @@ Con dúas fotografías, unha de cada persoa, creamos unha película de tres ou c
 
 ## Para quen encaixa cada un
 
-- **Para unha parella:** unha película ou un álbum con historia. Ideas para datas concretas en [agasallo de aniversario orixinal](/es/blog/regalo-aniversario-original) e [agasallo de Nadal orixinal para a túa parella](/es/blog/regalo-de-navidad-original-para-tu-pareja).
+- **Para unha parella:** unha película ou un álbum con historia. Ideas para datas concretas en [agasallo de aniversario orixinal](/gl/blog/regalo-aniversario-original) e [agasallo de Nadal orixinal para a túa parella](/gl/blog/regalo-de-navidad-original-para-tu-pareja).
 - **Para uns pais ou avós:** a foto que falta, un álbum ou unha película das súas vodas de ouro.
 - **Para uns amigos que se casan:** unha película como agasallo colectivo.
 
@@ -76,7 +76,7 @@ Un obxecto personalizado custa pouco; unha película personalizada é un traball
 ## Preguntas frecuentes
 
 ### Que fotos necesito para unha película personalizada?
-Unha fotografía actual e nítida de cada persoa. Explicámolo en [como elixir as fotos](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+Unha fotografía actual e nítida de cada persoa. Explicámolo en [como elixir as fotos](/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ### Canto dura a película?
 Entre tres e catro minutos.
@@ -86,4 +86,4 @@ Entre tres e catro minutos.
 
 ---
 
-**Dúas fotos poden ser moito máis que unha lembranza.** → [Descubride A túa película](/es/tu-pelicula)
+**Dúas fotos poden ser moito máis que unha lembranza.** → [Descubride A túa película](/gl/a-tua-pelicula)

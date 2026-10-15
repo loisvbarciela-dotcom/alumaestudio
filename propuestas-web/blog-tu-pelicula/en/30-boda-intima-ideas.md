@@ -2,7 +2,7 @@
 n: 30
 titulo: "Intimate wedding ideas: how to make a small guest list unforgettable"
 slug: boda-intima-ideas
-url: https://alumafilms.es/es/blog/boda-intima-ideas
+url: https://alumafilms.es/en/blog/boda-intima-ideas
 meta_title: "Intimate wedding ideas for a small, special day"
 meta_description: "Intimate wedding and micro wedding ideas: venues, ceremony, meal and personal touches, with a film that brings your story to the screen."
 keyword_principal: "intimate wedding ideas"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-02-04
 imagen_destacada: "o-oficio.jpg — alt: «Craftsman's hands working wood: attention to detail at an intimate wedding»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/tendencias-bodas-2027", "/es/blog/bodas-en-galicia-ideas", "/es/blog/video-historia-de-amor"]
-cta: "A film for your intimate wedding — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/tendencias-bodas-2027", "/en/blog/bodas-en-galicia-ideas", "/en/blog/video-historia-de-amor"]
+cta: "A film for your intimate wedding — /en/your-film"
 ---
 
 # Intimate wedding ideas: how to make a small guest list unforgettable
@@ -33,7 +33,7 @@ An **intimate wedding** is not a small wedding out of necessity, but a decision:
 - **A place in nature:** a viewpoint, a lighthouse, a beach out of season.
 - **A winery:** the ceremony among the vines and the meal at one long table.
 
-Galicia has perfect venues for this format; ideas in [weddings in Galicia](/es/blog/bodas-en-galicia-ideas).
+Galicia has perfect venues for this format; ideas in [weddings in Galicia](/en/blog/bodas-en-galicia-ideas).
 
 ## A more personal ceremony
 
@@ -64,11 +64,11 @@ It is a three- or four-minute piece in which you live your story in another era 
 
 What is more, at an intimate wedding there are people who could not attend. The film can be shared afterwards with the family and friends who were not there, if you decide so.
 
-Ideas for telling your story in [how to tell your love story in a video](/es/blog/video-historia-de-amor).
+Ideas for telling your story in [how to tell your love story in a video](/en/blog/video-historia-de-amor).
 
 ## Micro weddings: a trend that is here to stay
 
-The intimate wedding is no longer an alternative: it is one of the fastest-growing ways of getting married. We cover it in [wedding trends 2027](/es/blog/tendencias-bodas-2027).
+The intimate wedding is no longer an alternative: it is one of the fastest-growing ways of getting married. We cover it in [wedding trends 2027](/en/blog/tendencias-bodas-2027).
 
 ## Frequently asked questions
 
@@ -83,4 +83,4 @@ Yes. In an intimate setting, the premiere is felt with more emotion, and the fil
 
 ---
 
-**Few guests, one great story.** → [Discover Your film](/es/tu-pelicula)
+**Few guests, one great story.** → [Discover Your film](/en/your-film)

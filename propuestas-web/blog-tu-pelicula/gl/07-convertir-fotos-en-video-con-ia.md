@@ -2,7 +2,7 @@
 n: 7
 titulo: "Converter fotos en vídeo con IA: apps gratuítas ou unha película dirixida"
 slug: convertir-fotos-en-video-con-ia
-url: https://alumafilms.es/es/blog/convertir-fotos-en-video-con-ia
+url: https://alumafilms.es/gl/blog/convertir-fotos-en-video-con-ia
 meta_title: "Converter fotos en vídeo con IA: que opcións hai"
 meta_description: "Como converter fotos en vídeo con IA: que fan as apps, que esperar, que revisar sobre privacidade e cando merece a pena unha película dirixida."
 keyword_principal: "converter fotos en vídeo con IA"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: IA y proceso
 publicacion_sugerida: 2026-11-10
 imagen_destacada: "cinza-e-ouro.jpg — alt: «Escena xerada con IA e dirixida por ALUMA: unha cidade en miniatura de cinza»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/es/blog/pelicula-personalizada-con-ia", "/es/blog/imagen-e-ia-consentimiento-y-derechos", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "Para unha ocasión que importa, unha película dirixida — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/animar-fotos-con-ia-o-crear-una-pelicula", "/gl/blog/pelicula-personalizada-con-ia", "/gl/blog/imagen-e-ia-consentimiento-y-derechos", "/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
+cta: "Para unha ocasión que importa, unha película dirixida — /gl/a-tua-pelicula"
 ---
 
 # Converter fotos en vídeo con IA: apps gratuítas ou unha película dirixida
@@ -34,7 +34,7 @@ Outras ferramentas usan a foto como punto de partida para crear un clip novo dun
 **Para que serve:** experimentar, crear contido curto, probar ideas.
 
 ### 3. Crear unha película a partir de fotos
-Unha película é outra cousa: varias escenas, uns personaxes que deben seguir sendo os mesmos de principio a fin, unha historia con comezo e final, música, ritmo e montaxe. Iso non o fai unha app de forma automática: require guión, dirección e moitas decisións plano a plano. É o que facemos en [A túa película](/es/tu-pelicula).
+Unha película é outra cousa: varias escenas, uns personaxes que deben seguir sendo os mesmos de principio a fin, unha historia con comezo e final, música, ritmo e montaxe. Iso non o fai unha app de forma automática: require guión, dirección e moitas decisións plano a plano. É o que facemos en [A túa película](/gl/a-tua-pelicula).
 
 ## Como sacarlle o máximo partido a unha app
 
@@ -54,7 +54,7 @@ Unha cara é un dato persoal. Antes de subir fotos a calquera aplicación, revis
 - **Onde se almacenan** e durante canto tempo.
 - **Se tedes permiso de todas as persoas** que aparecen na foto.
 
-Se usades a imaxe doutra persoa, pedídelle permiso. Falamos diso en [a vosa imaxe e a IA](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+Se usades a imaxe doutra persoa, pedídelle permiso. Falamos diso en [a vosa imaxe e a IA](/gl/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## O que non adoita resolver unha app
 
@@ -78,7 +78,7 @@ Non é un defecto das ferramentas: é que están pensadas para outra cousa.
 
 ## Cando merece a pena unha película dirixida
 
-Para unha felicitación rápida, unha app pode ser suficiente. Para unha voda, un aniversario importante, unha petición de man ou un agasallo que queredes que dure, a diferenza nótase na pantalla e na sala. En [animar unha foto con IA ou crear unha película](/es/blog/animar-fotos-con-ia-o-crear-una-pelicula) explicámolo con exemplos.
+Para unha felicitación rápida, unha app pode ser suficiente. Para unha voda, un aniversario importante, unha petición de man ou un agasallo que queredes que dure, a diferenza nótase na pantalla e na sala. En [animar unha foto con IA ou crear unha película](/gl/blog/animar-fotos-con-ia-o-crear-una-pelicula) explicámolo con exemplos.
 
 Nós partimos de **dúas fotografías, unha de cada persoa**, falamos da vosa historia, acordamos guión, época e ton, e diriximos a IA plano a plano ata chegar a unha película de tres ou catro minutos, exclusiva.
 
@@ -88,11 +88,11 @@ Nós partimos de **dúas fotografías, unha de cada persoa**, falamos da vosa hi
 Si, pero o resultado será un clip curto. Para unha película con varias escenas e dous protagonistas traballamos cunha foto de cada persoa.
 
 ### Que foto dá mellor resultado?
-Un retrato actual, nítido, coa cara ben iluminada e sen elementos que tapen os trazos. Máis consellos en [como elixir as fotos](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+Un retrato actual, nítido, coa cara ben iluminada e sen elementos que tapen os trazos. Máis consellos en [como elixir as fotos](/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ### É legal converter en vídeo a foto doutra persoa?
 Necesitades o seu permiso. A imaxe dunha persoa está protexida e, se se usa con IA, a transparencia é aínda máis importante.
 
 ---
 
-**Para o que de verdade importa, unha película con dirección.** → [Vede como é A túa película](/es/tu-pelicula)
+**Para o que de verdade importa, unha película con dirección.** → [Vede como é A túa película](/gl/a-tua-pelicula)

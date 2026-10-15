@@ -2,7 +2,7 @@
 n: 11
 titulo: "Original Christmas gift for your partner: a film that exists only for the two of you"
 slug: regalo-de-navidad-original-para-tu-pareja
-url: https://alumafilms.es/es/blog/regalo-de-navidad-original-para-tu-pareja
+url: https://alumafilms.es/en/blog/regalo-de-navidad-original-para-tu-pareja
 meta_title: "Original Christmas Gift for Your Partner"
 meta_description: "Original Christmas gift ideas for your partner that aren't bought at the last minute, and how to give a film starring you both."
 keyword_principal: "original Christmas gift for your partner"
@@ -11,8 +11,8 @@ intencion: comercial (estacional)
 cluster: Regalos
 publicacion_sugerida: 2026-11-24
 imagen_destacada: "a-ultima-fornada.jpg — alt: “City lit up at night by the sea, winter atmosphere”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/pedida-de-mano-original"]
-cta: "Book your film before Christmas — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-original-para-tu-novia-o-novio", "/en/blog/regalos-personalizados-con-fotos", "/en/blog/pedida-de-mano-original"]
+cta: "Book your film before Christmas — /en/your-film"
 ---
 
 # Original Christmas gift for your partner: a film that exists only for the two of you
@@ -85,4 +85,4 @@ Yes. 6 January is a good date for a premiere or for handing over the gift card.
 
 ---
 
-**This year, a gift you don't buy on the 23rd.** → [Create your film](/es/tu-pelicula)
+**This year, a gift you don't buy on the 23rd.** → [Create your film](/en/your-film)

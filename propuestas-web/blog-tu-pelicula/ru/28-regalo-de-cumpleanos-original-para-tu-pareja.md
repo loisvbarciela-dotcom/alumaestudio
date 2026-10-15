@@ -2,7 +2,7 @@
 n: 28
 titulo: "Оригинальный подарок на день рождения любимому человеку: идеи, которые не помещаются в коробку"
 slug: regalo-de-cumpleanos-original-para-tu-pareja
-url: https://alumafilms.es/es/blog/regalo-de-cumpleanos-original-para-tu-pareja
+url: https://alumafilms.es/ru/blog/regalo-de-cumpleanos-original-para-tu-pareja
 meta_title: "Оригинальный подарок на день рождения любимому человеку"
 meta_description: "Идеи оригинального подарка на день рождения любимому человеку: впечатления, подарки со смыслом и фильм, в котором главные герои — вы."
 keyword_principal: "оригинальный подарок на день рождения любимому человеку"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2027-01-28
 imagen_destacada: "tempo.jpg — alt: «Карманные часы: течение времени как подарок на день рождения»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "День рождения как в кино — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-original-para-tu-novia-o-novio", "/ru/blog/regalos-personalizados-con-fotos", "/ru/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "День рождения как в кино — /ru/vash-film"
 ---
 
 # Оригинальный подарок на день рождения любимому человеку: идеи, которые не помещаются в коробку
@@ -57,7 +57,7 @@ cta: "День рождения как в кино — /es/tu-pelicula"
 - **Дань уважения:** сцены, которые отмечают его увлечения, причуды, любимые фразы.
 - **Романтическая комедия:** двое ищут друг друга в другую эпоху и постоянно пересекаются путями.
 
-Больше идей — в статье [вселенные для вашего фильма о любви](/es/blog/universos-para-vuestra-pelicula-de-amor).
+Больше идей — в статье [вселенные для вашего фильма о любви](/ru/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Сюрприз с согласием
 
@@ -80,4 +80,4 @@ cta: "День рождения как в кино — /es/tu-pelicula"
 
 ---
 
-**В этом году пусть у дня рождения будет своя премьера.** → [Создайте свой фильм](/es/tu-pelicula)
+**В этом году пусть у дня рождения будет своя премьера.** → [Создайте свой фильм](/ru/vash-film)

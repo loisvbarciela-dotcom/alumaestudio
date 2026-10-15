@@ -2,7 +2,7 @@
 n: 18
 titulo: "Agasallo orixinal para a túa noiva (ou o teu noivo) que non se compra nunha tenda"
 slug: regalo-original-para-tu-novia-o-novio
-url: https://alumafilms.es/es/blog/regalo-original-para-tu-novia-o-novio
+url: https://alumafilms.es/gl/blog/regalo-original-para-tu-novia-o-novio
 meta_title: "Agasallo orixinal para a túa noiva ou noivo: ideas"
 meta_description: "Ideas de agasallo orixinal para a túa noiva ou o teu noivo que falan de vós: experiencias, detalles feitos a man e unha película protagonizada polos dous."
 keyword_principal: "agasallo orixinal para a miña noiva"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-12-17
 imagen_destacada: "love-film-thumbnail.png — alt: «Parella protagonista dunha película personalizada como agasallo»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalo-san-valentin-original", "/es/blog/regalo-de-cumpleanos-original-para-tu-pareja"]
-cta: "Un agasallo que só existe para vós — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/regalo-aniversario-original", "/gl/blog/regalo-san-valentin-original", "/gl/blog/regalo-de-cumpleanos-original-para-tu-pareja"]
+cta: "Un agasallo que só existe para vós — /gl/a-tua-pelicula"
 ---
 
 # Agasallo orixinal para a túa noiva (ou o teu noivo) que non se compra nunha tenda
@@ -55,9 +55,9 @@ Unha película personalizada usa a imaxe dos dous, e **traballamos sempre co con
 
 ## Datas nas que encaixa
 
-- **Aniversario:** ideas en [agasallo de aniversario orixinal](/es/blog/regalo-aniversario-original).
-- **San Valentín:** ideas en [agasallo de San Valentín orixinal](/es/blog/regalo-san-valentin-original).
-- **Cumpreanos:** ideas en [agasallo de cumpreanos orixinal para a túa parella](/es/blog/regalo-de-cumpleanos-original-para-tu-pareja).
+- **Aniversario:** ideas en [agasallo de aniversario orixinal](/gl/blog/regalo-aniversario-original).
+- **San Valentín:** ideas en [agasallo de San Valentín orixinal](/gl/blog/regalo-san-valentin-original).
+- **Cumpreanos:** ideas en [agasallo de cumpreanos orixinal para a túa parella](/gl/blog/regalo-de-cumpleanos-original-para-tu-pareja).
 - **Sen motivo:** ás veces o mellor día para agasallar é un calquera.
 
 ## Prezo e prazos
@@ -77,4 +77,4 @@ Si. O ton decídese convosco: épico, tenro, divertido ou misterioso.
 
 ---
 
-**Un agasallo que non está en ningunha tenda porque aínda non existe.** → [Creade a vosa película](/es/tu-pelicula)
+**Un agasallo que non está en ningunha tenda porque aínda non existe.** → [Creade a vosa película](/gl/a-tua-pelicula)

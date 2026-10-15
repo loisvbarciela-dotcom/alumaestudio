@@ -2,7 +2,7 @@
 n: 27
 titulo: "Animating a photo with AI or creating a film: the differences you can see on screen"
 slug: animar-fotos-con-ia-o-crear-una-pelicula
-url: https://alumafilms.es/es/blog/animar-fotos-con-ia-o-crear-una-pelicula
+url: https://alumafilms.es/en/blog/animar-fotos-con-ia-o-crear-una-pelicula
 meta_title: "Animate photos with AI or create a film: the differences"
 meta_description: "The differences between animating a photo with AI and creating a personalised film: length, story, character consistency, direction and finish."
 keyword_principal: "animate photos with AI"
@@ -11,8 +11,8 @@ intencion: informacional / comercial
 cluster: IA y proceso
 publicacion_sugerida: 2027-01-26
 imagen_destacada: "ultima-abella.jpg — alt: «A bee on a sunflower, a still from “A última abella”, an ALUMA piece»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/convertir-fotos-en-video-con-ia", "/es/blog/pelicula-personalizada-con-ia", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/es/trabajo"]
-cta: "See the difference in an example film — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/convertir-fotos-en-video-con-ia", "/en/blog/pelicula-personalizada-con-ia", "/en/blog/como-elegir-las-fotos-para-vuestra-pelicula", "/en/work"]
+cta: "See the difference in an example film — /en/your-film"
 ---
 
 # Animating a photo with AI or creating a film: the differences you can see on screen
@@ -79,11 +79,11 @@ An animation is shared as it is. A film is edited, given sound and delivered to 
 - **For a quick greeting or to bring an old family photo to life**, an animation app can be perfect.
 - **For an important occasion**, where it will be seen on a big screen in front of guests, a directed film makes the difference.
 
-We go further into the options in [turning photos into video with AI](/es/blog/convertir-fotos-en-video-con-ia).
+We go further into the options in [turning photos into video with AI](/en/blog/convertir-fotos-en-video-con-ia).
 
 ## How we work
 
-We are an audiovisual studio that combines real filming with AI generation under human direction. We apply the same standard to every personalised film as to our short films: the AI executes and people decide. You can see our work in [the gallery](/es/trabajo) and an example personalised film in [Your film](/es/tu-pelicula).
+We are an audiovisual studio that combines real filming with AI generation under human direction. We apply the same standard to every personalised film as to our short films: the AI executes and people decide. You can see our work in [the gallery](/en/work) and an example personalised film in [Your film](/en/your-film).
 
 ## Frequently asked questions
 
@@ -94,8 +94,8 @@ Yes, with animation apps. If you would like a full film about their story, tell 
 No. The photos are the reference for creating the protagonists; the scenes are created from scratch.
 
 ### Which photo gives the best result?
-A recent, sharp, well-lit portrait of each person. More in [how to choose the photos](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+A recent, sharp, well-lit portrait of each person. More in [how to choose the photos](/en/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ---
 
-**A moving photo is a memory. A film is a story.** → [See an example film](/es/tu-pelicula)
+**A moving photo is a memory. A film is a story.** → [See an example film](/en/your-film)

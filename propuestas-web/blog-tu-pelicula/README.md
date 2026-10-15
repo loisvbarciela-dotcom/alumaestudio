@@ -91,20 +91,55 @@ Búsqueda rápida: `grep -n "\[PRECIO\|\[PLAZO\|\[validar\|\[PLACEHOLDER\|\[FECH
 ### Sobre el consentimiento y las sorpresas
 La web dice que se trabaja «con el consentimiento expreso de las dos personas». Los artículos lo respetan siempre y ofrecen dos fórmulas para regalos sorpresa: **la sorpresa está en la historia, no en el uso de la imagen** (la persona autoriza aparecer pero no conoce el guion) o **se regala la experiencia** y la película se crea después. Conviene que el estudio confirme ambas fórmulas con su asesoría legal.
 
-## Cómo publicarlos en la web actual (Lovable)
+## Traducciones (gallego, inglés y ruso)
 
-El blog actual lee `src/content/posts.json`, con este formato por artículo: `slug`, `data`, `imaxe`, y `titulo`, `extracto` y `corpo` **en los cuatro idiomas** (gl, es, en, ru). En `corpo`, cada párrafo es un elemento del array; los que empiezan por `# ` se pintan como subtítulo y los que empiezan por `· ` como viñeta.
+Los 30 artículos están traducidos y adaptados (no traducción literal) en:
 
-Pasos recomendados:
+| Idioma | Carpeta | Producto | Notas |
+|---|---|---|---|
+| Español (original) | `./` | Tu película | — |
+| Gallego | [`gl/`](gl/) | A túa película | Gallego normativo, trato de «vós», coherente con la web |
+| Inglés | [`en/`](en/) | Your film | Inglés británico (`personalised`), costumbres adaptadas (*reception*, *hen/stag party*) |
+| Ruso | [`ru/`](ru/) | Ваш фильм | Trato de «вы», costumbres adaptadas (девичник, золотая свадьба) |
 
-1. **Añadir soporte de enlaces y CTA en el artículo** (`BlogArticle` en `src/components/aluma/pages/BlogPage.tsx` hoy pinta solo texto plano: los enlaces internos de estos artículos se perderían). Lo ideal es aceptar Markdown en `corpo` o añadir un bloque CTA fijo al final de cada post que enlace a `/es/tu-pelicula`.
-2. **Permitir artículos que no estén en los cuatro idiomas**, o traducirlos antes de publicar: el tipo `Post` exige `Record<Lang, …>` y un idioma vacío rompería la página.
-3. **Usar `meta_title` y `meta_description`** de cada cabecera en `head()` (hoy el título es `titulo — Aluma` y la descripción es el extracto).
-4. **Añadir `FAQPage`** con las preguntas de cada artículo y completar el JSON-LD `Article` (`image` absoluta, `dateModified`, `publisher`).
-5. **Regenerar el sitemap** con `scripts/generate-sitemap.ts` tras cada publicación.
-6. **Fechas:** no publicar con fecha futura (hoy el artículo `duas-fotos-unha-pelicula` tiene fecha 16/10/2026 y no aparece en el sitemap).
+- Las **palabras clave** de cada idioma son búsquedas naturales de ese mercado, no traducciones literales.
+- Los **enlaces** apuntan a las URL de cada idioma (`/gl/a-tua-pelicula`, `/en/your-film`, `/ru/vash-film`, `/<idioma>/blog/<slug>`…).
+- El **slug** es el mismo en los cuatro idiomas, como en el blog actual.
+- Los **placeholders** están traducidos (`[PREZO…]`, `[PRICE…]`, `[ЦЕНА…]`, `[validar…]`, `[to confirm…]`, `[уточнить…]`). Hay que rellenarlos en los cuatro idiomas.
+- Criterios comunes en [`GUIA-TRADUCCION.md`](GUIA-TRADUCCION.md). Traducción hecha con Claude Sonnet 5.5 y validada automáticamente (estructura, longitudes de metadatos, enlaces, sin exclamaciones, mismo número de párrafos que el original).
 
-Prompt sugerido para Lovable: *«Añade al blog soporte para enlaces Markdown en los párrafos y un bloque CTA al final de cada artículo que lleve a la página Tu película. Usa meta_title y meta_description propios por artículo si existen. Añade JSON-LD FAQPage con las preguntas que empiecen por "### " dentro de la sección "Preguntas frecuentes".»*
+## Archivo listo para la web: `src/content/posts-tu-pelicula.json`
+
+Los 30 artículos en los cuatro idiomas, con **el mismo formato que `src/content/posts.json`** (`slug`, `data`, `imaxe`, `titulo`, `extracto`, `corpo`), de modo que el blog actual puede mostrarlos sin cambios. Incluye además cuatro campos opcionales que el código actual ignora y que conviene aprovechar:
+
+| Campo | Contenido |
+|---|---|
+| `meta[lang]` | `title` y `description` SEO propios de cada artículo |
+| `cta[lang]` | Texto y URL del botón final (normalmente a la página «Tu película» del idioma) |
+| `faq[lang]` | Preguntas y respuestas, para el JSON-LD `FAQPage` |
+| `enlaces[lang]` | Enlaces internos del artículo, ya localizados |
+
+Detalles:
+
+- `corpo` ya está en el formato del blog: `# ` para subtítulos, `· ` para viñetas; tablas y preguntas convertidas a viñetas. Los enlaces se quedan como texto (el componente actual no pinta enlaces) y se conservan en `enlaces` y `cta`.
+- `data` es la fecha del calendario editorial (20/10/2026 → 04/02/2027). Con el filtro que ya tiene la web, **cada artículo se publicará solo en su fecha**.
+- Cumple las reglas del test `src/lib/i18n.test.ts` (título y extracto en ruso, mismo número de párrafos en todos los idiomas).
+- Se regenera desde los Markdown con `node scripts/build-blog-posts.mjs` (y `--check` solo valida). Si corregís un artículo, editad el `.md` y volved a generarlo.
+
+### Antes de incorporarlo
+
+**23 de los 30 artículos tienen placeholders** (precio, plazo, vale regalo, formatos de entrega…) en los cuatro idiomas. Si se incorporan tal cual, se publicarían con los corchetes visibles a partir del 20 de octubre. Hay que sustituirlos o borrar esas frases antes, o retrasar las fechas `data` de los artículos afectados.
+
+### Prompt para Lovable
+
+> En `src/content/posts-tu-pelicula.json` hay 30 artículos del blog en gl, es, en y ru con el mismo formato que `src/content/posts.json`, más los campos opcionales `meta`, `cta`, `faq` y `enlaces`. Incorpóralos al blog:
+> 1. Impórtalo en `src/lib/i18n.ts` y únelo a los posts existentes, manteniendo el filtro que oculta los posts con fecha futura. Amplía el tipo `Post` con los campos opcionales.
+> 2. En `BlogArticle`, si el post tiene `cta`, muestra al final un botón con `cta[lang].texto` que enlace a `cta[lang].url`; si tiene `enlaces`, añade debajo un bloque «Sigue leyendo» con esos enlaces.
+> 3. En el `head()` del artículo usa `meta[lang].title` y `meta[lang].description` cuando existan, y añade JSON-LD `FAQPage` con `faq[lang]`. Pon el `og:image` como URL absoluta.
+> 4. Para no cargar todos los textos en cada página, carga el cuerpo de los artículos solo en la página del artículo (por ejemplo, con una función de servidor o importación dinámica).
+> 5. Regenera `public/sitemap.xml` con `scripts/generate-sitemap.ts`.
+
+El archivo pesa unos 880 KB. Por eso se recomienda el punto 4: importado tal cual, todo ese texto viajaría en el JavaScript de todas las páginas.
 
 ## Medición
 

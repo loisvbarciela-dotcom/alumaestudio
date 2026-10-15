@@ -2,7 +2,7 @@
 n: 6
 titulo: "Tendencias de vodas 2027: experiencias personalizadas, cine e intelixencia artificial"
 slug: tendencias-bodas-2027
-url: https://alumafilms.es/es/blog/tendencias-bodas-2027
+url: https://alumafilms.es/gl/blog/tendencias-bodas-2027
 meta_title: "Tendencias de vodas 2027: o persoal manda"
 meta_description: "As tendencias de vodas para 2027: celebracións máis persoais, experiencias para os convidados, estética de cine e un uso da IA con criterio."
 keyword_principal: "tendencias vodas 2027"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-11-05
 imagen_destacada: "o-oficio.jpg — alt: «Mans artesás traballando a madeira: o feito a medida como tendencia nas vodas de 2027»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/boda-intima-ideas", "/es/blog/entretenimiento-para-bodas", "/es/blog/save-the-date-en-video"]
-cta: "Unha película para a vosa voda de 2027 — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/ideas-originales-para-sorprender-en-una-boda", "/gl/blog/boda-intima-ideas", "/gl/blog/entretenimiento-para-bodas", "/gl/blog/save-the-date-en-video"]
+cta: "Unha película para a vosa voda de 2027 — /gl/a-tua-pelicula"
 ---
 
 # Tendencias de vodas 2027: experiencias personalizadas, cine e intelixencia artificial
@@ -29,15 +29,15 @@ As parellas queren que a súa voda conte algo delas. Nótase nos votos escritos 
 
 ## 2. A experiencia dos convidados, no centro
 
-Cada vez máis vodas pénsanse desde o punto de vista de quen asiste: tempos mortos ben resoltos, momentos compartidos, sorpresas que implican a todos. O photocall queda curto e búscanse momentos que se vivan xuntos. Ideas concretas en [entretemento para vodas](/es/blog/entretenimiento-para-bodas).
+Cada vez máis vodas pénsanse desde o punto de vista de quen asiste: tempos mortos ben resoltos, momentos compartidos, sorpresas que implican a todos. O photocall queda curto e búscanse momentos que se vivan xuntos. Ideas concretas en [entretemento para vodas](/gl/blog/entretenimiento-para-bodas).
 
 ## 3. Vodas máis pequenas e máis coidadas
 
-A voda íntima deixou de ser un plan B. Menos convidados permiten máis orzamento por persoa, mellores espazos e detalles máis persoais. Desenvolvémolo en [ideas para unha voda íntima](/es/blog/boda-intima-ideas).
+A voda íntima deixou de ser un plan B. Menos convidados permiten máis orzamento por persoa, mellores espazos e detalles máis persoais. Desenvolvémolo en [ideas para unha voda íntima](/gl/blog/boda-intima-ideas).
 
 ## 4. Estética de cine
 
-A fotografía e o vídeo de voda levan anos mirando ao cine: planos máis pausados, cor coidada, relato en vez de compilación. En 2027 esa estética chega a outros elementos da voda: invitacións que parecen carteis, *save the date* en forma de tráiler, títulos de crédito no menú. Exemplos en [save the date en vídeo](/es/blog/save-the-date-en-video).
+A fotografía e o vídeo de voda levan anos mirando ao cine: planos máis pausados, cor coidada, relato en vez de compilación. En 2027 esa estética chega a outros elementos da voda: invitacións que parecen carteis, *save the date* en forma de tráiler, títulos de crédito no menú. Exemplos en [save the date en vídeo](/gl/blog/save-the-date-en-video).
 
 ## 5. O feito a man, o local
 
@@ -53,7 +53,7 @@ Coa IA chega tamén unha esixencia nova: **transparencia e consentimento**. As p
 
 ## 7. Momentos que se estrean
 
-Relacionado con todo o anterior: os noivos queren que a súa voda teña un momento que ninguén espera. Un vídeo proxectado, unha actuación, unha sorpresa dos amigos. Máis ideas en [como sorprender os convidados da vosa voda](/es/blog/ideas-originales-para-sorprender-en-una-boda).
+Relacionado con todo o anterior: os noivos queren que a súa voda teña un momento que ninguén espera. Un vídeo proxectado, unha actuación, unha sorpresa dos amigos. Máis ideas en [como sorprender os convidados da vosa voda](/gl/blog/ideas-originales-para-sorprender-en-una-boda).
 
 ## 8. Celebracións máis longas
 
@@ -80,4 +80,4 @@ Depende da zona e da tempada. Para datas de moita demanda, convén comezar con m
 
 ---
 
-**Se a vosa voda vai contar unha historia, que teña a súa propia película.** → [Descubride A túa película](/es/tu-pelicula)
+**Se a vosa voda vai contar unha historia, que teña a súa propia película.** → [Descubride A túa película](/gl/a-tua-pelicula)

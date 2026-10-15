@@ -8,7 +8,7 @@ Entregables del análisis y rediseño de la web de ALUMA. Nada de esta carpeta m
 | [`version-a-sala-oscura/`](version-a-sala-oscura/) | **Versión A — Sala oscura:** evolución de la marca actual que ahora vende. Portada, Tu película y Trabajo |
 | [`version-b-tu-pelicula/`](version-b-tu-pelicula/) | **Versión B — Tu película primero:** la portada es la landing de venta del producto. Landing y página para wedding planners |
 | [`version-c-estudio/`](version-c-estudio/) | **Versión C — Estudio:** productora con catálogo de servicios y caso real. Portada, Tu película y caso Ronsel (RC Celta) |
-| [`blog-tu-pelicula/`](blog-tu-pelicula/) | 30 artículos SEO para vender «Tu película», con calendario editorial y guía de publicación |
+| [`blog-tu-pelicula/`](blog-tu-pelicula/) | 30 artículos SEO para vender «Tu película» en español, gallego, inglés y ruso, con calendario editorial y guía de publicación. Versión lista para la web en `src/content/posts-tu-pelicula.json` |
 | [`capturas/`](capturas/) | Capturas de escritorio (página completa) y móvil (primera pantalla) de cada página |
 | [`BRIEF-DISENO.md`](BRIEF-DISENO.md) | Briefing común de las tres versiones (marca, producto, recursos, reglas) |
 | [`assets/img/`](assets/img/) | Copia de las imágenes existentes del repositorio que usan las versiones |

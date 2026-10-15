@@ -2,7 +2,7 @@
 n: 9
 titulo: "Como elixir as dúas fotos para a vosa película personalizada (checklist)"
 slug: como-elegir-las-fotos-para-vuestra-pelicula
-url: https://alumafilms.es/es/blog/como-elegir-las-fotos-para-vuestra-pelicula
+url: https://alumafilms.es/gl/blog/como-elegir-las-fotos-para-vuestra-pelicula
 meta_title: "Como elixir as fotos para unha película con IA"
 meta_description: "Checklist para elixir as dúas fotos da vosa película personalizada: luz, encadramento, nitidez, expresión e erros que convén evitar."
 keyword_principal: "que fotos usar para un vídeo con IA"
@@ -11,8 +11,8 @@ intencion: informacional (posventa / conversión)
 cluster: IA y proceso
 publicacion_sugerida: 2026-11-17
 imagen_destacada: "[PLACEHOLDER: exemplo de retrato correcto vs. incorrecto — ilustración propia] — alt: «Exemplo de foto axeitada para unha película personalizada: retrato frontal e ben iluminado»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/convertir-fotos-en-video-con-ia", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Tedes as fotos? Contádenos a historia — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/como-se-hace-una-pelicula-con-dos-fotos", "/gl/blog/convertir-fotos-en-video-con-ia", "/gl/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Tedes as fotos? Contádenos a historia — /gl/a-tua-pelicula"
 ---
 
 # Como elixir as dúas fotos para a vosa película personalizada (checklist)
@@ -74,7 +74,7 @@ A roupa e o escenario créaos a película (togas romanas, traxes dos anos vinte,
 
 ## Que facemos coas vosas fotos
 
-Usamos as fotografías só para crear a vosa película, co consentimento expreso das dúas persoas e nos termos que acordamos antes de comezar, conforme ao Regulamento Europeo de IA. Explicámolo en [a vosa imaxe e a IA](/es/blog/imagen-e-ia-consentimiento-y-derechos). `[validar: prazo de conservación e borrado das fotos despois da entrega]`
+Usamos as fotografías só para crear a vosa película, co consentimento expreso das dúas persoas e nos termos que acordamos antes de comezar, conforme ao Regulamento Europeo de IA. Explicámolo en [a vosa imaxe e a IA](/gl/blog/imagen-e-ia-consentimiento-y-derechos). `[validar: prazo de conservación e borrado das fotos despois da entrega]`
 
 ## Preguntas frecuentes
 
@@ -92,4 +92,4 @@ Dicímosvolo antes de comezar e eliximos outra xuntos. Non arrancamos a produci�
 
 ---
 
-**Xa tedes as vosas dúas fotos?** O seguinte paso é contarnos a vosa historia. → [Comezade aquí](/es/tu-pelicula)
+**Xa tedes as vosas dúas fotos?** O seguinte paso é contarnos a vosa historia. → [Comezade aquí](/gl/a-tua-pelicula)

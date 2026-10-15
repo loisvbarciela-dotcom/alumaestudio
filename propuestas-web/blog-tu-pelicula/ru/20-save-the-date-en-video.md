@@ -2,7 +2,7 @@
 n: 20
 titulo: "Save the date в видео: самый оригинальный способ объявить о свадьбе"
 slug: save-the-date-en-video
-url: https://alumafilms.es/es/blog/save-the-date-en-video
+url: https://alumafilms.es/ru/blog/save-the-date-en-video
 meta_title: "Save the date в видео: идеи для объявления о свадьбе"
 meta_description: "Идеи оригинального видео save the date: форматы, длительность, когда отправлять и как превратить объявление о свадьбе в кинотрейлер."
 keyword_principal: "save the date видео"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2026-12-29
 imagen_destacada: "mayday.jpg — alt: «Кадр из фильма: тон трейлера для объявления о свадьбе»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/pedida-de-mano-original", "/es/blog/tendencias-bodas-2027", "/es/blog/que-video-proyectar-en-una-boda"]
-cta: "Трейлер вашей свадьбы — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/pedida-de-mano-original", "/ru/blog/tendencias-bodas-2027", "/ru/blog/que-video-proyectar-en-una-boda"]
+cta: "Трейлер вашей свадьбы — /ru/vash-film"
 ---
 
 # Save the date в видео: самый оригинальный способ объявить о свадьбе
@@ -56,7 +56,7 @@ cta: "Трейлер вашей свадьбы — /es/tu-pelicula"
 Кадры места, где вы женитесь, с датой поверх изображения. Отлично работает для свадеб в другом городе или другой стране (destination wedding).
 
 ### Вы в другую эпоху
-По одной фотографии каждого из вас — короткий фильм, в котором вы в двадцатых годах, в Древнем Риме или в космосе, а в конце появляется дата. Это идея нашего [персонального фильма](/es/tu-pelicula), применённая к объявлению.
+По одной фотографии каждого из вас — короткий фильм, в котором вы в двадцатых годах, в Древнем Риме или в космосе, а в конце появляется дата. Это идея нашего [персонального фильма](/ru/vash-film), применённая к объявлению.
 
 ## Трейлер и фильм: два произведения, одна история
 
@@ -92,4 +92,4 @@ cta: "Трейлер вашей свадьбы — /es/tu-pelicula"
 
 ---
 
-**Пусть ваше объявление станет трейлером вашего собственного фильма.** → [Откройте для себя «Ваш фильм»](/es/tu-pelicula)
+**Пусть ваше объявление станет трейлером вашего собственного фильма.** → [Откройте для себя «Ваш фильм»](/ru/vash-film)

@@ -2,7 +2,7 @@
 n: 24
 titulo: "Wedding planners: como diferenciar a vosa proposta con experiencias personalizadas"
 slug: wedding-planners-experiencias-personalizadas
-url: https://alumafilms.es/es/blog/wedding-planners-experiencias-personalizadas
+url: https://alumafilms.es/gl/blog/wedding-planners-experiencias-personalizadas
 meta_title: "Wedding planners: como diferenciar a vosa proposta"
 meta_description: "Ideas para que un wedding planner diferencie a súa proposta: experiencias personalizadas, momentos memorables e unha película protagonizada pola parella."
 keyword_principal: "wedding planner ideas para diferenciarse"
@@ -11,8 +11,8 @@ intencion: comercial (B2B)
 cluster: Profesionales
 publicacion_sugerida: 2027-01-14
 imagen_destacada: "o-oficio.jpg — alt: «Mans de artesán: o valor do feito a medida nunha voda»"
-enlaces_internos: ["/es/tu-pelicula", "/es/contacto", "/es/blog/video-de-boda-o-pelicula-personalizada", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Falemos de colaboración — /es/contacto"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/contacto", "/gl/blog/video-de-boda-o-pelicula-personalizada", "/gl/blog/que-video-proyectar-en-una-boda", "/gl/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Falemos de colaboración — /gl/contacto"
 ---
 
 # Wedding planners: como diferenciar a vosa proposta con experiencias personalizadas
@@ -45,7 +45,7 @@ Unha película personalizada é unha peza de tres ou catro minutos na que a pare
 
 - **É exclusiva:** ningunha outra parella terá a mesma.
 - **É fácil de integrar:** non require equipo o día da voda, só unha pantalla e un momento no timing.
-- **Non compite con outros provedores:** non substitúe o fotógrafo nin o videógrafo; compleméntaos. Explicámolo en [vídeo de voda ou película personalizada](/es/blog/video-de-boda-o-pelicula-personalizada).
+- **Non compite con outros provedores:** non substitúe o fotógrafo nin o videógrafo; compleméntaos. Explicámolo en [vídeo de voda ou película personalizada](/gl/blog/video-de-boda-o-pelicula-personalizada).
 - **Xera un momento compartido** que todos os convidados lembran.
 - **Diferénciavos** fronte a propostas que só ofrecen o habitual.
 
@@ -58,12 +58,12 @@ Unha proposta de funcionamento:
 1. **Presentades a idea á parella** co noso dossier e a película de exemplo. `[PLACEHOLDER: dossier PDF para planners]`
 2. **Coordinamos convosco** a conversa coa parella, as fotos e o calendario.
 3. **A parella aproba o guión** antes de producir.
-4. **Entregamos a película** no formato que precise a finca, con marxe para unha proba técnica. Consellos en [que vídeo proxectar nunha voda](/es/blog/que-video-proyectar-en-una-boda).
+4. **Entregamos a película** no formato que precise a finca, con marxe para unha proba técnica. Consellos en [que vídeo proxectar nunha voda](/gl/blog/que-video-proyectar-en-una-boda).
 5. **Vós encaixades a estrea** no timing do día.
 
 ### Consentimento e tranquilidade
 
-A película usa a imaxe da parella, e traballamos sempre co consentimento expreso das dúas persoas, conforme ao Regulamento Europeo de IA. Para un planner é unha garantía: o provedor xestiona a parte legal e a parella sabe exactamente que se fai coas súas fotos. Máis en [a vosa imaxe e a IA](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+A película usa a imaxe da parella, e traballamos sempre co consentimento expreso das dúas persoas, conforme ao Regulamento Europeo de IA. Para un planner é unha garantía: o provedor xestiona a parte legal e a parella sabe exactamente que se fai coas súas fotos. Máis en [a vosa imaxe e a IA](/gl/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## Como presentala ás parellas
 
@@ -87,4 +87,4 @@ Si. A película créase a partir de dúas fotos e entrégase para a súa estrea,
 
 ---
 
-**Se as vosas parellas piden algo que ninguén vira, falemos.** → [Escribídenos para colaborar](/es/contacto) · [Ver A túa película](/es/tu-pelicula)
+**Se as vosas parellas piden algo que ninguén vira, falemos.** → [Escribídenos para colaborar](/gl/contacto) · [Ver A túa película](/gl/a-tua-pelicula)

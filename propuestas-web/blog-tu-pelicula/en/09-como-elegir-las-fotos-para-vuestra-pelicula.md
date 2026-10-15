@@ -2,7 +2,7 @@
 n: 9
 titulo: "How to choose the two photos for your personalised film (checklist)"
 slug: como-elegir-las-fotos-para-vuestra-pelicula
-url: https://alumafilms.es/es/blog/como-elegir-las-fotos-para-vuestra-pelicula
+url: https://alumafilms.es/en/blog/como-elegir-las-fotos-para-vuestra-pelicula
 meta_title: "How to Choose Photos for an AI Personalised Film"
 meta_description: "A checklist for choosing the two photos for your personalised film: light, framing, sharpness, expression and mistakes worth avoiding."
 keyword_principal: "best photos for an AI video"
@@ -11,8 +11,8 @@ intencion: informacional (posventa / conversión)
 cluster: IA y proceso
 publicacion_sugerida: 2026-11-17
 imagen_destacada: "[PLACEHOLDER: example of a correct vs. incorrect portrait — own illustration] — alt: “Example of a suitable photo for a personalised film: a front-facing, well-lit portrait”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/convertir-fotos-en-video-con-ia", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Got your photos? Tell us your story — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/como-se-hace-una-pelicula-con-dos-fotos", "/en/blog/convertir-fotos-en-video-con-ia", "/en/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Got your photos? Tell us your story — /en/your-film"
 ---
 
 # How to choose the two photos for your personalised film (checklist)
@@ -74,7 +74,7 @@ The clothes and the setting are created by the film (Roman togas, twenties suits
 
 ## What we do with your photos
 
-We use the photographs only to create your film, with the explicit consent of both people and on the terms we agree before we begin, in line with the EU AI Act. We explain it in [your image and AI](/es/blog/imagen-e-ia-consentimiento-y-derechos). `[to confirm: retention period and deletion of the photos after delivery]`
+We use the photographs only to create your film, with the explicit consent of both people and on the terms we agree before we begin, in line with the EU AI Act. We explain it in [your image and AI](/en/blog/imagen-e-ia-consentimiento-y-derechos). `[to confirm: retention period and deletion of the photos after delivery]`
 
 ## Frequently asked questions
 
@@ -92,4 +92,4 @@ We tell you before we begin and choose another together. We don't start producti
 
 ---
 
-**Have you got your two photos?** The next step is to tell us your story. → [Start here](/es/tu-pelicula)
+**Have you got your two photos?** The next step is to tell us your story. → [Start here](/en/your-film)

@@ -2,7 +2,7 @@
 n: 25
 titulo: "Sorpresas para a noiva ou o noivo o día da voda que se lembran anos despois"
 slug: sorpresa-para-la-novia-o-el-novio
-url: https://alumafilms.es/es/blog/sorpresa-para-la-novia-o-el-novio
+url: https://alumafilms.es/gl/blog/sorpresa-para-la-novia-o-el-novio
 meta_title: "Sorpresa para a noiva ou o noivo na voda"
 meta_description: "Ideas de sorpresa para a noiva ou o noivo o día da voda: detalles pola mañá, xestos na cerimonia e unha estrea no banquete que ninguén espera."
 keyword_principal: "sorpresa para a noiva"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-01-19
 imagen_destacada: "meu-fillo.jpg — alt: «Retrato dunha nai, fotograma de “Meu fillo”: emoción na ollada»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/ideas-originales-para-sorprender-en-una-boda", "/es/blog/que-video-proyectar-en-una-boda", "/es/blog/imagen-e-ia-consentimiento-y-derechos"]
-cta: "Unha película para sorprender a quen máis queres — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/ideas-originales-para-sorprender-en-una-boda", "/gl/blog/que-video-proyectar-en-una-boda", "/gl/blog/imagen-e-ia-consentimiento-y-derechos"]
+cta: "Unha película para sorprender a quen máis queres — /gl/a-tua-pelicula"
 ---
 
 # Sorpresas para a noiva ou o noivo o día da voda que se lembran anos despois
@@ -68,7 +68,7 @@ Unha película personalizada créase a partir dunha fotografía de cada persoa e
 - **O que non coñece é a historia:** o guión decídelo ti connosco.
 - **O día da voda ve a película por primeira vez**, á vez que os convidados.
 
-Se queres que sexa unha sorpresa total, outra opción é que os amigos ou a familia lle agasallen a película á parella e ambos a vexan por primeira vez no banquete. Máis información en [a vosa imaxe e a IA](/es/blog/imagen-e-ia-consentimiento-y-derechos).
+Se queres que sexa unha sorpresa total, outra opción é que os amigos ou a familia lle agasallen a película á parella e ambos a vexan por primeira vez no banquete. Máis información en [a vosa imaxe e a IA](/gl/blog/imagen-e-ia-consentimiento-y-derechos).
 
 ## Consellos para que a sorpresa saia ben
 
@@ -77,7 +77,7 @@ Se queres que sexa unha sorpresa total, outra opción é que os amigos ou a fami
 3. **Pensade en como é a outra persoa.** A quen non lle gusta ser o centro de atención, mellor unha sorpresa íntima.
 4. **Tede un responsable** que se encargue de que todo estea listo, para non estar pendentes vós.
 
-Ideas técnicas para a proxección en [que vídeo proxectar nunha voda](/es/blog/que-video-proyectar-en-una-boda).
+Ideas técnicas para a proxección en [que vídeo proxectar nunha voda](/gl/blog/que-video-proyectar-en-una-boda).
 
 ## Preguntas frecuentes
 
@@ -92,4 +92,4 @@ Con marxe para conversa, guión, produción e montaxe: `[PRAZO: ___ días desde 
 
 ---
 
-**A sorpresa que ninguén espera é a que se ve en pantalla grande.** → [Descubride A túa película](/es/tu-pelicula)
+**A sorpresa que ninguén espera é a que se ve en pantalla grande.** → [Descubride A túa película](/gl/a-tua-pelicula)

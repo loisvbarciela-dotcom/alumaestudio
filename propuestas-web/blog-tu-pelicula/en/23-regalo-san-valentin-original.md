@@ -2,7 +2,7 @@
 n: 23
 titulo: "A unique Valentine's Day gift: when a card falls short"
 slug: regalo-san-valentin-original
-url: https://alumafilms.es/es/blog/regalo-san-valentin-original
+url: https://alumafilms.es/en/blog/regalo-san-valentin-original
 meta_title: "Unique Valentine's Day gift ideas for your partner"
 meta_description: "Unique Valentine's Day gift ideas, without the clichés: plans, meaningful touches and a film in which you and your partner are the stars."
 keyword_principal: "unique Valentine's Day gift"
@@ -11,8 +11,8 @@ intencion: comercial (estacional)
 cluster: Regalos
 publicacion_sugerida: 2027-01-12
 imagen_destacada: "love-hero.jpg — alt: «A couple starring in a personalised film for Valentine's Day»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalo-aniversario-original", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "Book your film for 14 February — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-original-para-tu-novia-o-novio", "/en/blog/regalo-aniversario-original", "/en/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "Book your film for 14 February — /en/your-film"
 ---
 
 # A unique Valentine's Day gift: when a card falls short
@@ -64,7 +64,7 @@ The film uses the image of both of you, and **we always work with the explicit c
 - **Ancient Rome:** a love of legend.
 - **Your universe:** the place where you met, turned into a film set.
 
-More ideas in [universes for your love film](/es/blog/universos-para-vuestra-pelicula-de-amor).
+More ideas in [universes for your love film](/en/blog/universos-para-vuestra-pelicula-de-amor).
 
 ## Price
 
@@ -83,4 +83,4 @@ It depends on when you order it. Write to us with the date and we will confirm.
 
 ---
 
-**This 14 February, a story that is in no shop window.** → [Create your film](/es/tu-pelicula)
+**This 14 February, a story that is in no shop window.** → [Create your film](/en/your-film)

@@ -2,7 +2,7 @@
 n: 11
 titulo: "Оригинальный рождественский подарок для вашей пары: фильм, который существует только для вас"
 slug: regalo-de-navidad-original-para-tu-pareja
-url: https://alumafilms.es/es/blog/regalo-de-navidad-original-para-tu-pareja
+url: https://alumafilms.es/ru/blog/regalo-de-navidad-original-para-tu-pareja
 meta_title: "Оригинальный подарок на Рождество для вашей пары"
 meta_description: "Идеи оригинального подарка на Рождество для любимого человека, который не купить в последний момент, и как подарить фильм с вами в главных ролях."
 keyword_principal: "оригинальный подарок на Рождество для пары"
@@ -11,8 +11,8 @@ intencion: comercial (estacional)
 cluster: Regalos
 publicacion_sugerida: 2026-11-24
 imagen_destacada: "a-ultima-fornada.jpg — alt: «Освещённый ночной город у моря, зимняя атмосфера»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/regalos-personalizados-con-fotos", "/es/blog/pedida-de-mano-original"]
-cta: "Закажите свой фильм до Рождества — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-original-para-tu-novia-o-novio", "/ru/blog/regalos-personalizados-con-fotos", "/ru/blog/pedida-de-mano-original"]
+cta: "Закажите свой фильм до Рождества — /ru/vash-film"
 ---
 
 # Оригинальный рождественский подарок для вашей пары: фильм, который существует только для вас
@@ -85,4 +85,4 @@ cta: "Закажите свой фильм до Рождества — /es/tu-pe
 
 ---
 
-**В этом году — подарок, который не покупают 23 декабря.** → [Создайте свой фильм](/es/tu-pelicula)
+**В этом году — подарок, который не покупают 23 декабря.** → [Создайте свой фильм](/ru/vash-film)

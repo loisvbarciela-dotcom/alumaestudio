@@ -2,7 +2,7 @@
 n: 14
 titulo: "How much does a personalised AI film cost, and what does the price depend on?"
 slug: cuanto-cuesta-una-pelicula-personalizada
-url: https://alumafilms.es/es/blog/cuanto-cuesta-una-pelicula-personalizada
+url: https://alumafilms.es/en/blog/cuanto-cuesta-una-pelicula-personalizada
 meta_title: "How Much Does a Personalised AI Film Cost?"
 meta_description: "What determines the price of a personalised AI film: story, settings, timeframe and deliverables. What you pay for and how to ask for a quote."
 keyword_principal: "personalised film price"
@@ -11,8 +11,8 @@ intencion: transaccional
 cluster: Producto
 publicacion_sugerida: 2026-12-03
 imagen_destacada: "o-oficio.jpg — alt: “A craftsman's hands: the work behind a personalised film”"
-enlaces_internos: ["/es/tu-pelicula", "/es/contacto", "/es/blog/como-se-hace-una-pelicula-con-dos-fotos", "/es/blog/convertir-fotos-en-video-con-ia"]
-cta: "Request a quote with your date — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/contact", "/en/blog/como-se-hace-una-pelicula-con-dos-fotos", "/en/blog/convertir-fotos-en-video-con-ia"]
+cta: "Request a quote with your date — /en/your-film"
 ---
 
 # How much does a personalised AI film cost, and what does the price depend on?
@@ -32,7 +32,7 @@ A personalised film is not a filter or a template. Behind it is the work of peop
 4. **Editing and sound.** Rhythm, music, effects, colour.
 5. **Delivery in the formats you need** for the premiere.
 
-AI greatly reduces the cost of the impossible (filming in Ancient Rome or in outer space would be out of reach), but it doesn't remove the work of direction. That is the difference from what automatic apps do, which we compare in [turning photos into video with AI](/es/blog/convertir-fotos-en-video-con-ia).
+AI greatly reduces the cost of the impossible (filming in Ancient Rome or in outer space would be out of reach), but it doesn't remove the work of direction. That is the difference from what automatic apps do, which we compare in [turning photos into video with AI](/en/blog/convertir-fotos-en-video-con-ia).
 
 ## What makes the price vary
 
@@ -95,4 +95,4 @@ Yes, there are terms for professionals `[to confirm: partnership terms]`.
 
 ---
 
-**Tell us your idea and your date: we will reply with a fixed proposal.** → [Request a quote](/es/tu-pelicula)
+**Tell us your idea and your date: we will reply with a fixed proposal.** → [Request a quote](/en/your-film)

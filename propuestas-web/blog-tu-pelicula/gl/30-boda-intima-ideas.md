@@ -2,7 +2,7 @@
 n: 30
 titulo: "Voda íntima: ideas para facela inesquecible con poucos convidados"
 slug: boda-intima-ideas
-url: https://alumafilms.es/es/blog/boda-intima-ideas
+url: https://alumafilms.es/gl/blog/boda-intima-ideas
 meta_title: "Voda íntima: ideas para unha voda pequena e especial"
 meta_description: "Ideas para unha voda íntima ou microvoda: espazos, cerimonia, banquete e detalles persoais, cunha película que leva a vosa historia á pantalla."
 keyword_principal: "voda íntima"
@@ -11,8 +11,8 @@ intencion: informacional
 cluster: Bodas
 publicacion_sugerida: 2027-02-04
 imagen_destacada: "o-oficio.jpg — alt: «Mans artesás traballando a madeira: o detalle nunha voda íntima»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/tendencias-bodas-2027", "/es/blog/bodas-en-galicia-ideas", "/es/blog/video-historia-de-amor"]
-cta: "Unha película para a vosa voda íntima — /es/tu-pelicula"
+enlaces_internos: ["/gl/a-tua-pelicula", "/gl/blog/tendencias-bodas-2027", "/gl/blog/bodas-en-galicia-ideas", "/gl/blog/video-historia-de-amor"]
+cta: "Unha película para a vosa voda íntima — /gl/a-tua-pelicula"
 ---
 
 # Voda íntima: ideas para facela inesquecible con poucos convidados
@@ -33,7 +33,7 @@ Unha **voda íntima** non é unha voda pequena por obriga, senón unha decisión
 - **Un lugar na natureza:** un miradoiro, un faro, unha praia fóra de tempada.
 - **Unha adega:** a cerimonia entre viñedos e a comida nunha mesa longa.
 
-En Galicia hai espazos perfectos para este formato; ideas en [vodas en Galicia](/es/blog/bodas-en-galicia-ideas).
+En Galicia hai espazos perfectos para este formato; ideas en [vodas en Galicia](/gl/blog/bodas-en-galicia-ideas).
 
 ## Unha cerimonia máis persoal
 
@@ -64,11 +64,11 @@ Que a voda sexa íntima non significa renunciar aos grandes momentos. Unha idea 
 
 Ademais, nunha voda íntima hai quen non puido asistir. A película pódese compartir despois coa familia e os amigos que non estiveron, se así o decidides.
 
-Ideas para contar a vosa historia en [como contar a vosa historia de amor nun vídeo](/es/blog/video-historia-de-amor).
+Ideas para contar a vosa historia en [como contar a vosa historia de amor nun vídeo](/gl/blog/video-historia-de-amor).
 
 ## Microvoda: tendencia que veu para quedar
 
-A voda íntima xa non é unha alternativa: é unha das formas de casar que máis medra. Contámolo en [tendencias de vodas 2027](/es/blog/tendencias-bodas-2027).
+A voda íntima xa non é unha alternativa: é unha das formas de casar que máis medra. Contámolo en [tendencias de vodas 2027](/gl/blog/tendencias-bodas-2027).
 
 ## Preguntas frecuentes
 
@@ -83,4 +83,4 @@ Si. Nun contorno íntimo, a estrea vívese con máis emoción, e a película pó
 
 ---
 
-**Poucos convidados, unha gran historia.** → [Descubride A túa película](/es/tu-pelicula)
+**Poucos convidados, unha gran historia.** → [Descubride A túa película](/gl/a-tua-pelicula)

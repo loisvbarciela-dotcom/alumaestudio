@@ -2,7 +2,7 @@
 n: 10
 titulo: "Персональные подарки с фотографиями: от кружки до фильма с вашими лицами"
 slug: regalos-personalizados-con-fotos
-url: https://alumafilms.es/es/blog/regalos-personalizados-con-fotos
+url: https://alumafilms.es/ru/blog/regalos-personalizados-con-fotos
 meta_title: "Персональные подарки с фото: оригинальные идеи"
 meta_description: "Идеи персональных подарков с фото, от классики до самых оригинальных, и как две фотографии могут стать эксклюзивным фильмом."
 keyword_principal: "персональные подарки с фото"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-11-19
 imagen_destacada: "tempo.jpg — alt: «Старинные карманные часы: персональный подарок, хранящий время»"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-original", "/es/blog/regalo-de-navidad-original-para-tu-pareja", "/es/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
-cta: "Две фотографии, один фильм — /es/tu-pelicula"
+enlaces_internos: ["/ru/vash-film", "/ru/blog/regalo-aniversario-original", "/ru/blog/regalo-de-navidad-original-para-tu-pareja", "/ru/blog/como-elegir-las-fotos-para-vuestra-pelicula"]
+cta: "Две фотографии, один фильм — /ru/vash-film"
 ---
 
 # Персональные подарки с фотографиями: от кружки до фильма с вашими лицами
@@ -61,7 +61,7 @@ cta: "Две фотографии, один фильм — /es/tu-pelicula"
 
 ## Что кому подходит
 
-- **Для пары:** фильм или альбом с историей. Идеи для конкретных дат — в статьях [оригинальный подарок на годовщину](/es/blog/regalo-aniversario-original) и [оригинальный рождественский подарок для вашей пары](/es/blog/regalo-de-navidad-original-para-tu-pareja).
+- **Для пары:** фильм или альбом с историей. Идеи для конкретных дат — в статьях [оригинальный подарок на годовщину](/ru/blog/regalo-aniversario-original) и [оригинальный рождественский подарок для вашей пары](/ru/blog/regalo-de-navidad-original-para-tu-pareja).
 - **Для родителей или бабушек и дедушек:** недостающая фотография, альбом или фильм к их золотой свадьбе.
 - **Для друзей, которые женятся:** фильм как коллективный подарок.
 
@@ -76,7 +76,7 @@ cta: "Две фотографии, один фильм — /es/tu-pelicula"
 ## Часто задаваемые вопросы
 
 ### Какие фотографии нужны для персонального фильма?
-Свежая чёткая фотография каждого человека. Мы рассказываем об этом в статье [как выбрать фотографии](/es/blog/como-elegir-las-fotos-para-vuestra-pelicula).
+Свежая чёткая фотография каждого человека. Мы рассказываем об этом в статье [как выбрать фотографии](/ru/blog/como-elegir-las-fotos-para-vuestra-pelicula).
 
 ### Сколько длится фильм?
 От трёх до четырёх минут.
@@ -86,4 +86,4 @@ cta: "Две фотографии, один фильм — /es/tu-pelicula"
 
 ---
 
-**Две фотографии могут быть гораздо больше, чем память.** → [Откройте для себя «Ваш фильм»](/es/tu-pelicula)
+**Две фотографии могут быть гораздо больше, чем память.** → [Откройте для себя «Ваш фильм»](/ru/vash-film)

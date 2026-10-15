@@ -2,7 +2,7 @@
 n: 5
 titulo: "Unique anniversary gift: a film about your story"
 slug: regalo-aniversario-original
-url: https://alumafilms.es/es/blog/regalo-aniversario-original
+url: https://alumafilms.es/en/blog/regalo-aniversario-original
 meta_title: "Unique Anniversary Gift Ideas for Your Partner"
 meta_description: "Unique anniversary gift ideas for your partner, from the first year to silver wedding anniversaries, and how to turn your story into a film."
 keyword_principal: "unique anniversary gift ideas"
@@ -11,8 +11,8 @@ intencion: comercial
 cluster: Regalos
 publicacion_sugerida: 2026-11-03
 imagen_destacada: "love-film-thumbnail.png — alt: “Couple starring in a film created as an anniversary gift”"
-enlaces_internos: ["/es/tu-pelicula", "/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata", "/es/blog/regalo-original-para-tu-novia-o-novio", "/es/blog/universos-para-vuestra-pelicula-de-amor"]
-cta: "Turn your anniversary into a premiere — /es/tu-pelicula"
+enlaces_internos: ["/en/your-film", "/en/blog/regalo-aniversario-padres-bodas-de-oro-y-plata", "/en/blog/regalo-original-para-tu-novia-o-novio", "/en/blog/universos-para-vuestra-pelicula-de-amor"]
+cta: "Turn your anniversary into a premiere — /en/your-film"
 ---
 
 # Unique anniversary gift: a film about your story
@@ -62,7 +62,7 @@ Another option is to give the experience: a card `[to confirm: gift voucher form
 
 - **First anniversary (paper anniversary):** a film imagining how it would have been to meet in another era. Light, romantic, with humour.
 - **Five or ten years:** a story that runs through what you have lived, told in metaphors: house moves, trips, children turned into adventure scenes.
-- **Twenty-five or fifty years:** if the gift is for your parents or grandparents, see our ideas for [silver and golden wedding anniversaries](/es/blog/regalo-aniversario-padres-bodas-de-oro-y-plata).
+- **Twenty-five or fifty years:** if the gift is for your parents or grandparents, see our ideas for [silver and golden wedding anniversaries](/en/blog/regalo-aniversario-padres-bodas-de-oro-y-plata).
 
 ## Timeframes and price
 
@@ -84,4 +84,4 @@ Give the experience on the day and premiere the film when it is ready. The premi
 
 ---
 
-**Celebrate what you have with something you've never seen.** → [Create your anniversary film](/es/tu-pelicula)
+**Celebrate what you have with something you've never seen.** → [Create your anniversary film](/en/your-film)
